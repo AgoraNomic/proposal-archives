@@ -1,0 +1,277 @@
+This is a revised version of my previous report, and as such is only accurate
+to the time of that report.
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   Ienpw III     1.0  Reader's Digest
+pp2   Gaelan        1.0  No Sneakiness
+pp3   o, Aris       2.0  Deregistration and Assets
+pp4   nichdel       1.2  Organization Integration and Stamp Collecting
+pp5   Gaelan        1.0  Sequential Numbering
+pp6   Gaelan        1.5  State of the Union
+pp7   Gaelan, [1]   2.0  Judicial Reform v2
+pp8   Quazie        3.0  Throw off Your Chains [2]
+
+Legend: <ID>* : Proposal is pending.
+
+[1] Aris, Quazie
+[2] The author of this proposal and whether or not it currently exists, are
+provisional.
+
+
+The Pending List Price (PLP) is 6 shinies.
+
+The full text of the aforementioned proposals is included below.
+
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Readr's Digest
+Adoption index: 1.0
+Author: Ienpw III
+Co-author(s):
+
+
+Enact a new rule entitled "Reader's Digest": {
+  There exists an elected office called Digestive System. "Digestibility" is a
+  singleton switch tracked by the Digestive System with possible values
+  "MONTHLY" and "WEEKLY"; the Digestive System can flip this by announcement.
+
+  The Digestive System SHALL regularly issue a report which accurately
+  summarizes the state and activities of Agoranomic throughout the relevant
+  period. This report need not be comprehensive, but will contain that
+  information, as assessed by the Digestive System, which would be of the
+  greatest relevance or importance for a player who had been inattentive to the
+  state of the nomic during the relevant period. If Digestibility is MONTHLY,
+  the relevant period is the preceding month; if it is WEEKLY, it is the
+  preceding week.
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: No Sneakiness
+Adoption index: 1.0
+Author: Gaelan
+Co-author(s):
+
+
+Create a rule “No Sneakiness” with the following text: {
+  If the rules specify that an action may be performed by sending a message to
+  a public forum, any attempts to perform the action in a way that is clearly
+  intended to prevent others from detecting the action (such as by embedding it
+  in another, longer message) are INEFFECTIVE.
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: pp3
+Title: Deregistration and Assets
+Adoption index: 2.0
+Author: o
+Co-author(s): Aris
+
+
+Amend rule 2485, "You can't take it with you", by changing its title to
+"You Can't Take It With You", then by changing the text to read, in
+full:
+
+   "Heir" is a person switch, tracked by the Registrar, whose value is
+   either Agora (the default value), or a player other than emself, or
+   an Organization. A player may flip eir Heir by announcement.
+
+   When a player is deregistered, e automatically pays all of eir
+   Shinies and transfers all of eir Estates to eir Heir, immediately
+   before deregistration.
+
+Amend rule 2461 ("Death and Birth of Organizations") by changing its
+power to 2, then by adding the following paragraph between the
+paragraph beginning "If an Organization's Income is ever lower [...]"
+and the paragraph beginning "If a player's Expenditure is at most
+[...]":
+
+   Immediately before an Organization is destroyed, it automatically
+   pays all of its Shinies to Agora, and transfers all of its Estates
+   to Agora.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp4
+Title: Organization Integration and Stamp Collecting
+Adoption index: 1.2
+Author: nichdel
+Co-author(s):
+
+
+Amend "Organizations" by replacing the second, third, and fourth
+paragraphs with:
+
+   Players may become members of an organization by announcement as
+   specified by the charter of the organization. Players may stop being
+   a member of an organization by announcement.
+
+   An organization may cause any player to stop being a member as
+   specified in its charter.
+
+[Remove Budget and make org membership more flexible.]
+
+Amend "Death and Birth of Organizations to read, in full:
+
+   The Administrative Fee is 5 shinies.
+
+   An organization is "In Bad Standing" if it a) has no members or b)
+   was not created this month and has not paid the Administrative Fee to
+   Agora.
+
+   If an organization is In Bad Standing for more than 7 days, then any
+   player CAN destroy it by announcement, and the Secretary SHALL do so
+   in a timely fashion if the situation persists.
+
+   Any player CAN create an Organization by announcement by paying the
+   Administrative Fee to Agora and specifying a name for the
+   Organization that is unique among Organizations and a Charter.
+
+[Replaces Budget with the Administrative Fee. Combined with giving org's
+more control over their membership, it allows for orgs to raise money
+and pay the fee in whichever way seems appropriate to them. Also removed
+the limits on org membership and creation, because the price should be
+a good enough limiters.]
+
+Amend "Organization Restructuring" by removing the text "Budget or", and
+removing the paragraph starting with "2.", then changing "3." to "2.".
+
+[Budget cleanup]
+
+Enact a power 1 rule titled "Stamps" with the following text:
+
+   Stamps are a type of asset tracked by the Secretary. Each Stamp is
+   identified by the person or organization that created the Stamp.
+   Stamps created by the same person or organization are fungible.
+
+   The Stamp Price is always 4 times the current Pending List Price.
+
+   Once per month any player MAY, by announcement, pay Agora the Stamp
+   Price, in shinies, to create one Stamp in eir possession. Once per
+   month any player MAY, by announcement and as specified by the
+   organization's charter, pay Agora the Stamp Price, in shinies, to
+   create one Stamp in its possession.
+
+   Any player MAY, by announcement, destroy a specified Stamp in eir
+   possession. Any player MAY, by announcement and as specified by the
+   organization's charter, destroy a specified Stamp in its possession.
+   Whenever an organization or player destroys a Stamp in eir
+   possession, Agora SHALL pay em the Stamp Price.
+
+   When a player has in eir possession at least one Stamp created by 15
+   different players or organizations then e may win by announcement,
+   specifying each stamp e possesses. When a player does so
+   successfully, all Stamps in eir possession are destroyed.
+
+[This implements what I described previously. Stamps are both a
+speculative currency, with a changing value month-to-month, and a
+valuable win condition. Also note that with the org changes, a single
+player could create all the Stamps e needs, but it'd be more expensive
+than gaining them via trade due to the Administrative fee.]
+
+//////////////////////////////////////////////////////////////////////
+ID: pp5
+Title: Sequential Numbering
+Adoption index: 1.0
+Author: Gaelan
+Co-author(s):
+
+
+Create the rule “Sequential Numbering,” power 1: {
+  When the Rulekeepor adds a new rule to the ruleset, e SHALL give it an ID
+  number one higher than the highest ever assigned.
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: pp6
+Title: State of the Union
+Adoption index: 1.5
+Author: Gaelan
+Co-author(s):
+
+
+Create the power-1.5 rule “Internal State” with this text: {
+  An Agency or Organization’s Internal State is state that is defined by the
+  Agency or Organization’s text (Power or Charter), but not by any rules.
+
+  An Agency or Organization has a Responsible Player for each part of its
+  Internal State; the Responsible Player SHALL publish a weekly report
+  describing that state. The portion of such a report that describes this state
+  is self-ratifying.
+
+  The responsible player for all of an Agency’s state is that agency’s Head. An
+  Organization’s Charter must define a Responsible Player for all of its state;
+  any player can destroy an organization which does not do so with 1 week
+  Notice.
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: pp7
+Title: Judicial Reform v2
+Adoption index: 2.0
+Author: Gaelan
+Co-author(s): Aris, Quazie
+
+
+Amend R991 “Calls for Judgement” by replacing the last paragraph with {
+
+  “Judge Status” is a player switch tracked by the Arbitor in eir monthly
+  report,  with valid values of “Narrow” (default) and “Wide.” A player may
+  flip eir own Judge Status by announcement.
+
+  When a CFJ has no judge assigned, the Arbitor CAN assign any player to be its
+  judge by announcement, and SHALL do so within a week, but CANNOT do so if
+  fewer than 2 days have passed since the CFJ was initiated. The players
+  eligible to be assigned as judge are players except the initiator and the
+  person barred (if any) who fulfill one of these requirements:
+
+    1. Eir Judge Status is set to Narrow, and they have publicly declared
+    Interest in the CFJ.
+
+    2. Eir Judge Status is set to Wide, and they have not publicly declared
+    Disinterest in the CFJ.
+
+  The Arbitor SHALL assign judges over time such that all interested players
+  have reasonably equal opportunities to judge. If a CFJ has no judge assigned,
+  then any player eligible to judge that CFJ CAN assign it to emself Without 3
+  Objections.
+
+  If there are no eligible judges for a CFJ for a period of 2 weeks, any player
+  CAN judge it as DISMISS with 2 days Notice.
+  }
+
+For all players who have been assigned a CFJ within the past 2 weeks, flip their
+Judge Status to Wide.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp8
+Title: Throw off Your Chains
+Adoption index: 3.0
+Author: Quazie (provisional)
+Co-author(s):
+The author of this proposal and whether or not it currently exists are
+provisional.
+
+WHEREAS:
+   The perpetuation of dictatorship is not treating Agora Right Good
+   Forever;
+
+and WHEREAS:
+   The existence of dictatorship is an anathema, and the presence of
+   a current dictatorship in the Rules is a Mess of our own making;
+
+and WHEREAS:
+   The persons in power have not made a visible effort to clean up
+   said mess, in perhaps hoping that the hoi agorai will remain
+   docile, or apathetic;
+
+and WHEREAS:
+   such docility, in the long-term, is fully AGAINST OUR NATURE;
+
+BE IT THEREFORE RESOLVED:
+   That Rule 2942 (Reward and Delay) is hereby REPEALED.
+
+//////////////////////////////////////////////////////////////////////

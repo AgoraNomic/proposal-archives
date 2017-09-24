@@ -1,0 +1,60 @@
+[Given Alexis's health issues, I'm treating this as a emergency.
+Sorry to everyone else still in the queue. Still waiting for that CFJ.
+I hope one of the pay attempts succeeded, but here goes... ]
+
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote).
+
+ID     Author(s)   AI   Title
+-----------------------------------------------------------
+7839*  o, Alexis   3.2  Alexis’ Decree
+
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, I pend the marked proposal.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7839
+Title: Alexis’ Decree
+Author: o
+Co-author(s): Alexis
+Adoption Index: 3.2
+
+
+Enact a new power-3.14 rule entitled "The Royal Parade" as follows:
+                _
+              _\ /_
+              >_X_<
+       .---._  /_\  _.---.
+     /`.---._`{/ \}`_.---.`\
+    | /   ___`{\_/}`___   \ |
+    \ \."`*  `"{_}"`  *`"./ /
+     \ \  )\  _\ /_  /(  / /
+      \ *<()( >_X_< )()>* /
+       |._)/._./_\._.\(_.|
+  jgs  |() () () () () ()|
+       <<o>><<o>><o>><<o>>
+      `"""""""""""""""""""`
+
+       IN CELEBRATION of Alexis being crowned Princess of Agora,
+            without prejudice to Any before or since
+            who may come to hold a Title
+            whether Patent or otherwise;
+
+      IT IS HEREBY PROCLAIMED that a Royal Parade be established,
+            imbued in this very Rule,
+            which shall travel around Agora to Rules of import;
+
+      AND THEREFORE, the Rulekeepor SHOULD place this Rule
+            near recently-amended rules of high Power;
+
+      AND FURTHERMORE, additions to this Parade are most welcome
+           when Events suiting the honour should occur.
+
+Repeal rules 2469, 2470, and 2473 in that order.
+
+//////////////////////////////////////////////////////////////////////

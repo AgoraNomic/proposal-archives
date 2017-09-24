@@ -1,0 +1,385 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 2.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote).
+
+
+ID     Author(s)     AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+7872*  o             2.0  Estate Auction Cleanup      o           1 AP
+7873*  o, babelian   2.0  Agoraculture                o           1 AP
+7874*  o             2.0  Shorter Apologies           o           3 sh.
+
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)               AI   Title
+---------------------------------------------------------------------------
+pp1   nichdel, o, grok, Aris  3.0  Debts
+pp2   nichdel                 1.0  Better Accounting
+pp3   G.                      1.0  The Return of Fear
+pp4   G.                      1.0  Pay the Arbitor
+
+Legend: <ID>* : Proposal is pending.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7872
+Title: Estate Auction Cleanup
+Adoption index: 2.0
+Author: o
+Co-authors:
+
+
+In Rule 2491 ("Estate Auctions"), replace the second paragraph with:
+
+  During an auction, any player may bid a number of Shinies on eir
+  own behalf by announcement, or on behalf of any Organization for
+  which such a bid is Appropriate by announcement, provided the bid
+  is higher than any previously-placed bid in the same auction.
+
+  If, at the end of the auction, there is a single highest bid, then
+  that player or Organization wins the auction. The player who
+  placed the winning bid CAN cause Agora to transfer the auctioned
+  Estate to the winner by announcement, by paying Agora the amount
+  of the bid, or by causing the winning Organization to pay Agora
+  the amount of the bid. E SHALL do so in a timely fashion.
+
+
+//////////////////////////////////////////////////////////////////////
+ID: 7873
+Title: Agoraculture
+Adoption index: 2.0
+Author: o
+Co-authors: babelian
+
+
+Enact a new rule, with power 1.0, titled "Farm Rate", with the following text:
+
+  The Farm Rate is a natural singleton switch, tracked by the
+  Agronomist.
+
+Set the Farm Rate to 20.
+
+Enact a new rule, with power 2.0, titled "Agoraculture", with the following
+text:
+
+  Each Estate has a Farm switch, tracked by the Agronomist, with
+  values "farmed" and "unfarmed", defaulting to "unfarmed". Changes
+  to Farm switches are secured. An Estate whose Farm switch is
+  "farmed" is a Farm, and its owner is the Farmer of that Estate.
+
+  In the first week of an Agoran month, the owner of an unfarmed
+  Estate MAY flip its Farm switch to "farmed" by announcement, if e
+  pays Agora a number of shinies equal to the Farm Rate.
+
+  In the first week of an Agoran month, the owner of a Farm MAY till
+  the farm by announcement, if e pays Agora a number of shinies equal
+  to the Farm Rate. If the Farmer of an Estate does not till it
+  within the first week of an Agoran month, the Agronomist CAN flip
+  its Farm switch to "unfarmed" by announcement, and SHALL do so in a
+  timely fashion.
+
+  When an Estate is transferred to Agora or to an Organization, its
+  Farm switch is set to "unfarmed" immediately afterwards.
+
+Enact a new rule, with power 2.0, titled "Comestibles", with the following text:
+
+  A Comestible is a type of liquid asset, which can be owned by
+  players. Creating Comestibles is secured. The recordkeepor of
+  Comestibles is the Agronomist.
+
+  The Farmer of an Estate may offer Comestibles by announcement,
+  naming a number of Comestibles offered and a price per Comestible
+  in Shinies. A player CANNOT offer more Comestibles in a month than
+  10 times the number of Farms e owns. The Farmer is ENCOURAGED to
+  name the kind of Comestibles on offer after a plant, vegetable,
+  grain, livestock, or other farm good.
+
+  A player other than the offering Farmer may accept a Comestibles
+  offer by announcement to create that number of Comestibles in eir
+  possession, if e pays the offering Farmer the price per Comestible
+  named in the offer times the number of Comestbiles offered. The
+  Value of a Comestible created this way is equal to the price per
+  Comestible offered by the Farmer.
+
+  An offer expires at the end of the Agoran month in which it is
+  made. Rules to the contrary notwithstanding, an offer CANNOT be
+  accepted if it has expired.
+
+  During an Agoran Decision, a player can increase their voting
+  strength on that decision by destroying (syn. "eating",
+  "consuming") Comestibles. Eir voting strength is increased by
+  one-tenth the total Value of the Comestibles destroyed this way,
+  rounded down, to a maximum of 5.
+
+  A Comestible is an Expired Comestible if it was created by
+  accepting an offer announced more than three Agoran months ago. An
+  Expired Comestible CANNOT be consumed to increase voting strength,
+  and MAY be destroyed by any player, by announcement. The Agronomist
+  SHALL destroy all Expired Comestibles at the start of each Agoran
+  month.
+
+Enact a new rule, with power 2.0, titled “The Agronomist”, with the following
+text:
+
+  The Agronomist is an office.
+
+  The Agronomist's weekly report includes:
+
+  * A list of Farms and their owners.
+
+  * A list of Comestibles offers that have not been accepted and have
+    not expired.
+
+Make babelian the Agronomist.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7874
+Title: Shorter Apologies
+Adoption index: 2.0
+Author: o
+Co-authors:
+
+
+Amend rule 2427 ("Yellow Cards"), replacing the number 200 with the number 150
+wherever it appears in the text of the rule.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Debts
+Adoption index: 3.0
+Author: nichdel
+Co-authors: o, grok, Aris
+
+
+Enact a new, power-2 rule titled "Debts"
+
+  Debts are a fixed, indestructible currency. The Secretary is the
+  recordkeepor of debts.
+
+  If a rule specifies something can be done by 'accruing x Debt' then a
+  player CAN do the specified action by increasing eir Debt balance by
+  x.
+
+  A player CAN, by announcement, pay Agora a specified number of
+  shinies to decrease eir Debts balance by the same number. Any attempt
+  to decrease any Debts balance past 0 is INEFFECTIVE.
+
+Repeal "Action Points"
+
+Amend R991 "Calls for Judgement" to read, in full:
+
+  Any person (the initiator) can initiate a Call for Judgement (CFJ,
+  syn. Judicial Case), specifying a statement to be inquired into by
+  either paying the CFJ Fee in shinies or by accruing the same amount
+  of debt. If neither method is specified, the initiator does the
+  latter.
+
+  The CFJ Fee is N/5 * 1/20th the Floating Value, where N is the number
+  of CFJs the initiator has already initiated in the same Agoran Week.
+
+  If a person is not a player, e can initiate a CFJ without paying
+  shinies or increasing eir Debts balance.
+
+  When a person initiates a Call for Judgement, e may optionally bar
+  one person from the case.
+
+  At any time, each CFJ is either open (default), suspended, or
+  assigned exactly one judgement.
+
+  The Arbitor is an office, responsible for the administration of
+  justice in a manner that is fair for emself, if not for the rest of
+  Agora.
+
+  When a CFJ has no judge assigned, the Arbitor CAN assign any player
+  to be its judge by announcement, and SHALL do so within a week. The
+  players eligible to be assigned as judge are all players except the
+  initiator and the person barred (if any). The Arbitor SHALL assign
+  judges over time such that all interested players have reasonably
+  equal opportunities to judge. If a CFJ has no judge assigned, then
+  any player eligible to judge that CFJ CAN assign it to emself Without
+  3 Objections.
+
+  When the Arbitor assigns a CFJ a judge, e SHOULD note the Debts
+  accrued, if any, when the CFJ was initiated.
+
+Amend "Economic Wins" by replacing:
+
+  While a player has Stamps made by at least 10 different players e MAY
+  destroy 10 stamps made by 10 different players by announcement to win
+  the game.
+
+with:
+
+  While a player has Stamps made by at least 10 different players and
+  eir Debts balance is 0, e MAY destroy 10 stamps e owns made by 10
+  different players by announcement to win the game.
+
+and replacing:
+
+  Once per month, a player MAY, by announcement, transfer to Agora the
+  Stamp Value, in shinies, to create a Stamp.
+
+with:
+
+  Once per month, any player whose Debts balance is 0 MAY, by
+  announcement, transfer to Agora the Stamp Value, in shinies, to
+  create a Stamp.
+
+Amend "Estates Auctions" by replacing:
+
+  During an auction, any player or organization may bid any number of
+  Shinies by announcement.
+
+with:
+
+  During an auction, any player whose Debts balance is 0 or any
+  organization may bid any number of Shinies by announcement.
+
+Amend "Rewards" by replacing:
+
+  Below is an exhaustive list of Reward Conditions and eir rewards:
+
+    * The following two only apply to proposals that were pended via
+    spending shinies:
+
+      - Being the author of an adopted proposal: 1/40th the current
+      Floating Value.
+
+      - Being the pender of an adopted proposal: 1/40th the current
+      Floating Value.
+
+    * Judging a CFJ, that was created via spending shinies, that e was
+    assigned to: 1/20th the current Floating Value.
+
+    * Publishing a duty-fulfilling report: 5 shinies.
+
+    * Resolving an Agoran Decision for the first time this week: 5
+    shinies.
+
+with:
+
+    Below is an exhaustive list of Reward Conditions and eir rewards:
+
+      * Being the author of an adopted proposal: 1/40th the current
+      Floating Value.
+
+      * Being the pender of an adopted proposal: 1/40th the current
+      Floating Value.
+
+      * Judging a CFJ that e was assigned to: 1/20th the current
+      Floating Value.
+
+      * Publishing a duty-fulfilling report: 5 shinies.
+
+      * Resolving an Agoran Decision for the first time this week: 5
+      shinies.
+
+Amend R2445 "How to Pend a Proposal" to read, in full:
+
+  Imminence is a switch, tracked by the Promotor, possessed by
+  proposals in the Proposal Pool, whose value is either "pending" or
+  "not pending" (default).
+
+  Any player CAN flip a specified proposal's imminence to "pending" by
+  announcement by paying Agora 1/20th the Floating Value or by accruing
+  the same amount of Debt. If neither method is specified, that player
+  does the latter.
+
+Amend R1607 "Distribution" by, after the paragraph starting with "In a
+given Agoran week", adding:
+
+  When the Promotor distributes a proposal, e SHOULD note the Debts
+  accrued, if any, when the proposal was pended.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Better Accounting
+Adoption index: 1.0
+Author: nichdel
+Co-authors:
+
+
+Amend R2496 "Rewards" by, at the end of the first paragraph, adding:
+
+  When a player claims a reward, e SHALL list the number of shinies e
+  receives, or it is INEFFECTIVE.
+
+Amend R2497 "Floating Value" by, at the end, adding:
+
+  When the Secretary flips the Floating Value, e SHOULD note the new
+  values for rewards and expenses.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp3
+Title: The Return of Fear
+Adoption index: 1.0
+Author: nichdel
+Co-authors:
+
+
+Amend Rule 2445 (How to Pend a Proposal) by appending the following
+paragraph:
+
+  An Official Proposal is a proposal designated as such by the
+  Rules; generally official proposals that are created as part of
+  an Officer's duties. Rules to the contrary notwithstanding, an
+  Official proposal is always pending. Rules to the contrary
+  notwithstanding, players CANNOT claim rewards for the adoption
+  of an Official proposal.
+
+
+Re-enact Rule 2309 (The Propose-O-Matic), with the following text:
+
+  The Fearmongor is an Office. Its holder is responsible for
+  ensuring the continuous change of the ruleset.
+
+  Each month, the Fearmongor SHALL do the following as part of
+  eir duties:
+
+    1) Select two existing rules at random. For each of those
+      rules, submit an Official proposal with AI equal to that
+      rules' power. One proposal SHALL specify only to repeal
+      its rule; the other SHALL specify only to amend its rule.
+
+    3) Select a previous rule that was repealed over 1 year
+      ago, and has not been so selected in the past 6 months.
+      Submit an Official proposal of the appropriate AI to
+      re-enact the rule at its previous power, using any
+      past version of the rule as a basis and making minimal
+      modifications to that text to allow the rule to function
+      in the current ruleset.
+
+
+G. is hereby installed as the Office holder for Fearmongor.
+
+[The old rule was "each week", but I think that's too much.  No
+salary, because the job is it's own reward :) ].
+
+//////////////////////////////////////////////////////////////////////
+ID: pp4
+Title: Pay the Arbitor
+Adoption index: 1.0
+Author: nichdel
+Co-authors:
+
+
+[First, insert a handy abbreviation].
+
+Amend Rule Rule 2500 (Action Points) by replacing:
+  every player has 2 Action Points.
+with:
+  every player has 2 Action Points (APs).
+
+
+Amend Rule 2496 (Rewards) by inserting the following line-item after
+the line-item that begins "* Judging a CFJ":
+
+  * Assigning a CFJ to a judge, if the CFJ (a) was created via
+  spending shinies or APs, and (b) has never been assigned to
+  a judge: 1/20th the current Floating Value.
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,286 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote).
+
+
+ID     Author(s)     AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+7872*  o             2.0  Estate Auction Cleanup      o           1 AP
+7873*  o, babelian   2.0  Agoraculture                o           1 AP
+7874*  o             2.0  Shorter Apologies           o           3 sh.
+7845*  nichdel       1.0  Better Accounting           o           1 AP
+
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)               AI   Title
+---------------------------------------------------------------------------
+pp1   o                       3.0  Organization Repeal
+
+Legend: <ID>* : Proposal is pending.
+
+The Pending List Price (PLP) is 6 shinies. Proposals may also be pended for
+1 AP.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7872
+Title: Estate Auction Cleanup
+Adoption index: 2.0
+Author: o
+Co-authors:
+
+
+In Rule 2491 ("Estate Auctions"), replace the second paragraph with:
+
+  During an auction, any player may bid a number of Shinies on eir
+  own behalf by announcement, or on behalf of any Organization for
+  which such a bid is Appropriate by announcement, provided the bid
+  is higher than any previously-placed bid in the same auction.
+
+  If, at the end of the auction, there is a single highest bid, then
+  that player or Organization wins the auction. The player who
+  placed the winning bid CAN cause Agora to transfer the auctioned
+  Estate to the winner by announcement, by paying Agora the amount
+  of the bid, or by causing the winning Organization to pay Agora
+  the amount of the bid. E SHALL do so in a timely fashion.
+
+
+//////////////////////////////////////////////////////////////////////
+ID: 7873
+Title: Agoraculture
+Adoption index: 2.0
+Author: o
+Co-authors: babelian
+
+
+Enact a new rule, with power 1.0, titled "Farm Rate", with the following text:
+
+  The Farm Rate is a natural singleton switch, tracked by the
+  Agronomist.
+
+Set the Farm Rate to 20.
+
+Enact a new rule, with power 2.0, titled "Agoraculture", with the following
+text:
+
+  Each Estate has a Farm switch, tracked by the Agronomist, with
+  values "farmed" and "unfarmed", defaulting to "unfarmed". Changes
+  to Farm switches are secured. An Estate whose Farm switch is
+  "farmed" is a Farm, and its owner is the Farmer of that Estate.
+
+  In the first week of an Agoran month, the owner of an unfarmed
+  Estate MAY flip its Farm switch to "farmed" by announcement, if e
+  pays Agora a number of shinies equal to the Farm Rate.
+
+  In the first week of an Agoran month, the owner of a Farm MAY till
+  the farm by announcement, if e pays Agora a number of shinies equal
+  to the Farm Rate. If the Farmer of an Estate does not till it
+  within the first week of an Agoran month, the Agronomist CAN flip
+  its Farm switch to "unfarmed" by announcement, and SHALL do so in a
+  timely fashion.
+
+  When an Estate is transferred to Agora or to an Organization, its
+  Farm switch is set to "unfarmed" immediately afterwards.
+
+Enact a new rule, with power 2.0, titled "Comestibles", with the following text:
+
+  A Comestible is a type of liquid asset, which can be owned by
+  players. Creating Comestibles is secured. The recordkeepor of
+  Comestibles is the Agronomist.
+
+  The Farmer of an Estate may offer Comestibles by announcement,
+  naming a number of Comestibles offered and a price per Comestible
+  in Shinies. A player CANNOT offer more Comestibles in a month than
+  10 times the number of Farms e owns. The Farmer is ENCOURAGED to
+  name the kind of Comestibles on offer after a plant, vegetable,
+  grain, livestock, or other farm good.
+
+  A player other than the offering Farmer may accept a Comestibles
+  offer by announcement to create that number of Comestibles in eir
+  possession, if e pays the offering Farmer the price per Comestible
+  named in the offer times the number of Comestbiles offered. The
+  Value of a Comestible created this way is equal to the price per
+  Comestible offered by the Farmer.
+
+  An offer expires at the end of the Agoran month in which it is
+  made. Rules to the contrary notwithstanding, an offer CANNOT be
+  accepted if it has expired.
+
+  During an Agoran Decision, a player can increase their voting
+  strength on that decision by destroying (syn. "eating",
+  "consuming") Comestibles. Eir voting strength is increased by
+  one-tenth the total Value of the Comestibles destroyed this way,
+  rounded down, to a maximum of 5.
+
+  A Comestible is an Expired Comestible if it was created by
+  accepting an offer announced more than three Agoran months ago. An
+  Expired Comestible CANNOT be consumed to increase voting strength,
+  and MAY be destroyed by any player, by announcement. The Agronomist
+  SHALL destroy all Expired Comestibles at the start of each Agoran
+  month.
+
+Enact a new rule, with power 2.0, titled “The Agronomist”, with the following
+text:
+
+  The Agronomist is an office.
+
+  The Agronomist's weekly report includes:
+
+  * A list of Farms and their owners.
+
+  * A list of Comestibles offers that have not been accepted and have
+    not expired.
+
+Make babelian the Agronomist.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7874
+Title: Shorter Apologies
+Adoption index: 2.0
+Author: o
+Co-authors:
+
+
+Amend rule 2427 ("Yellow Cards"), replacing the number 200 with the number 150
+wherever it appears in the text of the rule.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7845
+Title: Better Accounting
+Adoption index: 1.0
+Author: nichdel
+Co-authors:
+
+
+Amend R2496 "Rewards" by, at the end of the first paragraph, adding:
+
+  When a player claims a reward, e SHALL list the number of shinies e
+  receives, or it is INEFFECTIVE.
+
+Amend R2497 "Floating Value" by, at the end, adding:
+
+  When the Secretary flips the Floating Value, e SHOULD note the new
+  values for rewards and expenses.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Organization Repeal
+Adoption index: 3.0
+Author: o
+Co-authors:
+
+
+Destroy each Organization.
+
+Repeal rule 2459 ("Organizations").
+
+Repeal rule 2461 ("Death and Birth of Organizations").
+
+Repeal rule 2460 ("Organizational Restructuring").
+
+Repeal rule 2457 ("Lockout").
+
+Repeal rule 2458 ("Invoking Lockout").
+
+Repeal rule 2462 ("Bankruptcy").
+
+Amend rule 2456 ("The Secretary") by
+
+  * Changing its title to "The Treasuror", then by
+  * Replacing its text, entirely, with:
+
+    {{{
+        The Treasuror is an office, and the recordkeepor of Shinies.
+
+        The Treasuror's weekly report also includes:
+
+        1. the current Floating Value, and all derived values
+           defined by the Rules.
+    }}}
+
+Make o the Treasuror.
+
+Amend rule 2166 ("Assets") by:
+
+  * Replacing the paragraph:
+
+    {{{
+        Unless modified by an asset's backing document, ownership
+        of an asset is restricted to Agora, persons, and
+        organizations.
+    }}}
+
+    with:
+
+    {{{
+        Unless modified by an asset's backing document, ownership
+        of an asset is restricted to Agora and persons.
+    }}}
+
+    then by
+
+    * Removing the paragraph:
+
+    {{{
+        An organization's charter CAN specify whether or not that
+        organization is willing receive assets or a class of
+        assets. Generally, an organization CANNOT be given assets
+        its charter states that it is unwilling to receive. The
+        previous provisions of this paragraph do not apply to an
+        asset if the organization is required to provide that asset
+        in order to continue existing.
+    }}}
+
+Amend rule 2489 ("Estates") by replacing the first sentence with:
+
+  {{{
+      An Estate is a type of indestructible liquid asset.
+  }}}
+
+Amend rule 2491 ("Estate Auctions") by replacing its text,
+entirely, with:
+
+  {{{
+      At the start of each month, if Agora owns at least one
+      Estate, the Surveyor shall put one Estate which is owned by
+      Agora up for auction, by announcement. Each auction ends
+      seven days after it begins.
+
+      During an auction, any player may bid a number of Shinies
+      by announcement, provided that the bid is higher than any
+      previously-placed bid in the same auction.
+
+      If, at the end of the auction, there is a single highest
+      bid, then the player who placed that bid wins the auction.
+      The player who placed the winning bid CAN cause Agora to
+      transfer the auctioned Estate to the winner by
+      announcement, if e pays Agora the amount of the bid. E
+      SHALL do so in a timely fashion.
+  }}}
+
+Amend rule 2483 ("Economics") by replacing its text, entirely, with:
+
+  {{{
+      Shinies (singular "shiny", abbreviated "sh.") are an
+      indestructible liquid currency, and the official currency
+      of Agora. The Treasuror is the recordkeepor for shinies.
+
+      The Treasuror CAN cause Agora to pay any player or
+      organization by announcement if doing so is specified by a
+      rule.
+  }}}
+
+Repeal rule 2485 ("You can't take it with you").
+
+Amend the following rules, in order, by replacing the word
+"Secretary" with the word "Treasuror" wherever it appears:
+
+  * Rule 2487 ("Shiny Supply Level")
+  * Rule 2498 ("Economic Wins")
+  * Rule 2497 ("Floating Value")
+
+//////////////////////////////////////////////////////////////////////

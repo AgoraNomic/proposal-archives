@@ -1,0 +1,253 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote).
+
+
+ID     Author(s)         AI   Title                Pender     Pend fee (sh.)
+---------------------------------------------------------------------------
+7844*  o                 2.0  Mint Chocolate       nichdel    10
+7845*  Aris, ais523      1.0  Free Agency          nichdel    9
+7846*  o, Aris           3.0  Real Estate          o          4
+7847*  Aris, o, nichdel  3.0  Assets v3            Aris       4
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+The Pending List Price (PLP) is now* 6 shinies. The Pending Minimum Price (PMP)
+is now* 5 shinies.
+
+* As of the new month, and including a proposal not listed here.
+
+The full text of the aforementioned proposals is included below.
+
+
+//////////////////////////////////////////////////////////////////////
+ID: 7844
+Title: Mint Chocolate
+Adoption index: 2.0
+Author: o
+Co-author(s):
+
+
+Amend rule 2483 (“Economics”), replacing all occurrences of the number 1000 with
+the number 1270.
+
+Amend rule 2487 (“Shiny Supply Level”), replacing all occurrences of the number
+1000 with the number 1270.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7845
+Title: Free Agency
+Adoption index: 1.0
+Author: Aris
+Co-author(s): ais523
+
+
+Amend Rule 2467, "TLAs", by:
+ changing its name to "Agencies";
+ and by changing the paragraph beginning "The Powers of an Agency..." to read:
+
+    The Powers of an Agency must be stated as actions, although they may
+    may be conditional on date, time, game state, or other preconditions.
+    If condition(s) are specified as necessary for a power to be used, it
+    is limited; otherwise, it is unlimited. If it attempts to specify a
+    power in a manner that is unclear, ambiguous, circular, inconsistent,
+    paradoxical, or that depends on information that is impossible or
+    unreasonably difficult to determine, then the specification of that
+    power is invalid, and it CANNOT be used. [Some wording borrowed from
+    Rule 2460.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 7846
+Title: Real Estate
+Adoption index: 3.0
+Author: o
+Co-author(s): Aris
+
+
+If Shinies are money - plentiful, liquid, easily acquired in small
+quanties but still valuable - then Estates are land: rare, illiquid,
+difficult to acquire in any quantity, intrinsically valuable.
+
+Enact a new rule, "The Surveyor", with power 1, with the text:
+
+    The Surveyor is an office. Eir weekly report includes the owner of
+    each Estate.
+
+Enact a new rule, "Estates", with power 2, with the text:
+
+    An Estate is a type of entity. The following changes are secured:
+    creating, modifying, or destroying an Estate; and causing an
+    entity to become an Estate or cease to be an Estate.
+
+    Owner is a switch belonging to each Estate, tracked by the
+    Surveyor, whose legal values are any player, any Organization, or
+    Agora. The default Owner of an Estate is Agora. Changes to Owner
+    switches are secured.
+
+    To transfer an Estate to a player or Organization is to set its
+    Owner switch to that player or that Organization. To transfer an
+    Estate to Agora is to set its Owner switch to Agora.
+
+    A player who owns an Estate can and may transfer it to any player,
+    to any Organization, or to Agora, by announcement.
+
+    A player may cause an Organization which owns an Estate to transfer
+    that Estate to any player, to any Organization, or to Agora, by
+    announcement, if it is Appropriate to do so under that
+    Organization's charter.
+
+Create the following Estates:
+
+    * The Estate of Antegria
+    * The Estate of Borduria
+    * The Estate of Cagliostro
+    * The Estate of Dawsbergen
+    * The Estate of Erehwon
+
+Enact a new rule, "Estate Ballots", with power 3, with the text:
+
+    During any Agoran Decision, a player who owns one or more Estates
+    can, by announcement, expend any number of their owned Estates on
+    the Agoran Decision by transferring that Estate to Agora. Eir
+    voting strength on that decision is increased by 1 for each Estate
+    expended on it.
+
+Enact a new rule, "Estate Auctions", with power 2, with the text:
+
+    At the start of each month, if Agora owns at least one Estate, the
+    Surveyor shall put one Estate which is owned by Agora up for
+    auction, by announcement. Each auction ends seven days after it
+    begins.
+
+    During an auction, any player may bid any number of Shinies by
+    announcement. Any player may cause any Organization to bid any
+    number of Shinies, by announcement, if it is Appropriate under that
+    Organization's charter to place the bid.
+
+    At the end of an auction, if there is a single highest bid, the
+    player or Organization that placed the highest bid can cause Agora
+    to transfer the auctioned Estate to emself by paying Agora the
+    number of Shinies stated in their most recent bid. If the highest
+    bidder does not do so in a timely fashion, the Surveyor shall issue
+    the player who submitted the bid a Yellow Card.
+
+Amend rule 2485 ("You Can't Take It With You") and replace its text with:
+
+     "Heir" is a person switch, tracked by the Registrar, whose value
+     is either empty or the name of a player or Organization. Each
+     person's Heir is empty by default. A player may flip eir Heir by
+     announcement.
+
+     When a player is deregistered, if eir Heir switch is not empty, e
+     automatically pays all of eir Balance to the named player or
+     Organization, and transfers all of eir Estates to the named player
+     or Organization. Otherwise, if eir Heir switch is empty, e may
+     specify another player, an Organization, or Agora, and pay all of
+     eir Balance and transfer all of eir Estates to the specified
+     player or Organization. If the player does not do so within 1 day
+     of deregistration, the Registrar CAN and SHALL cause that player
+     to pay eir Balance to Agora and to transfer all of eir Estates to
+     Agora, by announcement.
+
+//////////////////////////////////////////////////////////////////////
+Title: Assets v3
+Adoption index: 3
+Author: Aris
+Co-authors: o, nichdel
+
+Reenact rule 2166, Assets (Power = 2), with the following text:
+
+  An asset is an entity defined as such by a rule (hereafter its backing
+  document), and existing solely because its backing document defines its
+  existence.
+
+  Each asset has exactly one owner.  If an asset would otherwise
+  lack an owner, it is owned by the Lost and Found Department.  If
+  an asset's backing document restricts its ownership to a class
+  of entities, then that asset CANNOT be gained by or transferred
+  to an entity outside that class, and is destroyed if it is owned
+  by an entity outside that class (except for the Lost and Found
+  Department, in which case any player CAN transfer or destroy it
+  without objection).
+
+  The recordkeepor of a class of assets is the entity (if any)
+  defined as such by, and bound by, its backing document.  That
+  entity's report includes a list of all instances of that class
+  and their owners.  This portion of that entity's report is
+  self-ratifying.
+
+  An asset generally CAN be destroyed by its owner by
+  announcement, and an asset owned by the Lost and Found
+  Department generally CAN be destroyed by its recordkeepor by
+  announcement, subject to modification by its backing document.
+  To "lose" an asset is to have it destroyed from one's
+  possession; to "revoke" an asset from an entity is to destroy it
+  from that entity's possession.
+
+  An asset generally CAN be transferred (syn. payed) by its owner to another
+  entity by announcement, subject to modification by its backing
+  document.  A fixed asset is one defined as such by its backing
+  document, and CANNOT be transferred; any other asset is liquid.
+
+  A currency is a class of asset defined as such by its backing
+  document.  Instances of a currency with the same owner are
+  fungible.
+
+  The "x balance of an entity", where x is a currency, is the number of x that
+  entity possesses. If a rule or proposal attempts to increase or decrease the
+  balance of an entity without specifying a source or destination, then the
+  currency is created or destroyed. Where it resolves ambiguity "Balance",
+  without any currency modifiers, refers to an entity's balance of whichever
+  currency is designated as "Agora's official currency", if there is one.
+
+  Assets are always public. [To provide for private contract based assets later]
+
+Change the rule "Economics" to read in full:
+
+  Shinies (sg. shiny) are a liquid currency, and the official currency of Agora.
+  They may be owned by Agora, any player, or any organization. The Secretary is
+  the recordkeepor for Shinies.
+
+  The Secretary CAN cause Agora to pay any player or organization by
+  announcement if doing so is specified by a rule.
+
+  Shinies cannot be destroyed, except as allowed by rules specifically
+  addressing the destruction of Shinies. Any attempt to destroy Shinies instead
+  transfers them to Agora.
+
+Amend Rule 2459, Organizations, by adding as a paragraph at the end:
+
+  A member of an Organization can perform any action the rules authorize that
+  Organization to perform, if the Organization's charter states that doing so
+  is Appropriate.
+
+For the avoidance of doubt, all shinies existing under the old system continue
+to so under the new system, and if they would not otherwise do so, new shinies
+are created to replace them.
+
+If o's proposal entitled "Real Estate" has passed:
+
+  Amend the rule "The Surveyor" to have the folowing text:
+
+    The Surveyor is an office, and the recordkeepor of estates.
+
+  Amend the rule "Estates" to have the following text:
+
+    An Estate is a type of liquid asset, which can be owned by players,
+    orginizations, and Agora. The following changes are secured:
+    creating, modifying, or destroying an Estate; and causing an
+    entity to become an Estate or cease to be an Estate.
+
+  Amend the rule "Estate Auctions" by changing the paragraph beginning "During
+  an auction..." to read "During an auction, any player or organization may bid
+  any number of Shinies by announcement." and removing the break between that
+  and the next paragraph.
+
+  For the avoidance of doubt, all Estates existing under the old system continue
+  to so under the new system, and if they would not otherwise do so, new Estates
+  are created to replace them.
+
+  //////////////////////////////////////////////////////////////////////

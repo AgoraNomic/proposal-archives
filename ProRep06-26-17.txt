@@ -1,0 +1,293 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote).
+
+
+ID      Author(s)        AI   Title                   Pender     Pend fee (sh.)
+---------------------------------------------------------------------------
+7865*   Aris, o, [1]     3.1  Regulations v4          Aris       6
+7866*   o, Quazie, [2]   1.7  More Betterer Pledges   o          6
+
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)          AI   Title                   Pender      Pend fee (sh.)
+---------------------------------------------------------------------------
+pp1*  nichdel, o, [3]    2.0  Economics Overhaul v2   CuddleBeam  6
+
+
+Legend: <ID>* : Proposal is pending.
+
+[1] nichdel, ais523
+[2] G., Gaelan, Aris, 天火狐
+[3] grok, Aris
+
+The Pending List Price (PLP) is 5 shinies.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7865
+Title: Regulations v4
+Adoption index: 3.1
+Author: Aris
+Co-authors: o, nichdel, ais523
+
+
+Change the title of Rule 2125, "Regulation Regulations", to "Regulated Actions".
+
+Amend Rules 2125 and 1023 by changing all instances of the word "regulated" to
+"restricted", and all instances of the word "unregulated" to "unrestricted".
+
+Amend Rule 2143, "Official Reports and Duties," by changing all instances of the
+word "regulations" to "restrictions".
+
+Create a new power 3.1 rule entitled "Regulations", with the flowing text:
+
+  A Regulation is an instrument defined as such by this rule. A regulation
+  allows an officer (known as the Promulgator) to exercise rule defined powers.
+  A regulation is in effect continuously from the time of its creation to the
+  time of either its revocation or the repeal of the rule that allowed for its
+  creation. When recommending a regulation, its Promulgator must specify by
+  number the rule(s) upon which it is based (the parent rules), the list of
+  which becomes an integral part of the regulation. The list of rules can
+  generally be modified by the Promulgator according to the procedure for text
+  changes.
+
+  A regulation must be authorized by at least one rule in order for it to exist.
+  A regulation has effect on the game (only) insofar as the rule or rules that
+  authorized it permit it to have effect, and a regulation generally inherits
+  the power of its least powerful parent rule, unless its Promulgator defines
+  a lower power. If reasonably possible, a regulation should be
+  interpreted so as to defer to other rules. The procedure for resolving
+  conflict between regulations is the same as it is for rules.
+
+  Regulations are generally issued according to the following procedures,
+  and they can be repealed by the announcement of their Promulgator. Alternate
+  procedures may be used if provided for by all of the regulations's parent
+  rules. If one parent rule specifies procedures that are more stringent than
+  those that the other(s) specifies, those apply. Creating, modifying, revoking,
+  or allowing for a regulation is secured at power 1.
+
+  A regulation (or set of regulations), authorized by another rule, may
+  generally be enacted or modified by its promulgator without 2 objections,
+  or with Agoran consent. A notice pursuant to the previous sentence is
+  known as a "recommendation", and the regulation(s) are said to be
+  "recommended" to Agora.
+
+
+Create a new power 1 rule, entitled "The Regkeepor", with the following text:
+
+  The Regkeepor is an office, responsible for the maintenance of the
+  Regulations. The Regulations are contained in the Regkeepor's weekly report,
+  know as the Agora Nomic Code of Regulations (ACORN). E MAY publish multiple
+  versions or editions of the ACORN.
+
+  The ACORN is divided into titles, assigned by the Regkeepor, which are
+  each given an integer.  Generally, each office with the power to create
+  regulations SHOULD be assigned the next successive natural number. Title 0 of
+  the ACORN is reserved for use by the Regkeepor, and nothing in that title
+  need be a regulation. Non-regulations printed in the ACORN
+  have no binding effect, and SHALL clearly be marked by the Regkeepor.
+
+  Each regulation SHALL be assigned an ID number by the Regkeepor, consisting
+  of a string of the characters [0-9] and separator characters. The Regkeepor
+  SHOULD establish some way of keeping track of the version of a regulations.
+  The Regkeepor MAY also, at eir discretion, create ways of marking special
+  types of Regulation (even in violation of the previous restrictions of this
+  paragraph), mark sections or titles as reserved for future use, and
+  make such other discussions of arrangement, annotation, and marking as are
+  necessary and proper in the execution of eir duties.
+
+  The Regkeepor SHOULD remember that the purpose of the ACORN is to make the
+  regulations easily readable, and e SHALL not act in a manner intended to
+  deceive others in eir official capacity.
+
+
+Make Aris the Regkeepor.
+
+Amend Rule 2464, "Tournaments", to read in full:
+
+   A Tournament is a sub-game of Agora specifically sanctioned
+   to be initiated as a tournament by the Rules.  If a winner of a
+   tournament is determined within 4 weeks of its initiation, that
+   person or persons win the game, otherwise the tournament
+   concludes with no winner. A Tournament is governed by a special temporary
+   title of the ACORN, created in accordance with its parent rule,
+   which have binding control over those who freely agree to play the tournament
+   and over the tournament itself. Once the tournament is concluded, these
+   regulations cease to have any effect, and may be repealed by any player by
+   announcement.
+
+Create a new power 1.0 Rule entitled "The Birthday Tournament", with the
+following text:
+
+   In a timely fashion after the start of June 1 of each year,
+   the Herald SHALL propose a set of Regulations governing a
+   Birthday Tournament for that year; the Herald CAN also
+   delegate the responsibility for creating or running the
+   tournament to another player, with that player's consent.
+
+   The Birthday Tournament's regulations SHOULD be such that all
+   persons who choose to participate have a fair chance of winning
+   the tournament (according to its regulations), and a winner
+   SHOULD be expected within 2-3 weeks following the tournament's
+   initiation.
+
+   After adequate time for discussion of the Birthday Tournament's
+   regulations, the Herald (or delegate) CAN initiate a sanctioned
+   tournament with a specified, finalized set of regulations,
+   Without 3 Objections. By doing so e promulgates those regulations as a
+   special temporary title of the ACORN. This title may thereafter be amended
+   only by the Herald or eir designee without objection, to correct minor typos.
+   The initiation SHOULD be timed to coincide with Agora's Birthday.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7866
+Title: More Betterer Pledges
+Adoption index: 1.7
+Author: o
+Co-authors: Quazie, G., Gaelan, Aris, 天火狐
+
+
+Replace the text of Rule 2450 with the following:
+
+{{{
+  A player SHALL NOT break eir own publicly-made pledges.
+
+  A pledge MAY be considered broken if the pledgor does not complete it in a
+  timely manner after it becomes possible to do so. A pledge MAY be considered
+  broken at the moment the pledgor engages in conduct proscribed by that pledge.
+}}}
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Economics Overhaul v2
+AI: 2.0
+Author: nichdel
+Co-authors: o, grok, Aris
+
+Repeal R2484 "Payday".
+
+Amend the rule titled "Assets" by, after the paragraph that starts with
+"An asset generally CAN be transferred", adding:
+
+   When a rule indicates transfering an amount that is not a natural
+   number, the specified amount is rounded up to the nearest natural
+   number.
+
+And by, after the paragraph that starts "The "x balance of an entity"",
+adding:
+
+   When a player causes one or more balances to change, e is ENCOURAGED
+   to specify the resulting balance(s). Players SHOULD NOT specify
+   inaccurate balances.
+
+{Just intended to make balance tracking easier inbetween Secretary
+reports}
+
+Enact a Power 1 rule titled "Rewards" with the following text:
+
+   A Reward is a specified amount of shinies associated with a Reward
+   Condition. For each time a player meets a Reward Condition, e MAY
+   claim the specified award exactly once within 24 hours of meeting the
+   Reward Condition.
+
+   When a player 'claims' a Reward, Agora transfers the specified number
+   of shinies to the player.
+
+   Below is an exhaustive list of Reward Conditions and eir rewards:
+
+      * The following two only apply to proposals that were pended via
+      spending shinies:
+
+         - Being the author of an adopted proposal: 1/40th the current
+         Floating Value.
+
+         - Being the pender of an adopted proposal: 1/40th the current
+         Floating Value.
+
+      * Judging a CFJ, that was created via spending shinies, that e was
+      assigned to: 1/20th the current Floating Value.
+
+      * Publishing a duty-fulfilling report: 5 shinies.
+
+      * Resolving an Agoran Decision for the first time this week: 5
+      shinies.
+
+Enact a Power 1 rule titled "Floating Value" with the following text:
+
+   Floating Value is a natural switch. When e publishes eir Weekly
+   Report, the Secretary SHALL flip the Floating Value to Agora's shiny
+   balance.
+
+Set every players's shiny balance to 0.
+
+Set Agora's shiny balance to 1000.
+
+Set the Floating Value to 200.
+
+Enact a Power 1 rule titled "Economic Wins" with the following text:
+
+   Stamps are an asset, identified by eir creator and tracked by the
+   Secretary.
+
+   The Stamp Value is always 1/5th the current Floating Value.
+
+   Once per month, a player MAY, by announcement, transfer to Agora the
+   Stamp Value, in shinies, to create a Stamp.
+
+   Players MAY, by announcement, destroy a Stamp and cause Agora to
+   transfer the Stamp Value, in shinies, to em.
+
+   While a player has Stamps made by at least 10 different players e MAY
+   destroy 10 stamps made by 10 different players by announcement to win
+   the game.
+
+Enact a Power 1 rule titled "Welcome Packages" with the following text:
+
+   If a player has not received a Welcome Package since e most recently
+   registered, any player MAY cause em to receive one by announcement.
+
+   When a player receives a Welcome Package, Agora transfers 50 shinies
+   to em.
+
+Enact a Power 1 rule titled "Action Points" with the following text:
+
+   At the beginning of every Agoran Week, every player has 2 Action
+   Points. When a player 'spends' an Action Point, e has one less
+   Action Point. If a player has 0 Action Points, e may not spend any
+   more Action Points, rules to the contrary notwithstanding.
+
+Amend R2445 "How to Pend a Proposal" to read, in full:
+
+   Imminence is a switch, tracked by the Promotor, possessed by
+   proposals in the Proposal Pool, whose value is either "pending" or
+   "not pending" (default).
+
+   Any player CAN flip a specified proposal's imminence to "pending" by
+   announcement by:
+
+      a) spending 1 Action Point, OR
+
+      b) spending 1/20th the Floating Value in shinies.
+
+Amend R991 "Calls for Judgment" by replacing the first paragaraph with
+the following:
+
+   Any person (the initiator) can initiate a Call for Judgement (CFJ,
+   syn. Judicial Case), specifying a statement to be inquired into:
+
+      a) by announcement, and spending 1 Action Point, OR
+
+      b) by announcement, and spending 1/20th the Floating Value in
+      shinies, OR
+
+      c) by announcement if e is not a player.
+
+   When a person initiates a Call for Judgment, e may optionally bar one
+   person from the case.
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,308 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote).
+
+ID     Author(s)     AI   Title                      Pender     Pend fee (sh.)
+-------------------------------------------------------------------------
+7853*  ais523        3.0  Close Ancient Loopholes    ais523     N/A [1]
+7854*  ais523        3.0  Close Recent Loopholes v2  ais523     N/A [1]
+7855*  Quazie        1.0  Limited Agencies           ais523     N/A [1]
+7856*  Quazie        2.0  Shiny Releveling Event     ais523     N/A [1]
+7857*  grok          1.0  ALCA [2]                   ais523     N/A [1]
+
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   P.S.S.[3]     3.0  Agoran Education Rethink v3
+pp2   nichdel       1.0  Pending List Price Adjustment
+pp3   P.S.S [3]     1.0  Agora's To-Do List (v2/ov1)
+pp4   Ienpw III     1.0  Reader's Digest
+
+Legend: <ID>* : Proposal is pending.
+
+[1] Pended by the mechanism in the Rule "Reward and Delay"
+[2] Agency Leadership Consolidation Act
+[3] Publius Scribonius Scholasticus
+
+The Pending List Price (PLP) is 6 shinies. The Pending Minimum Price (PMP)
+is 5 shinies.
+
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7853
+Title: Close Ancient Loopholes
+Adoption index: 3.0
+Author: ais523
+Co-author(s):
+
+
+Amend rule 879 so that it has the following text:
+{{{
+    Each Agoran Decision has a quorum. This is a number set when the
+    decision is created, and thereafter cannot be changed. When a
+    person initiates an Agoran Decision, that person SHALL state the
+    quorum of that decision. However, incorrectly stating the quorum
+    of a decision does not invalidate the initiation, nor does it
+    actually change the quorum of the decision.
+
+    The quorum that an Agoran Decision gains as it is created can be
+    defined by other rules of power 2 or greater. If no other rule
+    defines the quorum of an Agoran Decision, the quorum for that
+    decision is equal to the number of players who voted on the
+    Agoran Decision to adopt a proposal that had been most recently
+    resolved at the time of that decision's initiation, minus 2.
+
+    As an exception to the previous paragraph, the quorum of an
+    Agoran Decision can never be less than 2. If the rules would
+    attempt to set the quorum of an Agoran Decision to less than 2,
+    it is set to 2 instead.
+}}}
+
+Amend rule 955 by replacing the text:
+{{{
+      - If there is more than one option, and the number of valid
+        ballots is less than quorum, the outcome is instead FAILED
+        QUORUM.
+}}}
+with:
+{{{
+      - If there is more than one option, and the number of valid
+        ballots is less than the quorum of that decision, the outcome
+        is instead FAILED QUORUM.
+}}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7854
+Title: Close Recent Loopholes v2
+Adoption Index: 3.0
+Author: ais523
+Co-author(s):
+
+Amend rule 683, by replacing the last paragraph with:
+{{{
+      A valid ballot is a ballot, correctly submitted, that has not
+      been withdrawn. During the voting period of an Agoran decision,
+      a player CAN by announcement withdraw (syn. retract) a ballot
+      that e submitted on that decision. To "change" one's vote is to
+      retract eir previous ballot (if any), then submit a new one.
+}}}
+
+Amend rule 2445 so that it has the following text:
+{{{
+      Imminence is a switch, tracked by the Promotor, possessed by
+      proposals in the Proposal Pool, whose value is either "pending"
+      or "not pending" (default).
+
+      Pending List Price is an integer switch, tracked by the Promotor,
+      whose default value is 5. At the beginning of every month, the
+      Pending List Price is set to 90% of the mean of the price paid
+      for each proposal pended in the previous month, rounded down. If
+      less than 2 proposals were pended in the previous month, the
+      Pending List Price is set to its default.
+
+      Any player CAN pay Agora a specified amount, which is no less
+      than the Pending List Price, to flip a proposal's imminence
+      to "pending" by announcement. If the specified amount is less
+      than the Pending List Price, then the attempt to pay is
+      INEFFECTIVE, and the proposal's imminence is not flipped.
+}}}
+
+Amend the rule created during the resolution of proposal 7850 by
+deleting all paragraphs that contain the word "imminence", and then
+inserting the following paragraphs at the end:
+{{{
+      ais523 CAN cause a specified player to earn a Black Ribbon by
+      announcement.
+
+      ais523 CAN cause this rule to repeal itself by announcement.
+}}}
+[I already have my Black Ribbon, so I forgot that I might potentially
+need to award them to co-conspirators. Also, give me a way to clean up
+the rule when I'm done giving out rewards. As a reminder to people who
+aren't used to the Ribbon system, the idea of Black Ribbons is that
+they can only be gained via proposal or via scam, and it's standard to
+give a Black Ribbon to all the participants in a scam if it's capable
+of altering the gamestate enough to give Ribbons.]
+
+Then retitle that rule to "Scam Reward".
+
+//////////////////////////////////////////////////////////////////////
+ID: 7855
+Title: Limited Agencies
+Adoption Index: 1.0
+Author: Publius Scribonius Scholasticus
+Co-author(s):
+
+{{{
+    In rule 2467 replace:
+
+    {{{
+        An Agency is a document empowering persons to act on behalf of
+        another player. A player may establish an Agency With 24 hours
+        Notice and thereby become its Director by specifying the
+        properties of the new Agency:
+    }}}
+
+    with:
+
+    {{{
+        An Agency is a document empowering persons to act on behalf of
+        another player. A player MAY establish an Agency With 24 hours
+        Notice, and thereby become its Director, by specifying the
+        properties of the new Agency, provided e has not established any
+        other Agency that day:
+    }}}
+  }}}
+
+Also if any agency exists with the power:
+  Any agent may cause this agency to destroyed (with the standard notice)
+  as long as they give Gaelan 10 shinies in the same message.
+then destroy it.
+
+It shal also be known that Gaelan is a Ninny.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7856
+Title: Shiny Releveling Event
+Adoption index: 2.0
+Author: Quazie
+Co-author(s):
+
+
+Update the text of rule 2487 to be the following:
+  {{{
+  The Supply Level is 1000.
+
+  When a Shiny Releveling event occurs, Agora's Balance is increased
+  or decreased such that all Balances add up to the Supply Level.
+
+  When the Supply level Changes, a Shiny Releveling event occurs.
+
+  The Secretary may cause a Shiny Releveling event to occur without 3
+  Objections.
+}}}
+
+Upon the adoption of this proposal a Shiny Releveling Event occurs.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7857
+Title: Agency Leadership Consolidation Act
+Adoption Index: 1.0
+Author: grok
+Co-author(s):
+
+Amend Rule 2467, then Rule 2468, to replace all instances of the word "Head"
+with the word "Director".
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Agoran Education Rethink v3
+Adoption index: 3.0
+Author: Publius Scribonius Scholasticus
+Co-author(s): ais523
+
+
+  Change Rule 1367 to read in full:
+
+    Certain patent titles are known as degrees.  The degrees are
+
+    - Associate of Nomic                 (A.N.)
+    - Bachelor of Nomic                  (B.N.)
+    - Master of Nomic                    (M.N.)
+    - Doctor of Nomic History            (D.N.Hist.)
+    - Doctor of Nomic Science            (D.N.Sci.)
+    - Doctor of Nomic Philosophy         (D.N.Phil.)
+
+    Degrees are ranked in the order they appear in this rule, with degrees
+    listed later being ranked higher.  A specific degree CANNOT be awarded
+    to any person more than once.
+
+    A specified degree CAN be awarded with 2 Agoran Consent, and SHOULD
+    only be awarded for the publication of an original thesis of scholarly
+    worth (including responses to peer-review), published with explicit
+    intent to qualify for a degree. Persons wanting a degree MUST request
+    a mentor from the Herald before having made substantial progress on
+    eir thesis. The Herald SHOULD coordinate the finding of a mentor for
+    any person requesting one. The mentor SHOULD answer questions of the
+    mentee and assist in the writing of eir thesis. The mentor SHOULD
+    coordinate the peer-review process for the thesis.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Pending List Price Adjustment
+Adoption Index: 1.0
+Author: nichdel
+Co-author(s):
+
+  Amend Rule 2445 by replacing the second, thirdand fourth paragraphs with:
+
+        Pending List Price is an integer switch, tracked by the Promotor,
+        whose default value is 5. At the beginning of every month, the
+        Pending List Price is set to nine-tenths of the mean of the price
+        paid for each proposal pended in the previous month, rounded
+        down. If less than 2 proposals were pended in the previous month,
+        the Pending List Price is set to its default.
+
+        Any player CAN pay Agora a specified amount, which is no less
+        than the Pending List Price, to flip a proposal's imminence to
+        "pending" by announcement. If the specified amount is less than
+        the Pending List Price, then the attempt to pay is  INEFFECTIVE,
+        and the proposal's imminence is not flipped.
+
+  [Basically just combines Pending Minimum and Pending List. The simpler
+  math also means that the price tends to end up a tiny bit higher than
+  the previous scheme.]
+
+//////////////////////////////////////////////////////////////////////
+ID: pp3
+Title: Agora's To-Do List (v2/ov1)
+Adoption index: 1.0
+Author: Publius Scribonius Scholasticus
+Co-author(s):
+
+Enact a rule titled, "To-Do List", reading: "Any player MAY without two
+objection add an item to the to-do list with a specified number of Shinies
+associated with it. Any to-do list item must have a clear set of requirements
+for completion. The to-do list shall be maintained by the Lister. Any person MAY
+complete an item on the to-do list and claim the specified number of Shinies
+associated with it by notifying the Lister of their completion of the task. If
+the Lister agrees with the claimee, the Lister shall without two objection pay
+the claimee the specified number of Shinies from Agora. Any disagreement
+regarding completion shall be resolved via a CFJ. After an item has been
+completed, the Lister shall remove it from the to-do list."
+
+Enact a rule titled, "The Office of the Lister", reading: "The Lister
+is an office; its holder is responsible for maintaining the to-do of
+Agora.
+
+The Lister's Weekly report includes the current state of the Agoran
+to-do list and any recent events thereof."
+
+//////////////////////////////////////////////////////////////////////
+ID: pp4
+Title: Reader's Digest
+Adoption index: 1.0
+Author: Ienpw III
+Co-author(s):
+
+Enact a new rule entitled "Reader's Digest": {
+  There exists an elected office called Digestive System. "Digestibility" is a
+  singleton switch tracked by the Digestive System with possible values
+  "MONTHLY" and "WEEKLY"; the Digestive System can flip this by announcement.
+
+  The Digestive System SHALL regularly issue a report which accurately
+  summarizes the state and activities of Agoranomic throughout the relevant
+  period. This report need not be comprehensive, but will contain that
+  information, as assessed by the Digestive System, which would be of the
+  greatest relevance or importance for a player who had been inattentive to the
+  state of the nomic during the relevant period. If Digestibility is MONTHLY,
+  the relevant period is the preceding month; if it is WEEKLY, it is the
+  preceding week.
+}
+
+//////////////////////////////////////////////////////////////////////

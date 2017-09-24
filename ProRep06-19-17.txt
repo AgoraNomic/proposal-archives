@@ -1,0 +1,130 @@
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)              AI   Title
+---------------------------------------------------------------------------
+pp1   Aris, o, nichdel       3.1  Regulations v3
+
+Legend: <ID>* : Proposal is pending.
+
+The Pending List Price (PLP) is 6 shinies.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Regulations v3
+Adoption index: 3.1
+Author: Aris
+Co-authors: o, nichdel
+
+
+Change the title of Rule 2125, "Regulation Regulations", to "Regulated Actions".
+
+Amend Rules 2125 and 1023 by changing all instances of the word "regulated" to
+"restricted", and all instances of the word "unregulated" to "unrestricted".
+
+Amend Rule 2143, "Official Reports and Duties," by changing all instances of the
+word "regulations" to "restrictions".
+
+Create a new power 3.1 rule entitled "Regulations", with the flowing text:
+
+  A Regulation is an instrument defined as such by this rule. A regulation
+  allows an officer (known as the Promulgator) to exercise rule defined powers.
+  A regulation is in effect continuously from the time of its creation to the
+  time of either its revocation or the repeal of the rule that allowed for its
+  creation. When recommending a regulation, its Promulgator must specify by
+  number the rule(s) upon which it is based (the parent rules), the list of
+  which becomes an integral part of the regulation. The list of rules can
+  generally be modified by the Promulgator according to the procedure for text
+  changes.
+
+  A regulation must be authorized by at least one rule in order for it to exist.
+  A regulation has effect on the game insofar as the rule or rules that
+  authorized it permit it to have effect, and a regulation generally inherits
+  the power of its least powerful parent rule, unless its Promulgator defines
+  a lower power. Regulations shall generally be adjudicated as if they were a
+  part of their (least powerful) parent rule, except that their parent rule(s)
+  always supersedes them. If reasonably possible, a regulation should be
+  interpreted so as to defer to other rules. The procedure for resolving
+  conflict between regulations is the same as it is for rules.
+
+  Regulations are generally issued according to the following procedures,
+  and they can be repealed by the announcement of their Promulgator. Alternate
+  procedures may be used if provided for by all of the regulations's parent
+  rules. If one parent rule specifies procedures that are more stringent than
+  those that the other(s) specifies, those apply. Creating, modifying, revoking,
+  or allowing for a regulation is secured at power 1.
+
+  A regulation (or set of regulations) may generally be enacted or modified
+  without 2 objections, or with Agoran consent. A notice pursuant to the
+  previous sentence is known as a "recommendation", and the regulation(s)
+  are said to be "recommended" to Agora.
+
+
+Create a new power 1 rule, entitled "The Regkeepor", with the following text:
+
+  The Regkeepor is an office, responsible for the maintenance of the
+  Regulations. The Regulations are contained in the Regkeepor's weekly report,
+  know as the Agora Nomic Code of Regulations (ACORN). E MAY publish multiple
+  versions or editions of the ACORN.
+
+  The ACORN is divided into titles, assigned by the Regkeepor, which are
+  each given an integer.  Generally, each office with the power to create
+  regulations SHOULD be assigned the next successive natural number. Title 0 of
+  the ACORN is reserved for use by the Regkeepor, and nothing in that title
+  need be a regulation. Non-regulations printed in the ACORN
+  have no binding effect, and SHALL clearly be marked by the Regkeepor.
+
+  Each regulation SHALL be assigned an ID number by the Regkeepor, consisting
+  of a string of the characters [0-9] and separator characters. The Regkeepor
+  SHOULD establish some way of keeping track of the version of a regulations.
+  The Regkeepor MAY also, at eir discretion, create ways of marking special
+  types of Regulation (even in violation of the previous restrictions of this
+  paragraph), mark sections or titles as reserved for future use, and
+  make such other discussions of arrangement, annotation, and marking as are
+  necessary and proper in the execution of eir duties.
+
+  The Regkeepor SHOULD remember that the purpose of the ACORN is to make the
+  regulations easily readable, and e SHALL not act in a manner intended to
+  deceive others in eir official capacity.
+
+
+Make Aris the Regkeepor.
+
+Amend Rule 2464, "Tournaments", to read in full:
+
+   A Tournament is a sub-game of Agora specifically sanctioned
+   to be initiated as a tournament by the Rules.  If a winner of a
+   tournament is determined within 4 weeks of its initiation, that
+   person or persons win the game, otherwise the tournament
+   concludes with no winner. A Tournament is governed by a special temporary
+   title of the ACORN, created in accordance with its parent rule,
+   which have binding control over those who freely agree to play the tournament
+   and over the tournament itself. Once the tournament is concluded, these
+   regulations cease to have any effect, and may be repealed by any player by
+   announcement.
+
+Create a new power 1.0 Rule entitled "The Birthday Tournament", with the
+following text:
+
+   In a timely fashion after the start of June 1 of each year,
+   the Herald SHALL propose a set of Regulations governing a
+   Birthday Tournament for that year; the Herald CAN also
+   delegate the responsibility for creating or running the
+   tournament to another player, with that player's consent.
+
+   The Birthday Tournament's regulations SHOULD be such that all
+   persons who choose to participate have a fair chance of winning
+   the tournament (according to its regulations), and a winner
+   SHOULD be expected within 2-3 weeks following the tournament's
+   initiation.
+
+   After adequate time for discussion of the Birthday Tournament's
+   regulations, the Herald (or delegate) CAN initiate a sanctioned
+   tournament with a specified, finalized set of regulations,
+   Without 3 Objections. By doing so e promulgates those regulations as a
+   special temporary title of the ACORN. This title may thereafter be amended
+   only by the Herald or eir designee without objection, to correct minor typos.
+   The initiation SHOULD be timed to coincide with Agora's Birthday.
+
+//////////////////////////////////////////////////////////////////////

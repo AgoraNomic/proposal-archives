@@ -1,0 +1,35 @@
+[For the record, while I appreciate the help, only the Promotor can assign ID
+ numbers (Rule 1607).]
+
+I hereby identify (give an id number to) the following proposal(s):
+
+
+ID     Author(s)    AI   Title                Pender     Pend fee (sh.)
+-----------------------------------------------------------------------
+7848^! ais523       1.0  Emergency Scam Fix   ais523     6
+
+
+Legend: <ID>* : Proposal is pending.
+        <ID>^ : Proposal has already been distributed.
+        <ID>! : Proposal has been expedited.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7848
+Title: Emergency Scam Fix
+Adoption index: 1.0
+Author: ais523
+Co-author(s):
+
+
+Amend rule 2445 by replacing
+{{{
+  to "pending" by announcement.
+}}}
+with
+{{{
+  to "pending" Without 3 Objections.
+}}}
+
+//////////////////////////////////////////////////////////////////////

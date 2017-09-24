@@ -1,0 +1,40 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote).
+
+
+ID     Author(s)        AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+7866*  o, Quazie, [1]   1.7   More Betterer Pledges[2]   o           6 sh.
+
+
+Legend: <ID>* : Proposal is pending.
+
+[1] G., Gaelan, Aris, 天火狐
+[2] (revision 1)
+
+The Pending List Price (PLP) is 5 shinies.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7866
+Title: More Betterer Pledges (revision 1)
+Adoption index: 1.7
+Author: o
+Co-author(s): Aris, Quazie, G., Gaelan, 天火狐
+
+
+Replace the text of Rule 2450 with the following:
+{{{
+  A player SHALL NOT break eir own publicly-made pledges.
+
+  A pledge may be considered broken if the pledger does not complete it
+  in a timely manner after it becomes possible to do so. A pledge may be
+  considered broken at the moment the pledger engages in conduct
+  proscribed by that pledge.
+}}}
+
+//////////////////////////////////////////////////////////////////////

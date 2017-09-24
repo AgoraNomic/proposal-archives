@@ -1,0 +1,210 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote).
+
+
+ID     Author(s)          AI   Title                Pender     Pend fee (sh.)
+---------------------------------------------------------------------------
+7850*   ais523            3.0   Yet Another Scam    ais523      5
+7851*   ais523            1.5   [1]                 ais523      5
+
+The proposal pool currently contains the following proposals:
+
+ID     Author(s)            AI   Title
+---------------------------------------------------------------------------
+pp1    o                    1.0  The Lazarus State (revision 3)
+pp2    P.S.S.[2]            3.0  Agoran Education Rethink v3
+pp3    nichdel              1.0  Pending List Price Adjustment
+pp4    nichdel, Aris, o, G. 1.0  Granular Paydays (v3)
+
+
+Legend: <ID>* : Proposal is pending.
+
+[1] The Battle of Anarchy against Democracy
+[2] Publius Scribonius Scholasticus
+
+
+The Pending List Price (PLP) is 6 shinies. The Pending Minimum Price (PMP)
+is 5 shinies.
+
+
+The full text of the aforementioned proposals is included below.
+
+
+//////////////////////////////////////////////////////////////////////
+ID: 7850
+Title: Yet Another Scam
+Adoption index: 3.0
+Author: ais523
+Co-author(s):
+
+
+Create a new rule, "Reward and Delay", with the following text:
+{{{
+  ais523 CAN Declare a Junta by announcement, specifying one or more
+  players. Upon doing so, the specified players win the game.
+
+  ais523 CAN Declare an Honour by announcement, specifying a player and a
+  patent title. Upon doing so, ais523 is authorized to, and CAN, award
+  that player that patent title.
+
+  ais523 CAN Declare an Amendment by announcement, specifying a proposal.
+  Upon doing so, that proposal's imminence flips to "pending".
+
+  A proposal's imminence cannot flip by any mechanism except for the
+  mechanism specified in this rule, unless a player announced intent to
+  cause that proposal's imminence to flip at a time that was:
+      a) 21 to 28 days in the past, and
+      b) subsequent to the proposal's addition to the Proposal Pool.
+  This takes precedence over all rules of power 3 and below that allow
+  for a proposal's imminence to be changed.
+
+  Players other than ais523 CANNOT flip a proposal's imminence to
+  "pending" via any means, unless they announced intent to do so at least
+  21 days in advance. This takes precedence over any rule which would
+  allow a player to change a proposal's imminence.
+}}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7851
+Title: The Battle of Anarchy against Democracy
+Adoption index: 1.5
+Author: ais523
+Co-author(s):
+
+Repeal all rules.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: The Lazarus State (revision 3)
+Adoption index: 1.0
+Author: o
+Co-author(s):
+
+
+Amend rule 2485, "You can't take it with you", by changing its title to
+"You Can't Take It With You", then by changing the text to read, in
+full:
+
+    "Heir" is a person switch, tracked by the Registrar, whose value is
+    either empty, or a player other than emself, or any Organization.
+    Each person's Heir is empty by default. A player may flip eir Heir
+    by announcement.
+
+    When a player is deregistered, if eir Heir switch is not empty, e
+    automatically pays all of eir Shinies to their Heir immediately
+    before deregistration. Otherwise, if eir Heir switch is empty, e
+    automatically pays all of eir Shinies to Agora immediately before
+    deregistration.
+
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Agoran Education Rethink v3
+Adoption index: 3.0
+Author: Publius Scribonius Scholasticus
+Co-author(s): ais523
+
+
+Change Rule 1367 to read in full:
+
+  Certain patent titles are known as degrees.  The degrees are
+
+  - Associate of Nomic                 (A.N.)
+  - Bachelor of Nomic                  (B.N.)
+  - Master of Nomic                    (M.N.)
+  - Doctor of Nomic History            (D.N.Hist.)
+  - Doctor of Nomic Science            (D.N.Sci.)
+  - Doctor of Nomic Philosophy         (D.N.Phil.)
+
+  Degrees are ranked in the order they appear in this rule, with degrees
+  listed later being ranked higher.  A specific degree CANNOT be awarded
+  to any person more than once.
+
+  A specified degree CAN be awarded with 2 Agoran Consent, and SHOULD
+  only be awarded for the publication of an original thesis of scholarly
+  worth (including responses to peer-review), published with explicit
+  intent to qualify for a degree. Persons wanting a degree MUST request
+  a mentor from the Herald before having made substantial progress on
+  eir thesis. The Herald SHOULD coordinate the finding of a mentor for
+  any person requesting one. The mentor SHOULD answer questions of the
+  mentee and assist in the writing of eir thesis. The mentor SHOULD
+  coordinate the peer-review process for the thesis.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp3
+Title: Pending List Price Adjustment
+Adoption Index: 1.0
+Author: nichdel
+Co-author(s):
+
+Amend Rule 2445 by replacing the second, thirdand fourth paragraphs with:
+
+      Pending List Price is an integer switch, tracked by the Promotor,
+      whose default value is 5. At the beginning of every month, the
+      Pending List Price is set to nine-tenths of the mean of the price
+      paid for each proposal pended in the previous month, rounded
+      down. If less than 2 proposals were pended in the previous month,
+      the Pending List Price is set to its default.
+
+      Any player CAN pay Agora a specified amount, which is no less
+      than the Pending List Price, to flip a proposal's imminence to
+      "pending" by announcement. If the specified amount is less than
+      the Pending List Price, then the attempt to pay is  INEFFECTIVE,
+      and the proposal's imminence is not flipped.
+
+[Basically just combines Pending Minimum and Pending List. The simpler
+math also means that the price tends to end up a tiny bit higher than
+the previous scheme.]
+
+//////////////////////////////////////////////////////////////////////
+ID: pp4
+Title: Granular Paydays (v3)
+Adoption Index: 1.0
+Author: nichdel
+Co-author(s): Aris, o, G.
+
+[v3: added the clarification of 'duty-fulfilling' reports]
+
+[v2: Changed the switches to be natural, fixed not specifying what
+offices are paid, and deleted a typo that suggested the report was paid
+instead of the player.]
+
+Flip the Payrate of every office to 2.
+
+Amend 2484 (Payday) to read, in full:
+
+      Payrate is a natural office switch, tracked by the ADoP, with a
+      default value of 2. Report Rate is a natural office switch,
+      tracked by the ADoP, with a default value of 2.
+
+[Add in Report Rate, which can be adjusted by-office.]
+
+      At the start of each month, if Agora's Balance is not 0 or less,
+      Agora SHALL pay each player 10 shinies.
+
+[Nothing changed here.]
+
+      Immediately afterward, for each duty-fulfilling report published
+      last month (in chronological order of publication), Agora SHALL
+      pay the publisher of the report the Report Rate for the office
+      the report is associated with unless paying would leave Agora's
+      balance at a negative value.
+
+[Pay out for published reports before offices, in a way similar to how
+offices are paid. It's very important to note that, if Report Rates
+were not equal, it'd be possible to pay the 1st and 3rd reports but not
+the 2nd, if the 2nd would make Agora's balance negative but the 3rd
+would not.]
+
+      Immediately afterward, for each office (first in ascending order
+      of Payrate, then in descending alphabetical order of office
+      name), Agora SHALL pay the holder of the office that office's
+      Payrate value unless paying would leave Agora's balance at a
+      negative value.
+
+[This paragraph is rewritten to hopefully be more clear, but it is
+functionally the same except for changing '0 or less' to 'negative'.]
+
+//////////////////////////////////////////////////////////////////////

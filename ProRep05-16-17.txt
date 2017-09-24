@@ -1,0 +1,65 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote).
+
+ID     Author(s)        AI   Title                 Pender     Pend fee (sh.)
+-------------------------------------------------------------------------
+7852*  nichdel,[1]      1.0  Granular Paydays (v3) nichdel    10
+
+Legend: <ID>* : Proposal is pending.
+
+[1] Aris, o, G.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7852
+Title: Granular Paydays (v3)
+Adoption Index: 1.0
+Author: nichdel
+Co-author(s): Aris, o, G.
+
+[v3: added the clarification of 'duty-fulfilling' reports]
+
+[v2: Changed the switches to be natural, fixed not specifying what
+offices are paid, and deleted a typo that suggested the report was paid
+instead of the player.]
+
+Flip the Payrate of every office to 2.
+
+Amend 2484 (Payday) to read, in full:
+
+      Payrate is a natural office switch, tracked by the ADoP, with a
+      default value of 2. Report Rate is a natural office switch,
+      tracked by the ADoP, with a default value of 2.
+
+[Add in Report Rate, which can be adjusted by-office.]
+
+      At the start of each month, if Agora's Balance is not 0 or less,
+      Agora SHALL pay each player 10 shinies.
+
+[Nothing changed here.]
+
+      Immediately afterward, for each duty-fulfilling report published
+      last month (in chronological order of publication), Agora SHALL
+      pay the publisher of the report the Report Rate for the office
+      the report is associated with unless paying would leave Agora's
+      balance at a negative value.
+
+[Pay out for published reports before offices, in a way similar to how
+offices are paid. It's very important to note that, if Report Rates
+were not equal, it'd be possible to pay the 1st and 3rd reports but not
+the 2nd, if the 2nd would make Agora's balance negative but the 3rd
+would not.]
+
+      Immediately afterward, for each office (first in ascending order
+      of Payrate, then in descending alphabetical order of office
+      name), Agora SHALL pay the holder of the office that office's
+      Payrate value unless paying would leave Agora's balance at a
+      negative value.
+
+[This paragraph is rewritten to hopefully be more clear, but it is
+functionally the same except for changing '0 or less' to 'negative'.]
+
+//////////////////////////////////////////////////////////////////////

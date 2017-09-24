@@ -1,0 +1,952 @@
+[A few comments:
+  1. I probably got something wrong. If I did, I'm sorry. It would be nice if
+  people could point my errors out, and help fix them (not object to RWOs,
+  etc.).
+  2. I had a lot to do this week, and a few things people did made it more
+  complicated than it had to be. Creating a bunch of new proposals in a rush on
+  Sunday afternoon right before the end of the week really isn't helpful. I
+  would also appreciate it if people could mark their proposals with
+  "[Proposal]", or "Proposal:" or something along those lines. Thanks to the
+  people who did that.
+]
+
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote).
+
+
+ID     Author(s)     AI   Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7876*  o             2.0  Float On                     o           1 AP
+7877*  CB [1]        1.0  Monsters                     CB [1]      1 AP
+7878*  Gaelan        1.0  Not So Cuddly Now            Aris        1 sh.
+7879*  o, Aris       1.0  You can take it with you     o           1 sh.
+7880*  o             1.0  Agency Typo Fix              o           1 sh.
+7881*  o, [2]        1.0  Stamp CAN Patch              o           1 sh.
+7882*  o, K, ais523  1.0  Welcome Package CAN Patch    o           1 sh.
+7883*  G.            1.0  Fear v2.1                    G.          1 sh.
+7884*  V.J Rada      3.0  Mother, May I?               V.J Rada    1 sh.
+7885*  o, [3]        3.0  Restraining Bolt             o           1 sh.
+7886*  Aris, [4]     2.0  Card Reform and Expansion v4 Aris        1 sh.
+7887*  Aris          3.0  SLR Ratification             Aris        1 sh.
+7888*  o, V.J Rada   3.1  BILLY MAYS HERE              o           1 sh.
+7889*  Aris          3.0  Agora Protection Act         Aris        1 sh.
+7890*  Aris, G.      2.0  Improved Buoyancy v2         Aris        1 sh.
+7891*  Gaelan        1.0  Proletarian Revolution       Gaelan      1 sh.
+7892*  Aris          1.0  Truthfulness v2              Aris        1 sh.
+7893*  V.J Rada, [1] 2.0  Zimbabwe-style economics     V.J Rada    1 sh.
+7894*  G.            2.0  Shiny Weather                G.          1 AP
+7895*  Gaelan        3.0  No Telepathy                 Gaelan      1 sh.
+7896*  P.S.S. [5]    3.0  Registration Delay Fix       P.S.S.      1 AP
+7897*  CB [1]        1.0  University Funding           Aris        1 sh.
+7898*  G.            2.0  Community Chest              G.          1 AP
+
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+
+[1] CuddleBeam
+[2] V.J Rada, Aris, ais523
+[3] V.J Rada, Ørjan
+[4] ais523, Ørjan
+[5] Publius Scribonius Scholasticus
+
+The Pending List Price (PLP) is 1 shiny. Proposals may also be pended for
+1 AP.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7876
+Title: Float On
+Adoption index: 2.0
+Author: o
+Co-authors:
+
+
+Amend rule 2497 ("Floating Value") by replacing its text, in full, with:
+
+{{{
+    Floating Value is a natural singleton switch, tracked by the
+    Secretary. Rules to the contrary notwithstanding, the Floating
+    Value switch CANNOT be flipped to a value other than the number
+    of Shinies owned by Agora.
+
+    The following Floating Derived Values are defined:
+
+    * Pend Cost: 1/20th of the Floating Value, rounded up.
+    * CFJ Cost: 1/20th of the Floating Value, rounded up.
+    * Authorship Reward: 1/40th of the Floating Value, rounded up.
+    * Pend Reward: 1/40th of the Floating Value, rounded up.
+    * CFJ Reward: 1/20th of the Floating Value, rounded up.
+    * Stamp Value: 1/5th of the Floating Value, rounded up.
+}}}
+
+Amend rule 2496 ("Rewards") by replacing the entire list after
+"Below is an exhaustive list of Reward Conditions and eir rewards:"
+with
+
+{{{
+    * The following two only apply to proposals that were pended
+      via spending shinies:
+
+        * Being the author of an adopted proposal: the current
+          Authorship Reward.
+
+        * Being the pender of an adopted proposal: the current
+          Pend Reward.
+
+    * Judging a CFJ, that was created via spending shinies, that e
+      was assigned to: the current CFJ Reward.
+
+    * Publishing a duty-fulfilling report: 5 shinies.
+
+    * Resolving an Agoran Decision for the first time this week: 5
+      shinies.
+}}}
+
+Amend rule 991 ("Calls for Judgement") by replacing item "b)" in
+the first list with:
+
+{{{
+    b) by announcement, and spending the current CFJ Cost in
+       shinies, OR
+}}}
+
+Amend rule 2445 ("How to Pend a Proposal") by replacing item "b" in
+the first list with:
+
+{{{
+    b) spending the current Pend Cost in shinies
+}}}
+
+Amend rule 2498 ("Economic Wins") by removing the paragraph that
+begins "The Stamp Value is".
+
+If proposal 7845 has passed, amend rule 2456 ("The Secretary") by
+removing "When the Secretary flips the Floating Value, e SHOULD
+note the new values for rewards and expenses."
+
+Amend rule 2456 ("The Secretary") by adding
+
+{{{
+     6. The Floating Value, and all Floating Derived Values
+}}}
+
+to the end of the list immediately after "The Secretary's weekly report
+includes:", then by adding the following paragraph to the end of the rule:
+
+{{{
+    As part of the Secretary's weekly duties, e CAN and SHALL flip the Floating
+    Value to the number of Shinies owned by Agora. E SHOULD do this while
+    publishing eir weekly report.
+}}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7877
+Title: Monsters
+Adoption index: 1.0
+Author: CuddleBeam
+Co-authors:
+
+Create a rule that titled "Monsters" and with the following content:
+
+"Monsters are entities that exist within Estates and are tracked by the
+Surveyor. Monsters have a name which is a string of text and an amount of
+Power, which is equal to the amount of characters their name string has.
+(eg, an "Imp" has a Power of 3, and a "Pit Demon" has a power of 9).
+
+Players CAN, by announcement, cause themselves to lose a positive integer
+amount of Stamps and create a Monster at an Estate of their choice with Power
+equal to, at most, the square of the Stamps they chose to lose."
+
+//////////////////////////////////////////////////////////////////////
+ID: 7878
+Title: Not So Cuddly Now
+Adoption index: 1.0
+Author: Gaelan
+Co-authors:
+
+
+diff --git a/rules/How to Join and Leave Agora b/rules/How to Join and Leave Agora
+index 4683d3d..962eb2c 100644
+--- a/rules/How to Join and Leave Agora
++++ b/rules/How to Join and Leave Agora
+@@ -66,7 +66,8 @@ text: |
+   If e does so, e CANNOT register by announcement for 30 days.
+
+   If a player has not sent a message to a public forum in the last
+-  month, then any player CAN deregister em without objection.
++  month, then any player CAN deregister em without objection or
++  with 2 Agoran Consent.
+
+   The Rules CANNOT compel non-players to act, nor compel players
+   to unduly harass non-players.  A non-person CANNOT be a player,
+
+//////////////////////////////////////////////////////////////////////
+ID: 7879
+Title: You can take it with you
+Adoption index: 1.0
+Author: o
+Co-authors: Aris
+
+
+Repeal rule 2485 (“You can’t take it with you”).
+
+//////////////////////////////////////////////////////////////////////
+ID: 7880
+Title: Agency Typo Fix
+Adoption index: 1.0
+Author: o
+Co-authors:
+
+Amend rule 2467 ("Agencies") by replacing the phrase "may may" with
+the word "may" wherever it appears.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7881
+Title: Stamp CAN Patch
+Adoption index: 1.0
+Author: o
+Co-authors: V.J Rada, Aris, ais523
+
+Amend rule 2498 ("Economic Wins") by replacing its text, in full,
+with:
+
+  {{{
+      Stamps are an asset. The Secretary is the recordkeepor of Stamps.
+
+      The Stamp Value is always 1/5th the current Floating Value.
+
+      Once per month, a player CAN, by announcement, create a stamp
+      by transferring the Stamp Value, in shinies, to Agora.
+
+      If Agora owns at least as many Shinies as the current Stamp
+      Value, a player CAN, by announcement, destroy a Stamp e owns to
+      cause Agora to transfer the Stamp Value, in shinies, to emself.
+
+      If a player owns Stamps created by at least 10 different
+      players, e CAN win the game by announcement, by destroying 10
+      stamps e owns, each of which was created by a distinct player.
+  }}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7882
+Title: Welcome Package CAN Patch
+Adoption index: 1.0
+Author: o
+Co-authors: K, ais523
+
+Amend rule 2499 ("Welcome Packages") by replacing its text, in
+full, with:
+
+  {{{
+      If a player has not received a Welcome Package since e most
+      recently registered, any player CAN cause em to receive one by
+      announcement.
+
+      When a player receives a Welcome Package, Agora transfers 50
+      shinies to em.
+  }}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7883
+Title: Fear v2.1
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+[v. 2.1 change: fixed the list numbering]
+
+Enact the following Rule, "Random Choices", Power-1:
+  When a Rule specifies that a random choice be made, then the choice shall be
+  made using whatever probability distribution among the possible outcomes the
+  Rule specifies, defaulting to a uniform probability distribution.
+
+  The choice CAN be made using any physical or computational process whose
+  probability distribution among the possible outcomes is reasonably close to
+  that required by the Rules, and for which the final choice is not trivially
+  predictable by the selecting person in advance.  The selecting person SHOULD
+  make the selection method public, and SHOULD use a method for which
+  the final probability distribution can be readily confirmed.
+
+[Note:  "confirming the distribution" includes "confirming that the
+selector didn't just keep re-rolling until e got the desired result",
+(because that changes the final distribution for the whole process to
+be 100% whatever the selector was aiming for).  The "trivially" in
+"trivially predictable" means you can use a PRNG, which is technically
+deterministic, but only "trivially" predictable if you run it with
+a set seed in advance.  "Reasonably close" is to not get hung up on
+machine rounding, but also means we don't undo things if a calculation
+is *slightly* off (with *slightly* to be determined by judges etc.).
+Keeping it SHOULD instead of SHALL because I prefer to let the Officer
+have a little latitude.  These are hard-earned lessons from the days
+when we dealt cards from a deck, and kept having to reset the whole
+deck because a single card had been missing from the draw].
+
+
+Amend Rule 2445 (How to Pend a Proposal) by appending the following
+paragraph:
+  An Official Proposal is a proposal designated as such by the Rules; generally
+  official proposals that are created as part of an Officer's duties. Rules to
+  the contrary notwithstanding, an Official proposal is always pending. Rules
+  to the contrary notwithstanding, players CANNOT claim rewards for the adoption
+  of an Official proposal.
+
+
+Re-enact Rule 2309 (The Propose-O-Matic), with the following text:
+
+  The Fearmongor is an Office. Its holder is responsible for
+  ensuring the continuous change of the ruleset.
+
+  Each month, the Fearmongor SHALL do the following as part of
+  eir duties:
+
+    1) Select two existing rules at random. For each of those
+       rules, submit an Official proposal with AI equal to that
+       rules' power. One proposal SHALL specify only to repeal
+       its rule; the other SHALL specify only to amend its rule.
+
+    2) Select a previous rule that was repealed over 1 year
+       ago, and has not been so selected in the past 6 months.
+       Submit an Official proposal of the appropriate AI to
+       re-enact the rule at its previous power, using any
+       past version of the rule as a basis and making minimal
+       modifications to that text to allow the rule to function
+       in the current ruleset.
+
+[
+Note for Rulekeepor, R2309 History:
+Created by Proposal 6798 (coppro), 27 August 2010
+Amended(1) by Proposal 6861 (omd), 18 October 2010
+Repealed by Proposal 6961 (G.), 3 March 2011
+]
+
+
+G. is hereby installed as the Office holder for Fearmongor.
+
+
+[The old rule was "each week", but I think that's too much.  No
+salary, because the job is it's own reward :) ].
+
+//////////////////////////////////////////////////////////////////////
+ID: 7884
+Title: Mother, May I?
+Adoption index: 3.0
+Author: V.J Rada
+Co-authors:
+
+
+Amend rule 2152 by replacing "MAY: Performing the described action
+does not violate the rules." with "MAY: Performing the described
+action does not violate the rules and attempts to perform the
+described action are successful"
+
+//////////////////////////////////////////////////////////////////////
+ID: 7885
+Title: Restraining Bolt
+Adoption index: 3.0
+Author: o
+Co-authors: V.J Rada, Ørjan
+
+
+Amend rule 103 ("The Speaker") by replacing the second paragraph with:
+
+  {{{
+      The player or players who have most recently won the game are
+      called Laureled. If at any time the office of Speaker is
+      vacant, or when one or more players win Agora, then the Prime
+      Minister CAN and SHALL, once and in a timely fashion, appoint a
+      Laureled player to the office of Speaker by announcement.
+  }}}
+
+Amend rule 2451 ("Executive Orders") by replacing the first paragraph with:
+
+  {{{
+      Once per week and except as otherwise forbidden by this rule,
+      the current Prime Minister CAN issue a Cabinet Order by
+      announcement to perform the action(s) authorized by that Order.
+  }}}
+
+Amend rule 2495 ("The Birthday Tournament") by replacing the first paragraph
+with:
+
+  {{{
+      In a timely fashion after the start of June 1 of each year, the
+      Herald SHALL propose a set of Regulations governing a Birthday
+      Tournament for that year; the Herald CAN also delegate the
+      responsibility for creating or running the tournament to
+      another player, with that player's consent, by announcement.
+  }}}
+
+Amend rule 1607 ("Distribution") by replacing the third paragraph with:
+
+  {{{
+      The Promotor CAN distribute a proposal which is in the Proposal
+      Pool at any time, by announcement. The Promotor SHALL NOT
+      distribute proposals which are not pending.
+  }}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7886
+Title: Card Reform and Expansion v4
+Adoption index: 2.0
+Author: Aris
+Co-authors: ais523, Ørjan
+
+Amend Rule 2426, "Cards", by appending the sentence
+
+  "It is inappropriate to award a card to a non-player person unless the rule
+  defining the card says otherwise."
+
+  to the paragraph beginning "The types of Card are defined by the rules..."
+
+
+Amend Rule 2478, "Vigilante Justice", to read in full:
+
+  A player CAN by announcement, but subject to the provisions of
+  this rule, Point eir Finger at a person who plays the game, citing an alleged
+  violation of the rules by that person.
+
+  When a player Points a Finger, the investigator SHALL
+  investigate the allegation and, in a timely fashion, SHALL
+  conclude the investigation by:
+
+   - issuing a Card to the pointed-at person by announcement whose
+     reason is rooted in the allegation; or
+
+   - if e believes that no rules violation occurred or that it
+     would be ILLEGAL to issue a Card for it, announcing the
+     Finger Pointing to be Shenanigans.
+
+  The Referee is by default the investigator for all Finger
+  Pointing.  When a Finger, other than the Arbitor's, is Pointed
+  over an allegation related to the official duties or powers of
+  the Referee, then the Arbitor CAN, by announcement, take over
+  the investigation and thereby become the investigator.
+
+  A player CANNOT point a finger more than twice per Agoran week,
+  or more than once per Agoran week at the same person.
+
+Amend Rule 2479, "Official Justice", to read in full:
+
+  The Referee CAN, subject to the provisions of this rule, impose
+  Summary Judgment on a person who plays the game by issuing a card to em by
+  announcement.
+
+  The Referee CANNOT Point eir Finger or impose Summary Judgment
+  more than five total times per week, or more than twice per week
+  at or on the same person.
+
+  As part of the Referee's weekly duties, e SHALL either impose
+  Summary Judgment on a person or truthfully announce that e
+  believes that there are no rules violations in the preceding
+  Agoran week for which a Card has not already been issued.
+
+
+Amend Rule 2474, "Green Cards", to read in full:
+
+  A Green Card is a type of Card that is appropriate for minor, accidental,
+  and/or inconsequential infraction. A Green Card is also appropriate for any
+  infraction for which no other type of Card is appropriate. 'Tis appropriate to
+  issue a Green Card to a non-player person who plays the game, for the
+  infractions previously described. When a person is issued a Green Card, e
+  is ENCOURAGED to travel to the United States.
+
+
+Create a power 2.0 rule entitled "Blue Cards", with the following text:
+
+  A Blue Card is a type of Card that is appropriate for deliberate or negligent
+  infractions either where the the player responsible profited from violating
+  the rules or where e significantly harmed another person or the game
+  as a whole. The person issuing a Blue Card must, in the same message,
+  announce a penalty between 1 shiny and the greater of 25 shinies and the
+  amount the bad sport profited from the infraction, in order for the card to
+  be effective. E CAN additionally, in the same message, determine the
+  distribution of the money between Agora and the players(s) harmed, save
+  that e CANNOT distribute money to emself or such that it would be under
+  eir effective control. By default, all the money goes to Agora.
+
+  When a Blue Card is issued, as a penalty, within the next 7 days, any player
+  CAN once, with 2 Support, Levy a Fine upon the bad sport. After the Fine is
+  Levied upon the bad sport, e SHALL endeavor in good faith to pay the fine
+  to Agora or the correct player(s), in accordance with the distribution laid
+  out by the carder. Any player CAN also act on the bad sport's behalf to do so,
+  fulfilling eir obligation.
+
+Create a power 2.0 rule entitled "Black Cards", with the following text:
+
+  A Black Card is a card appropriate for a person who plays the game, not
+  currently a player, who either broke the rules while not a player or
+  broke them while a player and then deregistered in bad faith. A Black
+  Card CANNOT be issued to current players, and no more than 3 Black Cards
+  CAN be issued per week. Any attempt to issue a Black Card in violation
+  of these limitations is INEFFECTIVE.
+
+  When a Black Card is issued, as a penalty, within the next 7 days, any player
+  CAN once, with Agoran Consent, Slam the Door at the bad sport. After the Door
+  is Slammed at a person, e CANNOT register or take any game actions for 30
+  days, rules to the contrary notwithstanding. Any attempt to Slam the Door on
+  a player or a person whose most recent deregistration took place without
+  eir consent is INEFFECTIVE, rules to the contrary notwithstanding.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7887
+Title: SLR Ratification
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+Ratify the Short Logical Ruleset published on the 9th of September 2016,
+available here [1].
+
+[1] https://mailman.agoranomic.org/cgi-bin/mailman/private/agora-official/2016-September/011230.html
+
+//////////////////////////////////////////////////////////////////////
+ID: 7888
+Title: BILLY MAYS HERE
+Adoption index: 3.1
+Author: o
+Co-authors: V.J Rada
+
+This proposal is dedicated to William Darrel Mays.
+
+[For help finding paragraph boundaries, see CFJ 3452. This proposal
+body MUST be interpreted, generally, to assume that lists are part
+of the surrounding paragraph, or one of the adjacent paragraphs.]
+
+Amend rule 105 ("Rule Changes") by replacing item 3 of the first
+list with:
+
+  {{{
+     3. reenact a rule. A repealed rule identified by its most
+     recent rule number MUST be reenacted with the same ID number and
+     the next change identifier. If no text is specified, the rule
+     is reenacted with the same text it had when it was most
+     recently repealed. If the reenacting proposal provides new text
+     for the rule, the rule must have materially the same purpose as
+     did the repealed version; otherwise, the attempt to reenact the
+     rule is null and void.
+  }}}
+
+[Changes a "may" to a "MUST", since reenactment is otherwise
+governed by the rules governing instruments.]
+
+Amend rule 2493 ("Regulations") by replacing the fourth paragraph
+with:
+
+  {{{
+     A regulation (or set of regulations), authorized by another
+     rule, CAN generally be enacted or modified by its promulgator
+     without 2 objections, or with Agoran consent. A notice pursuant
+     to the previous sentence is known as a "recommendation", and
+     the regulation(s) are said to be "recommended" to Agora.
+  }}}
+
+Amend rule 991 ("Calls for Judgement") by replacing the second
+paragraph, which begins "When a person initiates", with:
+
+  {{{
+     When a person initiates a Call for Judgment, e CAN optionally
+     bar one person from the case by announcement.
+  }}}
+
+Amend rule 2492 ("Recusal") by replacing the first paragraph with:
+
+  {{{
+     A judge CAN recuse emself from a CFJ they are assigned to by
+     announcement.
+  }}}
+
+Amend rule 2231 ("Order of the Hero of Agora Nomic") to read, in
+full:
+
+  {{{
+     Heroic titles are Agora's premier patent titles of distinction,
+     and CAN be awarded to persons for meritorious service only by a
+     proposal of power 3 or greater, which SHOULD explain why those
+     persons are qualified. Bearers of heroic titles (Heroes)
+     constitute the Order of the Hero of Agora Nomic.
+
+     The Heroic titles in decreasing precedence are:
+
+     Grand Hero of Agora Nomic (GHAN) -- This title CAN be awarded
+     to any person obviously and directly responsible for the
+     existence of Agora and/or Nomic in general. As this title is
+     the highest honour that Agora may bestow, a Bearer of this
+     title OUGHT to be treated right good forever.
+
+     Hero of Agora Nomic (HAN) -- This title CAN be awarded to any
+     person for outstanding meritorious service to Agora above and
+     beyond the call of duty.
+  }}}
+
+Amend rule 2467 ("Agencies") by replacing the first paragraph with:
+
+  {{{
+     An Agency is a document empowering persons to act on behalf of
+     another player. A player CAN establish an Agency With 24 hours
+     Notice, and thereby become its Director, by specifying the
+     properties of the new Agency, provided e has not established
+     any other Agency that day:
+
+     1. A title, which must be exactly three words, not counting
+     conjunctions, articles or prepositions.
+
+     2. A non-empty list of persons other than the Director (the
+     Agents).
+
+     3. A description of a set of actions (the Powers).
+  }}}
+
+  Amend rule 2467 ("Agencies") by replacing the fifth paragraph with:
+
+  {{{
+     The Agents of an Agency CAN perform the Actions described in
+     the Powers of the Agency on behalf of the Agency's Director, in
+     the same manner by which the Agency's Director can perform
+     those Actions.
+  }}}
+
+  Amend rule 2464 ("Tournaments") by replacing its text, in full,
+  with:
+
+  {{{
+     A Tournament is a sub-game of Agora specifically sanctioned to
+     be initiated as a tournament by the Rules. If a winner of a
+     tournament is determined within 4 weeks of its initiation, that
+     person or persons win the game, otherwise the tournament
+     concludes with no winner. A Tournament is governed by a special
+     temporary title of the ACORN, created in accordance with its
+     parent rule, which have binding control over those who freely
+     agree to play the tournament and over the tournament itself.
+     Once the tournament is concluded, these regulations cease to
+     have any effect, and CAN be repealed by any player by
+     announcement.
+  }}}
+
+  Amend rule 2491 ("Estate Auctions") to read, in full:
+
+  {{{
+     At the start of each month, if Agora owns at least one Estate,
+     the Surveyor CAN, by announcement, and SHALL in a timely
+     fashion, put one Estate which is owned by Agora up for auction.
+     Each auction ends seven days after it begins.
+
+     During an auction, any player CAN bid a number of Shinies on
+     eir own behalf, by announcement, or on behalf of any
+     Organization for which such a bid is Appropriate, by
+     announcement, provided the bid is higher than any
+     previously-placed bid in the same auction.
+
+     If, at the end of the auction, there is a single highest bid,
+     then that player or Organization wins the auction. The player
+     who placed the winning bid CAN, and SHALL in a timely fashion,
+     cause Agora to transfer the auctioned Estate to the winner by
+     announcement, by paying Agora the amount of the bid, or by
+     causing the winning Organization to pay Agora the amount of the
+     bid.
+  }}}
+
+[This is more extensive than Estate Auction Cleanup but covers all
+defects fixed in that proposal.]
+
+Amend rule 2496 ("Rewards") by replacing the first paragraph with:
+
+  {{{
+     A Reward is a specified amount of shinies associated with a
+     Reward Condition. For each time a player meets a Reward
+     Condition, e CAN claim the specified award, by announcement,
+     exactly once within 24 hours of meeting the Reward Condition.
+  }}}
+
+[This probably worked by accident, but it's worth clarifying.]
+
+Amend rule 2480 ("Festivals") by replacing the second and third
+paragraphs with:
+
+{{{
+   If Agora's Festivity has had the same nonzero value for 14 days
+   or more, any player CAN flip it to 0 by announcement.
+
+   A player who owns at least N types of Ribbon CAN Start a Rank N
+   Festival, where N is an integer greater than Agora's Festivity,
+   with 4 Support from players who own at least N types of Ribbon.
+   Upon doing so, Agora's Festivity is flipped to N. Exception: A
+   player CANNOT do so if Agora's Festivity has had a value
+   greater than or equal to N within the past 21 days.
+}}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7889
+Title: Agora Protection Act
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+Amend Rule 1698 by:
+Replacing the words "any other single change" with "any other single change or
+inseparable group of changes".
+
+Change the power of Rule 1698 to 4.0.
+
+Change the power of Rule 101 to 4.0.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7890
+Title: Improved Buoyancy v2
+Adoption index: 2.0
+Author: Aris
+Co-authors: G.
+
+[Note to the Assessor: please resolve after "Float On".]
+
+[It is my belief that the current floating value problem was primarily caused
+by the Secretary only being able to set the floating value correctly. This
+erases certainty, as any flaw in the Secretary's report likely invalidates all
+rule-defined transactions until the flaw is discovered unless the switch
+self-ratifies. The probability of deliberate abuse by the secretary is small,
+the probability of error is large.]
+
+If the proposal "Float On" been adopted: {
+Amend Rule 2497, "Floating Value", by changing its first paragraph to read:
+
+  Floating Value is a natural singleton switch, tracked by the Secretary.
+
+Amend Rule 2456, "The Secretary", by changing the paragraph "As part of the
+Secretary's weekly duties, e CAN and SHALL flip the Floating Value to the
+number of Shinies owned by Agora. E SHOULD do this while publishing eir
+weekly report." to read as follows:
+
+  The Secretary CAN flip the floating value once a week by announcement. As part
+  of eir weekly duties, e SHALL flip the Floating Value to the number of Shinies
+  owned by Agora; e SHALL NOT ever set it to a different value.
+  E SHOULD do this while publishing eir weekly report. If the Secretary
+  discovers that e last flipped the floating value to an incorrect value and e
+  would not otherwise be able to set it again yet, e CAN and SHALL set the value
+  to what it should have been set to in the first place by announcement.
+
+} Otherwise, if the proposal "Float On" has been resolved, but not adopted: {
+Amend Rule 2497, "Floating Value", by changing it to read in full:
+
+  Floating Value is a natural singleton switch, tracked by the Secretary.
+
+  The Secretary CAN flip the floating value once a week by announcement. As part
+  of eir weekly duties, e SHALL flip the Floating Value to the number of Shinies
+  owned by Agora; e SHALL NOT ever set it to a different value. E SHOULD do
+  this while publishing eir weekly report. If the Secretary discovers that e
+  last flipped the floating value to an incorrect value and e would not
+  otherwise be able to set it again yet, e CAN and SHALL set the value to what
+  it should have been set to in the first place by announcement.
+
+} Otherwise: {
+  Glare pointedly at the Assessor.
+  std::abort();
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7891
+Title: Proletarian Revolution
+Adoption index: 1.0
+Author: Gaelan
+Co-authors:
+
+Create a Power 1 rule titled “The Hot Potato” (or amend it, if it already
+exists) with the following text: {{
+
+  For the purposes of this rule, the Wealth of a player may be calculated
+  by taking their shiny balance, then, for each organization they are a member
+  of, adding the shiny balance of that organization divided by that
+  organization’s member count, rounded down.
+
+  The player with the largest Wealth value is said to have the Hot Potato.
+
+  Combustibility is defined as (x/500)*(y/30) where x is the difference between
+  the lowest and highest player Wealth values, and y is the number of days in
+  the past 30 days in which the current holder of the Hot Potato has held the
+  Hot Potato at any point in the day. If Combustibility would be greater than 1
+  according to the above formula, it is instead defined as 1.
+
+  The Pyromaniac is an office.
+
+  Once per day, the Pyromaniac SHALL randomly select whether or not Combustion
+  occurs, such that the probability of Combustion occurring is equal to the
+  current Combustibility. If Combustion occurs, the Pyromaniac SHALL announce
+  this publicly. The Pyromaniac NEED NOT announce that Combustion has not
+  occurred. When Combustion occurs, half of the current Hot Potato holder’s
+  shinies are evenly distributed among the remaining players, with players with
+  lower wealth receiving more shinies if even division is not possible. Then,
+  for each organization the Combusted player is a member of, a portion of the
+  organization’s shiny balance, calculated via the formula 1/(2x) where x is the
+  number of members, is evenly distributed among all players, breaking ties with
+  players with lower wealth receiving more shinies if even division is not
+  possible.
+
+  If the rules define a concept known a as a Contract, any player may cause this
+  rule to amend itself by announcement, replacing the word “organization” with
+  “contract” and “member” with “party,” then removing this paragraph. If the
+  current date is after November 2017, any player may cause this rule to amend
+  itself by removing this paragraph.
+}}
+Make Gaelan the Pyromaniac.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7892
+Title: Truthfulness v2
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+Amend Rule 2471, "No Faking", by changing it to read in full:
+
+  A person SHALL NOT make a public statement that is a lie. A statment is a lie
+  if its publisher either knew or believed it to be not to be true at the time
+  e published it (or, in the case of an action, not to be effective), and it
+  was made with the intent to mislead. Merely quoting a statement does not
+  constitute making it for the purposes of this rule.  Any disclaimer,
+  conditional clause, or other qualifier attached to a statement constitutes
+  part of the statement for the purposes of this rule; the truth or falsity of
+  the whole is what is significant.
+
+  The previous provisions of this rule notwithstanding, a formal announcement of
+  intent is never a lie.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7893
+Title: Zimbabwe-style economics
+Adoption index: 2.0
+Author: V.J Rada
+Co-authors: Cuddlebeam
+
+
+Amend, in rule 2389/2 "Shiny Supply Level", the text "The Supply Level
+is 1000." by replacing it with "The Supply Level is 1200."
+
+Cause a shiny relevelling event.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7894
+Title: Shiny Weather
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2487 (Shiny Supply Level) to read:
+
+  Supply Level is a singleton natural switch tracked by the
+  Secretary, with a default value of 1000.
+
+  When a Shiny Releveling event occurs, Agora's Balance is
+  increased or decreased such that all Balances add up to the
+  Supply Level.  When the Supply Level Changes, a Shiny Releveling
+  event occurs.  The Secretary CAN cause a Shiny Releveling event
+  to occur without 3 Objections.
+
+  In a timely fashion after the start of each month, the Secretary
+  CAN and SHALL Determine the Weather by announcement, by selecting
+  and announcing an option from among the following choices, using
+  the indicated probabilities:
+    Same (50%), Improving (25%), Deteriorating (25%).
+
+  Determining the weather to be Improving sets the Supply Level
+  25% higher (rounded down).  Determining the Supply Level to
+  be Deteriorating sets the Supply Level 25% lower (rounded up).
+
+The Supply Level switch is hereby set to the value of the Supply Level
+as it was defined the instant before this Proposal took effect.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7895
+Title: No Telepathy
+Adoption index: 3.0
+Author: Gaelan
+Co-authors:
+
+
+Append the following sentence to the second-to-last paragraph of 478 “Fora”:
+  “Rules to the contrary notwithstanding, it is IMPOSSIBLE for the gamestate
+  to change other than as the immediate result of a public message.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7896
+Title: Registration Delay Fix
+Adoption index: 3.0
+Author: Publius Scribonius Scholasticus
+Co-authors:
+
+
+diff --git a/rules/How to Join and Leave Agora b/rules/How to Join and Leave Agora
+index 4683d3d..91e2b6c 100644
+--- a/rules/How to Join and Leave Agora
++++ b/rules/How to Join and Leave Agora
+@@ -63,7 +63,8 @@ text: |
+   consent.
+
+   A player CAN deregister (cease being a player) by announcement.
+-  If e does so, e CANNOT register by announcement for 30 days.
++  If e does so, e CANNOT cause register emself to become a player
++  for 30 days.
+
+   If a player has not sent a message to a public forum in the last
+   month, then any player CAN deregister em without objection.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7897
+Title: University Funding
+Adoption index: 1.0
+Author: CuddleBeam
+Co-authors:
+
+
+Add to the bottom of the exhaustive list of Reward Conditions and eir rewards
+the following as a new entry with its own bullet:
+
+  "Having a Thesis pass peer-review and be granted a Degree based on its merit:
+  20 shinies"
+
+//////////////////////////////////////////////////////////////////////
+ID: 7898
+Title: Community Chest
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2483 (Economics) by replacing:
+  They may be owned by Agora, any player, or any organization.
+with:
+  Shiny ownership is restricted to Agora, any player, any
+  organization, or any entity explicitly defined by the Rules to
+  be an Agoran Institution.
+
+
+[Note:  Institution is a very general concept - we can make a
+         university! a bank!  Etc.]
+
+
+Create the following Rule, "Community Chest", Power-2:
+
+  The Community Chest is an Agoran Institution.  If a player
+  has not done so in the current quarter, e CAN, by announcement,
+  transfer all the Shinies owned by the Community Chest to
+  any specified player.
+
+  If a player uses shinies to pend a Proposal or initiate a CFJ,
+  e MAY additionally specify, as part of the specification of
+  the transaction, that the funds be used for Charity (syn:
+  "Donated").  If e does so, then an instant after the
+  transaction is completed, half the value of the transaction in
+  shinies (rounded up) is transferred from Agora to the Community
+  Chest.
+
+
+[In a Libertarian World, taxes and minimum incomes are replaced with
+Charity, after all].
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,23 @@
+The proposal pool currently contains the following proposals:
+
+ID     Author(s)    AI   Title
+-------------------------------------------------------------
+pp1    G.           3.0  Not an Apple campsite
+
+
+Legend: <ID>* : Proposal is pending.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Not an Apple campsite
+Adoption index: 3.0
+Author: G.
+Co-author(s):
+
+
+Amend Rule 1728 by replacing 'itent' with 'intent'
+
+// typo introduced by proposal 7815 - though I assume it's an obvious
+// typo synonym and doesn't break the mechanism
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,148 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 2.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote).
+
+
+ID      Author(s)     AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+7869*   babelian      2.0  Agoraculture v. 2.0         babelian    10 sh.
+7870*   V.J Rada      2.0  Cards are appealable 2.0    V.J Rada    10 sh.
+7871*   V.J Rada      3.0  Minor fixes (sans typos)    V.J Rada    10 sh.
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+The Pending List Price (PLP) is 10 shinies. Proposals may also be pended for
+1 AP.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7869
+Title: Agoraculture v. 2.0
+Adoption index: 2.0
+Author: babelian
+Co-author(s):
+
+
+Enact a rule with power 2.0 titled “Agoraculture” with the following text:
+
+  Estates have a Farm switch with potential values Farmed and Unfarmed,
+  defaulting to Unfarmed. If a player that owns an Estate pays 20 shinies to
+  Agora in the first two Agoran weeks of an Agoran month expressly for flipping
+  the Farm Switch on that Estate, e CAN, by announcement, flip or keep the Farm
+  switch at Farmed. An Estate with its Farm switch flipped to Farmed shall be
+  known as a Farm. A player who owns a Farm is a Farmer.
+
+  Comestibles are a new type of entity than can be used to bolster voting
+  strength. A Farmer CAN, by announcement, produce a net number of
+  N Comestibles, where N is a non-negative integer less than or equal to 10x,
+  where x is the number of Farms the Farmer owns. Comestibles MUST be priced
+  from 5 to 10 shinies. In eir announcement, the player MUST mention the number
+  of comestibles of each price produced.  (For example, one such announcement
+  could be: “I produce 3 comestibles priced at 5 shinies and 4 comestibles
+  priced at 7 shinies.”)
+
+  A player with voting strength greater than zero CAN, by announcement, purchase
+  as many Comestibles as e wish from a specific Farmer. However, Comestibles
+  expire within three Agoran months of their purchase. A player CAN, by
+  announcement, use as many non-expired Comestibles e own as e wish when e vote
+  on an Agoran Decision.  If the net price of the sacrificed Comestibles is from
+  10N to 10N+9 where N is some positive integer less than 5, the player
+  adds N to eir current voting strength, before being rounded as necessary.
+  Comestibles MUST only be used once.
+
+  A Farmer CANNOT use eir own Comestibles. When a Comestible expires it is no
+  longer counted as belonging to the player who owned it. When a Farmer does not
+  sell all of eir Comestibles in an Agoran month, e CANNOT produce more
+  Comestibles than he sold in that Agoran month in the next Agoran month. Any
+  unsold Comestibles CANNOT be resold in the following Agoran month.
+
+  A Farmer MUST pay 20 shinies per Agoran month for each Farm e owns. If e does
+  not pay 20 shinies per Agoran month specifically for a Farm in the first two
+  Agoran weeks of an Agoran month, that Farm’s Farm switch will be set to
+  Unfarmed.
+
+  If an Estate transfers to Agora, a player, or an organization, its Farm Switch
+  is set to Unfarmed regardless of its former state.
+
+Enact a Rule with power 2.0 titled “Agoraculturor” with the following text:
+
+  The Agoraculturor is an office that keeps track of all farmers and Farm
+  switches. E SHALL publish the Agoracultural Weekly Report (AWR), a weekly
+  report of all farmers and the number of farms they own. E SHALL also publish
+  a list of all player's Comestibles and their date of purchase. The
+  Agoraculturor SHALL also flip all Farm switches when necessary.
+
+Let babelian be the Agoraculturor.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7870
+Title: Cards are appealable 2.0
+Adoption index: 2.0
+Author: V.J Rada
+Co-author(s):
+
+
+In Rule 2426 entitled "Cards" replace the text
+
+  {{A person SHALL NOT issue a Card unless:}}
+with
+  {{A person CANNOT, and SHALL NOT attempt to, issue a Card unless}}
+and replace the text
+  {{Any attempt to issue a Card, or any intent for a dependent action to issue a
+  Card, is INEFFECTIVE if it does not include the following information:}}
+with
+  {{A player CANNOT, and SHALL NOT attempt to, issue a card or intend for a
+  dependent action to issue a card unless the issuance or intent includes the
+  following information}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7871
+Title: Minor fixes (sans typos)
+Adoption index: 3.0
+Author: V.J Rada
+Co-author(s):
+
+
+In rule 2474, entitled "Green cards",
+  replace the text
+    {{When a person is issued a Green Card, they are ENCOURAGED to travel to the
+    United States.}}
+  with
+    {{When a person is issued a Green Card, e is ENCOURAGED to travel to the
+    United States. }}
+
+In rule 1728, entitled "Dependent Actions"
+  replace the text
+    {{If the action is to be performed With N Objections, With N Agoran Consent,
+    or With Notice, if the intent was announced at least 4 days earlier. }}
+  with
+    {{If the action is to be performed Without N Objections, With N Agoran
+    Consent, or With Notice, if the intent was announced at least 4 days
+    earlier. }}
+
+In rule 2446 entitled "The Agoran Newspaper"
+  Append to the second last paragraph, the sentence
+    {{The Reportor's reports are still subject to the requirements of rule 2143
+    }}
+  replace the text
+    {{The Reportor should keep in mind that the goal of eir weekly report
+    is to create
+    more informed population.}}
+  With
+    {{The Reportor SHALL include at least one piece of information relevant to
+    Agora in the last week and SHALL write with the goal of creating a more
+    informed population.}}
+
+In the rule currently not assigned a number called "Rewards", replace the text
+  {{  * Publishing a duty-fulfilling report: 5 shinies.}}
+with
+  {{ *Publishing a duty-fulfilling report: 5 shinies. This reward can be claimed
+  a maximum of once per office per week for a weekly report, and once per office
+  per month for a monthly report.}}
+
+//////////////////////////////////////////////////////////////////////

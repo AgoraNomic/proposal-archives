@@ -1,0 +1,446 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote).
+
+ID     Author(s)     AI   Title                      Pender     Pend fee (sh.)
+-------------------------------------------------------------------------
+7958*  Aris, [1]     3.0  Assets v7                  Aris       6
+7859*  Quazie, grok  1.7  Gentle Judicial Updates    Quazie     6
+7860*  Quazie        1.7  Cards are power 1.7        Quazie     6
+7861*  Quazie, [2]   3.0  Trivia(l)                  Quazie     6
+7862*  Quazie, [3]   1.7  Betterer Pledges           Quazie     6
+7863*  Quazie        1.2  Why should outsiders...[4] Quazie     6
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   nichdel       1.2  Organization Integration and Stamp Collecting
+pp2   Gaelan, [5]   2.0  Judicial Reform v2
+pp3   Quazie        3.0  Throw off Your Chains [6]
+
+Legend: <ID>* : Proposal is pending.
+
+[1] G., o, nichdel, Publius Scribonius Scholasticus
+[2] Aris, Ørjan
+[3] G., Gaelan, Aris, 天火狐
+[4] ...be able to Object?
+[5] Aris, Quazie
+[6] The author of this proposal and whether or not it currently exists are
+provisional.
+
+
+The Pending List Price (PLP) is 6 shinies.
+
+The full text of the aforementioned proposals is included below.
+
+
+//////////////////////////////////////////////////////////////////////
+Title: Assets v7
+Adoption index: 3.0
+Author: Aris
+Co-authors: G., o, nichdel, Publius Scribonius Scholasticus
+
+Reenact rule 2166, Assets (Power = 2), with the following text:
+
+  An asset is an entity defined as such by a rule (hereafter its backing
+  document), and existing solely because its backing document defines its
+  existence.
+
+  Each asset has exactly one owner.  If an asset would otherwise
+  lack an owner, it is owned by Agora.  If an asset's backing document restricts
+  its ownership to a class of entities, then that asset CANNOT be gained by or
+  transferred to an entity outside that class, and is destroyed if it is owned
+  by an entity outside that class (except for Agora, in which case any player
+  CAN transfer or destroy it without objection). The restrictions in the
+  previous sentence are subject to modification by its backing document.
+
+  Unless modified by an asset's backing document, ownership of an asset is
+  restricted to Agora, persons, and organizations.
+
+  An organization's charter CAN specify whether or not that organization is
+  willing receive assets or a class of assets. Generally, an organization CANNOT
+  be given assets its charter states that it is unwilling to receive. The
+  previous provisions of this paragraph do not apply to an asset if the
+  organization is required to provide that asset in order to continue existing.
+
+  The recordkeepor of a class of assets is the entity (if any)
+  defined as such by, and bound by, its backing document.  That
+  entity's report includes a list of all instances of that class
+  and their owners.  This portion of that entity's report is
+  self-ratifying.
+
+  An asset generally CAN be destroyed by its owner by
+  announcement, subject to modification by its backing document. An
+  indestructible asset is one defined as such by it backing document, and CANNOT
+  be destroyed except by a rule specifically addressing the destruction of
+  indestructible assets or that asset in particular; any other asset is
+  destructible. In circumstances where another asset would be
+  destroyed, an indestructible asset is generally transferred to Agora, subject
+  to modification by its backing document and the intervention of other rules.
+
+  To "lose" an asset is to have it destroyed from one's
+  possession; to "revoke" an asset from an entity is to destroy it
+  from that entity's possession.
+
+  An asset generally CAN be transferred (syn. payed, given) by its owner to
+  another entity by announcement, subject to modification by its backing
+  document.  A fixed asset is one defined as such by its backing
+  document, and CANNOT be transferred; any other asset is liquid.
+
+  A currency is a class of asset defined as such by its backing document.
+  Instances of a currency with the same owner are fungible.
+
+  The "x balance of an entity", where x is a currency, is the number of x that
+  entity possesses. If a rule, proposal, or other competent authority attempts
+  to increase or decrease the balance of an entity without specifying a source
+  or destination, then the currency is created or destroyed.
+
+  Where it resolves ambiguity, the asset or currency being referred to is the
+  currency designated as "Agora's official currency", if there is one.
+
+  Amendments to a backing document shall not be construed to alter, transfer,
+  destroy, or otherwise effect any assets defined by that document, unless
+  that is their clear intent.
+
+  Assets are always public. [To provide for private contract based assets later]
+
+Change the power of Rule 2166 to 3.0.
+
+Change the rule "Economics" to read in full:
+
+  Shinies (sg. shiny) are an indestructible liquid currency, and the official
+  currency of Agora. They may be owned by Agora, any player, or any
+  organization. The Secretary is the recordkeepor for Shinies.
+
+  The Secretary CAN cause Agora to pay any player or organization by
+  announcement if doing so is specified by a rule.
+
+Amend Rule 2459, Organizations, by adding as a paragraph at the end:
+
+  A member of an Organization CAN perform any action the rules authorize that
+  Organization to perform, if the Organization's charter states that doing so
+  is Appropriate.
+
+For the avoidance of doubt, all shinies existing under the old system continue
+to so under the new system, and if they would not otherwise do so, new shinies
+are created to replace them.
+
+
+Amend the rule "The Surveyor" to have the following text:
+
+  The Surveyor is an office, and the recordkeepor of estates.
+
+Amend the rule "Estates" to have the following text:
+
+  An Estate is a type of indestructable liquid asset, which can be owned by
+  players, organizations, and Agora. The following changes are secured:
+  creating, modifying, or destroying an Estate; and causing an
+  entity to become an Estate or cease to be an Estate.
+
+Amend the rule "Estate Auctions" by changing the paragraph beginning "During
+an auction..." to read "During an auction, any player or organization may bid
+any number of Shinies by announcement." and removing the break between that
+and the next paragraph.
+
+For the avoidance of doubt, all Estates existing under the old system continue
+to so under the new system, and if they would not otherwise do so, new Estates
+are created to replace them.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7859
+Title: Gentle Judicial Updates
+Adoption index: 1.7
+Author: Quazie
+Co-author(s): grok
+
+Create a new rule entitled 'Recusal' Power = 1 with the following text
+  {{{
+    A judge may recuse emself from a CFJ they are assigned to.
+
+    When a judge recuses emself from a CFJ the following happens:
+      1 - The CFJ becomes unassigned
+      2 - The recused judge becomes ineligible to be assigned as a judge
+          for a week.
+      3 - The recused judge SHOULD suggest another judge for the CFJ to
+          make the Arbitor's job easier.
+  }}}
+
+  Update rule 591 by replacing:
+  {{{
+      The valid judgements, based on the facts of the case at the time
+      the CFJ was initiated, are TRUE, FALSE, and DISMISS.  DISMISS is
+      appropriate if the statement is malformed, undecidable,
+      irrelevant to the game, if insufficient information exists to
+      make a judgement with reasonable effort, or the statement is
+      otherwise not able to be answered TRUE or FALSE.
+
+  }}}
+  with
+  {{{
+      The valid judgements for an inquiry case are as follows, based
+      on the truth or falsity of the statement at the time the inquiry
+      case was initiated (if its truth value changed at that time,
+      then its initial truth value is used):
+
+      * FALSE, appropriate if the statement was factually and
+        logically false
+
+      * TRUE, appropriate if the statement was factually and logically
+        true
+
+      * IRRELEVANT, appropriate if the veracity of the statement is
+        not relevant to the game or is an overly hypothetical
+        extrapolation of the game or its rules to conditions that
+        don't actually exist, or if it can be trivially determined
+        from the outcome of another (possibly still undecided)
+        judicial case that was not itself judged IRRELEVANT
+
+      * INSUFFICIENT, appropriate if the statement does not come with
+        supporting arguments or evidence, and the judge feels as if an
+        undue burden is being placed on em by the lack of arguments and
+        evidence.  A CFJ judged as INSUFFICIENT CAN and SHOULD be
+        submitted again with sufficient arguments/evidence.
+
+      * DISMISS, appropriate if the statement is malformed, undecidable,
+        if insufficient information exists to make a judgement with
+        reasonable effort, or the statement is otherwise not able to be
+        answered with another valid judgement.
+  }}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7860
+Title: Cards are power 1.7
+Adoption index: 1.7
+Author: Quazie
+Co-author(s):
+
+
+Change the power of rule  (Bankruptcy) to 1.7
+
+Change the power of rule 2451 (Executive Orders) to 1.7
+
+//////////////////////////////////////////////////////////////////////
+ID: 7861
+Title: Trivia(l)
+Adoption index: 3.0
+Author: Quazie
+Co-author(s): Aris, Ørjan
+
+
+Create a new rule entitled `Trivial Proposals` Power=1.1 with the
+following text
+{{{
+    Some proposals have minimal consequences, and thus should cost a
+    minimal amount to pend, these proposals are known as Trivial Proposals.
+
+    A player may pend a Trivial Proposal by paying 1 Shiny to Agora without
+    Objection.
+}}}
+
+Update rule 2438
+Replacing the paragraphs
+{{{
+    Red (R): When a proposal is adopted and changes at least one
+    rule with Power >= 3, its proposer earns a Red Ribbon.
+
+    Orange (O): When a proposal is adopted via an Agoran Decision on
+    which no valid votes were AGAINST, its proposer earns an Orange
+    Ribbon.
+}}}
+with
+{{{
+    Red (R): When a non-trivial proposal is adopted and changes at least
+    one rule with Power >= 3, its proposer earns a Red Ribbon.
+
+    Orange (O): When a non-trivial proposal is adopted via an Agoran Decision on
+    which no valid votes were AGAINST, its proposer earns an Orange Ribbon.
+}}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7862
+Title: Betterer Pledges
+Adoption index: 1.7
+Author: Quazie
+Co-author(s): G., Gaelan, Aris, 天火狐
+
+Replace the text of Rule 2450 with the following:
+  {{{
+    Breaking a publicly-made pledge is a cardable offense.
+
+    If a publicly-made pledge says that the creator of a pledge will do
+    something, without providing a time limit, then e SHALL in a timely manner
+    in order to not break said pledge.
+
+    A player CANNOT make any pledge that would create new obligations for
+    any other person or office, without the other party's explicit consent.
+  }}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7863
+Title: Why should outsiders be able to Object?
+Adoption index: 1.2
+Author: Quazie
+Co-author(s):
+
+{{{
+  In Rule 2460 replace the text
+  {{{
+    A member of an Organization CAN flip that Organization's
+    Charter without objection
+  }}}
+
+  with
+
+  {{{
+    A member of an Organization CAN flip that Organization's
+    Charter without the objection of any of its members
+  }}}
+
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Organization Integration and Stamp Collecting
+Adoption index: 1.2
+Author: nichdel
+Co-author(s):
+
+
+Amend "Organizations" by replacing the second, third, and fourth
+paragraphs with:
+
+   Players may become members of an organization by announcement as
+   specified by the charter of the organization. Players may stop being
+   a member of an organization by announcement.
+
+   An organization may cause any player to stop being a member as
+   specified in its charter.
+
+[Remove Budget and make org membership more flexible.]
+
+Amend "Death and Birth of Organizations to read, in full:
+
+   The Administrative Fee is 5 shinies.
+
+   An organization is "In Bad Standing" if it a) has no members or b)
+   was not created this month and has not paid the Administrative Fee to
+   Agora.
+
+   If an organization is In Bad Standing for more than 7 days, then any
+   player CAN destroy it by announcement, and the Secretary SHALL do so
+   in a timely fashion if the situation persists.
+
+   Any player CAN create an Organization by announcement by paying the
+   Administrative Fee to Agora and specifying a name for the
+   Organization that is unique among Organizations and a Charter.
+
+[Replaces Budget with the Administrative Fee. Combined with giving org's
+more control over their membership, it allows for orgs to raise money
+and pay the fee in whichever way seems appropriate to them. Also removed
+the limits on org membership and creation, because the price should be
+a good enough limiters.]
+
+Amend "Organization Restructuring" by removing the text "Budget or", and
+removing the paragraph starting with "2.", then changing "3." to "2.".
+
+[Budget cleanup]
+
+Enact a power 1 rule titled "Stamps" with the following text:
+
+   Stamps are a type of asset tracked by the Secretary. Each Stamp is
+   identified by the person or organization that created the Stamp.
+   Stamps created by the same person or organization are fungible.
+
+   The Stamp Price is always 4 times the current Pending List Price.
+
+   Once per month any player MAY, by announcement, pay Agora the Stamp
+   Price, in shinies, to create one Stamp in eir possession. Once per
+   month any player MAY, by announcement and as specified by the
+   organization's charter, pay Agora the Stamp Price, in shinies, to
+   create one Stamp in its possession.
+
+   Any player MAY, by announcement, destroy a specified Stamp in eir
+   possession. Any player MAY, by announcement and as specified by the
+   organization's charter, destroy a specified Stamp in its possession.
+   Whenever an organization or player destroys a Stamp in eir
+   possession, Agora SHALL pay em the Stamp Price.
+
+   When a player has in eir possession at least one Stamp created by 15
+   different players or organizations then e may win by announcement,
+   specifying each stamp e possesses. When a player does so
+   successfully, all Stamps in eir possession are destroyed.
+
+[This implements what I described previously. Stamps are both a
+speculative currency, with a changing value month-to-month, and a
+valuable win condition. Also note that with the org changes, a single
+player could create all the Stamps e needs, but it'd be more expensive
+than gaining them via trade due to the Administrative fee.]
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Judicial Reform v2
+Adoption index: 2.0
+Author: Gaelan
+Co-author(s): Aris, Quazie
+
+
+Amend R991 “Calls for Judgement” by replacing the last paragraph with {
+
+  “Judge Status” is a player switch tracked by the Arbitor in eir monthly
+  report,  with valid values of “Narrow” (default) and “Wide.” A player may
+  flip eir own Judge Status by announcement.
+
+  When a CFJ has no judge assigned, the Arbitor CAN assign any player to be its
+  judge by announcement, and SHALL do so within a week, but CANNOT do so if
+  fewer than 2 days have passed since the CFJ was initiated. The players
+  eligible to be assigned as judge are players except the initiator and the
+  person barred (if any) who fulfill one of these requirements:
+
+    1. Eir Judge Status is set to Narrow, and they have publicly declared
+    Interest in the CFJ.
+
+    2. Eir Judge Status is set to Wide, and they have not publicly declared
+    Disinterest in the CFJ.
+
+  The Arbitor SHALL assign judges over time such that all interested players
+  have reasonably equal opportunities to judge. If a CFJ has no judge assigned,
+  then any player eligible to judge that CFJ CAN assign it to emself Without 3
+  Objections.
+
+  If there are no eligible judges for a CFJ for a period of 2 weeks, any player
+  CAN judge it as DISMISS with 2 days Notice.
+  }
+
+For all players who have been assigned a CFJ within the past 2 weeks, flip their
+Judge Status to Wide.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp3
+Title: Throw off Your Chains
+Adoption index: 3.0
+Author: Quazie (provisional)
+Co-author(s):
+The author of this proposal and whether or not it currently exists are
+provisional.
+
+WHEREAS:
+   The perpetuation of dictatorship is not treating Agora Right Good
+   Forever;
+
+and WHEREAS:
+   The existence of dictatorship is an anathema, and the presence of
+   a current dictatorship in the Rules is a Mess of our own making;
+
+and WHEREAS:
+   The persons in power have not made a visible effort to clean up
+   said mess, in perhaps hoping that the hoi agorai will remain
+   docile, or apathetic;
+
+and WHEREAS:
+   such docility, in the long-term, is fully AGAINST OUR NATURE;
+
+BE IT THEREFORE RESOLVED:
+   That Rule 2942 (Reward and Delay) is hereby REPEALED.
+
+//////////////////////////////////////////////////////////////////////

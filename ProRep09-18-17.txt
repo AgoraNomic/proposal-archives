@@ -1,0 +1,296 @@
+DRAFT: NOT FOR DISTRIBUTION; SEE P7901; THIS DOCUMENT IS INEFFECTIVE AND
+INCORRECT IN UNSPECIFIED WAYS.
+
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote).
+
+
+ID     Author(s)     AI   Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7899*  G.            2.0  Arbitor's Union              G.          1 AP
+7900*  o             2.0  Come What May                o           1 AP
+//7901*  o             1.7  Make Your Home Shine         o          *******
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1  nichdel        2.0  Basic Income
+pp2  Gaelan         1.0  The Lint Screen
+
+//////////////////////////////////////////////////////////////////////
+ID: 7899
+Title: Arbitor's Union
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 591 (Delivering Judgements) by replacing:
+      When a CFJ is open and assigned to a judge, that judge CAN
+      assign a valid judgement to it by announcement, and SHALL do so
+      in a timely fashion after this becomes possible.  If e does not,
+      the Arbitor CAN remove em from being the judge of that case by
+      announcement.
+with:
+      When a CFJ is open and assigned to a judge, that judge CAN
+      assign a valid judgement to it by announcement, and SHALL do so
+      in a timely fashion after this becomes possible.  If e does not,
+      the Arbitor CAN remove em from being the judge of that case by
+      announcement, and SHALL do so in a timely fashion after the
+      time limit expires, unless the judge assigns a valid judgement
+      in the mean time.
+
+[Allows deputisation to remove late judges by adding a SHALL]
+
+
+Amend Rule 991 (Calls for Judgement) by appending the following
+paragraph:
+
+      The Arbitor's weekly report includes a summary of recent
+      judicial case activity, including open and recently-judged
+      cases, recent judicial assignments, and a list of players
+      interested in judging.
+
+[Easiest way to fix the Arbitor's pay, but not just a make-work
+report - in the past, regular Arbitor reports have been useful to
+keep players informed about the state of judgements and the courts,
+which promotes more ongoing clarity in the game state].
+
+//////////////////////////////////////////////////////////////////////
+ID: 7900
+Title: Come What May
+Adoption index: 2.0
+Author: o
+Co-authors:
+
+
+Amend the rule “Agoraculture” by replacing the second and third paragraphs with
+
+> In the first week of an Agoran month, the owner of an unfarmed Estate CAN
+flip its Farm switch to “farmed" by paying Agora a number of shinies equal
+to the Farm Rate, by announcement.
+>
+
+>  In the first week of an Agoran month, the owner of a Farm CAN till the farm
+by paying Agora a number of shinies equal to the Farm Rate, by announcement. If
+the Farmer of an Estate does not till it within the first week of an Agoran
+month, the Agronomist CAN flip its Farm switch to "unfarmed” by announcement,
+and SHALL do so in a timely fashion.
+
+
+Amend the rule “Comestibles” to read, in full:
+
+>  A Comestible is a type of liquid asset, which can be owned by
+>  players. Creating Comestibles is secured. The recordkeepor of
+>  Comestibles is the Agronomist.
+>
+>  The Farmer of an Estate CAN offer Comestibles by announcement,
+>  naming a number of Comestibles offered and a price per Comestible
+>  in Shinies. A player CANNOT offer more Comestibles in a month than
+>  10 times the number of Farms e owns. The Farmer is ENCOURAGED to
+>  name the kind of Comestibles on offer after a plant, vegetable,
+>  grain, livestock, or other farm good.
+>
+>  A player other than the offering Farmer CAN accept a Comestibles
+>  offer by announcement to create that number of Comestibles in eir
+>  possession, by paying the offering Farmer the price per Comestible
+>  named in the offer times the number of Comestbiles offered. The
+>  Value of a Comestible created this way is equal to the price per
+>  Comestible offered by the Farmer.
+>
+>  An offer expires at the end of the Agoran month in which it is
+>  made. Rules to the contrary notwithstanding, an offer CANNOT be
+>  accepted if it has expired.
+>
+>  During an Agoran Decision, a player CAN increase their voting
+>  strength on that decision by destroying (syn. "eating",
+>  "consuming") Comestibles. Eir voting strength is increased by
+>  one-tenth the total Value of the Comestibles destroyed this way,
+>  rounded down, to a maximum of 5.
+>
+>  A Comestible is an Expired Comestible if it was created by
+>  accepting an offer announced more than three Agoran months ago. An
+>  Expired Comestible CANNOT be consumed to increase voting strength,
+>  and CAN be destroyed by any player, by announcement. The Agronomist
+>  SHALL destroy all Expired Comestibles at the start of each Agoran
+>  month.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7901
+Title: Make Your Home Shine
+Adoption index: 1.7
+Author: o
+Co-authors:
+
+
+Amend rule 2450 ("Pledges") to read, in full:
+
+    {
+        Pledges are an indestructible fixed asset. Ownership of pledges
+        is restricted to persons. The Referee is the recordkeepor of
+        pledges. Creating, destroying, modifying, and transferring
+        pledges are secured.
+
+        To "pledge" something is to create a pledge with those terms. A
+        person CAN pledge by announcement.
+
+        To "retract" (syn "withdraw") a pledge is to destroy it. A
+        person CAN retract a pledge they own without objection.
+
+        To "call in" a pledge" is to destroy it. A player can call in
+        any pledge with Agoran Consent, if e announces a reason the
+        Terms of the pledge should be considered broken. Support for an
+        intent to call in a pledge is INEFFECTIVE unless the supporting
+        player explicitly confirms the reasons that the pledge should
+        be considered broken.
+
+        It is ILLEGAL to own a pledge when it is called in.
+    }
+
+Destroy every pledge.
+
+Create a pledge owned by Quazie, whose terms are
+
+    {
+        I pledge to give 1 Shiny to the first person who can,
+        correctly, with e-mail citations, explain what I did wrong on
+        Jan 20th 2009 that has since led to me being a fugitive. For
+        the explanation to be valid for this pledge, it should be fully
+        self contained, I should not have to go look up past rules in
+        order to understand the explanation (So please, include all
+        source info in the explanation).
+    }
+
+Create a pledge owned by G., whose terms are
+
+    {
+         This pledge is known as The Prosecutor's Office
+
+         1.  I CAN revoke or alter this pledge by giving 4 Days Notice.
+
+         2.  If a CFJ is submitted to The Prosecutor's Office (private or
+             public to me, but not in Discussion), I shall follow the
+             following formal process to resolve the matter of
+             controversy:
+
+             a.  I shall enter it into the bottom of the Judicial Queue.
+
+             b.  At most once per day, and and most 5 times per week, I'll
+                 initiate an Agoran Call for Judgement on the CFJ on the
+                 top of the Judicial Queue (also barring judges as
+                 requested by the submitter).
+
+             c.  By request, the submitter may remain anonymous.
+
+             d.  Absolutely free of charge, as able, I'll research and
+                 add gratuitous arguments in favor of the submitter's
+                 position, and I'll not argue against the submitter's
+                 position except in private with the submitter.
+
+        -G.
+    }
+
+Create a pledge owned by V.J Rada, whose terms are
+
+    {
+        However I now pledge to include more recapping of agoran events
+        in future newspapers.
+    }
+
+Create a pledge owned by o, whose terms are
+
+    {
+        I pledge that, for the next month, if I have not yet paid a
+        total of 30 shinies under this pledge, and a player pledges to
+        pay me 6 Shinies within a month, I will pay em 5 Shinies in a
+        timely fashion.
+    }
+
+Ratify the following statement:
+
+    {
+        The only pledge owned by o was created on Aug 23, 2017.
+    }
+
+Create a pledge owned by Gaelan, whose terms are
+
+    {
+        I pledge to, for at least the next month, vote AGAINST any
+        proposal that amends rules by providing new text in full unless
+        the text of the rule is nearly entirely changed.
+    }
+
+Ratify the following statement:
+
+    {
+        The only pledge owned by Gaelan was created on Sep 14, 2017.
+    }
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Basic Income
+Adoption index: 2.0
+Author: nichdel
+Co-authors:
+
+
+Repeal R2500 "Action Points"
+
+Amend R2445 "How to Pend a Proposal" to read in full:
+
+   Imminence is a switch, tracked by the Promotor, possessed by
+   proposals in the Proposal Pool, whose value is either "pending" or
+   "not pending" (default).
+
+   Any player CAN flip a specified proposal's imminence to "pending" by
+   announcement by spending the current Pend Cost in shinies.
+
+Amend R991 "Calls for Judgement" by removing point "a)" in the first
+list and changing points "b)" and "c)" to "a)" and "b)" respectively.
+
+Amend R2497 "Floating Value" by adding to the end of the list of
+Floating Derived Values:
+
+   * Income Floor: 1/10th the Floating Value, rounded up.
+
+Amend R2499 "Welcome Packages" to read in full:
+
+   Within an Agoran Week after a person registers, any player CAN and
+   MAY cause Agora to pay the new player the Income Floor in shinies by
+   announcement.
+
+Create a new Power 1 rule titled "Basic Income" with the following text:
+
+   Within an Agoran Week after the first Secretary Weekly Report is
+   published in an Agoran Month, any player CAN and MAY cause Agora,
+   by announcement to pay em the Income Floor minus eir Balance at time
+   of the Weekly Report's publication if e has less than the Income
+   Floor in shinies and has 0 stamps.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: The Lint Screen
+Adoption index: 1.0
+Author: Gaelan
+Co-authors:
+
+
+Create a rule “The Lint Screen” with Power 1: {{
+  The Lint Screen is a singleton switch, tracked by the Promotor with possible
+  values including all lists of text. The default value is an empty list. The
+  items in the list SHOULD contain a list of common errors in proposals. Any
+  player CAN flip The Lint Screen by adding, modifying, or removing an item
+  with Consent.
+}}
+
+Add this as a new paragraph to 2445 “How to Pend a Proposal:” {{
+  It is IMPOSSIBLE to pend a proposal unless the pended and at least one other
+  player have publicly stated that they have reviewed (“linted”) the proposal
+  for the issues listed in the Lint Screen.
+}}
+
+//////////////////////////////////////////////////////////////////////
