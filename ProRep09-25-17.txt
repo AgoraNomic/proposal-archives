@@ -1,6 +1,3 @@
-DRAFT: NOT FOR DISTRIBUTION; SEE P7901; THIS DOCUMENT IS INEFFECTIVE AND
-INCORRECT IN UNSPECIFIED WAYS.
-
 I hereby distribute each listed proposal, initiating the Agoran
 Decision of whether to adopt it, and removing it from the proposal
 pool. For this decision, the vote collector is the Assessor, the
@@ -12,7 +9,7 @@ ID     Author(s)     AI   Title                        Pender      Pend fee
 ---------------------------------------------------------------------------
 7899*  G.            2.0  Arbitor's Union              G.          1 AP
 7900*  o             2.0  Come What May                o           1 AP
-//7901*  o             1.7  Make Your Home Shine         o          *******
+7901*  o, [1]        3.0  Make Your Home Shine         o           6 sh.
 
 The proposal pool currently contains the following proposals:
 
@@ -20,6 +17,16 @@ ID    Author(s)     AI   Title
 ---------------------------------------------------------------------------
 pp1  nichdel        2.0  Basic Income
 pp2  Gaelan         1.0  The Lint Screen
+
+Legend: <ID>* : Proposal is pending.
+
+[1] CuddleBeam, Ørjan, V.J Rada, nichdel
+
+In order to reduce confusion, the shiny pend price is being removed from this
+report. A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Secretary's report).
+
+The full text of the aforementioned proposals is included below.
 
 //////////////////////////////////////////////////////////////////////
 ID: 7899
@@ -124,111 +131,127 @@ ID: 7901
 Title: Make Your Home Shine
 Adoption index: 1.7
 Author: o
-Co-authors:
+Co-authors: CuddleBeam, Ørjan, V.J Rada, nichdel
 
+
+This proposal CANNOT create a pledge, other than via clauses that begin "Create
+a pledge".
 
 Amend rule 2450 ("Pledges") to read, in full:
 
-    {
-        Pledges are an indestructible fixed asset. Ownership of pledges
-        is restricted to persons. The Referee is the recordkeepor of
-        pledges. Creating, destroying, modifying, and transferring
-        pledges are secured.
+  {
+    Pledges are an indestructible fixed asset. Ownership of pledges
+    is restricted to persons. The Referee is the recordkeepor of
+    pledges. Creating, destroying, modifying, and transferring
+    pledges are secured.
 
-        To "pledge" something is to create a pledge with those terms. A
-        person CAN pledge by announcement.
+    To "pledge" something is to create a pledge with those terms. A
+    person CAN pledge by announcement to create a pledge e owns.
 
-        To "retract" (syn "withdraw") a pledge is to destroy it. A
-        person CAN retract a pledge they own without objection.
+    To "retract" (syn "withdraw") a pledge is to destroy it. A
+    person CAN retract a pledge e owns without objection.
 
-        To "call in" a pledge" is to destroy it. A player can call in
-        any pledge with Agoran Consent, if e announces a reason the
-        Terms of the pledge should be considered broken. Support for an
-        intent to call in a pledge is INEFFECTIVE unless the supporting
-        player explicitly confirms the reasons that the pledge should
-        be considered broken.
+    To "call in" a pledge" is to destroy it. A player CAN call in
+    any pledge with Agoran Consent, if e announces a reason the
+    Terms of the pledge should be considered broken. Support for an
+    intent to call in a pledge is INEFFECTIVE unless the supporting
+    player explicitly confirms the reasons that the pledge should
+    be considered broken.
 
-        It is ILLEGAL to own a pledge when it is called in.
-    }
-
-Destroy every pledge.
+    It is ILLEGAL to own a pledge when it is called in.
+  }
 
 Create a pledge owned by Quazie, whose terms are
 
-    {
-        I pledge to give 1 Shiny to the first person who can,
-        correctly, with e-mail citations, explain what I did wrong on
-        Jan 20th 2009 that has since led to me being a fugitive. For
-        the explanation to be valid for this pledge, it should be fully
-        self contained, I should not have to go look up past rules in
-        order to understand the explanation (So please, include all
-        source info in the explanation).
-    }
-
-Create a pledge owned by G., whose terms are
-
-    {
-         This pledge is known as The Prosecutor's Office
-
-         1.  I CAN revoke or alter this pledge by giving 4 Days Notice.
-
-         2.  If a CFJ is submitted to The Prosecutor's Office (private or
-             public to me, but not in Discussion), I shall follow the
-             following formal process to resolve the matter of
-             controversy:
-
-             a.  I shall enter it into the bottom of the Judicial Queue.
-
-             b.  At most once per day, and and most 5 times per week, I'll
-                 initiate an Agoran Call for Judgement on the CFJ on the
-                 top of the Judicial Queue (also barring judges as
-                 requested by the submitter).
-
-             c.  By request, the submitter may remain anonymous.
-
-             d.  Absolutely free of charge, as able, I'll research and
-                 add gratuitous arguments in favor of the submitter's
-                 position, and I'll not argue against the submitter's
-                 position except in private with the submitter.
-
-        -G.
-    }
+  {
+    I pledge to give 1 Shiny to the first person who can,
+    correctly, with e-mail citations, explain what I did wrong on
+    Jan 20th 2009 that has since led to me being a fugitive. For
+    the explanation to be valid for this pledge, it should be fully
+    self contained, I should not have to go look up past rules in
+    order to understand the explanation (So please, include all
+    source info in the explanation).
+  }
 
 Create a pledge owned by V.J Rada, whose terms are
 
-    {
-        However I now pledge to include more recapping of agoran events
-        in future newspapers.
-    }
+  {
+    However I now pledge to include more recapping of agoran events
+    in future newspapers.
+  }
+
+Create a pledge owned by V.J Rada, whose terms are
+
+  {
+    I pledge not to make any thread titles completely unrelated to
+    the email's content, nor use any agency or other mechanism to
+    attempt to gain control of any player at the exclusion of all
+    other players.
+  }
 
 Create a pledge owned by o, whose terms are
 
-    {
-        I pledge that, for the next month, if I have not yet paid a
-        total of 30 shinies under this pledge, and a player pledges to
-        pay me 6 Shinies within a month, I will pay em 5 Shinies in a
-        timely fashion.
-    }
+  {
+    I pledge that, for the next month, if I have not yet paid a
+    total of 30 shinies under this pledge, and a player pledges to
+    pay me 6 Shinies within a month, I will pay em 5 Shinies in a
+    timely fashion.
+  }
 
 Ratify the following statement:
 
-    {
-        The only pledge owned by o was created on Aug 23, 2017.
-    }
+  {
+    The only pledge owned by o was created on Aug 23, 2017.
+  }
 
 Create a pledge owned by Gaelan, whose terms are
 
-    {
-        I pledge to, for at least the next month, vote AGAINST any
-        proposal that amends rules by providing new text in full unless
-        the text of the rule is nearly entirely changed.
-    }
+  {
+    I pledge to, for at least the next month, vote AGAINST any
+    proposal that amends rules by providing new text in full unless
+    the text of the rule is nearly entirely changed.
+  }
 
 Ratify the following statement:
 
-    {
-        The only pledge owned by Gaelan was created on Sep 14, 2017.
-    }
+  {
+    The only pledge owned by Gaelan was created on Sep 14, 2017.
+  }
+
+Create a pledge owned by nichdel, whose terms are
+
+  {
+    I pledge to vote AGAINST on all proposals created or pended by
+    Cuddle Beam.
+  }
+
+Create a pledge owned by nichdel, whose terms are
+
+  {
+    I pledge to Object to all intentions by Cuddle Beam that I can
+    object to.
+  }
+
+Create a pledge owned by nichdel, whose terms are
+
+  {
+    I pledge to give a trust token and 5 shinies (as soon as
+    possible) to any other player who also performs the above three
+    pledges, except Cuddle Beam.
+  }
+
+Create a pledge owned by nichdel, whose terms are
+
+  {
+    I pledge to not refer to 天火狐 as Josh or Josh T.
+  }
+
+Create a pledge owned by Publius Scribonius Scholasticus, whose terms
+are
+
+  {
+    I too pledge to not refer to 天火狐 as Josh or Josh T.
+  }
 
 //////////////////////////////////////////////////////////////////////
 ID: pp1
@@ -274,7 +297,7 @@ Create a new Power 1 rule titled "Basic Income" with the following text:
 //////////////////////////////////////////////////////////////////////
 ID: pp2
 Title: The Lint Screen
-Adoption index: 1.0
+Adoption index: 1.0 
 Author: Gaelan
 Co-authors:
 
