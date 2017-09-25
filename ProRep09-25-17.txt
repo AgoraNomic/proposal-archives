@@ -10,6 +10,9 @@ ID     Author(s)     AI   Title                        Pender      Pend fee
 7899*  G.            2.0  Arbitor's Union              G.          1 AP
 7900*  o             2.0  Come What May                o           1 AP
 7901*  o, [1]        3.0  Make Your Home Shine         o           6 sh.
+7902*  G.            1.0  Switch no-ops                G.          1 AP
+7903*  G.            2.0  Numerical switches v2        G.          1 AP
+7904*  G., 天火狐     1.0  Such is Karma v2             Aris        1 AP
 
 The proposal pool currently contains the following proposals:
 
@@ -37,12 +40,14 @@ Co-authors:
 
 
 Amend Rule 591 (Delivering Judgements) by replacing:
+
       When a CFJ is open and assigned to a judge, that judge CAN
       assign a valid judgement to it by announcement, and SHALL do so
       in a timely fashion after this becomes possible.  If e does not,
       the Arbitor CAN remove em from being the judge of that case by
       announcement.
 with:
+
       When a CFJ is open and assigned to a judge, that judge CAN
       assign a valid judgement to it by announcement, and SHALL do so
       in a timely fashion after this becomes possible.  If e does not,
@@ -254,6 +259,143 @@ are
   }
 
 //////////////////////////////////////////////////////////////////////
+ID: 7902
+Title: Switch no-ops
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2162 (Switches) by appending the following paragraph:
+
+  Attempting to flip an instance of a switch to a value it already
+  has does not flip the switch.  However, if a person is REQUIRED
+  to flip a switch instance to a value it already has, then either
+  attempting to do so using the required mechanism, or announcing
+  that the switch already has the required value, fulfills the
+  requirement without flipping the switch.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7903
+Title: Numerical switches v2
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+[A generalization of natural switches, explicitly defining how
+mathematical operations work on them, that allows for much greater
+flexibility in writing switch operations all around, and suggests
+some intriguing future switches on generalized number sets].
+
+
+Create the following rule, "Numerical Switches", Power-2:
+
+  If a switch is defined as being associated with a specified set
+  of numbers (a numerical switch), then the possible values for
+  that switch are the numbers in that set.  In particular, a
+  "natural" switch is a switch with possible values of the
+  non-negative integers.  If a limit is further defined, the
+  possible values are the numbers of the set within the specified
+  limits.
+
+  If 0 is in the specified values for a numerical switch and no
+  default value is otherwise specified, 0 is the default value
+  for that switch.
+
+  If the rules describe mathematical operations to be used in
+  flipping an instance of a numerical switch, the operations are
+  interpreted as having common-sense mathematical application to
+  determine that instance's resulting value.  For example,
+  "increasing a switch instance by M" is equivalent to "flipping
+  a switch instance from its current value N to the value N+M".
+  If the specified mathematical operation would result in a value
+  outside that switch's defined set, the flipping CANNOT be
+  performed, rules to the contrary notwithstanding.
+
+
+Amend Rule 2162 (Switches) by deleting:
+
+  A natural switch is a switch with a default value of 0, unless
+  the rules explicitly specify a different default value.  If the
+  rules define an upper limit for the switch, then the possible
+  values are non-negative integers not greater than that limit,
+  otherwise the values are the non-negative integers.
+
+
+[The rule creation happens before the deletion.  Briefly, there will
+be two identical definitions for Natural switches.  However, that's
+better than a brief period where they are undefined!  If there's some
+weird conflict between the definitions in that instant, the older
+rule takes precedence until that text is deleted].
+
+//////////////////////////////////////////////////////////////////////
+ID: 7904
+Title: Such is Karma v2
+Adoption index: 1.0
+Author: G.
+Co-authors: 天火狐
+
+
+
+Create the following Rule, 'Such is Karma', Power-1:
+
+  Karma is a person switch tracked by the Herald in eir Weekly
+  Report.  Karma is an Integer switch.  The Community Chest also
+  has an instance of the Karma switch.
+
+  A player CAN publish a Notice of Honour.  For a Notice of Honour
+  to be valid, it must:
+       1.  Be clear that it is a Notice of Honour, and be the
+           first valid Notice of Honour that player has published
+           in the current week;
+       2.  Specify any other player to gain karma, and provide a
+           reason for specifying that player; and
+       3.  Specify any player to lose karma, and provide a reason
+           for specifying that player.
+  When a valid Notice of Honour is published, the player specified
+  to gain karma has eir karma increased by one, and the player
+  specified to lose karma has eir karma decreased by one. Raising
+  one entity's karma while lowering another's in this manner is
+  considered to be a "transfer" of karma.
+
+  A player's positions in Court are defined as follows:
+       - Any player with a karma of 7 or greater is a Samurai.
+       - Any player with a karma of -7 or less is an Eta.
+       - The player with the highest karma (if any) is the Shogun.
+       - The player with the lowest karma (if any) is the
+         Honourless Worm.
+  Each player's positions in Court are part of of the Herald's
+  Weekly Report.
+
+
+Create the following Rule, 'Karmic Balance', power-1:
+
+  In a timely fashion after the beginning of each Quarter, the
+  Herald CAN and SHALL by announcement, perform the following
+  tasks in order:
+        1.  Halve (rounding towards 0) the Karma of every
+            Unregistered person.
+        2.  Set the Karma of the Community Chest such that the sum
+            of all Karma switch instance values in the game is
+            equal to 0.
+
+  While the Karma of the Community Chest is not equal to 0, the
+  Herald CAN and SHALL publish a Notice of Honour specifying the
+  Community Chest as a gainer or loser in place of a player; to
+  be valid, it must be specified such that the result would move
+  the Karma of the Community Chest closer to 0.  For selection
+  players in such transactions, the Herald SHOULD use standards
+  of behavior and game balance befitting the spirit of the game.
+
+
+[Note:  since only one Notice of Honour per player per week, the
+Herald's requirement to tap the Community Chest takes place of eir
+voluntary Notice of Honour - the Herald doesn't get to do both in
+a week].
+
+
+//////////////////////////////////////////////////////////////////////
 ID: pp1
 Title: Basic Income
 Adoption index: 2.0
@@ -297,7 +439,7 @@ Create a new Power 1 rule titled "Basic Income" with the following text:
 //////////////////////////////////////////////////////////////////////
 ID: pp2
 Title: The Lint Screen
-Adoption index: 1.0 
+Adoption index: 1.0
 Author: Gaelan
 Co-authors:
 
