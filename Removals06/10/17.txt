@@ -1,9 +1,0 @@
-As Promotor, I hereby remove each listed proposal from the proposal pool.
-
-ID    Author(s)     AI   Title
----------------------------------------------------------------------------
-r1    Ienpw III     1.0  Reader's Digest ...
-r2    Gaelan        1.0  No Sneakiness  ...
-r3    o, Aris       2.0  Deregistration and Assets ..
-r4    Gaelan        1.0  Sequential Numbering
-r5    Gaelan        1.5  State of the Union

@@ -1,0 +1,680 @@
+I accept Alexis' CoE with regard to the most recent proposal distribution.
+The following is a revision, effective immediately.
+
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 8.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote, as are valid conditional votes).
+
+ID     Author(s)      AI   Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7931*  G.             3.0  Registration fix finally     G.          1 sh.
+7932*  ATMunn, [1]    1.0  A Reward for Obedience v5    ATMunn      1 AP
+7933*  Alexis         3.0  Ribbon Preservation Act      Alexis      1 sh.
+7934*  天火狐          1.0  Poetry Duel Challenge Writ   天火狐       OP [2]
+7935*  Trigon         3.0  Revision Limits v2           Trigon      1 AP
+7936*  V.J. Rada      2.0  Print Money                  V.J. Rada   1 AP
+7937*  V.J. Rada, o   2.0  I Demand Faster Auctions     V.J. Rada   1 AP
+7938*  Aris           3.0  Fix Campaign Proposals       Aris        1 AP
+7939*  V.J. Rada      1.0  Repeal the Reportor          V.J. Rada   1 sh.
+7940*  Alexis, [3]    3.0  High Power Cleanup           Alexis      1 sh.
+7941*  Alexis         1.0  HTML Scrubbing               Alexis      1 sh.
+7942*  Alexis         1.0  No List Prefixes             Alexis      1 sh.
+7943*  ATMunn         2.0  Mini fixes                   ATMunn      1 sh.
+7944*  Trigon         2.0  Who's the Secretary?         Trigon      1 AP
+7945*  Telnaior       1.0  Name and Shame               Telnaior    1 AP
+7946*  Telnaior       3.0  MASUAC [4]                   Telnaior    1 AP
+7947*  V.J. Rada, [5] 3.0  MCVotA [6]                   V.J. Rada   2 sh.
+7948*  o              1.0  FV Restoration               o           2 sh.
+7949*  V.J. Rada      3.0  HYGAVTFT [7]                 V.J. Rada   2 sh.
+7950*  G.             2.0  Boooo!                       G.          OP [2]
+7951*  G.             1.0  Zombie Auctions              G.          OP [2]
+7952*  G.             2.0  It LIVES                     G.          1 AP
+7953*  Alexis         3.0  Vote Specification Fix       Alexis      1 AP
+
+The proposal pool currently contains the following non-campaign
+proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   Alexis        1.7  A Most Ingenious Paradox
+pp2   nichdel       2.0  Asset Auctions
+
+The proposal pool currently contains the following proposals campaign
+proposals:
+
+ID    Author(s)     AI   Title                Office      Committed?
+---------------------------------------------------------------------------
+cp1   o             2.0  More Estates         Surveyor    False
+cp2   V.J. Rada     1.0  A-SC [8]             Agronomist  False
+cp3   o             2.0  Farm No More         Agronomist  False
+
+
+Legend: <ID>* : Proposal is pending.
+
+[1] Aris, Alexis, G.
+[2] Official Proposal, inherently pending
+[3] G., Publius Scribonius Scholasticus
+[4] More Actions Should Use Agoran Consent
+[5] Telnaior
+[6] More Controversial Version of the Above
+[7] Hopefully you guys all vote for this
+[8] Agronomist-Surveyor Combination
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7931
+Title: Registration fix finally
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+[It looks like we have various ways for players to make money now so
+the re-registration bug can be fixed.  Also clearly defines the verb
+"to register" and makes it clear that registered persons can't "re"
+register].
+
+
+Amend Rule 869 (How to Join and Leave Agora) by replacing:
+
+  Citizenship is a person switch with values Unregistered
+  (default) and Registered, tracked by the Registrar.  Changes to
+  citizenship are secured.  A registered person is a Player.
+
+  A person CAN (unless explicitly forbidden or prevented by the
+  rules) register by publishing a message that indicates
+  reasonably clearly and reasonably unambiguously that e intends
+  to become a player at that time.  A person, by registering,
+  agrees to abide by the Rules.  The Rules CANNOT otherwise bind a
+  person to abide by any agreement without that person's willful
+  consent.
+
+  A player CAN deregister (cease being a player) by announcement.
+  If e does so, e CANNOT register by announcement for 30 days.
+
+with:
+
+  Citizenship is a person switch with values Unregistered
+  (default) and Registered, tracked by the Registrar.  Changes to
+  citizenship are secured.  A registered person is a Player.
+  To "register" someone is to flip that person's Citizenship
+  switch from Unregistered to Registered.
+
+  An Unregistered person CAN (unless explicitly forbidden or
+  prevented by the rules) register by publishing a message that
+  indicates reasonably clearly and reasonably unambiguously that e
+  intends to become a player at that time. A player CAN deregister
+  (cease being a player) by announcement. If e does so, e CANNOT
+  register or be registered for 30 days.
+
+  A person, by registering, agrees to abide by the Rules.  The
+  Rules CANNOT otherwise bind a person to abide by any agreement
+  without that person's willful consent.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7932
+Title: A Reward for Obedience v5
+Adoption index: 1.0
+Author: ATMunn
+Co-authors: Aris, Alexis, G., V.J. Rada
+
+
+Repeal rule 2482, "Victory Elections"
+
+Create a new power-1 rule titled "Medals of Honour"
+{
+	Medals of Honour are a destructible fixed currency tracked by the Herald.
+
+	In the 7 days of an Agoran month, any player CAN declare emself to be
+eligible for a Medal of Honour by announcement if all of the following
+are true:
+	* E has made at least 1 message to a public forum in the last Agoran
+month.
+	* Eir Karma is not below -3.
+	* In the last Agoran month, e has not had a Card issued to em.
+
+	In the first 7 days of an Agoran month after the first 7 days, if there
+are any players who are eligible for a Medal of Honour, the Herald CAN,
+by announcement, initiate an Agoran Decision on who is to be awarded a
+Medal of Honour. E SHALL do so within the 7 days of an Agoran month after the
+first 7 days. For this decision, the valid votes are all players who are
+eligible for a Medal of Honour, the vote collector is the Herald, and the voting
+method is instant-runoff. Upon the resolution of this decision, the Herald CAN,
+and SHALL in a  timely fashion, award the outcome of the decision a Medal of
+Honour by  announcement. After a player is awarded a Medal of Honour, all
+players who were  previously eligible for a Medal of Honour become no longer
+eligible.
+
+	If, at any time, any player has 6 or more Medals of Honour, and e has
+not won via this rule previously, e can win the game by announcement,
+destroying all of eir Medals of Honour.
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7933
+Title: Ribbon Preservation Act
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+Amend rule 2438 by appending the following to the second paragraph:
+
+"If the rules are amended to change the types of Ribbon, if a player's Ribbon
+Ownership is subsequently illegal, then it is updated by removing all
+nonexistent types rather than resetting the entire value to default."
+
+//////////////////////////////////////////////////////////////////////
+ID: 7934
+Title: Poetry Duel Challenge Writ
+Adoption index: 1.0
+Author: 天火狐
+Co-authors:
+SILY PROPOSAL; OFFICIAL PROPOSAL
+
+
+A player CAN issue the title's writ
+once a month to another, who
+this month a different writ they yet remit,
+by having the first player pays its due
+of ten shinies and announces intent.
+If a party remits, they are disgraced;
+else the pair must to the public present
+a poem each which then Agorans be faced
+with a Decision of which one is better.
+Each task a timely manner it be done,
+The winner gains the loser as debtor,
+of whose function this rule shall provide none.
+The text above contitues a new rule
+whose title matches this proposal's; cool?
+
+//////////////////////////////////////////////////////////////////////
+ID: 7935
+Title: Revision Limits v2
+Adoption index: 3.0
+Author: Trigon
+Co-authors:
+
+
+Amend Rule 2201 "Self-Ratification" by removing the second paragraph and list.
+
+Create a new rule with power 3 entitled "Doubt" with the following text:
+
+  A doubt is an explicit public challenge via one of the following
+  methods, identifying a document and explaining the scope and
+  nature of a perceived error in it:
+
+  1. An inquiry case, appropriate for questions of legal
+      interpretation.
+
+  2. A claim of error, appropriate for matters of fact.  The
+     publisher of the original document SHALL (if e was required to
+     publish that document) or SHOULD (otherwise) do one of the
+     following in a timely fashion:
+        A. Deny the claim (causing it to cease to be a doubt).
+        B. Publish a revision.
+        C. Initiate an inquiry case regarding the truth of the claim
+           (if the subject is actually a matter of law), or cite a
+           relevant existing inquiry case.
+
+Create a new rule with power 3 entitled "The Revision Limit" with the following
+text:
+
+  The Revision Limit is an untracked natural singleton switch
+  defaulting to 2 that CAN be set by any player without objection.
+
+  If a report has had a number of revisions published to it greater
+  than the revision limit, efforts by the player that published the
+  report to collect a reward on eir next report are INEFFECTIVE.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7936
+Title: Print Money
+Adoption index: 2.0
+Author: V.J. Rada
+Co-authors:
+
+
+Amend rule 2487 "Shiny Supply Level" by replacing the number "1000"
+with the text "equal to 70 times the number of players" and by
+replacing "may" with "CAN and SHALL" and replacing "without 3
+Objections" to "once per Agoran month, in the first Agoran week of
+that month"
+
+//////////////////////////////////////////////////////////////////////
+ID: 7937
+Title: I Demand Faster Auctions
+Adoption index: 2.0
+Author: V.J. Rada
+Co-authors: o
+
+
+In rule 2491, replace "At the start of each month" with "At the
+start of each week"
+
+//////////////////////////////////////////////////////////////////////
+ID: 7938
+Title: Fix Campaign Proposals
+Adoption index: 3.0
+Author: Aris
+Co-authors: Ørjan
+
+
+Change the power of the rule entitled "Campaign Proposals, with power 3"
+to 3.0.
+
+Retitle the rule "Campaign Proposals, with power 3" to "Campaign Proposals".
+
+Amend the rule "Campaign Proposals" by replacing "and SHALL NOT be
+distributed as required by the rules" with "and SHALL NOT be distributed
+except as required by the rules".
+
+//////////////////////////////////////////////////////////////////////
+ID: 7939
+Title: Repeal the Reportor
+Adoption index: 1.0
+Author: V.J. Rada
+Co-authors:
+
+
+Repeal rule 2446 "The Agoran Newspaper"
+
+//////////////////////////////////////////////////////////////////////
+ID: 7940
+Title: High Power Cleanup
+Adoption index: 3.0
+Author: Alexis
+Co-authors: G., Publius Scribonius Scholasticus
+
+
+Text in square brackets is not a substantive part of this proposal and is
+ignored when it takes effect.
+
+Amend Rule 105, bullet 2 to read "When a rule is repealed, it ceases to be a rule,
+its power is set to 0, and the Rulekeepor need no longer maintain a record
+of it."
+
+[There is a ruling that repealed rules have their power set to 0, but I'm
+not sure I fully agree with that conclusion; this makes it explicit which
+can't hurt anyway.]
+
+Amend Rule 106 by appending "Except insofar as the actions performed by a
+proposal happen one after another, rather than simultaneously, a proposal's
+effect is instantaneous. A proposal can neither delay nor extend its own
+effect. Once a propsal finishes taking effect, its power is set to 0."
+
+[Per discussion, do the same for proposals. While here, make it clear that
+proposals are instantaneous. Please nitpick this, I'm pretty sure it's safe
+but this is a very dangerous rule to get wrong.]
+
+Set the power of all entities other than Rules, Regulations, and this
+Proposal to 0. If rule 2493 was repealed, or the word "instrument" does not
+appear in its text, also set the power of all Regulations to 0.
+
+[This is a general cleanup that catches repealed rules and other entities.]
+
+Amend Rule 105, bullet 3 by appending "Unless specified otherwise by the
+re-enacting instrument, a re-enacted rule has power equal to the power it
+had at the time of its repeal (or power 1, if power was not defined at the
+time of that rule's repeal). If the re-enacting instrument is incapable of
+setting the re-enacted rule's power to that value, then the re-enactment is
+null and void."
+
+[Re-enactment currently doesn't have a specified power; this causes it to
+work roughly the way you would expect it to.]
+
+Amend Rule 1023 by appending "The same applies, mutatis mutandis, to for
+determining whether two points in time are within N months of each other,
+for N greater than or equal to 2." as a new paragraph in the fourth bullet
+in the first list.
+
+[This makes the logical extension to "within 6 months", which is used,
+explicit.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 7941
+Title: HTML Scrubbing
+Adoption index: 1.0
+Author: Alexis
+Co-authors:
+
+
+The Distributor is hereby requested to enable the Mailman feature(s) to
+strip non-plain-text parts of emails sent by the agoranomic.org mailing
+lists.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7942
+Title: No List Prefixes
+Adoption index: 1.0
+Author: Alexis
+Co-authors:
+
+
+The Distributor is hereby requested to disable the DIS, BUS, and OFF
+prefixes automatically added to mail sent by the agoranomic.org mailing
+lists.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7943
+Title: Mini fixes
+Adoption index: 2.0
+Author: ATMunn
+Co-authors:
+
+
+Amend rule 2514, "Emotions", by replacing "registrar" with "Registrar"
+
+Amend rule 1650, "Silliness", by replacing "Each Nomic Week" with
+"Each Agoran week"
+
+//////////////////////////////////////////////////////////////////////
+ID: 7944
+Title: Who's the Secretary?
+Adoption index: 2.0
+Author: Trigon
+Co-authors:
+
+
+Replace all instances of the word "Secretary" in rule 2516: Passive Income
+with the word "Treasuror"
+
+//////////////////////////////////////////////////////////////////////
+ID: 7945
+Title: Name and Shame
+Adoption index: 1.0
+Author: Telnaior
+Co-authors:
+
+
+Amend Rule 2168 ("Extending the voting period", power 1) thus:
+Modify the string
+  "the vote collector for the decision SHALL issue a
+  humiliating public reminder to the slackers who have not yet cast any
+  votes on it despite being eligible"
+to
+  "the vote collector for the decision SHALL issue a humiliating public
+  reminder naming the slackers who have not yet cast any votes on it
+  despite being eligible"
+
+//////////////////////////////////////////////////////////////////////
+ID: 7946
+Title: More Actions Should Use Agoran Consent
+Adoption index: 3.0
+Author: Telnaior
+Co-authors:
+
+
+Flip the Citizenship switch of Ienpw III to Unregistered.
+Flip the Citizenship switch of Bayushi to Unregistered.
+Flip the Citizenship switch of ProofTechnique to Unregistered.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7947
+Title: More Controversial Version of the Above
+Adoption index: 3.0
+Author: V.J. Rada
+Co-authors: Telnaior
+
+
+Deregister Murphy unless e objects during the voting period for this proposal
+and deregister omd unless e objects during the voting period for this proposal
+
+//////////////////////////////////////////////////////////////////////
+ID: 7948
+Title: FV Restoration
+Adoption index: 1.0
+Author: o
+Co-authors:
+
+
+If rule 2456 (“The Treasuror”) does not already contain it, add the following
+paragraph to the end of that rule:
+
+  The Treasuror CAN flip the floating value once a week by announcement. As part
+  of eir weekly duties, e SHALL flip the Floating Value to the number of Shinies
+  owned by Agora; e SHALL NOT ever set it to a different value.
+  E SHOULD do this while publishing eir weekly report. If the Treasuror
+  discovers that e last flipped the floating value to an incorrect value and e
+  would not otherwise be able to set it again yet, e CAN and SHALL set the value
+  to what it should have been set to in the first place by announcement.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7949
+Title: Hopefully you guys all vote for this
+Adoption index: 3.0
+Author: V.J. Rada
+Co-authors:
+
+
+Award V.J. Rada a black Ribbon. Enact a new power 3.1 rule
+entitled "ayyyyyyyyyy dictatorship lmao" with the text "Agora's
+official subtitle is Agora: Banana Republic. V.J. Rada is the
+Dictator, and has the power to award anyone e likes a Victory and any
+patent title.  Also, eir voting power is 100. Also, e is hereby
+recognized as an abundantly cool dude. From two weeks after the
+adoption of this rule, any player may cause it to repeal itself by
+announcement."
+
+//////////////////////////////////////////////////////////////////////
+ID: 7950
+Title: Boooo!
+Adoption index: 2.0
+Author: G.
+Co-authors:
+OFFICIAL PROPOSAL; OFFICIAL PROPOSAL
+
+
+Create the following Power-2 Rule "Zombies":
+
+  Master is a secured player switch with possible values of any
+  player, and Agora.  Every player's default master is emself;
+  rules to the contrary notwithstanding, a player CAN always flip
+  eir own master to emself by announcement.
+
+  A player whose master is not emself is a Zombie. A zombie's
+  master, if another player, is allowed to act on behalf of the
+  zombie (i.e. as the zombie's agent) to perform LEGAL actions.
+
+  If a player has not made a public announcement in the past
+  60 days, then any player CAN flip that player's master to
+  Agora by announcement.
+
+  Each zombie whose master is another player has an untracked
+  switch indicating whether the zombie Owes a Scare to Agora,
+  with values FALSE (default) and TRUE. All such switches are
+  flipped to TRUE at the beginning of each month.  A zombie's
+  master CAN flip that zombie's switch to FALSE by causing the
+  zombie to perform a scary public action for the announced
+  purpose of satisfying this scare debt.  If that switch for a
+  given zombie is TRUE at the end of a month, then within the
+  next seven days any player can flip that zombie's master to
+  Agora by announcement.
+
+  This switch is of course the zombie's Boo Lien switch.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7951
+Title: Zombie Auctions
+Adoption index: 1.0
+Author: G.
+Co-authors:
+OFFICIAL PROPOSAL
+
+
+Re-enact Rule 1885 (power-1) with a title "Zombie Auctions" and the
+following text:
+
+  Whenever a zombie has Agora for a master and an auction for it
+  is not underway or been won in the last seven days, then the
+  Registrar CAN and SHALL, in a timely fashion, put the specified
+  zombie up for auction by announcement. Each auction ends seven
+  days after it begins.
+
+  During an auction, any player who is not a zombie CAN bid a
+  number of Shinies for the specified zombie by announcement.
+
+  The winner of the auction, if any, is the player who bids the
+  highest number of shinies, with ties broken in favor of the
+  earlier bidder.  The winner CAN and SHALL, in a timely fashion,
+  flip the zombie's master to the winner by announcement, if e
+  pays Agora the amount of the bid for the explicit and sole
+  purpose of fulfilling this requirement. If there are no bids,
+  the auction has no winner.
+
+  If a zombie being auctioned ceases to have Agora as a master at
+  any time between the initiation of the auction and the winner
+  becoming the zombie's master (or failing to do so in a timely
+  fashion after the auction), then the auction has no winner, and
+  any obligations to pay for the zombie are voided.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7952
+Title: It LIVES
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Increase the power of R1885 (Zombie Auctions) to 2.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7953
+Title: Vote Specification Fix
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Amend rule 107 (Initiating Agoran Decisions) by replacing the list item "A clear
+indication of the set of valid votes." with two list items: "The voting method."
+and "A clear description of the valid options.", by renumbering the list
+accordingly, by replacing the period of each list item other than the last
+with a semicolon, and by inserting " and" at the end of the second-to-last
+list item.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: A Most Ingenious Paradox
+Adoption index: 1.7
+Author: Alexis
+Co-authors:
+
+
+Text in square brackets is not a part of this proposal and has no
+effect.
+
+Enact a new power-1 rule entitled "Win by Paradox":
+
+  If a CFJ has been assigned a judgment of PARADOXICAL continuously
+  for at least 7 days, and e has not done so already in respect of
+  that CFJ, then that case's initiator CAN, by announcement, win the
+  game.
+
+  A player who wins in this fashion SHOULD submit a proposal to
+  prevent the paradox from arising again.
+
+Amend rule 591 by replacing:
+
+  The valid judgements for an inquiry case are as follows, based on
+  the truth or falsity of the statement at the time the inquiry case
+  was initiated (if its truth value changed at that time, then its
+  initial truth value is used):
+
+with:
+
+  The valid judgements for an inquiry case are as follows, based on
+  the facts and legal situation at the time the inquiry case was
+  initiated, not taking into account any events since that time:
+
+[This is to prevent changing facts not related to truth or falsity, e.g.
+availability of information, from affecting outcomes.]
+
+and by replacing:
+
+  * DISMISS, appropriate if the statement is malformed, undecidable,
+  if insufficient information exists to make a judgement with
+  reasonable effort, or the statement is otherwise not able to be
+  answered with another valid judgement.
+
+with:
+
+  * DISMISS, appropriate if the statement is malformed, undecidable,
+  if insufficient information exists to make a judgement with
+  reasonable effort, or the statement is otherwise not able to be
+  answered with another valid judgement. DISMISS is not
+  appropriate if PARADOXICAL is appropriate.
+
+and by appending to the end:
+
+  * PARADOXICAL, appropriate if the statement is logically
+    undecidable as a result of a paradox or or other irresovable
+    logical situation. PARADOXICAL is not appropriate if IRRELEVANT
+    is appropriate, nor is it appropriate if the undecidability
+    arises from the case itself.
+
+[The reference to IRRELEVANT is to prevent multiple wins from the same
+paradox.]
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Asset Auctions
+Adoption index: 2.0
+Author: nichdel
+Co-authors:
+
+
+Amend 'Estate Auctions' by renaming it 'Auctions', by replacing the
+first paragraph with:
+
+  Once a week, while there is not already an Auction in progress, and
+  while Agora owns at least one Asset that is not shinies, the Surveyor
+  can and SHALL put one Asset Agora owns, that is not shinies, up for
+  auction by announcement. Each auction ends seven days after it
+  begins.
+
+and by amending the third paragraph by replacing "the auctioned Estate"
+with "the auctioned Asset".
+
+//////////////////////////////////////////////////////////////////////
+ID: cp1
+Title: More Estates
+Adoption index: 2.0
+Author: o
+Co-authors:
+
+
+Create the Estate of Florin and the Estate of Guilder.
+
+//////////////////////////////////////////////////////////////////////
+ID: cp2
+Title: Agronomist-Surveyor Combination
+Adoption index: 1.0
+Author: V.J. Rada
+Co-authors:
+
+
+Repeal rule 2504 "The Agronomist". Amend rule 2488 "The Surveyor" by
+adding the text at the end "The Surveyor's weekly report includes:
+A list of Farms and their owners.
+A list of Comestibles offers that have not been accepted and have not expired.".
+
+Replace all instances of the word "Agronomist" with the word "Surveyor".
+
+
+//////////////////////////////////////////////////////////////////////
+ID: cp3
+Title: Farm No More
+Adoption index: 2.0
+Author: o
+Co-authors:
+
+
+Repeal rule 2504, 2502, 2501, and 2503.
+
+//////////////////////////////////////////////////////////////////////

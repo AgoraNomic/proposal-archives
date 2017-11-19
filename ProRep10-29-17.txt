@@ -1,0 +1,243 @@
+//////////////////////////////////////////////////////////////////////
+ID: 7948
+Title: FV Restoration
+Adoption index: 1.0
+Author: o
+Co-authors:
+
+
+If rule 2456 (“The Treasuror”) does not already contain it, add the following
+paragraph to the end of that rule:
+
+  The Treasuror CAN flip the floating value once a week by announcement. As part
+  of eir weekly duties, e SHALL flip the Floating Value to the number of Shinies
+  owned by Agora; e SHALL NOT ever set it to a different value.
+  E SHOULD do this while publishing eir weekly report. If the Treasuror
+  discovers that e last flipped the floating value to an incorrect value and e
+  would not otherwise be able to set it again yet, e CAN and SHALL set the value
+  to what it should have been set to in the first place by announcement.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7948
+Title: FV Restoration
+Adoption index: 1.0
+Author: o
+Co-authors:
+
+
+If rule 2456 (“The Treasuror”) does not already contain it, add the following
+paragraph to the end of that rule:
+
+  The Treasuror CAN flip the floating value once a week by announcement. As part
+  of eir weekly duties, e SHALL flip the Floating Value to the number of Shinies
+  owned by Agora; e SHALL NOT ever set it to a different value.
+  E SHOULD do this while publishing eir weekly report. If the Treasuror
+  discovers that e last flipped the floating value to an incorrect value and e
+  would not otherwise be able to set it again yet, e CAN and SHALL set the value
+  to what it should have been set to in the first place by announcement.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7949
+Title: Hopefully you guys all vote for this
+Adoption index: 3.0
+Author: V.J. Rada
+Co-authors:
+
+
+Award V.J. Rada a black Ribbon. Enact a new power 3.1 rule
+entitled "ayyyyyyyyyy dictatorship lmao" with the text "Agora's
+official subtitle is Agora: Banana Republic. V.J. Rada is the
+Dictator, and has the power to award anyone e likes a Victory and any
+patent title.  Also, eir voting power is 100. Also, e is hereby
+recognized as an abundantly cool dude. From two weeks after the
+adoption of this rule, any player may cause it to repeal itself by
+announcement."
+
+//////////////////////////////////////////////////////////////////////
+ID: 7950
+Title: Boooo!
+Adoption index: 2.0
+Author: G.
+Co-authors:
+OFFICIAL PROPOSAL
+
+
+Create the following Power-2 Rule "Zombies":
+
+  Master is a secured player switch with possible values of any
+  player, and Agora.  Every player's default master is emself;
+  rules to the contrary notwithstanding, a player CAN always flip
+  eir own master to emself by announcement.
+
+  A player whose master is not emself is a Zombie. A zombie's
+  master, if another player, is allowed to act on behalf of the
+  zombie (i.e. as the zombie's agent) to perform LEGAL actions.
+
+  If a player has not made a public announcement in the past
+  60 days, then any player CAN flip that player's master to
+  Agora by announcement.
+
+  Each zombie whose master is another player has an untracked
+  switch indicating whether the zombie Owes a Scare to Agora,
+  with values FALSE (default) and TRUE. All such switches are
+  flipped to TRUE at the beginning of each month.  A zombie's
+  master CAN flip that zombie's switch to FALSE by causing the
+  zombie to perform a scary public action for the announced
+  purpose of satisfying this scare debt.  If that switch for a
+  given zombie is TRUE at the end of a month, then within the
+  next seven days any player can flip that zombie's master to
+  Agora by announcement.
+
+  This switch is of course the zombie's Boo Lien switch.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7951
+Title: Zombie Auctions
+Adoption index: 1.0
+Author: G.
+Co-authors:
+OFFICIAL PROPOSAL
+
+
+Re-enact Rule 1885 (power-1) with a title "Zombie Auctions" and the
+following text:
+
+  Whenever a zombie has Agora for a master and an auction for it
+  is not underway or been won in the last seven days, then the
+  Registrar CAN and SHALL, in a timely fashion, put the specified
+  zombie up for auction by announcement. Each auction ends seven
+  days after it begins.
+
+  During an auction, any player who is not a zombie CAN bid a
+  number of Shinies for the specified zombie by announcement.
+
+  The winner of the auction, if any, is the player who bids the
+  highest number of shinies, with ties broken in favor of the
+  earlier bidder.  The winner CAN and SHALL, in a timely fashion,
+  flip the zombie's master to the winner by announcement, if e
+  pays Agora the amount of the bid for the explicit and sole
+  purpose of fulfilling this requirement. If there are no bids,
+  the auction has no winner.
+
+  If a zombie being auctioned ceases to have Agora as a master at
+  any time between the initiation of the auction and the winner
+  becoming the zombie's master (or failing to do so in a timely
+  fashion after the auction), then the auction has no winner, and
+  any obligations to pay for the zombie are voided.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7952
+Title: It LIVES
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Increase the power of R1885 (Zombie Auctions) to 2.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: A Most Ingenious Paradox
+Adoption index: 1.7
+Author: Alexis
+Co-authors:
+
+
+Text in square brackets is not a part of this proposal and has no
+effect.
+
+Enact a new power-1 rule entitled "Win by Paradox":
+
+  If a CFJ has been assigned a judgment of PARADOXICAL continuously
+  for at least 7 days, and e has not done so already in respect of
+  that CFJ, then that case's initiator CAN, by announcement, win the
+  game.
+
+  A player who wins in this fashion SHOULD submit a proposal to
+  prevent the paradox from arising again.
+
+Amend rule 591 by replacing:
+
+  The valid judgements for an inquiry case are as follows, based on
+  the truth or falsity of the statement at the time the inquiry case
+  was initiated (if its truth value changed at that time, then its
+  initial truth value is used):
+
+with:
+
+  The valid judgements for an inquiry case are as follows, based on
+  the facts and legal situation at the time the inquiry case was
+  initiated, not taking into account any events since that time:
+
+[This is to prevent changing facts not related to truth or falsity, e.g.
+availability of information, from affecting outcomes.]
+
+and by replacing:
+
+  * DISMISS, appropriate if the statement is malformed, undecidable,
+  if insufficient information exists to make a judgement with
+  reasonable effort, or the statement is otherwise not able to be
+  answered with another valid judgement.
+
+with:
+
+  * DISMISS, appropriate if the statement is malformed, undecidable,
+  if insufficient information exists to make a judgement with
+  reasonable effort, or the statement is otherwise not able to be
+  answered with another valid judgement. DISMISS is not
+  appropriate if PARADOXICAL is appropriate.
+
+and by appending to the end:
+
+  * PARADOXICAL, appropriate if the statement is logically
+    undecidable as a result of a paradox or or other irresovable
+    logical situation. PARADOXICAL is not appropriate if IRRELEVANT
+    is appropriate, nor is it appropriate if the undecidability
+    arises from the case itself.
+
+[The reference to IRRELEVANT is to prevent multiple wins from the same
+paradox.]
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Asset Auctions
+Adoption index: 2.0
+Author: nichdel
+Co-authors:
+
+
+Amend 'Estate Auctions' by renaming it 'Auctions', by replacing the
+first paragraph with:
+
+  Once a week, while there is not already an Auction in progress, and
+  while Agora owns at least one Asset that is not shinies, the Surveyor
+  can and SHALL put one Asset Agora owns, that is not shinies, up for
+  auction by announcement. Each auction ends seven days after it
+  begins.
+
+and by amending the third paragraph by replacing "the auctioned Estate"
+with "the auctioned Asset".
+
+//////////////////////////////////////////////////////////////////////
+ID: cp1
+Title: More Estates
+Adoption index: 2.0
+Author: o
+Co-authors:
+Office: Surveyor
+
+
+Create the Estate of Florin and the Estate of Guilder.
+
+//////////////////////////////////////////////////////////////////////
+ID: cp2
+Title: More Estates
+Adoption index: 2.0
+Author: o
+Co-authors:
+Office: Surveyor
+
+
+Create the Estate of Florin and the Estate of Guilder.
+
+//////////////////////////////////////////////////////////////////////

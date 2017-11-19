@@ -1,0 +1,649 @@
+To the extent that the text below materially differs from the text in the
+original version of this report, it constitutes a revision.
+
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote). The rest of this paragraph notwithstanding, I do not
+distribute any proposal that has been distributed.
+
+
+ID     Author(s)     AI   Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7908*  G.            1.0  Silly season                 G.          OP [1]
+7909*  G.            1.2  No Lockout                   G.          OP [1]
+7910*  G.            1.0  What is a rulekeepor         G.          OP [1]
+7911*  V.J. Rada     1.0  Infinite Money Fix           V.J. Rada   1 sh.
+7912*  Alexis        3.0  Election Campaigns           Alexis      1 AP [2]
+7913*  ATMunn        1.0  Cheer Up v7?                 ATMunn      1 AP
+7914*  o             1.0  SFDVP [3]                    o           1 AP
+7915*  CuddleBeam    1.0  Terrifying Proposals Reward  CuddleBeam  1 AP
+7916*  Aris, o, G.   1.0  Pro Pace v2                  Aris        1 AP
+7917*  P.S.S. [4], o 3.0  Banking                      P.S.S. [4]  1 sh.
+7918*  P.S.S. [4]    3.0  Vacant Deputisation Fix      P.S.S. [4]  1 AP
+7919*  P.S.S. [4]    2.0  YSUIII. [5]                  P.S.S. [4]  1 AP
+7920*  Gaelan, Aris  1.0  The Lint Screen v2           Gaelan      1 sh.
+7921*  o, G.         2.0  Passive Income               o           1 AP
+7922*# Alexis        3.0  Clarity Act                  Alexis      1 AP
+7923*# Gaelan        XXX  Another Economy Fix Attempt
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1  nichdel        3.0  Slower Promotion
+pp2  nichdel        1.0  Guaranteed Stampage
+
+Legend: <ID>* : Proposal is pending.
+        <ID># : Probably the first distribution.
+
+[1] Official Proposal, inherently pending
+[2] There is some debate over whether this was actually pended twice, each
+attempt consuming 1 AP. This value is therefore provisional.
+[3] Stamp Floating Derived Value Patch
+[4] Publius Scribonius Scholasticus
+[5] You SHALL, unless it is ILLEGAL.
+
+In order to reduce confusion, the shiny pend price is being removed from this
+report. A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Secretary's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7908
+Title: Silly season
+Adoption index: 1.0
+Author: G.
+Co-authors:
+Official Proposal
+
+
+Re-enact Rule 1650 (Silliness) with the following text:
+
+  Each Nomic Week a Player is designated the Silly Person.  The Silly Person
+  SHALL in that week, by announcement (1) designate another player, who has not
+  been the Silly Person in the past two weeks, to be the next week's Silly
+  Person; (2) submit a Silly Proposal.  If there is ever no Silly Person or the
+  Silly Person is not a player, then the next week's Silly Person is the first
+  player that any player publicly designates to be the next week's Silly Person.
+
+  A Silly Proposal is a Proposal whose sole contents are one of
+  the following:
+    i) A limerick.
+   ii) A rhymed poem no longer than fourteen lines. (No free
+       verse!)
+  iii) A joke of no more than a hundred words.
+   iv) A truly hideous pun.
+
+  The first Silly Proposal submitted by the week's Silly Person is an Official
+  Proposal.
+
+
+[I want to reward the Silly Person a shiny, but we have that dumb limit that
+rewards can only be defined in R2445, and the Fearmongor rule may not allow me
+to include other rules in the proposal].
+
+[For Rulekeepor, given history of Rule 1650:
+History: Enacted as MI=1 Rule 1650 by Proposal 2673, 26 September 1996
+History: Repealed as Power=1 Rule 1650 by Proposal 3688 (Repeal-O-Matic), 21 February 1998
+]
+
+//////////////////////////////////////////////////////////////////////
+ID: 7909
+Title: No Lockout
+Adoption index: 1.2
+Author: G.
+Co-authors:
+Official Proposal
+
+
+Repeal Rule 2458 (Invoking Lockout).
+
+//////////////////////////////////////////////////////////////////////
+ID: 7910
+Title: What is a rulekeepor
+Adoption index: 1.0
+Author: G.
+Co-authors:
+Official Proposal
+
+Amend Rule 1051 (The Rulekeepor) to read:
+
+  The Rulekeepor isn't an office; its holder is responsible for maintaining the
+  text of the rules of Agora.
+
+  The Rulekeepor's Weekly report includes the Short Logical Ruleset.  The
+  Rulekeepor's Monthly report includes the Full Logical Ruleset.
+
+
+[This short rule was really hard to think of a good amendment for; this isn't
+the most inspired].
+
+//////////////////////////////////////////////////////////////////////
+ID: 7911
+Title: Infinite Money Fix
+Adoption index: 1.0
+Author: V.J. Rada
+Co-authors:
+
+
+Amend rule 2496, "Rewards" by replacing
+  "Publishing a duty-fulfilling report: 5 shinies."
+
+with
+  "Publishing a duty-fulfilling report: 5 shinies. This reward can only be
+  claimed once per office per week for a weekly report and once per office per
+  month for a monthly report."
+
+//////////////////////////////////////////////////////////////////////
+ID: 7912
+Title: Election Campaigns
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Text in square brackets in this proposal is only an annotation and this
+Proposal's effect is as if that text were not included at all.
+
+[Changes from the proto:
+  - Added these annotations.
+  - Reordered the rule changes to make a bit more sense.
+  - Added the codification of the "you make it, you fill it" principle.
+  - Made it so the current holder of an office can initiate an election
+    for it by announcement.
+  - Added provision for uncontested elections.
+  - Increased pragmaticism.
+  - Added essential parameters to Campaign Proposals.
+  - A few other minor fixes.
+]
+
+Amend rule 1006 (Offices) by adding the following paragraph before the
+final one:
+
+  A holder of an elected office who did not become its holder by winning an
+  election, and has not won an election for that office since, is an interim
+  holder. An elected office that is either vacant or has an interim holder is an
+  interim office.
+
+[This definition is used in election initiations, below. Basically, an interim
+holder is one who doesn't have a solid claim to hold onto the office, and
+vacancy is included in the definition of an interim office to avoid righting
+"if the office's holder is interim or if the office is vacant" everywhere.]
+
+Amend rule 1006 (Offices) by adding the following paragraph at the end:
+
+  When a proposal takes effect and creates a new office, if the
+  proposal does not specify otherwise, the author of that proposal
+  becomes the holder of the office.
+
+[This codifies the "If you make an office, it's your job to fill it if no-one
+else does." principle. Note that the holder of an office installed this way is
+interim.]
+
+Enact a new rule entitled (Campaign Proposals, with power 3), reading as
+follows:
+
+  During the nomination period of an election, any candidate for that election
+  CAN submit a Campaign Proposal for that election, provided e does not
+  currently have a pending Campaign Proposal for that election, using the normal
+  mechanism for proposal submission. Campaign Proposals SHOULD relate to the
+  duties of the office up for election. Commitment is an untracked Campaign
+  Proposal switch with values Committed (default) and Uncommitted. The author
+  of a Committed proposal may flip it to Uncommitted by announcement.
+
+[A Campaign Proposal is basically an extension of a candidate's platform,
+allowing them to propose changes to any office that they wish to associate with
+their election.
+
+Commitment is basically stating whether a candidate wishes to be elected only
+if their proposal passes. They can opt out of commitment, so that they can be
+elected if it fails. This allows a player to encode "I will take this office
+only if I can change it in this fashion." into the election system.]
+
+  A Campaign Proposal is an Official Proposal exempt from automatic
+  distribution, and SHALL NOT be distributed as required by the rules.
+  The election with which a Campaign Proposal is associated, as well as its
+  Commitment, are essential parameters for an Agoran decision to adopt a
+  Campaign Proposal.
+
+[The election procedure dictates when Campaign Proposals should be
+distributed; they don't follow the normal distribution system. They also
+have some additional essential parameters, although note that a player
+can opt out of Commitment even after the proposal is distributed.]
+
+  When a Campaign Proposal is adopted, it CANNOT take effect until
+  the associated election ends. When the election ends, if the winner was the
+  proposal's author, then any player CAN once make it take effect by
+  announcement (with its power set as usual for an adopted proposal). If the
+  conditions for a Campaign Proposal to take effect are met as a result of an
+  action in a public message, the author of the message SHALL make it take
+  effect in that message.
+
+[Campaign Proposals need to meet two requirements in order to take effect:
+their author must win the election and they must pass. The former is what ties
+them to the election and allows candidates to safely submit conflicting
+proposals. The latter is the safety guard (reinforced by rule 106 which
+prevents non-adopted proposals from taking effect) to ensure that a candidate can
+
+This also means that voters can vote on the Campaign Proposals based on
+whether or not they would be okay with the rule changes, knowing that
+the actual choice of which one takes effect is dictated by the election
+outcome.
+
+Requiring them to take effect by announcement is a safety guard to
+ensure that they don't take effect with no one noticing. In practice,
+the Assessor will nearly always do this in the same message as resolving
+the decision (and the poll, if applicable), however.]
+
+Amend rule 1607 (Distribution) by replacing
+  "In a given Agoran week, the Promotor SHALL, as part of eir weekly duties,
+  distribute all pending proposals."
+with
+  "In a given Agoran week, the Promotor SHALL, as part of eir weekly duties,
+  distribute all pending proposals except for those exempted from automatic
+  distribution by other rules."
+
+[This ensures that the Promotor isn't obligated to distribute Campaign
+Proposals normally.]
+
+Amend rule 2154 (Election Procedure) to read as follows:
+  A player CAN initiate an election for a specified office:
+      a) With 2 Support, if either the office is interim or the
+         most recent election for that office was resolved more
+         than 90 days prior, and provided that the initiator
+         becomes a candidate in the same message.
+      b) By announcement, if e is the ADoP and if the office is
+         interim, or if e is the holder of that office.
+  The above notwithstanding, an election for an office CANNOT be
+  initiated if one is already in progress.
+
+[This cleans up when elections can start. Basically, anyone can
+challenge the existing officer if they are interim or if they have been
+in their office for a long time; the ADoP can open an election for an
+office that needs one; and the current officer can always open
+competition for the office.]
+
+  After an election is initiated and until nominations close, any player CAN
+  become a candidate by announcement. A candidate ceases to be a candidate if e
+  ceases to be a player during the election. An election is contested if it has
+  two or more candidates at the end of the nomination period, and uncontested
+  otherwise. For a contested election, nominations close at the end of the
+  poll's voting period. For an uncontested election, nominations close at the
+  end of the nomination period.
+
+[Players must explicitly opt-in to become candidates, and can do so up until
+the winner is locked in, effectively.]
+
+  When an election is initiated, it enters the nomination period,
+  which lasts for 7 days. In a timely fashion after the nomination
+  period ends, the ADoP CAN and SHALL, in the same message:
+      1) If the election is contested, initiate an Agoran decision
+         to select the winner of the election (the poll). For this
+         decision, the Vote Collector is the Assessor, the valid
+         options are the candidates for that election (including
+         those who become candidates after its initiation), and the
+         voting method is instant runoff.
+      2) Distribute all pending Campaign Proposals associated
+         with the election.
+      3) If POSSIBLE per the following paragraph, end the election
+         immediately.
+
+[After the nomination period, the ADoP kicks off the election by both starting
+the election poll (if needed) and distributing its Campaign Proposals. The
+Assessor is the vote collector for the poll because that seemed less invasive
+than forcing the ADoP to be vote collector for the proposals.]
+
+  If at any point an uncontested election has a single candidate, and that
+  candidate either is not the author of a Committed Campaign Proposal for that
+  election or that proposal was adopted, then any player CAN declare them the
+  winner of the election by announcement. If at any point an uncontested
+  election has no candidates, or a single candidate who is the author of a
+  failed Committed Campaign Proposal for that election, then any player CAN
+  declare the election ended with no winner by announcement. The Assessor SHALL
+  do one or the other in the same message in which e resolves a decision to
+  adopt a Campaign Proposal for an ongoing uncontested election.
+
+[This paragraph is a bit of a doozy, but basically it means that uncontested
+elections work the way you think: if there are no candidates, they end, and if
+there is only won, they win. The complexity comes from the fact that if the one
+candidate has a Committed Proposal, then things must wait until it concludes,
+although they can flip it to Uncommitted and then end the election themselves.
+
+No provision is made for contested elections where all but one candidate has
+dropped out, since I didn't want to have to write rules to allow cancellation
+of Agoran decisions.]
+
+  A poll CANNOT be resolved until the decisions to adopt all associated Campaign
+  Proposals are resolved. When resolving the poll, if a given candidate authored
+  one of the associated Campaign Proposals, that proposal is Committed, and it
+  was not adopted, then that player is disqualified.
+
+[This provides that a player with a Committed proposal that failed is
+not permitted to win the election, as part the intent of Commitment.]
+
+  When the poll is resolved, its outcome, if a player, wins the election. When
+  a player wins an election, e is installed into the associated office and the
+  election ends.
+
+Amend rule 955 (Determining the Will of Agora) by appending "The rule providing
+for an Agoran Decision by instant runoff may disqualify one or more options; in
+such a case, they are eliminated prior to beginning the first stage of the vote
+count."
+
+[Enabling of disqualification.]
+
+Amend rule 2138 (The Associate Director of Personnel) by replacing the
+bullet:
+  2. The date on which the most recent election for each office
+     was initiated.
+with:
+  2. The current status of the ongoing election for that office
+     or, if there is no ongoing election for that office, the
+     date on which the last election ended
+  3. For filled elected offices, whether or not the holder is
+     interim.
+
+[Since the actually relevant date for election timing is when the most
+recent election ended, not started, this changes the reporting to
+the election has no candidates, end it per the following paragraph.account for
+that. Likewise, interim office-holders should be marked so it is easy to know
+when elections can be started.]
+
+Amend rule 2472 (Office Incompatibilities) by replacing "Promotor and
+ADoP" with "Assessor and ADoP".
+
+[The Promotor and ADoP don't interact at all, but now, the ADoP
+distributes proposals. As a result, they should be kept apart from
+Assessor for the same reason as Promotor.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 7913
+Title: Cheer Up v7?
+Adoption index: 1.0
+Author: ATMunn
+Co-authors:
+
+
+Create a power-1 rule titled "Emotions"
+{
+    Emotion is a player switch, tracked by the registrar, with possible values
+    Joyous, Melancholy, and Indifferent, that defaults to Indifferent.
+
+    At any time, any player CAN by announcement flip eir own Emotion to any
+    value it is currently not. When doing this, e MUST provide a reason as to
+    why e changed eir Emotion as such. It is IMPOSSIBLE to change another
+    player's Emotion. A player's Emotion has the following effects:
+
+  Indifferent: No effect.
+  Melancholy: Any player that is not currently Melancholy MAY pat any Melancholy
+  player on the back. Upon doing this, the Melancholy player is ENCOURAGED to
+  change eir emotion to Joyous.
+  Joyous: Any player that is Joyous is ENCOURAGED to pat Melancholy players on
+  the back. E is also ENCOURAGED to do other kind acts, such as paying shinies
+  to other players or pending other players' proposals.
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7914
+Title: Stamp Floating Derived Value Patch
+Adoption index: 1.0
+Author: o
+Co-authors:
+
+
+Amend rule 2498 (“Economic Wins”) by removing the paragraph that begins
+“The Stamp Value is”.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7915
+Title: Terrifying Proposals Reward
+Adoption index: 1.0
+Author: CuddleBeam
+Co-authors:
+
+
+The victor of the "The Terrifying Proposals" Proposal Competition, once ever via
+this effect, can gain 3 Stamps from Agora by announcement.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7916
+Title: Pro Pace v2
+Adoption index: 1.0
+Author: Aris
+Co-authors: o, G.
+
+
+Amend the Rule entitled "Such is Karma", if there is such a rule, by replacing
+every instance of the word "Eta" with the word "Gamma".
+
+//////////////////////////////////////////////////////////////////////
+ID: 7917
+Title: Banking
+Adoption index: 3.0
+Author: Publius Scribonius Scholasticus
+Co-authors:
+
+
+Amend "Assets" by replacing the following line:
+
+  restricted to Agora, persons, and organizations.
+
+with the following line:
+
+  restricted to Agora, persons, organizations, and Banks.
+
+Create a power-2 rule, titled "Banking", with the following text:
+
+  A Bank has have a charter and a length. The Central Bank of Agora
+  is the bank who is responsible for the conduct of business and issuance of
+  bonds on behalf of Agora. The length of a bank is the period during which the
+  bank will operate. If at any time, a Central Bank of Agora is not declared,
+  then the Secretary CAN and SHALL declare a bank to be the Central Bank of
+  Agora. The Banker of the Central Bank CAN transfer shinies from the Central
+  Bank to Agora, if the balance of the Central Bank after the transaction would
+  not be less than 50 shinies. The Banker of the Central Bank CAN transfer
+  shinies from Agora to the Central Bank, if the balance of Agora after the
+  transaction would not be less than 50 shinies. It is ILLEGAL for the Banker of
+  the Central Bank of Agora to transfer shinies between Agora and the Central
+  Bank of Agora, if the balances of Agora or the Central Bank after the
+  transaction would be less than 50 shinies. The Banker SHALL transfer shinies
+  from the Central Bank to Agora, if Agora has less than 25 shinies, unless
+  doing so would be ILLEGAL. The Banker SHALL transfer shinies from the Agora to
+  the Central Bank, if Agora has more than 150 shinies and e has not done so in
+  the past week, unless doing so would be ILLEGAL.
+
+  A Bank is able to issue a currency and issue bonds. The charter of a
+  bank shall establish the method by which a bond or currency can be issued. The
+  Banker of the issuing bank is the recordkeeper for any Bonds or Currency
+  issued by a bank.
+
+  Any person CAN create a Bank without objection by specifying its charter, its
+  length and appointing a banker. Any person CAN create a bank with Agoran
+  Consent by specifying its charter, its length and appointing a banker. The
+  charter of a bank SHALL state its purpose, and its governance structure. If at
+  any time, a Bank lacks a Banker, the Secretary CAN and SHALL appoint a Banker
+  in accordance with the charter of the Bank or CAN and SHALL destroy the bank.
+  If any bank has existed for longer than allowed by its charter or its length,
+  then the Banker and the Secretary CAN destroy it and the Banker SHALL do so in
+  a timely manner. The Secretary CAN destroy a bank without objection or with
+  Agoran Consent.
+
+Create a power-2 rule, titled "Bonds", with the following text:
+
+  Bonds are a type of asset. Rules to the contrary notwithstanding, bonds may
+  only be issued by a bank. The Banker of the issuing bank is the recordkeeper
+  for Bonds. All bonds SHALL have a term specified in their issuance document.
+  Any person, organization, or a Bank who owns a bond CAN, according to
+  the bond's issuing document, convert the bond by destroying the bond and being
+  payed by the issuing bank an amount determined by its issuance document. It is
+  ILLEGAL to convert a bond in violation of its issuing document.
+
+Rename "Economics" as "Shinies"
+
+Add to the end of the list of executive orders, in "Executive Orders", the
+following item:
+
+  - Kickbacks (Secretary): The Prime Minister issues a bond from
+    the Central Bank of a class or series previously issued for
+    an amount less than or equal to 50 shinies and specifies a
+    class of purchasers.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7918
+Title: Vacant Deputisation Fix
+Adoption index: 3.0
+Author: Publius Scribonius Scholasticus
+Co-authors:
+
+
+> Replace the second item of the second numbered list of "Deputisation", with
+the following:
+
+>  2. Either (i) A time limit by which the rules require the action to be
+>     performed has expired or (ii) the office is vacant.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7919
+Title: You SHALL, unless it is ILLEGAL.
+Adoption index: 2.0
+Author: Publius Scribonius Scholasticus
+Co-authors:
+
+
+Append to the end of Item 7 in "Mother, May I?", by removing the period and
+inserting the following string in its place, the following text:
+
+  ", unless performing the described action is ILLEGAL."
+
+//////////////////////////////////////////////////////////////////////
+ID: 7920
+Title: The Lint Screen v2
+Adoption index: 1.0
+Author: Gaelan
+Co-authors: Aris
+
+
+Create a rule “The Lint Screen” with Power 1: {{
+
+  The Lint Screen is a singleton switch, tracked by the Promotor with possible
+  values including all lists of text. The default value is an empty list. The
+  items in the list SHOULD contain a list of common errors in proposals. Any
+  player CAN flip The Lint Screen by adding, modifying, or removing an item with
+  Consent.
+
+}}
+
+Add this as a new paragraph to 2445 “How to Pend a Proposal”: {{
+
+  It is IMPOSSIBLE to pend a proposal unless the pending player states in the
+  same message that e has reviewed (“linted”) the proposal for the issues
+  listed in the Lint Screen.
+
+}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7921
+Title: Passive Income
+Adoption index: 2.0
+Author: o
+Co-authors: G.
+
+
+Create a new rule, titled "Distributing Assets", with power 1, whose text is
+
+  To “distribute” a quantity of a fungible asset to a set of recipients is to
+  transfer one instance of that asset at a time to the recipient that owns
+  the least number of instances of that asset, until either no more instances
+  of the asset are eligible to be distributed, or the number of instances so
+  transferred equals the quantity to be distributed. If, when distributing a
+  specific asset, two or more recipients each own the least number of instances
+  of that asset, then the recipient that most recently became eligible to own
+  the asset SHALL receive the asset being distributed.
+
+Create a rule, titled "Passive Income", with power 2, whose text is
+
+  The Tax Rate is a singleton natural switch which can take values between 0
+  and 100, inclusive, tracked by the Secretary. The Tax Rate has a default
+  value of 50.
+
+  Whenever Agora receives Shinies from another owner other than itself, the
+  Secretary CAN cause Agora to distribute a percentage of that payment equal
+  to the Tax Rate to all players, and SHALL do so in a timely fashion. As
+  part of eir weekly duties, the Secretary SHALL do so for all payments to
+  Agora that have not yet been distributed.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Slower Promotion
+Adoption index: 3.0
+Author: nichdel
+Co-authors:
+
+
+Amend R1607 (Distribution) by replacing:
+
+  In a given Agoran week, the Promotor SHALL, as part of eir weekly duties,
+  distribute all pending proposals.
+
+with
+
+  In a given Agoran week, as part of eir weekly duties, the Promotor SHALL:
+
+     * distribute all pending proposals if there are no unresolved Agoran
+     decisions to adopt a proposal.
+
+     * list all unresolved Agoran decisions to adopt a proposal. The Promotor
+     MAY still distribute all pending proposals.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Guaranteed Stampage
+Adoption index: 1.0
+Author: nichdel
+Co-authors:
+
+
+Amend 2499 "Welcome Packages" to read in full:
+
+  If a player has not received one since e most recently became a
+  player, any player CAN, by announcement, cause em to receive a
+  Welcome package. When a player receives a Welcome Package:
+
+    * Agora transfers em 1/10th the FV in shinies and
+
+    * a Stamp, with Agora as the Creater, is created in eir
+      possession.
+
+Amend R2498 to be titled "Stamps" and to read in full:
+
+  Stamps are an asset. The Secretary is the recordkeepor of Stamps.
+
+  Each Stamp has an associated Creater which SHOULD be noted whenever the Stamp
+  is mentioned and MUST be noted whenever the Stamp is transfered. Stamps with
+  the same creater are fungible.
+
+  Once per month a player CAN, by announcement, create a Stamp with themselves
+  as the Creater by transferring the Stamp Value, in shinies, to Agora.
+
+  If Agora owns at least as many Shinies as the current Stamp Value, a player
+  CAN, by announcement, destroy a Stamp e owns to cause Agora to transfer the
+  Stamp Value, in shinies, to emself.
+
+Enact a Power 1 rule titled "Stamp Wins" with the following text:
+
+  If a player owns 10 stamps with different Creaters, none of which have Agora
+  as its Creater, e CAN win by announcement. Doing so destroys the specified
+  stamps.
+
+Enact a Power 1 rule titled "Basic Stamp Income" with the following
+text:
+
+  When the Secretary publishes the first Weekly Report of an Agoran Month, e
+  CAN and SHALL, by announcement, create Stamps with Agora as the Creater and
+  transfer them to any player who has no stamps and less than the Stamp Value
+  in shinies at the time of publication.
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,883 @@
+Revised proposal pool (effective at the time of my last report):
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   o             2.0  Faster Auctions
+pp2*  G.            1.7  Appeals improvements
+
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 8.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote).
+
+ID     Author(s)     AI   Title                         Pender      Pend fee
+---------------------------------------------------------------------------
+7930*  G.            1.7  Appeals improvements          G.          1 sh.
+
+Proposals distributed this week:
+
+ID     Author(s)      AI   Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7922*  Alexis         3.0  Clarity Act                  Alexis      1 AP
+7923*  Gaelan         1.0  Another Economy Fix Attempt  Gaelan      1 AP
+7924*  Aris, [1]      3.0  Contracts v8                 Aris        1 sh.
+7925*  Aris, Alexis   3.0  Safety Regulations v2        Aris        1 AP
+7926*  Alexis         3.0  Deregulation                 Alexis      1 AP
+7927*  V.J. Rada, G.  2.0  Estate Auction Fix           V.J. Rada   1 sh.
+7928*  G.             3.0  no we can't                  G.          1 AP
+7929*  V.J. Rada      1.0  Consumerism                  V.J. Rada   1 sh.
+7930*  G.             1.7  Appeals improvements         G.          1 sh.
+
+Legend: <ID>* : Proposal is pending.
+
+[1] o, G., ais523, Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Secretary's report).
+
+The full text of the aforementioned proposals is included below. Please note
+that, due to its length, Proposal 7924 is listed last.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7922
+Title: Clarity Act
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Text in square brackets is not a part of this proposal's substance and
+is ignored when it takes effect.
+
+Enact a new power 3 rule entitled Voting Methods, reading as follows:
+
+  Each Agoran decision has a voting method, which must be
+  AI-majority, instant runoff, or first-past-the-post. The voting
+  method is that specified by the authorizing authority, or
+  first-past-the-post by default.
+
+  Each Agoran decision has a set of valid options (the choices that
+  the voters are being asked to select from) and valid votes (the
+  ways in which the voters can express their opinion or lack thereof.
+  For AI-majority decisions, the valid options are FOR and AGAINST;
+  for other decisions, the valid options are defined by other rules.
+
+  The valid votes on an Agoran decision are:
+  1. PRESENT;
+  2. The valid conditional votes, as defined by rules of power at
+     least that of this rule; and
+  3. For an instant runoff decision, the ordered lists of entities.
+  4. For any other decision, the valid options.
+
+[This splits off the portion of 955 that isn't actually related to
+ resolution. The definition of instant runoff is changed to evaluate
+ validity of options at the end of the voting period, and avoid
+ retroactively invalidating votes if an option drops out.]
+
+Amend Rule 955 by replacing the second paragraph and numbered list with
+the following and by deleting the second bullet in the unnumbered list.
+
+  1. For an AI-majority decision, let F be the total strength of all
+     valid ballots cast FOR a decision, A be the same for AGAINST,
+     and AI be the adoption index of the decision. The outcome is
+     ADOPTED if F/A >= AI and F/A > 1 (or F>0 and A=0), otherwise
+     REJECTED.
+
+  2. For an instant runoff decision, the outcome is whichever option
+     wins according to the standard definition of instant runoff.
+     For this purpose, a ballot of strength N is treated as if it
+     were N distinct ballots expressing the same preferences. In
+     case multiple valid options tie for the lowest number of votes
+     at any stage, the vote collector CAN and must, in the
+     announcement of the decision's resolution, select one such
+     option to eliminate; if, for M > 1, all eir possible choices in
+     the next M stages would result in the same set of options being
+     eliminated, e need not specify the order of elimination. If an
+     entity that is part of a valid vote is not a valid option at
+     the end of the voting period, or disqualified by the rule
+     providing for the decision, then that entity is eliminated
+     prior to the first round of counting.
+
+  3. For a first-past-the-post decision, the outcome is whichever
+     option received the highest total strength of valid ballots. In
+     case of a tie, the vote collector CAN and must, in the
+     announcement of the decision's resolution, select one of the
+     leaders as the outcome.
+
+[No change here, except for removing the valid votes, and clearly
+ specifying what happens to options that are no longer valid at the end
+ of the voting period.]
+
+If the text "The rule providing for an Agoran Decision by instant runoff
+may disqualify one or more options; in such a case, they are eliminated
+prior to beginning the first stage of the vote count." appears in Rule
+955, delete it.
+
+[Coordinating amendment to the Election Procedure proposal. H. Assessor,
+ please resolve that one first.]
+
+Amend Rule 2127 to read as follows:
+
+  A conditional vote on an Agoran decision is a vote which indicates
+  a vote based on some condition(s). A conditional vote is evaluated
+  at the end of the voting period and, rules to the contrary
+  notwithstanding, is clearly specified if and only if the value of
+  the condition(s) is/are determinate at the end of the voting
+  period. If the conditional is clearly specified, and evaluates to
+  a valid vote, it is counted as that vote; otherwise, it is counted
+  as PRESENT.
+
+  Any vote which is clearly expressed as a conditional, e.g. "FOR if
+  <X> is true, AGAINST otherwise", is a valid conditional vote that
+  evaluates as specified.
+
+  A vote endorsing another person is equivalent to a conditional
+  vote evaluating to the vote specified in that person's valid
+  ballot on the decision, if any.
+
+  For an instant runoff decision, a vote consisting of a list, one
+  or more entries of which are valid conditional votes, and the
+  remaining entries of which are valid options, is a valid
+  conditional vote. Such a vote is evaluated by evaluating each
+  conditional entry to a list of votes (or an empty list, if it
+  evaluates to PRESENT either directly or indirectly), and then
+  concatenating those lists with the specified valid options in the
+  order they occurred in the original vote.
+
+[New conditional vote rule clearly specifies what conditional votes are
+ valid, as well as providing for evaluation of conditional lists in
+ instant runoff in the sensible way.]
+
+Amend Rule 2438 by replacing the paragraph describing Orange
+Ribbons with:
+
+  Orange (O): When a proposal is adopted via an Agoran Decision on
+  which no valid ballots were AGAINST (after evaluating
+  conditionals), its proposer earns an Orange Ribbon.
+
+Award G. a Transparent Ribbon.
+
+[I accept that it's fair that this may not actually be a problem,
+but clarifying it and converging gamestate does not hurt.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 7923
+Title: Another Economy Fix Attempt
+Adoption index: 1.0
+Author: Gaelan
+Co-authors:
+
+
+Create a power-1 rule titled "Keep it up" with the following text:
+===
+  If an action defined entirely by the rules that would otherwise be
+  POSSIBLE for a player to perform is IMPOSSIBLE due to Agora having a
+  low shiny balance, that player may win the game with 2 Days Notice.
+  Upon doing so, half of all player's shiny balances (rounded down) are
+  transferred to Agora.
+===
+
+//////////////////////////////////////////////////////////////////////
+ID: 7925
+Title: Safety Regulations v2
+Adoption index: 3.0
+Author: Aris
+Co-author(s): Alexis
+
+
+Amend Rule 2493, "Regulations", by
+
+  * Replacing every instance of the word "instrument" with the words "textual
+    entity"; and
+  * Amending the second paragraph to read in full "A regulation must be
+    authorized by at least one rule in order for it to exist. A regulation has
+    effect on the game (only) insofar as the rule or rules that authorized it
+    permit it to have effect. If reasonably possible, a regulation should be
+    interpreted so as to defer to other rules. The procedure for resolving
+    conflict between regulations is the same as it is for rules (for the
+    purposes of resolving conflicts only, a regulation is treated as if it
+    had the power of its least powerful parent rule)."
+
+//////////////////////////////////////////////////////////////////////
+ID: 7926
+Title: Deregulation
+Adoption index: 3.0
+Author: Alexis
+Co-author(s):
+
+
+Repeal Rule 2493 (Regulations).
+Repeal Rule 2494 (The Regkeepor).
+Amend Rule 2464 (Tournaments) to read as follows:
+
+  A Tournament is a sub-game of Agora specifically sanctioned
+  to be initiated as a tournament by the Rules.  If a winner of a
+  tournament is determined within 4 weeks of its initiation, that
+  person or persons win the game, otherwise the tournament
+  concludes with no winner.
+
+  In a timely fashion after the start of June 1 of each year,
+  the Herald SHALL propose a set of Regulations governing a
+  Birthday Tournament for that year; the Herald CAN also
+  delegate the responsibility for creating or running the
+  tournament to another player, with that player's consent.
+
+  The Birthday Tournament's regulations SHOULD be such that all
+  persons who choose to participate have a fair chance of winning
+  the tournament (according to its regulations), and a winner
+  SHOULD be expected within 2-3 weeks following the tournament's
+  initiation.
+
+  After adequate time for discussion of the Birthday Tournament's
+  regulations, the Herald (or delegate) CAN initiate a sanctioned
+  tournament with a specified, finalized set of regulations,
+  Without 3 Objections.  The initiation SHOULD be timed to
+  coincide with Agora's Birthday.
+
+Repeal Rule 2495 (The Birthday Tournament).
+
+//////////////////////////////////////////////////////////////////////
+ID: 7927
+Title: Estate Auction Fix
+Adoption index: 2.0
+Author: V.J. Rada
+Co-author(s): G.
+
+
+Amend rule 2491 by replacing the text "transfer the auctioned
+Estate to the winner by announcement, by paying Agora the amount of
+the bid, or by causing the winning Organization" with "transfer the
+auctioned Estate to the winner by announcement and by either paying
+Agora the amount of the bid or causing the winning Organization"
+
+//////////////////////////////////////////////////////////////////////
+ID: 7928
+Title: no we can't
+Adoption index: 3.0
+Author: G.
+Co-author(s):
+
+
+Amend Rule 2125 (Regulated Actions) by replacing:
+
+  Restricted Actions CAN only be performed as described by the Rules.
+
+with:
+  A Restricted Action CAN only be performed as described by the Rules, and only
+  using the methods explicitly specified in the Rules for performing the given
+  action.
+
+[this over-arching protection means in general, "by announcement"
+is NOT implied.  I just want to put this in place and absolutely
+clarify the ruleset if it passes, and we can add the MMI change later
+if desired].
+
+//////////////////////////////////////////////////////////////////////
+ID: 7929
+Title: Consumerism
+Adoption index: 1.0
+Author: V.J. Rada
+Co-author(s):
+
+
+Create a new rule called "Spend Spend Spend" with the text
+
+  {{Monthly, the Secretary CAN and SHALL transfer the Shinies of any player who
+  has not spent any shinies in the previous month to Agora.}}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7930/pp2
+Title: Appeals improvements
+Adoption index: 1.7
+Author: G.
+Co-authors:
+
+
+Amend Rule 911 (Motions and Moots) by replacing its first 2 paragraphs
+with:
+
+  If a judgement has been in effect for less then seven days and
+  has not been entered into Moot, then:
+
+      - The judge of that CFJ CAN self-file a Motion to Reconsider
+        the case by announcement, if e has not already self-filed
+        a Motion to Reconsider that CFJ.
+      - Any Player CAN group-file a Motion to Reconsider the case
+        with 2 Support, if the CFJ has not had a Motion to
+        Reconsider group-filed for it at any time while it has
+        been assigned to its current judge.
+
+  When a Motion to Reconsider is so filed, the case is rendered
+  open again.
+
+  If a CFJ has a judgement assigned, a player CAN enter that
+  judgement into Moot with N+2 support, where N is the number of
+  weeks since that judgement has been assigned, rounded down. When
+  this occurs, the CFJ is suspended, and the Arbitor is once
+  authorized to initiate the Agoran decision to determine public
+  confidence in the judgement, which e SHALL do in a timely
+  fashion.
+
+
+[The judge gets one Motion by announcement, one Motion is allowed
+w/2 support (judge can do that one, too).  Moot has a practical time
+limit but not an absolute one as the difficulty of initiating a Moot
+increases with time].
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Faster Auctions
+Adoption index: 2.0
+Author: o
+Co-author(s):
+
+
+Amend rule 2491 ("Estate Auctions") by replacing the phrase "At the start
+of each month" with "At the start of each week".
+
+//////////////////////////////////////////////////////////////////////
+ID: 7924
+Title: Contracts v8
+Adoption index: 3.0
+Author: Aris
+Co-author(s): o, G., ais523, Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon,
+Alexis, P.S.S.
+
+
+Lines beginning with hashmarks ("#") and comments in square brackets ("[]")
+have no effect on the behavior of this proposal. They are not part of any rules
+created or amended herein, and may be considered for all game purposes to
+have been removed before its resolution.
+
+# 1 Cleanup & Miscellaneous
+# 1.1 Gamestate Cleanup
+
+Destroy each organization.
+
+Destroy each agency.
+
+For the purposes of this proposal, neither pledges nor rules are contracts.
+
+Destroy each contract. [Just in case.]
+
+# 1.2 Organization, Secretary, and Economic Cleanup
+# 1.2.1 Repeal Organizations
+
+Repeal rule 2459 ("Organizations").
+
+Repeal rule 2461 ("Death and Birth of Organizations").
+
+Repeal rule 2460 ("Organizational Restructuring").
+
+Repeal rule 2457 ("Lockout").
+
+Repeal rule 2458 ("Invoking Lockout").
+
+Repeal rule 2462 ("Bankruptcy").
+
+# 1.2.2 Change Secretary to Treasuror
+
+Amend rule 2456 ("The Secretary") by
+
+  * Changing its title to "The Treasuror", then by
+  * Replacing its text, entirely, with:
+
+    {{{
+        The Treasuror is an office, and the recordkeepor of Shinies.
+
+        The Treasuror's weekly report also includes:
+
+        1. the current Floating Value, and all derived values
+           defined by the Rules.
+        2. the list of all public classes of assets.
+
+    }}}
+
+Make o the Treasuror.
+
+Amend the following rules, in order, by replacing the word
+"Secretary" with the word "Treasuror" wherever it appears:
+
+  * Rule 2487 ("Shiny Supply Level")
+  * Rule 2498 ("Economic Wins")
+  * Rule 2497 ("Floating Value")
+
+# 1.2.3 General Economy Fixes/Cleanup
+
+Amend rule 2489 ("Estates") by replacing the first sentence with:
+
+  {{{
+      An Estate is a type of indestructible liquid asset.
+  }}}
+
+Amend rule 2491 ("Estate Auctions") by replacing its text,
+entirely, with:
+
+  {{{
+      At the start of each month, if Agora owns at least one
+      Estate, the Surveyor CAN and SHALL put one Estate that is owned by
+      Agora up for auction by announcement. Each auction ends
+      seven days after it begins.
+
+      During an auction, any player or contract may bid a number of Shinies
+      by announcement, provided that the bid is higher than all
+      previously-placed bids in the same auction.
+
+      If, at the end of the auction, there is a single highest bid,
+      then the player or contract who placed that bid wins the auction.
+      The winner CAN cause Agora to transfer the auctioned Estate to emself
+      by announcement, if e pays Agora the amount of the bid for the explicit
+      and sole purpose of fulfilling this requirement. The person who
+      placed the bid SHALL see to it that this is done in a timely fashion.
+  }}}
+
+Amend rule 2483 ("Economics") by replacing its text, entirely, with:
+
+  {{{
+      Shinies (singular "shiny", abbreviated "sh.") are an
+      indestructible liquid currency, and the official currency
+      of Agora. The Treasuror is the recordkeepor for shinies.
+
+  }}}
+
+
+# 1.3 Agency Cleanup
+
+Repeal Rule 2467 ("Agencies")
+
+Repeal Rule 2468 ("Superintendent")
+
+# 1.4 Define Extricability
+
+[Note that I do not believe this section makes any substantive changes on its
+own. Because of the volume of concerns raised about restricting by announcement
+conditionals, this section only contains definitions.]
+
+Create a new power 3.0 rule entitled "Conditionals and Extricability", with the
+following text:
+
+  A conditional is any textual structure that attempts to make a statement (the
+  substrate) affecting any part or aspect of the gamestate, or the
+  permissibility, possibility, or effect of any action affecting such a part or
+  aspect, dependent on the truth value or other state of a textual structure
+  (the condition). The condition is said to be "affixed" to the substrate
+  (inverse "to be conditional upon").
+
+  A condition is inextricable if it is unclear, ambiguous, circular,
+  inconsistent, paradoxical, depends on information that is indeterminate, or
+  is impossible or unreasonably difficult to determine, or otherwise requires an
+  unreasonable effort to resolve; otherwise it is extricable. A conditional is
+  inextricable if its condition is inextricable; otherwise it is extricable. A
+  player SHOULD NOT use an inextricable conditional for any purpose.
+
+  An action is said to be "subject to" a conditional if its possibility,
+  permissibility, or effect (depending on context) is determined by the
+  conditional. A value is said to be subject to a conditional of the state
+  of the value is determined by the conditional.
+
+Create a new power 3.0 rule entitled "Determinacy", with the following text:
+
+  If a value CANNOT be reasonably determined (without circularity or paradox)
+  from information reasonably available, or if it alternates indefinitely
+  between values, then the value is considered to be indeterminate, otherwise
+  it is determinate.
+
+Amend Rule 1023, "Common Definitions", by (please note that these actions
+are severable):
+
+    * removing the third item of the top level list;
+    * renumbering appropriately; and
+    * changing its title to "Agoran Time"
+
+
+# 1.5 General-purpose Rules
+
+Reenact Rule 1586, "Definition and Continuity of Entities" (Power = 2), with
+the text:
+
+  If multiple rules attempt to define an entity with the same name, then they
+  refer to the same entity. A rule-defined entity's name CANNOT be changed to
+  be the same as another rule-defined entity's name.
+
+  A rule, contract, or regulation that refers to an entity by name refers to the
+  entity that had that name when the rule first came to include that reference,
+  even if the entity's name has since changed.
+
+  If the entity that defines another entity is amended such that it no longer
+  defines the second entity, then the second entity and its attributes cease to
+  exist.
+
+  If the entity that defines another entity is amended such that it defines
+  the second entity both before and after the amendment, but with different
+  attributes, then the second entity and its attributes continue to exist to
+  whatever extent is possible under the new definitions.
+
+[Note to the Rulekeepor:
+
+Created by Proposal 2481, Feb. 16 1996
+Amended(1) by Proposal 2795 (Andre), Jan. 30 1997, substantial
+Amended(2) by Proposal 3999 (harvel), May 2 2000
+Power changed from 1 to 2 by Proposal 3999 (harvel), May 2 2000
+Amended(3) by Proposal 5077 (Murphy), 18 July 2007
+Amended(4) by Proposal 5723 (Murphy), 7 October 2008
+Amended(5) by Proposal 5836 (Murphy), 12 October 2008
+Amended(6) by cleaning (comex), 26 January 2009
+Amended(7) by Proposal 6650 (coppro), 10 March 2010
+Amended(8) by Proposal 6981 (Murphy, omd), 10 April 2011
+Repealed by Proposal 7614 (G., omd), 13 January 2014
+]
+
+Create a new power 3 rule entitled "Consent", with the following text:
+
+  A person gives consent (syn. consents) to an action when e, acting as emself,
+  publicly states that e agrees to the action. This agreement may be implied,
+  but only if it is reasonably clear from context that the person wanted the
+  agreement to take place.
+
+# 1.6 Random Amendments
+
+Amend Rule 869, "How to Join and Leave Agora", by changing its last paragraph to
+read:
+
+  The Rules CANNOT compel non-players to act without their express or reasonably
+  implied consent. The rules CANNOT compel players to unduly harass non-players.
+  A non-person CANNOT be a player, rules to the contrary notwithstanding.
+
+
+Amend Rule 2139, "The Registrar", by changing the sentence "The Registrar is
+also responsible for tracking any switches that would otherwise lack an officer
+to track them, unless the switch is defined as untracked." to read "The
+Registrar is also responsible for tracking any switches, defined in a rule,
+that would otherwise lack an officer to track them, unless the switch is defined
+as untracked."
+
+Amend Rule 2466, "Acting on Behalf", by changing it to read in full:
+
+  When a rule allows one person (the agent) to act on behalf of another
+  (the principal) to perform an action, that agent CAN perform the action if it
+  is POSSIBLE for the principal to do so, taking into account any prerequisites
+  for the action. If the enabling rule does not specify the mechanism by which
+  the agent may do so, then the agent CAN perform the action in the same manner
+  in which the principal CAN do so, with the additional requirement that the
+  agent must, in the message in which the action is performed, uniquely identify
+  the principal and that the action is being taken on behalf of that person.
+
+  A person SHALL NOT act on behalf of another person if doing so causes the
+  second person to violate the rules. A person CANNOT act on behalf of another
+  person to do anything except perform a game action; in particular, a person
+  CANNOT act on behalf of another person to send a message, only to perform
+  specific actions that might be taken within a message.
+
+  When an action is performed on behalf of a principal, then the
+  action is considered for all game purposes to have been performed by the
+  principal, unless a rule specifically states that it is treated differently
+  for some purpose, in which case it is treated as described by that rule.
+
+  Allowing a person to act on behalf of another person is secured at power 2.0.
+  This rule takes precedence over any rule that would prohibit a person from
+  taking an action, except that it defers to any rule that imposes limitations
+  specifically on actions taken on behalf of another person.
+
+
+# 2 Contracts
+# 2.1 Core Contract Features
+
+Create a new power 2.5 rule, entitled "Contracts", with the following text:
+
+  A contract is a ruleset-defined entity embodied in text. An entity can only
+  become a contract through the appropriate ruleset defined procedures. Changes
+  to the contract's text by rule defined mechanisms (including those delegated
+  to the contract itself) do not change the identity of the contract.
+
+  If any change to a contract's text, internal state, or other properties would
+  cause them to become indeterminate and remain so for any non-infinitesimal
+  amount of time, the change is canceled and does not occur.
+
+  The following changes are secured at power 2.1: creating or modifying a
+  contract or causing an entity to become a contract. [Note that,
+  as a precaution, causing an entity to cease being a contract is not secured.]
+
+  The properties of contracts, as defined by other rules, include the
+  following:
+
+    - Parties, persons who agree to be bound by and assume powers under
+      the contract.
+    - The ability to be amended or destroyed.
+    - The ability to compel actions by their parties.
+    - The ability to allow persons to take actions on the part of their parties.
+    - The ability to define arbitrary classes of asset.
+    - The ability to possess and control assets.
+
+Create a new power 2.5 rule, entitled "Parties to Contracts", with the following
+text:
+
+  Each contract has an associated set of persons, known as the parties. The
+  person who creates a contract is automatically a party. Other persons CAN
+  become parties to a contract by announcement if the contract's text permits
+  them to do so. Parties can leave a contract by announcement, ceasing being
+  parties, if the contract's text permits them to do so. A contract CAN expel a
+  party or group of parties by announcement, causing them to cease being
+  parties.
+
+  It is IMPOSSIBLE, by any means, for a person to become a party to a contract,
+  for an contract to be created with a person as a party, or for an entity to
+  become a contract with a person as a party, without that person's consent.
+  This rule takes precedence over any rule that might make such a change
+  possible.
+
+Create a power 2.5 rule entitled "Contract Lifecycle", with the
+following text:
+
+  A person CAN create a contract by announcement by transferring 1 shiny to
+  Agora, specifying the contract's text. A person SHALL NOT create more than
+  X (where X is the contract limit) contracts per week by this method, and the
+  Notary CAN destroy any excess (i.e. beyond the X permitted) contracts by
+  announcement within 7 days of the contract's formation, but only if the
+  contract(s) were excess at the time of their creation.
+
+  The contract limit is an untracked singleton switch, defaulting to 3, with
+  possible values of any integer between 3 and 7. The contract limit can be
+  set to any valid value in a regulation promulgated by the Notary.
+  The amendment limit is an untracked singleton switch, with possible values
+  of integers greater than or equal to 5, or positive infinity (default).
+  The amendment limit can be set in a regulation promulgated by the Notary.
+
+  The person or persons who create a contract CAN and SHOULD also specify a
+  name for the contract; if e does not do so, the Notary CAN and
+  SHALL assign a name in a timely fashion.
+
+  A contract CAN amend, destroy, or retitle itself by announcement. A player
+  CAN amend, destroy, or retitle a contract without objection, even if its
+  text denies em the ability to do so. Players SHOULD only use this mechanism
+  to recover from situations where the contract is underspecified or has
+  unintended effects.
+
+  The Notary CAN by regulation stop the same contract from
+  amending or retitling itself more than Y times (where Y is the amendment limit
+  limit) combined times per Agoran day; e CANNOT stop a contract from being
+  destroyed, or from being retitled or amended by any other means.
+
+  If a contract has fulfilled its purpose, does not specify any gamestate
+  affecting statements, or otherwise seems unlikely to be used, the Notary
+  CAN and SHOULD destroy it with Agoran Consent. Any player CAN destroy a
+  contract with 2 Agoran Consent. Players SHOULD NOT use the methods in this
+  paragraph to further their private interests.
+
+  If the possibility of any action defined by this rule is indeterminate, or
+  is subject to a inextricable conditional, it is impossible.
+
+
+# 2.2 Powers of Contracts
+
+Create a new power 2.4 rule, entitled "Contracts as Agreements", with the
+following text:
+
+  The text of a contract can specify obligations upon its parties. Parties to
+  a contract SHALL abide by its terms, breaching them neither negligently nor
+  deliberately. The fact that the action described by the contract is in
+  violation of the rules is not a defense if the violative nature is
+  reasonably clear from its text. If whether an action is permitted or forbidden
+  by a contract is indeterminate or subject to an inextricable conditional,
+  it is presumptively permitted.
+
+  As an exception to the provisions of the previous paragraph and the
+  circumstances in which cards would ordinarily be appropriate, a person
+  awarding a card under this rule MAY and CAN validly consider the equitable
+  interests of justice and interests of the game, including the importance of
+  the observation of contracts, as a mitigating or aggravating circumstances
+  when awarding a card. Such a person MAY, CAN validly, and SHOULD also consider
+  the instructions of the contract or contracts in question when issuing a card.
+
+
+Create a new power 2.4 rule, entitled "Acting on Behalf via Contract", with
+the following text:
+
+  If a rule says that a contract CAN do something by announcement, it is
+  equivalent to saying that that any person CAN take that action by announcement
+  if the contract's text says that e CAN do so under the circumstances; if
+  whether the contract enables the person to do so is indeterminate, or is the
+  subject of an inextricable conditional, the action is IMPOSSIBLE. A person
+  SHALL NOT cause a contract to violate a rule using this method.
+
+  If a rule specifies that a contract SHALL or SHALL NOT do something, each
+  party to the contract SHALL ensure that the contract respectively does
+  or does not do that thing.
+
+  The text of a contract can permit persons to act on behalf of a party or
+  group of parties. To do so, it must specify:
+
+    a. Which of its parties can be acted on behalf of;
+    b. What actions can be taken;
+    c. Who can take the actions; and
+    d. Any conditions or limitations upon the actions. If any such
+       limitations or conditions are inextricable, the actions CANNOT be used.
+
+# 2.3 Contract Interpretation and Maintenance
+
+Create a new power 2.6 rule, entitled "Interpreting Contracts",
+with the following text:
+
+  A contract should generally be interpreted according to its text, including
+  any clauses giving directions for its interpretation or construction.
+  Additionally, justice, the intent of the contract's parties, and the principles
+  governing rule interpretation should be reasonably applied when interpreting
+  a contract.
+
+  A contract is subservient to the rules. Although a contract may specify
+  obligations or powers beyond those created by the rules, a contract may not
+  override the rules: in particular, any provision of a contract that would
+  unreasonably violate an inalienable right of players and/or persons or
+  cause any rule defined statement about the gamestate, or about the possibility
+  of an action, to become false is void and without effect insofar as it does
+  so.
+
+  The following are protected actions:
+
+  1. Registering and deregistering;
+  2. Submitting, pending, or voting freely on a proposal, but only if the sole
+     effect the proposal would have if adopted is to create, modify, or destroy
+     a contract or group of contracts, or to cause an entity or group of
+     entities to become or cease to be a contract or group of contracts;
+  3. Creating, destroying, or amending a contract, intending to do so, and
+     supporting, objecting to, or resolving such an intent, except where the
+     mechanism for destruction or amendment is created by the contract
+     itself;
+  4. Making true statements about a contract;
+  5. Calling, judging, assigning, or freely discussing a CFJ;
+  6. Lawfully performing an official duty;
+  7. Objecting to or supporting an intent to perform an action while
+     Speaker;
+  8. Using an executive order;
+  9. Making, amending, revoking or calling in a pledge; and
+  10. Any action affecting the status of a festival.
+
+
+  Rules to the contrary notwithstanding, a contract CANNOT compel, forbid,
+  or in any significant way alter, tamper with, or modify the performance of
+  a protected action. A contract CANNOT punish a player for performing or
+  failing protected action, or for doing so in a particular manner, except
+  where it would otherwise be ILLEGAL. A contract also CANNOT enable a person to
+  do any of the things prohibited to the contract by this paragraph. Insofar as
+  a contract or a provision or clause of a contract contravenes the letter or
+  clear intent of this rule, it is void and without effect.
+
+Create a new power 2.4 rule, entitled "Sustenance Payments", with following
+text:
+
+  The Notary CAN, once a month, cause each contract that owns at least
+  one shiny to transfer one shiny to Agora. E SHALL do so in the first week
+  of every month. If a contract does not own at least one shiny, and is
+  thus unable to make said payment, the Notary CAN and SHALL destroy
+  it With Notice. If a contract becomes and remains able to pay before its
+  destruction, the Notary CANNOT destroy it, and CAN and SHALL instead
+  collect the shiny.
+
+  The Notary CAN, by regulation, exempt a contract from the preceding paragraph.
+  E SHALL NOT do so unless the contract seems to be in the public interest of
+  Agora.
+
+
+Create a new power 1.0 rule, entitled "The Notary", with the following text:
+
+  The Notary is an office, and the recordkeepor of contracts. The Notary's
+  weekly report contains all contracts, including their name, text, and
+  parties. The Notary's weekly report also contains the list of private classes
+  of asset. The Notary is ENCOURAGED to list all changes to the information e
+  tracks in eir report.
+
+Make o the Notary.
+
+# 3.0 Asset Changes
+
+Amend Rule 2166, "Assets", by changing it to read in full:
+
+  An asset is an entity defined as such by a (a) rule, (b) authorized
+  regulation, (c) group of rules and/or authorized regulations (but if such
+  regulations modify a preexisting asset class defined by a rule or another
+  title of regulations, they must be authorized specifically to do so by their
+  parent rule), or (d) contract (hereafter its backing document), and existing
+  solely because its backing document defines its existence. An asset's backing
+  document can specify when and how that asset is created, destroyed, and
+  transferred.
+
+  Each asset has exactly one owner. If an asset would otherwise
+  lack an owner, it is owned by Agora.  If an asset's backing document restricts
+  its ownership to a class of entities, then that asset CANNOT be gained by or
+  transferred to an entity outside that class, and is destroyed if it is owned
+  by an entity outside that class (except if it is owned by Agora, in which case
+  any player CAN transfer or destroy it without objection). The restrictions in
+  the previous sentence are subject to modification by its backing document.
+
+  Unless modified by an asset's backing document, ownership of an asset is
+  restricted to Agora, players, and contracts. As an exception to the last
+  sentence, non-player persons are generally able to own assets defined by
+  a contract they are a party to, subject to modification by the contract in
+  question.
+
+  A contract's text can specify whether or not that contract is
+  willing to receive assets or a class of assets. Generally, a contract CANNOT
+  be given assets it is unwilling to receive. If the contract is silent on the
+  matter, or if its willingness is indeterminate or the subject of a
+  inextricable conditional, the procedure to determine its willingness is as
+  follows:
+
+    1. If the contract appears to anticipate being given assets, other than for
+       sustenance (e.g. by authorizing parties to spend the contract's assets),
+       then the contract is willing to receive all assets.
+    2. Otherwise, it is unwilling to receive all assets.
+
+  The previous paragraph (including the list) notwithstanding, a contract
+  CAN be given 1 shiny a month for its sustenance payment, so long as
+  it never has more than 1 shiny at a time.
+
+  The recordkeepor of a class of assets is the entity (if any)
+  defined as such by, and bound by, its backing document. That
+  entity's report includes a list of all instances of that class
+  and their owners.  This portion of that entity's report is
+  self-ratifying. Rules to the contrary notwithstanding, a contract CANNOT
+  oblige a person who isn't a member to record its internal state, nor is
+  the default recordkeepor responsible for tracking a contract's internal state.
+  For the purposes of this rule, the promulgator of a regulation is bound by
+  it.
+
+  An asset generally CAN be destroyed by its owner by
+  announcement, subject to modification by its backing document. An
+  indestructible asset is one defined as such by it backing document, and CANNOT
+  be destroyed except by a rule, other than this one, specifically addressing
+  the destruction of indestructible assets or that asset in particular; any
+  other asset is destructible. In circumstances where another asset would be
+  destroyed, an indestructible asset is generally transferred to Agora, subject
+  to modification by its backing document and the intervention of other rules.
+
+  To "lose" an asset is to have it destroyed from one's
+  possession; to "revoke" an asset from an entity is to destroy it
+  from that entity's possession.
+
+  An asset generally CAN be transferred (syn. paid, given) by announcement by
+  its owner to another entity, subject to modification by its
+  backing document. A fixed asset is one defined as such by its backing
+  document, and CANNOT be transferred; any other asset is liquid.
+
+  When a rule indicates transferring an amount that is not a natural number,
+  the specified amount is rounded up to the nearest natural number.
+
+  A currency is a class of asset defined as such by its backing document.
+  Instances of a currency with the same owner are fungible.
+
+  The "x balance of an entity", where x is a currency, is the number of x that
+  entity possesses. If a rule, proposal, or other competent authority attempts
+  to increase or decrease the balance of an entity without specifying a source
+  or destination, then the currency is created or destroyed as needed.
+
+  When a player causes one or more balances to change, e is ENCOURAGED
+  to specify the resulting balance(s). Players SHOULD NOT specify
+  inaccurate balances.
+
+  Where it resolves ambiguity, the asset or currency being referred to is the
+  currency designated as "Agora's official currency", if there is one.
+
+  An asset or class of assets is private, rather than public, if its
+  backing document is a contract.
+
+//////////////////////////////////////////////////////////////////////

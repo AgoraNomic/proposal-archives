@@ -1,0 +1,189 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6.0 and the valid options are FOR and AGAINST (PRESENT is
+also a valid vote, as are conditional votes).
+
+ID     Author(s)      AI   Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7962*  ATMunn         1.0  Medals of Honour Fix         ATMunn      1 AP
+
+Proposals distributed recently:
+
+ID     Author(s)      AI   Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7957*  G.             1.0  Random Irony                 G.          OP [1]
+7958*  G.             2.0  Succession Planning          G.          OP [1]
+7959*  Telnaior       3.0  Deregistration Fix           Telnaior    1 AP
+7960*  V.J. Rada      2.0  Community Chest Repeal II    V.J. Rada   2 sh.
+7961*  G.             1.0  Fear less                    G.          1 AP
+7962*  ATMunn         1.0  Medals of Honour Fix         ATMunn      1 AP
+
+I accept my own CoE. The proposal pool actually contained the following
+proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   Alexis        1.7  A Most Ingenious Paradox
+pp2*  ATMunn        1.0  Medals of Honour Fix
+
+Legend: <ID>* : Proposal is pending.
+
+[1] Official Proposal, inherently pending
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7957
+Title: Random Irony
+Adoption index: 1.0
+Author: G.
+Co-authors:
+OFFICIAL PROPOSAL
+
+
+Repeal Rule 2505 (Random Choices).
+
+//////////////////////////////////////////////////////////////////////
+ID: 7958
+Title: Succession Planning
+Adoption index: 2.0
+Author: G.
+Co-authors:
+OFFICIAL PROPOSAL
+
+
+Amend Rule 1006 (Offices) by replacing:
+
+  The holder of an elected office CAN resign it by announcement, causing
+  it to become vacant.
+
+with:
+
+  The holder of an elected office CAN resign it by announcement, causing
+  it to become vacant.  The non-interim holder of an elected office CAN,
+  With 3 Support, resign the office while appointing another player to
+  become the holder of the office, provided that other player is one of
+  the Supporters.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7959
+Title: Deregistration Fix
+Adoption index: 3.0
+Author: Telnaior
+Co-authors:
+
+
+Amend Rule 869 ("How to Join and Leave Agora", power 3) as follows:
+  Modify the string "If a player has not sent a message to a public forum in the
+  last month, then any player CAN deregister em without objection."
+to
+  "If a player has not sent a message to a public forum in the last month,
+  then any player CAN deregister em with 3 Agoran Consent."
+
+//////////////////////////////////////////////////////////////////////
+ID: 7960
+Title: Community Chest Repeal II
+Adoption index: 2.0
+Author: V.J. Rada
+Co-authors:
+
+
+Repeal rule 2508, "Community Chest"
+Amend rules 2510 "Such is Karma" and 2511 "Karmic Balance" in numerical order by
+replacing any instances of the phrases "the Community Chest" and "The
+Community Chest" with the word "Agora".
+
+//////////////////////////////////////////////////////////////////////
+ID: 7961
+Title: Fear less
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Repeal Rule 2309 (The Propose-O-Matic).
+
+[It's a bit of a fun thing when the game is slow, but otherwise just
+adds some noise, and plenty of us are looking at the past for things
+to re-enact without it].
+
+//////////////////////////////////////////////////////////////////////
+ID: 7962/pp2
+Title: Medals of Honour Fix
+Adoption index: 1.0
+Author: ATMunn
+Co-authors:
+
+
+If there is a rule entitled "Medals of Honour", and it contains the phrase
+"In the 7 days of an Agoran month", then amend that rule by replacing that
+phrase with "In the first 7 days of an Agoran month"
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: A Most Ingenious Paradox
+Adoption index: 1.7
+Author: Alexis
+Co-authors:
+
+
+Text in square brackets is not a part of this proposal and has no
+effect.
+
+Enact a new power-1 rule entitled "Win by Paradox":
+
+  If a CFJ has been assigned a judgment of PARADOXICAL continuously
+  for at least 7 days, and e has not done so already in respect of
+  that CFJ, then that case's initiator CAN, by announcement, win the
+  game.
+
+  A player who wins in this fashion SHOULD submit a proposal to
+  prevent the paradox from arising again.
+
+Amend rule 591 by replacing:
+
+  The valid judgements for an inquiry case are as follows, based on
+  the truth or falsity of the statement at the time the inquiry case
+  was initiated (if its truth value changed at that time, then its
+  initial truth value is used):
+
+with:
+
+  The valid judgements for an inquiry case are as follows, based on
+  the facts and legal situation at the time the inquiry case was
+  initiated, not taking into account any events since that time:
+
+[This is to prevent changing facts not related to truth or falsity, e.g.
+availability of information, from affecting outcomes.]
+
+and by replacing:
+
+  * DISMISS, appropriate if the statement is malformed, undecidable,
+  if insufficient information exists to make a judgement with
+  reasonable effort, or the statement is otherwise not able to be
+  answered with another valid judgement.
+
+with:
+
+  * DISMISS, appropriate if the statement is malformed, undecidable,
+  if insufficient information exists to make a judgement with
+  reasonable effort, or the statement is otherwise not able to be
+  answered with another valid judgement. DISMISS is not
+  appropriate if PARADOXICAL is appropriate.
+
+and by appending to the end:
+
+  * PARADOXICAL, appropriate if the statement is logically
+    undecidable as a result of a paradox or or other irresovable
+    logical situation. PARADOXICAL is not appropriate if IRRELEVANT
+    is appropriate, nor is it appropriate if the undecidability
+    arises from the case itself.
+
+[The reference to IRRELEVANT is to prevent multiple wins from the same
+paradox.]
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,37 @@
+ID: 7930
+Title: Appeals improvements
+Adoption index: 1.7
+Author: G.
+Co-authors:
+Pend Fee: 1 sh.
+
+Amend Rule 911 (Motions and Moots) by replacing its first 2 paragraphs
+with:
+
+      If a judgement has been in effect for less then seven days and
+      has not been entered into Moot, then:
+
+          - The judge of that CFJ CAN self-file a Motion to Reconsider
+            the case by announcement, if e has not already self-filed
+            a Motion to Reconsider that CFJ.
+          - Any Player CAN group-file a Motion to Reconsider the case
+            with 2 Support, if the CFJ has not had a Motion to
+            Reconsider group-filed for it at any time while it has
+            been assigned to its current judge.
+
+      When a Motion to Reconsider is so filed, the case is rendered
+      open again.
+
+      If a CFJ has a judgement assigned, a player CAN enter that
+      judgement into Moot with N+2 support, where N is the number of
+      weeks since that judgement has been assigned, rounded down. When
+      this occurs, the CFJ is suspended, and the Arbitor is once
+      authorized to initiate the Agoran decision to determine public
+      confidence in the judgement, which e SHALL do in a timely
+      fashion.
+
+
+[The judge gets one Motion by announcement, one Motion is allowed
+w/2 support (judge can do that one, too).  Moot has a practical time
+limit but not an absolute one as the difficulty of initiating a Moot
+increases with time].
