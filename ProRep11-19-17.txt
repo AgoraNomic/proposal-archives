@@ -1,0 +1,627 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 4.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI       Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7973*  Aris         1.0      Sky Pillars                  Aris        OP [1]
+7974*  V.J. Rada    3.0 [2]  Really minor fixes           V.J. Rada   1 AP
+7975*  ATMunn, [3]  2.0      Auctions v6                  ATMunn      1 AP
+7976*  Alexis, [4]  1.7      A Mostest Ingenious Paradox  Alexis      2 sh.
+7977*  ATMunn       3.0      Silver Ribbons               ATMunn      1 AP
+7978*  G.           3.0      Gotta allow a win sometime   Corona      1 AP
+7979*  G.           1.0      Plain Old Bribery            G.          1 AP
+7980*  ATMunn, [5]  1.0      [6]                          Alexis      1 AP
+
+The proposal pool currently contains the following proposals:
+
+ID   Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1  Alexis        3.0  Terrible Economic Hack Job
+pp2  G.            2.0  Minimal Econ reforms
+
+Legend: <ID>* : Proposal is pending.
+
+[1] Official Proposal, inherently pending
+[2] The value was provided as "3?". What exactly that means is above my pay
+grade, so this value is provisional.
+[3] o, Aris, nichdel, G.
+[4] ais523
+[5] Alexis
+[6] Empty title
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7973
+Title: Sky Pillars
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+
+It's hereby enacted
+(The name being redacted):
+
+If a player should leave the game,
+they will never be greeted with shame.
+Instead a pillar of memory will be built in the sky,
+it will last there forever,
+it never shall die.
+Tracked by whomever
+tracks tracker-less things,
+let's all watch the bountiful joy it brings
+to see the names of those gone before
+and the ways that they left, as they move into lore.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7974
+Title: Really minor fixes
+Adoption index: 3.0 (provisional, see [2] above)
+Author: V.J. Rada
+Co-authors:
+
+
+Amend rule 2415 "Badges" by replacing the text "multiple persons for
+participating in specific event" with "multiple persons for
+participating in a specific event".
+
+Amend rule 2492 "Recusal" by adding a full stop after the text "1 -
+The CFJ becomes unassigned"
+
+Amend rule 2502 "Agoraculture" by adding a full stop after the text "
+When an Estate is transferred to Agora or to an Organization, its Farm
+switch is set to "unfarmed" immediately afterwards"
+
+Amend rule 1727 "Happy Birthday" by replacing the semicolon in "forego
+such a noble pursuit;" with a comma. (This change is made because the
+rest of the rule uses commas between paragraphs).
+
+Amend rule 2464 "Tournaments" by, in the text "A Tournament is
+governed by a special temporary title of the ACORN, created in
+accordance with its parent rule, which have binding control",
+replacing "have" with "has". (_A_ special title of the ACORN _has_
+binding control).
+
+Amend rule 2446 "The Reportor" by adding a full stop after the text
+"The Reportor's reports are still subject to the requirements of rule
+2143".
+
+Amend rule 2450 "Pledges" by, in the text "To "call in" a pledge" is",
+removing the third quotation mark.
+
+Amend rule 2525 "Interpreting Contracts" by replacing the text " A
+contract CANNOT punish a
+player for performing or failing protected action" with "A contract
+CANNOT punish a player for performing or failing to perform a
+protected action"
+
+Amend rule 2522 "Contract Lifecycle" by replacing the text "(where Y
+is the amendment limit limit)" with "(where Y is the amendment
+limit)".
+
+Amend rule 2523 "Contracts as Agreements" by replacing the text "as a
+mitigating or aggravating circumstances when awarding a card."
+with the text "as a mitigating or aggravating circumstance when issuing a
+card"
+
+Amend rule 869 "How to Join and Leave Agora" by replacing the text
+"any agreementwithout" with "any agreement without"
+
+Amend rule 2479 "Official Justice" by adding full stops after both of
+the following sentences
+"Summary Judgement is imposed on the Referee's own initiative, and not
+in response to any official proceeding"
+and
+"The Referee CANNOT impose Summary Judgement more than three time a week"
+
+Amend rule 2531 "Referee Accountability" by adding a full stop after
+the text "the ADoP SHALL initiate an election for the Referee within a
+timely fashion"
+
+Amend rule 683 "Voting on Agoran Decisions" by replacing the
+penultimate instance of "valid" with "invalid".
+
+Amend rule 2474 "Green Cards" by replacing the text "minor,
+accidental, and/or inconsequential infraction" with the text
+"minor, accidental, and/or inconsequential infractions".
+
+Also amend rule 2474 by replacing the word "'Tis" with "It is".
+
+Amend rule 2124 "Agoran Satisfaction" by replacing the text "4. if the
+action is to be performed With Notice or With T Notice." with "4. the
+action is to be performed With Notice or With T Notice"
+
+Amend rule 991 "Calls for Judgement", by replacing all instances of
+the word "Judgment" with "Judgement".
+
+//////////////////////////////////////////////////////////////////////
+ID: 7975
+Title: Auctions v6
+Adoption index: 2.0
+Author: ATMunn
+Co-authors: o, Aris, nichdel, G.
+
+Create a power-2 rule titled "Auctions"
+{
+  An Auction is a way for entities to give away items in exchange for
+  a currency. Any rule or contract CAN permit (or require) Auctions to be
+  initiated.
+}
+
+Create a power-1 rule titled "Lots"
+{
+  Each Auction has one or more lots of items.
+
+  A lot is a non-empty list of items to be transferred by a single Auction to
+  a single recipient.
+}
+
+Create a power-1 rule titled "The Auctioneer"
+{
+  Each Auction has an Auctioneer.
+
+  The Auctioneer of an Auction is the entity that initiates that
+  Auction, and describes all of the specifics of an Auction. All
+  rules or contracts permitting Auctions to be initiated should
+  specify an entity to be Auctioneer. If no Auctioneer is specified,
+  the default Auctioneer for Auctions defined by the rules is Agora, and
+  the default Auctioneer for Auctions defined by a contract is the
+  contract itself.
+
+  A clause in a Contract purporting to make an entity which is neither the
+  Contract itself nor a party to the Contract the Auctioneer of an Auction
+  defined by that Contract is INEFFECTIVE.
+}
+
+Create a power-1 rule titled "The Auction Announcer"
+{
+  Each Auction has an Announcer. Only persons can be Announcers.
+
+  If the Auctioneer of an Auction is a player, then that player is the
+  Announcer of that Auction.
+
+  Otherwise, the rule or contract defining an Auction CAN define the
+  Announcer for that Auction. Rules to the contrary notwithstanding, no
+  Contract can define a person as the Announcer of an Auction unless that
+  person is a party to that Contract.
+}
+
+Create a power-1 rule titled "Auction Initiation"
+{
+  An entity authorized by a rule or contract to initiate an Auction CAN do so
+  by announcement. If the rule or contract specifies that that entity MUST do
+  so, that entity SHALL do so in a timely fashion. An Auction CANNOT be
+  initiated other than as described by a rule or contract.
+
+  An Auction CANNOT be initiated unless the announcer specifies all of
+
+          * the Auction's lots, in the order they will be awarded,
+          * the items in each lot,
+          * the Auction's Auctioneer,
+          * the Auction's Announcer,
+          * the Auction's minimum bid, and, optionally
+          * the Auction's currency
+
+  in the message initiating the Auction. An Auction also CANNOT be initiated
+  unless the Auctioneer is able to give away each item in each of the
+  Auction's lots.
+
+  If no currency is specified, it defaults to Shinies.
+}
+
+Create a power-1 rule titled "Bidding"
+{
+  A person authorized to bid on an Auction CAN do so by announcement,
+  specifying the amount of the Auction's currency to bid. A bid placed on an
+  Auction before it is initiated, or after it has ended, is INEFFECTIVE.
+
+  An attempt to place a bid which is less than the Auction's minimum bid is
+  INEFFECTIVE.
+
+  A person CAN withdraw their bid on an Auction by announcement. If a person
+  submits a bid on an Auction, all bids previously placed on that Auction by
+  that person are withdrawn.
+
+  A rule or contract defining an Auction CAN specify a class of players who
+  are authorized to bid on that Auction. If the rule or contract does not
+  specify a class of authorized bidders, any player is authorized to bid on
+  an Auction defined by a rule, and any party to a contract is authorized to
+  bid an Auction defined by that Contract.
+
+  A person SHALL NOT bid on an Auction if it would be impossible for em to
+  pay that amount at the conclusion of the Auction.
+}
+
+Create a power-1 rule titled "Auction End"
+{
+  An Auction ends 7 days after its initiation, or immediately if no bid has
+  been placed or withdrawn in the last 96 hours, or immediately if it is
+  terminated.
+
+  When an Auction ends, any bid placed by an entity which does not own enough
+  of the Auction's currency to pay the amount specified in the bid is
+  automatically withdrawn.
+
+  Once an Auction has ended, any further attempts to bid on that Auction or
+  to withdraw bids from that Auction are INEFFECTIVE.
+
+  Once the Auction has ended, the Auction's announcer SHALL announce
+  the end of the Auction in a timely fashion. In the same message, e
+  SHALL include the a list of all the bids on the Auction and the
+  winner(s) (if there are any) of the Auction.
+
+  A person's priority on an Auction is their position in the list of persons
+  who have bid on the Auction, sorted by the value of their non-withdrawn
+  bids in descending order. If two persons have placed non-withdrawn bids for
+  the same value, a player who placed their non-withdrawn bid first has a
+  higher priority than a player who placed their non-withdrawn bid at a later
+  time.
+
+  For each lot in the Auction, the winner of that lot is the player with the
+  highest priority on the Auction who has not won any previous lot. If there
+  are more lots than there are persons with non-withdrawn bids, the excess
+  lots are not won by any person.
+
+  The winner of a lot SHALL pay the Auctioneer the number of the Auction's
+  currency equal to eir bid, in a single payment, in a timely fashion. When e
+  does so, the Auctioneer SHALL transfer the items in that lot to that winner
+  in a timely fashion. If the Auctioneer is not a person, then a person
+  authorized to cause the Auctioneer to transfer those items SHALL do so in a
+  timely fashion after the winner pays the Auctioneer, instead.
+}
+
+Create a power-1 rule titled "Auction Termination"
+  {
+  Any player CAN terminate an Auction, by announcement, if the Auction has
+  not ended and the Auctioneer of that Auction cannot transfer any item
+  included in a lot in that Auction.
+
+  When an Auction is terminated, all bids on that Auction are withdrawn, and
+  then the Auction ends immediately.
+}
+
+If it exists, amend rule 2491, "Estate Auctions" to read in full:
+{
+  At the start of each month, if Agora owns at least one Estate, then the
+  Surveyor CAN and SHALL initiate an Estate Auction in a timely fashion.
+
+  The Auctioneer of an Estate Auction is Agora. The Announcer of an Estate
+  Auction is the Surveyor. The Starting Bid of an Estate Auction is 1 Shiny.
+
+  An Estate Auction has one lot for each Estate owned by Agora, containing
+  exactly and only that Estate. The Surveyor CAN freely determine the order
+  in which those lots will be awarded.
+
+  If an entity wins a lot in an Estate Auction, the Surveyor CAN, for each
+  Estate in the lot, and at most once per Estate per Estate Auction, cause
+  Agora to transfer each Estate to that entity.
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: 7976
+Title:  A Mostest Ingenious Paradox
+Adoption index: 1.7
+Author: Alexis
+Co-authors: ais523
+
+
+Text in square brackets is not a part of this proposal and has no
+effect.
+
+Enact a new power-1 rule entitled "Win by Paradox":
+
+  If a CFJ about the legality or possibility of a game action, has been
+  assigned a judgment of PARADOXICAL continuously
+  for at least 7 days, and e has not done so already in respect of
+  that CFJ, then that case's initiator CAN, by announcement, win the
+  game.
+
+  A player who wins in this fashion SHOULD submit a proposal to
+  prevent the paradox from arising again.
+
+Amend rule 591 by replacing:
+
+  The valid judgements for an inquiry case are as follows, based on
+  the truth or falsity of the statement at the time the inquiry case
+  was initiated (if its truth value changed at that time, then its
+  initial truth value is used):
+
+with:
+
+  The valid judgements for an inquiry case are as follows, based on
+  the facts and legal situation at the time the inquiry case was
+  initiated, not taking into account any events since that time:
+
+[This is to prevent changing facts not related to truth or falsity, e.g.
+availability of information, from affecting outcomes.]
+
+and by replacing:
+
+  * DISMISS, appropriate if the statement is malformed, undecidable,
+    if insufficient information exists to make a judgement with
+    reasonable effort, or the statement is otherwise not able to be
+    answered with another valid judgement.
+
+with:
+
+  * DISMISS, appropriate if the statement is malformed, undecidable,
+    if insufficient information exists to make a judgement with
+    reasonable effort, or the statement is otherwise not able to be
+    answered with another valid judgement. DISMISS is not
+    appropriate if PARADOXICAL is appropriate.
+
+and by appending to the end:
+
+  * PARADOXICAL, appropriate if the statement is logically
+    undecidable as a result of a paradox or or other irresovable
+    logical situation. PARADOXICAL is not appropriate if IRRELEVANT
+    is appropriate, nor is it appropriate if the undecidability
+    arises from the case itself or in reference to it.
+
+[The reference to IRRELEVANT is to prevent multiple wins from the same
+paradox.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 7977
+Title: Silver Ribbons
+Adoption index: 3.0
+Author: ATMunn
+Co-authors:
+
+
+Silver (S): At the start of each Agoran month, the Tailor CAN and SHALL
+initiate a Ribbon Auction in a timely fashion. The Auctioneer of a Ribbon
+Auction is Agora. The Announcer of an Ribbon Auction is the Tailor. The Starting
+Bid of a Ribbon Auction is 1 Shiny. A Ribbon Auction has one lot, for the
+qualification for a Silver Ribbon. If an entity wins this lot, then e qualifies
+for a Silver Ribbon, within that Agoran month.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7978
+Title: Gotta allow a win sometime
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2438 (Ribbons) by replacing:
+      While a person owns all types of Ribbon,
+with:
+      While a person owns either all types of Ribbon or 16 types of
+      Ribbon,
+
+[There are currently 15 types.  Silver would make 16.  Beyond that,
+adding new Ribbons provides win path options rather than raising
+the bar for everyone].
+
+//////////////////////////////////////////////////////////////////////
+ID: 7979
+Title: Plain Old Bribery
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Every Player who cast a valid not-withdrawn unconditional ballot
+FOR this proposal earns a Black Ribbon.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7980
+Title: (No title)
+Adoption index: 1.0
+Author: ATMunn
+Co-authors: Alexis
+
+
+Amend rule 2496 "Rewards" by replacing the text "24 hours" with "7 days"
+
+///////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Terrible Economic Hack Job
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Repeal, in the order given, the following rules:
+- Rule 2489 (Estates)
+- Rule 2488 (The Surveyor)
+- Rule 2491 (Estate Auctions)
+- Rule 2490 (Estate Ballots)
+- Rule 2504 (The Agronomist)
+- Rule 2502 (Agoraculture)
+- Rule 2501 (Farm Rate)
+- Rule 2503 (Comestibles)
+- Rule 2526 (Sustenance Payments)
+- Rule 1885 (Zombie Auctions)
+- Rule 2506 (Blue Cards)
+- Rule 2483 (Economics)
+- Rule 2487 (Shiny Supply Level)
+- Rule 2496 (Rewards)
+- Rule 2498 (Economic Wins)
+- Rule 2497 (Floating Value)
+- Rule 2499 (Welcome Packages)
+- Rule 2516 (Passive Income)
+- Rule 2456 (The Treasuror)
+- Rule 2500 (Action Points)
+
+Amend rule 991 (Calls for Judgement) by replacing the first paragraph
+with:
+  Any person (the initiator) can initiate a Call for Judgement (CFJ,
+  syn. Judicial Case) by announcement, specifying a statement to be
+  inquired into.
+
+Amend rule 2445 (How to Pend a Proposal) by replacing the second
+paragraph with:
+  Any player CAN flip a specified proposal's imminence to "pending"
+  by announcement.
+
+Amend rule 2514 (Emotions) by replacing "other kind acts, such as
+paying shinies to other players or pending other players' proposals."
+with "other kind acts, such as helping others perform actions they
+cannot afford."
+
+Amend rule 2522 (Contract Lifecycle) by replacing "A person CAN create a
+contract by announcement by transferring 1 shiny to Agora, specifying
+the contract's text." with "A person CAN create a contract by
+announcement, specifying the contract's text."
+
+Amend rule 2166 (Assets) by replacing
+  A contract's text can specify whether or not that contract is
+  willing to receive assets or a class of assets. Generally, a
+  contract CANNOT be given assets it is unwilling to receive. If the
+  contract is silent on the matter, or if its willingness is
+  indeterminate or the subject of a inextricable conditional, the
+  procedure to determine its willingness is as follows:
+
+    1. If the contract appears to anticipate being given assets,
+       other than for sustenance (e.g. by authorizing parties to
+       spend the contract's assets), then the contract is willing to
+       receive all assets.
+
+    2. Otherwise, it is unwilling to receive all assets.
+
+  The previous paragraph (including the list) notwithstanding, a
+  contract CAN be given 1 shiny a month for its sustenance payment,
+  so long as it never has more than 1 shiny at a time.
+with
+  A contract's text can specify whether or not that contract is
+  willing to receive assets or a class of assets. Generally, a
+  contract CANNOT be given assets it is unwilling to receive. If the
+  contract is silent on the matter, or if its willingness is
+  indeterminate or the subject of a inextricable conditional, the
+  contract is unwilling to receive any assets.
+
+///////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Terrible Economic Hack Job
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+
+Amend Rule 2516 (Passive Income) to read:
+
+  The Treasuror CAN, once each month, and SHALL, in a timely fashion
+  after the start of each month, publish a Payday Notice. The effect
+  of such a Notice is to:
+
+     1. Destroy all Shinies in Agora's possession.
+
+     2. Create 25 Shinies in the possession of each player.
+
+     3. For each office, if a single player held that office for
+        16 or more days in the previous month and did not receive
+        a card other than Green during that time for performance or
+        nonperformance of that office's duties, create 10 shinies
+        in the possession of that player.
+
+
+Amend Rule 2497 (Floating Value) to read:
+
+  Floating Value is a natural singleton switch, tracked by the
+  Treasuror.
+
+  The Treasuror CAN, once each month, and SHALL, in a timely
+  fashion after the start of each month, publish a valid Notice
+  of Agoran Productivity, containing eir best estimate of the
+  total number of shinies that were in Agora's possession at
+  the end of the previous month.  The Notice is invalid if the
+  estimate differs from the correct value by more than 10%, and
+  the error is publicly identified within one week of its
+  publication.
+
+  The effect of a valid Notice of Agoran Productivity is to flip
+  the Floating Value to the announced estimate.
+
+  The following Floating Derived Values are defined:
+
+  * Stamp Value: 1/5th of the Floating Value, rounded up.
+
+  * Pend Cost: 1/10th of the Floating Value, rounded up.
+
+  * CFJ Cost: 1/20th of the Floating Value, rounded up.
+
+  The Treasuror's weekly report includes all floating-derived
+  values defined by the Rules.
+
+
+Amend Rule 2498 (Economic Wins) by replacing:
+  If Agora owns at least as many Shinies as the current Stamp Value,
+  a player CAN, by announcement, destroy a Stamp e owns to cause
+  Agora to transfer the Stamp Value, in shinies, to emself.
+with:
+  A player CAN, by announcement, destroy a Stamp e owns to create,
+  in eir possession, a number of shinies equal the Stamp Value.
+  If the Stamp's creator was not the destroying player, half
+  the Stamp value (rounded up) in shinies are created in the
+  possession of the Stamp's creator.
+
+[Encourages stamp trading!!]
+
+
+Amend Rule 2499 (Welcome Packages) by replacing:
+  Agora transfers 50 shinies to em.
+with:
+  25 shinies are created in eir possession.
+
+
+Amend Rule 2483 (Economics) by replacing:
+  The Treasuror is the recordkeepor for shinies.
+with:
+  The Treasuror is an Office and the recordkeepor for shinies.
+
+
+Repeal Rule 2487 (Shiny Supply Level).
+Repeal Rule 2456 (The Treasuror).
+Repeal Rule 2500 (Action Points).
+
+
+Amend Rule 2445 (How to Pend a Proposal) by replacing:
+  a) spending 1 Action Point, OR
+
+  b) spending the current Pend Cost in shinies.
+with:
+  a) spending the current Pend Cost in shinies, OR
+
+  b) Without 2 Objections.  Players SHOULD object unless the
+     proposal consists entirely of bug fixes or minor
+     playability adjustments for the good of the game overall.
+
+
+Amend Rule 991 (Calls for Judgement) by replacing:
+  a) by announcement, and spending 1 Action Point, OR
+
+  b) by announcement, and spending the current CFJ cost in shinies,
+     OR
+
+  c) by announcement if e is not a player.
+with:
+  a) by announcement, and spending the current CFJ cost in shinies,
+     OR
+
+  b) Without 2 Objections.  Players SHOULD object unless paying
+     with shinies is a significant barrier to the Caller's
+     ability to seek a resolution to the controversy.
+
+
+Amend Rule 2496 (Rewards) to read in full:
+  A Reward is a specified amount of a currency associated with a
+  Reward Condition. For each time a player meets a Reward Condition,
+  e CAN claim the specified award, by announcement, exactly once
+  within 24 hours of meeting the Reward Condition.  When a player
+  'claims' a Reward, Agora transfers the specified amount of that
+  currency to the player, if Agora possesses sufficient currency to
+  do so.
+
+[The basic definition of "reward" is useful in general so we keep it].
+
+///////////////////////////////////////////////////////////////////////
