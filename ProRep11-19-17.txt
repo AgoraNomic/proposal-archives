@@ -501,9 +501,9 @@ with
 
 ///////////////////////////////////////////////////////////////////////
 ID: pp2
-Title: Terrible Economic Hack Job
-Adoption index: 3.0
-Author: Alexis
+Title: Minimal Econ reforms
+Adoption index: 2.0
+Author: G.
 Co-authors:
 
 
