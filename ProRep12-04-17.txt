@@ -1,0 +1,59 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6.0 [1], the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)      AI    Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7989*  Telnaior       3.0   Don't FAGE the FAGE          Telnaior    1 AP
+7890*  P.S.S [2]      1.0   History by Force             P.S.S. [2]  1 AP
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+
+[1] There is a quite a bit of confusion about the last proposal to be
+    purportedly resolved, 7981, so this value is provisional.
+[2] Publius Scribonius Scholasticus
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7989
+Title: Don't FAGE the FAGE
+Adoption index: 3.0
+Author: Telnaior
+Co-authors:
+
+
+Change the power of Rule 1789 ("Cantus Cygneus") to 3.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7990
+Title: History by Force
+Adoption index: 1.0
+Author: Publius Scribonius Scholasticus
+Co-authors:
+
+
+Enact a new Rule "Miscellaneous Herald Duties", with the following text:
+{
+  The Herald SHALL in eir weekly report include an interesting Agoran
+  fact and SHALL in eir monthly report include a short essay of any
+  authorship, regarding an aspect of Agoran history. Any player
+  publishing a thesis for a degree, related to Agoran history SHOULD
+  offer a summary for publication in the Herald's monthly report.
+
+  The Herald SHALL in eir monthly report publish, with reasonable
+  effort, a summary of all theses written for the purpose of
+  receiving degrees, regardless of whether a degree was awarded.
+  The Herald SHOULD attempt to make theses available for reading.
+}
+
+//////////////////////////////////////////////////////////////////////

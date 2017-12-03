@@ -1,0 +1,320 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 8.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)      AI    Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7982*  V.J. Rada      1.7   Referee Reform Fix           V.J. Rada   1 sh.
+7983*  Telnaior, [1]  1.0   SBOTGT [2]                   Telnaior    1 AP
+7984*  Aris, [3]      2.6   Contract Flexibility Act     Aris        1 AP
+7985*  Alexis         2.6   Open Season on Contracts     Alexis      1 AP
+7986*  P.S.S [4]      3.0   Quick Fix                    P.S.S. [4]  1 AP
+7987*  ATMunn, [5]    1.0   AOC [6]                      Aris        1 AP
+7988*  G.             2.0   Minimal Econ reforms         G.          1 AP
+
+The proposal pool currently contains the following proposals:
+
+ID   Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1  Alexis        3.0  Terrible Economic Hack Job
+
+Legend: <ID>* : Proposal is pending.
+
+
+[1] Alexis, VJ Rada
+[2] Somehow Both Of These Got Through
+[3] V.J. Rada, Ørjan
+[3] Publius Scribonius Scholasticus
+[5] Alexis
+[6] ADoP Obligation Clarification
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7982
+Title: Referee Reform Fix
+Adoption index: 1.7
+Author: V.J. Rada
+Co-authors:
+
+
+At the end of rule 2478 "Viglilante Justice", add a new
+paragraph with the text "The Referee CANNOT Point eir Finger. The
+Arbitor CANNOT Point eir Finger at the Referee".
+
+//////////////////////////////////////////////////////////////////////
+ID: 7983
+Title: Somehow Both Of These Got Through
+Adoption index: 1.0
+Author: Telnaior
+Co-authors: Alexis, VJ Rada
+
+
+Amend the Rule "Favour Awards" by changing
+  "For each voter who has not voted on an Agoran decision resolved earlier in the
+  same Agoran week, e SHALL award that player 2 Favours in the Party holding
+  Participaiton."
+to
+  "For each voter who has voted on an Agoran decision resolved earlier in the
+  same Agoran week, e SHALL award that player 2 Favours in the Party holding
+  Participation."
+
+//////////////////////////////////////////////////////////////////////
+ID: 7984
+Title: Contract Flexibility Act
+Adoption index: 2.6
+Author: Aris
+Co-authors: V.J. Rada, Ørjan
+
+
+Amend Rule 2525, Interpreting Contracts, by:
+
+  Removing item 6 of the numbered list and renumbering appropriately; and
+  Changing the phrase "failing protected action" to read "failing to perform
+  a protected action".
+
+//////////////////////////////////////////////////////////////////////
+ID: 7985
+Title: Open Season on Contracts
+Adoption index: 2.6
+Author: Alexis
+Co-authors:
+
+
+Amend rule 2525 (Interpreting Contracts) by deleting all but the first two
+paragraphs.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7986
+Title: Quick Fix
+Adoption index: 3.0
+Author: Publius Scribonius Scholasticus
+Co-authors:
+
+
+In rule 105, add a full stop after "repeal a rule" in bullet point 2.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7987
+Title: ADoP Obligation Clarification
+Adoption index: 1.0
+Author: ATMunn
+Co-authors: Alexis
+
+
+Amend rule 2138, "The Associate Director of Personnel", by adding the following
+ist item to the end:
+
+    4. The Complexity of each Office.
+
+Also in rule 2138, add a full stop to the end of the second list item, if there
+is not one there already.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7988
+Title: Minimal Econ reforms
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2516 (Passive Income) to read:
+
+  The Treasuror CAN, once each month, and SHALL, in a timely fashion
+  after the start of each month, publish a Payday Notice. The effect
+  of such a Notice is to:
+
+     1. Destroy all Shinies in Agora's possession.
+
+     2. Create 25 Shinies in the possession of each player.
+
+     3. For each office, if a single player held that office for
+        16 or more days in the previous month and did not receive
+        a card other than Green during that time for performance or
+        nonperformance of that office's duties, create 10 shinies
+        in the possession of that player.
+
+
+Amend Rule 2497 (Floating Value) to read:
+
+  Floating Value is a natural singleton switch, tracked by the
+  Treasuror.
+
+  The Treasuror CAN, once each month, and SHALL, in a timely
+  fashion after the start of each month, publish a valid Notice
+  of Agoran Productivity, containing eir best estimate of the
+  total number of shinies that were in Agora's possession at
+  the end of the previous month.  The Notice is invalid if the
+  estimate differs from the correct value by more than 10%, and
+  the error is publicly identified within one week of its
+  publication.
+
+  The effect of a valid Notice of Agoran Productivity is to flip
+  the Floating Value to the announced estimate.
+
+  The following Floating Derived Values are defined:
+
+  * Stamp Value: 1/5th of the Floating Value, rounded up.
+
+  * Pend Cost: 1/10th of the Floating Value, rounded up.
+
+  * CFJ Cost: 1/20th of the Floating Value, rounded up.
+
+  The Treasuror's weekly report includes all floating-derived
+  values defined by the Rules.
+
+
+Amend Rule 2498 (Economic Wins) by replacing:
+  If Agora owns at least as many Shinies as the current Stamp Value,
+  a player CAN, by announcement, destroy a Stamp e owns to cause
+  Agora to transfer the Stamp Value, in shinies, to emself.
+with:
+  A player CAN, by announcement, destroy a Stamp e owns to create,
+  in eir possession, a number of shinies equal the Stamp Value.
+  If the Stamp's creator was not the destroying player, half
+  the Stamp value (rounded up) in shinies are created in the
+  possession of the Stamp's creator.
+
+[Encourages stamp trading!!]
+
+
+Amend Rule 2499 (Welcome Packages) by replacing:
+  Agora transfers 50 shinies to em.
+with:
+  25 shinies are created in eir possession.
+
+
+Amend Rule 2483 (Economics) by replacing:
+  The Treasuror is the recordkeepor for shinies.
+with:
+  The Treasuror is an Office and the recordkeepor for shinies.
+
+
+Repeal Rule 2487 (Shiny Supply Level).
+Repeal Rule 2456 (The Treasuror).
+Repeal Rule 2500 (Action Points).
+
+
+Amend Rule 2445 (How to Pend a Proposal) by replacing:
+  a) spending 1 Action Point, OR
+
+  b) spending the current Pend Cost in shinies.
+with:
+  a) spending the current Pend Cost in shinies, OR
+
+  b) Without 2 Objections.  Players SHOULD object unless the
+     proposal consists entirely of bug fixes or minor
+     playability adjustments for the good of the game overall.
+
+
+Amend Rule 991 (Calls for Judgement) by replacing:
+  a) by announcement, and spending 1 Action Point, OR
+
+  b) by announcement, and spending the current CFJ cost in shinies,
+     OR
+
+  c) by announcement if e is not a player.
+with:
+  a) by announcement, and spending the current CFJ cost in shinies,
+     OR
+
+  b) Without 2 Objections.  Players SHOULD object unless paying
+     with shinies is a significant barrier to the Caller's
+     ability to seek a resolution to the controversy.
+
+
+Amend Rule 2496 (Rewards) to read in full:
+  A Reward is a specified amount of a currency associated with a
+  Reward Condition. For each time a player meets a Reward Condition,
+  e CAN claim the specified award, by announcement, exactly once
+  within 24 hours of meeting the Reward Condition.  When a player
+  'claims' a Reward, Agora transfers the specified amount of that
+  currency to the player, if Agora possesses sufficient currency to
+  do so.
+
+[The basic definition of "reward" is useful in general so we keep it].
+
+///////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Terrible Economic Hack Job
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Repeal, in the order given, the following rules:
+- Rule 2489 (Estates)
+- Rule 2488 (The Surveyor)
+- Rule 2491 (Estate Auctions)
+- Rule 2490 (Estate Ballots)
+- Rule 2504 (The Agronomist)
+- Rule 2502 (Agoraculture)
+- Rule 2501 (Farm Rate)
+- Rule 2503 (Comestibles)
+- Rule 2526 (Sustenance Payments)
+- Rule 1885 (Zombie Auctions)
+- Rule 2506 (Blue Cards)
+- Rule 2483 (Economics)
+- Rule 2487 (Shiny Supply Level)
+- Rule 2496 (Rewards)
+- Rule 2498 (Economic Wins)
+- Rule 2497 (Floating Value)
+- Rule 2499 (Welcome Packages)
+- Rule 2516 (Passive Income)
+- Rule 2456 (The Treasuror)
+- Rule 2500 (Action Points)
+
+Amend rule 991 (Calls for Judgement) by replacing the first paragraph
+with:
+  Any person (the initiator) can initiate a Call for Judgement (CFJ,
+  syn. Judicial Case) by announcement, specifying a statement to be
+  inquired into.
+
+Amend rule 2445 (How to Pend a Proposal) by replacing the second
+paragraph with:
+  Any player CAN flip a specified proposal's imminence to "pending"
+  by announcement.
+
+Amend rule 2514 (Emotions) by replacing "other kind acts, such as
+paying shinies to other players or pending other players' proposals."
+with "other kind acts, such as helping others perform actions they
+cannot afford."
+
+Amend rule 2522 (Contract Lifecycle) by replacing "A person CAN create a
+contract by announcement by transferring 1 shiny to Agora, specifying
+the contract's text." with "A person CAN create a contract by
+announcement, specifying the contract's text."
+
+Amend rule 2166 (Assets) by replacing
+  A contract's text can specify whether or not that contract is
+  willing to receive assets or a class of assets. Generally, a
+  contract CANNOT be given assets it is unwilling to receive. If the
+  contract is silent on the matter, or if its willingness is
+  indeterminate or the subject of a inextricable conditional, the
+  procedure to determine its willingness is as follows:
+
+    1. If the contract appears to anticipate being given assets,
+       other than for sustenance (e.g. by authorizing parties to
+       spend the contract's assets), then the contract is willing to
+       receive all assets.
+
+    2. Otherwise, it is unwilling to receive all assets.
+
+  The previous paragraph (including the list) notwithstanding, a
+  contract CAN be given 1 shiny a month for its sustenance payment,
+  so long as it never has more than 1 shiny at a time.
+with
+  A contract's text can specify whether or not that contract is
+  willing to receive assets or a class of assets. Generally, a
+  contract CANNOT be given assets it is unwilling to receive. If the
+  contract is silent on the matter, or if its willingness is
+  indeterminate or the subject of a inextricable conditional, the
+  contract is unwilling to receive any assets.
+
+///////////////////////////////////////////////////////////////////////
