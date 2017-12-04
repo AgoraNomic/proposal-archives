@@ -8,7 +8,9 @@ votes).
 ID     Author(s)      AI    Title                        Pender      Pend fee
 ---------------------------------------------------------------------------
 7989*  Telnaior       3.0   Don't FAGE the FAGE          Telnaior    1 AP
-7890*  P.S.S [2]      1.0   History by Force             P.S.S. [2]  1 AP
+7990*  P.S.S [2]      1.0   History by Force             P.S.S. [2]  1 AP
+7991*  G.             3.0   Ribbon fix                   G.          1 AP
+7992*  Alexis         3.0   More CAN Fixes               Alexis      1 AP
 
 The proposal pool is currently empty.
 
@@ -55,5 +57,41 @@ Enact a new Rule "Miscellaneous Herald Duties", with the following text:
   receiving degrees, regardless of whether a degree was awarded.
   The Herald SHOULD attempt to make theses available for reading.
 }
+
+//////////////////////////////////////////////////////////////////////
+ID: 7991
+Title: Ribbon fix
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2438 by replacing:
+   While a person qualifies for a type of Ribbon, any player can generally
+   award em that type of Ribbon.
+with:
+  While a person qualifies for a type of Ribbon, any player CAN award em
+  that type of Ribbon by announcement.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7992
+Title: More CAN Fixes
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Amend Rule 2438 (Ribbons) by replacing "While a person qualifies for a type
+of Ribbon, any player can generally award em that type of Ribbon." with "
+While a person qualifies for a type of Ribbon, any player CAN, by
+announcement, award em that type of Ribbon."
+
+Amend Rule 2444 (Silver Quill) by replacing "the Herald is authorized to
+award" with "the Herald CAN once, by announcement, award"
+
+Amend Rule 2449 (Winning the Game) by replacing "The Herald CAN once, by
+announcement, then award those persons the Patent Title of Champion."
+
+[Note that Rule 649 turns the permission into an obligation.]
 
 //////////////////////////////////////////////////////////////////////
