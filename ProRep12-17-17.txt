@@ -1,0 +1,67 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 7.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                   Pender      Pend fee
+---------------------------------------------------------------------------
+7994*  ATMunn       1.0  Silliness, Begone!      ATMunn      1 AP
+7995*  Alexis       3.0  Older Cleanliness       Alexis      1 AP
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7994
+Title: Silliness, Begone!
+Adoption index: 1.0
+Author: ATMunn
+Co-authors:
+
+
+There once was a man of Sphero
+Who was a descendent of Nero;
+  E said to me one day,
+  "Silliness - it cannot stay!"
+So this proposal will repeal rule one six five zero.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7995
+Title: Older Cleanliness
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Repeal Rule 2430 (Cleanup Time).
+
+Re-enact Rule 2221 (Cleanliness).
+
+[For reference:
+Rule 2221/5 (Power=3)
+Cleanliness
+
+  Any player CAN clean a rule without objection by specifying one
+  or more corrections to spelling, grammar, capitalization, and/or
+  dialect, or to whether a synonym or abbreviation is used in
+  place of a word or phrase, in the rule's text and/or title; the
+  rule is amended by this rule as specified by that person.
+
+History:
+Created by Proposal 5975 (Murphy), 25 November 2008
+Amended(1) by Proposal 6098 (comex), 22 February 2009
+Amended(2) by Proposal 6291 (Murphy), 19 May 2009
+Amended(3) by Proposal 6722 (Murphy), 21 May 2010
+Amended(4) by Proposal 6732 (comex), 6 June 2010
+Amended(5) by Proposal 6741 (comex; disi.), 1 July 2010]
+
+//////////////////////////////////////////////////////////////////////

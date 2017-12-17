@@ -1,0 +1,34 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 7.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)      AI    Title                        Pender      Pend fee
+---------------------------------------------------------------------------
+7993*  Alexis         1.0   Conditional Ban              Alexis      1 AP
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7993
+Title: Conditional Ban
+Adoption index: 1.0
+Author: Alexis
+Co-authors:
+
+
+Enact a new rule entitled 'Unconditionality' reading "Except where the
+rules, implicitly or explicitly, provide a mechanism to do so, actions
+CANNOT be performed conditionally."
+
+//////////////////////////////////////////////////////////////////////
