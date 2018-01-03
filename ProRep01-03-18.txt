@@ -1,0 +1,7 @@
+[Sorry for the early report. I'm going to be busy later this week, so I
+otherwise might not have had time to report at all.]
+
+The proposal pool is currently empty.
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
