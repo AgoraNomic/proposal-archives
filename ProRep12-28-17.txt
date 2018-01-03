@@ -1,0 +1,108 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 7.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                    Pender      Pend fee
+---------------------------------------------------------------------------
+7996*  Murphy       3.0  Hopefully routine fixes  Murphy      1 AP
+7997*  Murphy, [1]  2.0  Politician Fixes v1.1    Murphy      1 AP
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+[1] Alexis
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7996
+Title: Hopefully routine fixes
+Adoption index: 3.0
+Author: Murphy
+Co-authors:
+
+
+Amend Rule 991 (Calls for Judgement) by replacing "the Arbitor CAN
+assign any player" with "the Arbitor CAN assign any eligible player".
+
+Amend Rule 2529 (Medals of Honour) by replacing this text:
+
+  In the first 7 days of an Agoran month after the first 7 days, if
+  there are any players who are eligible for a Medal of Honour,
+
+with this text:
+
+  In the first 7 days of an Agoran month after the first 7 days, if
+  there are any players who correctly announced their eligibility
+  that month as specified above,
+
+Amend Rule 2160 (Deputisation) by replacing this text:
+
+  When a player deputises via normal deputisation for an elected
+  office, e becomes the holder of that office.
+
+with this text:
+
+  When a player deputises via normal deputisation for an elected
+  office, e becomes the holder of that office, unless the action
+  being performed would already install someone into that office.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7997
+Title: Politician Fixes v1.1
+Adoption index: 2.0
+Author: Murphy
+Co-authors: Alexis
+
+
+Amend Rule 2536 (Taken Under Advisement) by replacing this text:
+
+  A player CAN, by announcement, spend Favours in a Party to gain
+  Influence over that Politican, depending on the Politician's
+  Echelon:
+
+with this text:
+
+  A player CAN, by announcement, spend Favours in a Politician's
+  Party to gain Influence over that Politician, depending on the
+  Politician's Echelon:
+
+[same party only, also spelling fix]
+
+Amend Rule 2542 (Favour Awards) by replacing this text:
+
+  - For each voter who has not voted on an Agoran decision resolved
+    earlier in the same Agoran week, e SHALL award that player 2
+    Favours in the Party holding Participaiton.
+
+with this text:
+
+  - For each voter who voted on that Agoran decision and did not
+    already receive this type of award earlier in the same Agoran
+    week, e SHALL award that player 2 Favours in the Party holding
+    Participation.
+
+[same intent but easier to understand, also spelling fix]
+
+and by replacing this text:
+
+  As part of eir weekly duties, the Clork SHALL award, to the
+  Advisor of a Politician holding one of the below offices, 3
+  Favours in the corresponding Party:
+
+with this text:
+
+  As part of eir weekly duties, the Clork SHALL award, to the
+  Advisor of a Politician holding one of the below Posts, 3
+  Favours in the corresponding Party:
+
+[Politicians hold Posts, not offices]
+
+//////////////////////////////////////////////////////////////////////
