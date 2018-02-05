@@ -1,0 +1,178 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 4.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+8005*  Murphy       3.0  Hopefully routine fixes     Murphy      1 AP
+8006*  G.           3.0  It's completely broken      G.          1 AP
+8007*  Aris, [1]    2.6  Contract Flexibility Act    Aris        1 AP
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   G.            2.5  Downsizing a redundancy
+
+[1] V.J. Rada, Ørjan
+
+Legend: <ID>* : Proposal is pending.
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8005
+Title: Hopefully routine fixes
+Adoption index: 3.0
+Author: Murphy
+Co-authors:
+
+
+Amend Rule 991 (Calls for Judgement) by replacing "the Arbitor CAN
+assign any player" with "the Arbitor CAN assign any eligible player".
+
+Amend Rule 2529 (Medals of Honour) by replacing this text:
+
+  In the first 7 days of an Agoran month after the first 7 days, if
+  there are any players who are eligible for a Medal of Honour,
+
+with this text:
+
+  In the first 7 days of an Agoran month after the first 7 days, if
+  there are any players who correctly announced their eligibility
+  that month as specified above,
+
+Amend Rule 2160 (Deputisation) by replacing this text:
+
+  When a player deputises via normal deputisation for an elected
+  office, e becomes the holder of that office.
+
+with this text:
+
+  When a player deputises via normal deputisation for an elected
+  office, e becomes the holder of that office, unless the action
+  being performed would already install someone into that office.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8006
+Title: It's completely broken
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+[Spend is badly defined.  Destructability is badly defined.  The
+whole thing is rubbish.  Time to start over].
+
+Repeal Rule 2166 (Assets).
+Repeal Rule 2515 (Distributing Assets).
+Repeal Rule 2545 (Auctions).
+Repeal Rule 2546 (Lots).
+Repeal Rule 2547 (The Auctioneer).
+Repeal Rule 2548 (The Auction Announcer).
+Repeal Rule 2549 (Auction Initiation).
+Repeal Rule 2550 (Bidding).
+Repeal Rule 2551 (Auction End).
+Repeal Rule 2552 (Auction Termination).
+Repeal Rule 2483 (Economics).
+Repeal Rule 2487 (Shiny Supply Level)
+Repeal Rule 2496 (Rewards)
+Repeal Rule 2497 (Floating Value)
+Repeal Rule 2498 (Economic Wins)
+Repeal Rule 2499 (Welcome Packages)
+Repeal Rule 2516 (Passive Income)
+Repeal Rule 2456 (The Treasuror)
+Repeal Rule 2489 (Estates)
+Repeal Rule 2488 (The Surveyor)
+Repeal Rule 2491 (Estate Auctions)
+Repeal Rule 2490 (Estate Ballots)
+Repeal Rule 2500 (Action Points)
+Repeal Rule 2504 (The Agronomist)
+Repeal Rule 2502 (Agoraculture)
+Repeal Rule 2501 (Farm Rate)
+Repeal Rule 2503 (Comestibles)
+
+
+Amend Rule 2445 (How to Pend a Proposal) by replacing:
+   Any player CAN flip a specified proposal's imminence to "pending"
+   by announcement by:
+
+     a) spending 1 Action Point, OR
+
+     b) spending the current Pend Cost in shinies.
+
+with:
+  Any player CAN flip a specified proposal's imminence to "pending"
+  with N Support, where N is the number of times e has previously
+  flipped a proposal to pending in the current week (if N is less
+  than 1, e CAN do so by announcement).
+
+
+Amend Rule 991 (Calls for Judgement) by replacing:
+   Any person (the initiator) can initiate a Call for Judgement (CFJ,
+   syn. Judicial Case), specifying a statement to be inquired into:
+
+   a) by announcement, and spending 1 Action Point, OR
+
+   b) by announcement, and spending the current CFJ cost in shinies,
+      OR
+
+   c) by announcement if e is not a player.
+
+with:
+
+  Any person (the initiator) can initiate a Call for Judgement (CFJ,
+  syn. Judicial Case) with N-2 Support, where N is the number of
+  times e has previously initiated a CFJ in the current week (if N
+  is less than 1, e CAN do so by announcement).
+
+
+[Fixing the Contracts rules is left as an exercise].
+
+//////////////////////////////////////////////////////////////////////
+ID: 8007
+Title: Contract Flexibility Act
+Adoption index: 2.6
+Author: Aris
+Co-author(s): V.J. Rada, Ørjan
+
+Amend Rule 2525, Interpreting Contracts, by:
+
+  Removing item 6 of the numbered list and renumbering appropriately; and
+  Changing the phrase "failing protected action" to read "failing to perform
+  a protected action".
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Downsizing a redundancy
+Adoption index: 2.5
+Author: G.
+Co-authors:
+
+
+In the following Rules (in order), replace every instance of
+the term "Notary" with "Regkeepor":
+  Rule 2522 (Contract Lifecycle)
+  Rule 2526 (Sustenance Payments)
+
+
+Amend Rule 2494 (The Regkeepor) by inserting the following
+paragraph immediately after the first paragraph:
+
+  The Regkeepor's weekly report also contains all contracts,
+  including their name, text, and parties, and the list of
+  private classes of asset. The Regkeepor is ENCOURAGED to
+  list all changes to the information e tracks in eir report.
+
+
+Repeal Rule 2527 (The Notary).
+
+[I think "Notary" is a better title for the combined office,
+but our Notary is AWOL while our Regkeepor is not].
+
+//////////////////////////////////////////////////////////////////////

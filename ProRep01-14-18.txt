@@ -1,0 +1,165 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 4.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+7998*  Murphy, [1]  2.4  Eastman weeks               Murphy      1 AP
+7999*  Alexis       2.0  Party's Over, Back to Work  Alexis      1 AP
+8000*  Alexis       3.0  Older Cleanliness           Alexis      1 AP
+8001*  Aris         1.0  No More Eras                Aris        1 AP
+8002*  Aris         3.0  Power Creep Reduction Act   Aris        1 AP
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+[1] ATMunn
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 7998
+Title: Eastman weeks
+Adoption index: 2.4
+Author: Murphy
+Co-authors: ATMunn
+
+
+Amend Rule 1023 (Agoran Time) by replacing this text:
+
+  2. Agoran weeks begin at midnight UTC on Monday.
+
+with this text:
+
+ 2. Agoran weeks begin at midnight UTC on Monday. Eastman
+    weeks begin at midnight UTC on the 1st, 8th, 15th, 22nd,
+    and 29th of each Gregorian month; the fifth one of the
+    month (if any) lasts till the end of the month.
+
+and by inserting, before this text:
+
+  These definitions do not apply to relative durations (e.g.
+  "within <number> days after <event>").
+
+this text:
+
+  The "Agoran" qualifier is assumed unless a different
+  definition is indicated (e.g. Eastman weeks).
+
+Amend Rule 2529 (Medals of Honor) by replacing this text:
+
+  In the first 7 days of an Agoran month,
+
+with this text:
+
+  In the first Eastman week of an Agoran month,
+
+and by replacing this text:
+
+  In the first 7 days of an Agoran month after the first 7 days,
+
+with this text:
+
+  In the second Eastman week of an Agoran month,
+
+and by replacing this text:
+
+  E SHALL do so within the 7 days of an Agoran month after the first
+  7 days.
+
+with this text:
+
+  E SHALL do so within the second Eastman week of that Agoran month.
+
+Amend Rule 2502 (Agoraculture) by replacing each instance of "first week
+of an Agoran month" with "first Eastman week of an Agoran month".
+
+Amend Rule 2526 (Sustenance Payments) by replacing "first week of every
+month" with "first Eastman week of every month".
+
+Amend Rule 2139 (The Registrar) by replacing "first week of every month"
+with "first Eastman week of every month".
+
+Amend Rule 2487 (Shiny Supply Level) by replacing "first Agoran week of
+that month" with "first Eastman week of that month".
+
+//////////////////////////////////////////////////////////////////////
+ID: 7999
+Title: Party's Over, Back to Work
+Adoption index: 2.0
+Author: Alexis
+Co-authors:
+
+Repeal, in numerical order, Rules 2533 through 2543.
+
+Amend Rule 2497 (Floating Value) by deleting the sentence including the
+word "Favour Value".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8000
+Title: Older Cleanliness
+Adoption index: 2.0
+Author: Alexis
+Co-authors:
+
+Repeal Rule 2430 (Cleanup Time).
+
+Re-enact Rule 2221 (Cleanliness).
+
+[For reference:
+Rule 2221/5 (Power=3)
+Cleanliness
+
+  Any player CAN clean a rule without objection by specifying one
+  or more corrections to spelling, grammar, capitalization, and/or
+  dialect, or to whether a synonym or abbreviation is used in
+  place of a word or phrase, in the rule's text and/or title; the
+  rule is amended by this rule as specified by that person.
+
+History:
+Created by Proposal 5975 (Murphy), 25 November 2008
+Amended(1) by Proposal 6098 (comex), 22 February 2009
+Amended(2) by Proposal 6291 (Murphy), 19 May 2009
+Amended(3) by Proposal 6722 (Murphy), 21 May 2010
+Amended(4) by Proposal 6732 (comex), 6 June 2010
+Amended(5) by Proposal 6741 (comex; disi.), 1 July 2010]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8001
+Title: No More Eras
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+Repeal Rule 2448 ("Eras").
+
+//////////////////////////////////////////////////////////////////////
+ID: 8002
+Title: Power Creep Reduction Act
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+Amend Rule 217, "Interpreting the Rules", by changing the text
+
+  "Definitions in lower-powered Rules do not overrule common-sense
+  interpretations or common definitions of terms in higher-powered rules."
+
+to read
+
+  "Definitions in lower-powered Rules do not overrule common-sense
+  interpretations or common definitions of terms in higher-powered rules, but
+  may constructively make reasonable clarifications to those definitions. For
+  this purpose, a clarification is reasonable if and only if it adds detail
+  without changing the underlying general meaning of the term and without
+  causing the higher powered rule to be read in a way inconsistent with
+  its text."
+
+//////////////////////////////////////////////////////////////////////

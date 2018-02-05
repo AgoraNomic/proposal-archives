@@ -1,0 +1,146 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 4.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+8003*  Corona       3.0  Asset fix                   Corona      1 AP
+8004*  G.           2.0  Rusty                       G.          1 AP
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+A proposal may be pended for 1 AP, or for 1/20th the Floating Value
+in shines (see the Treasuror's report).
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8003
+Title: Asset fix
+Adoption index: 3.0
+Author: Corona
+Co-authors:
+
+
+Amend rule 2166 "Assets" by replacing:
+
+  An indestructible asset is one defined as such by it backing document, and
+  CANNOT be destroyed except by a rule, other than this one, specifically
+  addressing the destruction of indestructible assets or that asset in
+  particular;
+
+with:
+
+  An indestructible asset is one defined as such by it backing document, and
+  CANNOT be destroyed except by a proposal or rule, other than this one,
+  specifically addressing the destruction of indestructible assets or that
+  asset in particular;​
+
+//////////////////////////////////////////////////////////////////////
+ID: 8004
+Title: Rusty
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+[Keeps a very basic shiny system for Contracts and other stuff, but
+vastly simplifies it].
+
+
+Amend Rule 2483 (Economics) to read in full:
+
+  Shinies (singular "shiny", abbreviated "sh.") are an
+  indestructible liquid currency, and the official currency of
+  Agora.
+
+  The Treasuror is an Office, and the recordkeepor for shinies.
+
+  Whenever a Payday occurs, the following events happen in order:
+
+    1.  For each entity possessing shinies, half of eir shinies
+    (rounded up) are destroyed.
+
+    2.  10 shinies are created in the possession of each player.
+
+    3.  For each office, if a single player held that office
+    for 16 or more days in the previous month and e was not
+    issued any Cards other than Green for eir conduct in that
+    office during that time, 3 shinies are created in the
+    possession of that player.
+
+  The occurrence of Paydays is secured.  At the beginning of each
+  month, a Payday occurs.
+
+  When a person registers who has not been a player at any time in
+  the previous 60 days, 10 shinies are created in eir possession.
+
+  The Pend Cost is 3 Shinies.  The CFJ Cost is 1 Shiny.
+
+
+[
+ For any given payday, the total shinies S(t) will be governed by:
+  S(t+1) = 10*Players + 3*Offices - 0.5*S(t)
+ This has a stable equilibrium at (10*Players+3*Offices)/1.5 (if
+ rounding isn't taken into account).
+]
+
+
+All shinies are hereby destroyed.
+
+A Payday hereby occurs.
+
+
+Amend Rule 2445 (How to Pend a Proposal) by replacing:
+  a) spending 1 Action Point, OR
+
+  b) spending the current Pend Cost in shinies.
+with:
+  a) spending the current Pend Cost in shinies, OR
+
+  b) Without Objection.
+
+
+Amend Rule 991 (Calls for Judgement) by replacing:
+  a) by announcement, and spending 1 Action Point, OR
+
+  b) by announcement, and spending the current CFJ cost in shinies,
+     OR
+
+  c) by announcement if e is not a player.
+with:
+  a) by announcement, if e has not previously initiated any CFJs in
+     the current week, OR
+
+  b) by announcement by spending the current CFJ Cost in shinies.
+
+
+[Everyone, players and non-players alike, gets one CFJ free per week, that
+is hopefully sufficiently guarding of justice for everyone - if not can
+raise that later.]
+
+
+Repeal, in the following order:
+  Rule 2487 (Shiny Supply Level)
+  Rule 2496 (Rewards)
+  Rule 2497 (Floating Value)
+  Rule 2498 (Economic Wins)
+  Rule 2499 (Welcome Packages)
+  Rule 2516 (Passive Income)
+  Rule 2456 (The Treasuror)
+  Rule 2489 (Estates)
+  Rule 2488 (The Surveyor)
+  Rule 2491 (Estate Auctions)
+  Rule 2490 (Estate Ballots)
+  Rule 2500 (Action Points)
+  Rule 2504 (The Agronomist)
+  Rule 2502 (Agoraculture)
+  Rule 2501 (Farm Rate)
+  Rule 2503 (Comestibles)
+
+//////////////////////////////////////////////////////////////////////
