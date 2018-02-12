@@ -1,0 +1,647 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+8015*  G.           1.0  There once was a Rule       G.          3 sh.
+
+Proposals distributed this week:
+
+ID     Author(s)    AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+8010*  Alexis       3.0  End of an Era               Alexis      3 sh.
+8011*  G.           1.5  Patent Depowering           G.          3 sh.
+8012*  CuddleBeam   1.0  AUEP [1]                    CuddleBeam  3 sh.
+8013*  G.           3.0  MEBP? [2]                   G.          3 sh.
+8014*  Trigon, [3]  2.6  Putting Agora on a Map v7   Trigon      3 sh.
+8015*  G.           1.0  There once was a Rule       G.          3 sh.
+
+The proposal pool currently contains the following proposals (this is a
+revision):
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   G.            1.0  Voluntary Silliness
+
+
+[1] An utmost excellent proposal
+[2] Must elections be political?
+[3] Aris, ATMunn, G., o, VJ Rada
+
+Legend: <ID>* : Proposal is pending.
+
+A proposal may be pended for 3 shinies.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8015
+Title: There once was a Rule
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Of silliness I am a fan
+So rulekeepor follow this plan
+Amend as I show
+Rule 1650:
+Replace 'SHALL' with a 'SHALL and CAN'
+
+//////////////////////////////////////////////////////////////////////
+ID: 8010
+Title: End of an Era
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+THE YEAR OF CELEBRATION BEING COMPLETE, RULE 2486 IS HEREBY REPEALED.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8011
+Title: Patent Depowering
+Adoption index: 1.5
+Author: G.
+Co-authors:
+
+
+Amend Rule 649 (Patent Titles) by replacing "secured" with
+"secured at power 1".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8012
+Title: An utmost excellent proposal
+Adoption index: 1.0
+Author: CuddleBeam
+Co-authors:
+
+
+Ok so, hear me out, this is a limerick about butts
+It's pretty good, I've got this down, butts.
+give each Agoran a shiny, butts
+And a coin, butts
+This is a classy proposal - butts butts butts!
+
+//////////////////////////////////////////////////////////////////////
+ID: 8013
+Title: Must elections be political?
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Repeal Rule 2513 (Campaign Proposals).
+
+
+Amend Rule 2154 (Election Procedure) to read in full:
+
+  A player CAN initiate an election for a specified office:
+
+  a) With 2 Support, if either the office is interim or the most
+     recent election for that office was resolved more than 90 days
+     prior, and provided that the initiator becomes a candidate in
+     the same message.
+
+  b) By announcement, if e is the ADoP and if the office is interim,
+     or if e is the holder of that office.
+
+  The above notwithstanding, an election for an office CANNOT be
+  initiated if one is already in progress.
+
+  When an election is initiated, it enters the nomination period,
+  which lasts for 4 days. After an election is initiated and until
+  nominations close, any player CAN become a candidate by
+  announcement. A candidate ceases to be a candidate if e ceases to
+  be a player during the election or if holding the office would
+  make em Overpowered.
+
+  An election is contested if it has two or more candidates at the
+  end of the nomination period, and uncontested otherwise. For a
+  contested election, nominations close at the end of the poll's
+  voting period. For an uncontested election, nominations close at
+  the end of the nomination period.
+
+  In a timely fashion after the nomination period ends, the ADoP
+  CAN and SHALL:
+
+  1) If the election is contested, initiate an Agoran decision
+     to select the winner of the election (the poll). For this
+     decision, the Vote Collector is the ADoP, the valid
+     options are the candidates for that election (including
+     those who become candidates after its initiation), and the
+     voting method is instant runoff. When the poll is resolved,
+     its outcome, if a player, wins the election. If the outcome
+     is not a player, the election ends with no winner.
+
+  2) If POSSIBLE per the following paragraph, end the election
+     immediately.
+
+  If at any point an uncontested election has a single candidate,
+  then any player CAN declare them the winner of the election by
+  announcement. If at any point an uncontested election has no
+  candidates, then any player CAN declare the election ended with
+  no winner by announcement.
+
+  When a player wins an election, e is installed into the
+  associated office and the election ends.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8014
+Title: Putting Agora on a Map v7
+Adoption index: 2.6
+Author: Trigon
+Co-authors: Aris, ATMunn, G., o, VJ Rada
+
+
+[ PART I: Removing and Changing Stuff ]
+
+Amend rule 2445 "How to Pend a Proposal" by replacing the second
+paragraph and subsequent list with:
+
+  Any player CAN flip a specified proposal's imminence to "pending"
+  by announcement by destroying 1 paper.
+
+Amend rule 991 "Calls for Judgement" by replacing the first paragraph
+and subsequent list with:
+
+  Any person (the initiator) can initiate a Call for Judgement (CFJ,
+  syn. Judicial Case), specifying a statement to be inquired into by
+  announcement.
+
+Re-enact rule 2599 "Welcome Packages" by replacing the second paragraph
+with:
+
+  If a player has not received a Welcome Package since e most
+  recently registered, any player CAN cause em to receive one by
+  announcement.
+
+  When a player receives a Welcome Package, Agora creates the
+  following assets in eir possession:
+
+  1. 10 coins
+  2. 5 lumber
+  3. 5 stones
+  4. 10 apples
+  5. 3 papers
+
+Make all players eligible to recieve Welcome Packages.
+
+Create a new rule "Paydays" (Power=2) and amend it so that its text
+reads, in full:
+
+  Whenever a Payday occurs, the following events happen in order:
+
+  1. The following assets are created in the possession of each
+     player:
+     A. 10 coins
+     B. 5 apples
+     C. 2 papers
+
+  2. For each office, if a single player held that office for 16 or
+     more days in the previous month and e was not issued any Cards
+     other than Green for eir conduct in that office during that
+     time, the following assets are created in the possession of
+     that player:
+     A. 5 coins
+     B. 1 corn
+
+  The occurrence of Paydays is secured.  At the beginning of each
+  month, a Payday occurs.
+
+[PART II: Making Land]
+
+Re-enact rule 1993/1 (Power=2) "The Land of Arcadia" with the text:
+
+  Arcadia is a land entirely defined by the Arcadian Map (the Map).
+  The Map is the term for the set of all Land Units.
+
+  The Map divides Arcadia into a finite, discrete number of Units of
+  Land, or simply Land. Each Unit of Land is an indestructible asset
+  specified by an ordered pair of integers known as its Latitude and
+  Longitude.
+
+  Every unique ordered pair of integers within the limits defined in
+  the Rules for Latitude and Longitude signifies an existent Unit of
+  Land. No other Units of Land exist. Units of Land CAN only be
+  created or destroyed by changing the limits of Latitude and
+  Longitude defined in the Rules.
+
+  All values for Latitude and Longitude MUST lie between -6 and +6,
+  inclusive.
+
+  The Total Land Area of Arcadia is the number of existent Units of
+  Land defined by permissible Latitude and Longitude pairs.
+
+Re-enact rule 1994/0 (Power=2) "Ownership of Land" with the text:
+
+  Any existent Land for which ownership has not been explicitly
+  changed belongs to Agora.
+
+  Land belonging to Agora is called Public Land. Land belonging to
+  a contract is called Communal Land. Land belonging to any other
+  entity is called Private Land. Together, Communal Land and Private
+  Land are called Proprietary Land.
+
+Re-enact rule 1995/0 (Power=2) "Land Types" with the text:
+
+  Each Unit of Land has a Land Type switch, tracked by the
+  Cartographor, whose values are "Black", "White", and "Aether" (the
+  default). Changes to Land Type switches are secured. To "change
+  the type" of, or to "transform" a Unit of Land is to flip its Type
+  switch. A “Unit of X” is a Unit of Land whose Land Type switch has
+  the value X.
+
+  When existent Land has not had its Type changed as explicitly
+  permitted by the Rules, or has a Type that is not currently
+  defined by the Rules, it is considered to have the Land Type of
+  Aether. Rules to the contrary nonwithstanding, Units of Aether
+  CANNOT be transferred from Agora, or owned by any entity other
+  than Agora.
+
+  If Proprietary Land becomes Aether, the Cartographor SHALL
+  transfer it to Agora in a timely fashion, destroy any facilities
+  on the Land Unit, and set all other switches to their default
+  values.
+
+  Type is a singleton switch with the values of Black and White,
+  defaulting to Black. When an act specifies that an alternating
+  land type is to be used, the current value of the Alternating Land
+  Type switch is used, and the switch is set to the next value of
+  the switch.
+
+Re-enact rule 1996/3 (Power=1), renaming it to "The Cartographor" with
+the text:
+
+  The Cartographor is an office; its holder is recordkeepor for the
+  Land of Arcadia.
+
+  The Cartographor's Weekly Report shall include:
+
+  1. the ownership and land type of all existing land;
+  2. all changes in the ownership and land type of existing land
+     since the most recent report;
+  3. the location for the previous week and the current week of each
+     entity with a defined location;
+  4. the next alternating land type;
+  5. all facilities and their parent land units; and
+  6. a list of all preserved land units.
+
+Re-enact rule 1998/2 (Power=1) "Land Topology" with the text:
+
+  Two Units of Land are Adjacent if they have the same Latitude, and
+  their Longitudes differ by exactly one; or they have the same
+  Longitude, and their Latitudes differ by exactly one.
+
+  Land Unit A is said to be connected to Land Unit B if it is
+  possible to reach B by moving only to adjacent Land Units of the
+  same color, starting from A.
+
+Re-enact rule 1999/0 (Power=1) "Entity Location" with the text:
+
+  Location is a player switch, tracked by the Cartographer, whose
+  values are ordered pairs of integers where the first value is a
+  valid Latitude, and the second is a valid Longitude. The default
+  Location is (0, 0).
+
+  To "move" a player is to flip that player’s Location switch to the
+  Latitude and Longitude of the destination.
+
+  No other Entity can have a location unless it is defined in a rule
+  other than this one. Changes to the Location of an Entity are
+  secured. If an Entity is specified by this Rule as having a
+  defined Location, but its Location has not been explicitly set or
+  changed, its Location is set to (0, 0).
+
+Re-enact rule 2003/11 (Power=1) "Actions in Arcadia" with the text:
+
+  Players CAN destroy:
+
+  1. 1 apple to move from one Land Unit to an adjacent Unit if their
+     Land Types are the same and the destination is not Aether;
+
+  2. 2 apples to move from one Land Unit to an adjacent Unit if
+     their Land Types differ and the destination is not Aether;
+
+  3. 2 apples to set Land Type of a Land Unit which e owns to any
+     Land Type other than Aether, whether or not e is located at
+     that Land Unit.
+
+  4. 3 apples to set the Land Type of a Land Unit that is adjacent
+     to the Entity's current location, is of type Aether, and is
+     owned by Agora, to an alternating Land Type.
+
+  5. 4 apples to set the Land Type of a Land Unit that is adjacent
+     to the Entity's current location, is of type Aether, and is
+     owned by Agora, to a Land Type of eir choice.
+
+  6. 6 apples to set the Land Type of a Land Unit that is of type
+     Aether, and is owned by Agora, to an alternating Land Type.
+
+  Players CAN, while performing the above actions, substitute 3
+  apples for 1 corn.
+
+Re-enact rule 2004/3 (Power=1) "Land Auctions" with the text:
+
+  Every Agoran Week, if the number of units of Private Land is less
+  than one half the total number of units of Land, an auction SHALL
+  be initiated. For this auction, the announcer is the Cartographor,
+  the auctioneer is the Cartographor, the lots are chosen as such:
+
+  1. if there exist at least 5 Units of non-Aether Land in the
+     possession of Agora with the preservation switch set to False:
+     any 5 such Units of Land, to be chosen by the Cartographor,
+     each Land Unit in a separate lot;
+
+  2. if there exist fewer than 5 Units of non-Aether Land in the
+     possession of Agora: all such Units, each land unit in a
+     separate lot;
+
+  and the minimum bid is 1 coin.
+
+Re-enact rule 2022/5 (Power=1), renaming it "Land Transfiguration" with
+the text:
+
+  During the second Eastman week of each Agoran Month, the
+  Cartographor SHALL perform the following actions in sequence, and
+  report these changes:
+
+  1. Every Land Unit, with a preservation switch of False
+     that is not directly connected to a unit of Aether, or is not
+     connected by its own type to a unit of Aether, shall be
+     transformed to Aether.
+
+  2. Any entities whose locations are on land units so transformed
+     shall have their locations set to (0, 0).
+
+  3. If any land unit so transformed is not property of Agora, it
+     becomes property of Agora.
+
+[PART III: Creating Facilities]
+
+Create a new rule (Power=2) "Facilities" with the text:
+
+  Facilities are liquid assets tracked by the Cartographor. In order
+  for a facility to exist, it MUST be built on a Land Unit. Only one
+  facility is allowed per Land Unit. The Land Unit on which a
+  Facility is built is considered its Parent Land Unit.
+
+  A player CAN create a facility by announcement on the land unit e
+  is on by specifying which type of facility e intends to build and
+  destroying the build cost.
+
+  If a player owns any facilities with upkeep costs, e must pay them
+  before the first day of the next Agoran month. Failing to do this
+  destroys the facility. In the second to last Eastman week of the
+  Agoran Month, the Cartographor SHOULD issue a humiliating public
+  reminder to all those who have not paid upkeep fees on any of eir
+  facilities.
+
+  If the ownership of the Parent Land Unit of a Facilty is changed,
+  that facility is transferred along with it.
+
+Create a new rule (Power=2) "Asset Generation with Facilities" with the
+text:
+
+  When facilities create assets, the assets are added to the
+  facility's possession. The rule that creates a facility CAN
+  specify a carrying capacity for assets. If, at any time, the
+  amount of an asset in the possession of a facility exceeds that
+  asset's carrying capacity, an amount of that asset is destroyed
+  until the amount of that asset in the possession of the facility
+  is equal to its carrying capacity.
+
+  Each facility is either a production facility or processing
+  facility, to be specified in the rule that creates them. At the
+  end of every Agoran Week, Agora creates a number of assets in a
+  production facility specified by the rule which creates the
+  facility.
+
+  At the end of every Agoran Week, Agora destroys any refinable
+  assets in the possession of each processing facility that that
+  facility can change into refinable assets and replaces them with a
+  corresponding number of refined assets to be specified by the rule
+  that creates the facility.
+
+  A player can take a number of assets from a facility's inventory
+  by announcement if eir location is the same as the facility's and
+  the following criteria are met:
+
+  1. if the facility is built on Public Land, none.
+
+  2. if the facility is built on Communal Land, e must be a party to
+     that contract and the text of the contract must permit em to do
+     so.
+
+  3. if the facility is built on Private Land, e must own the
+     facility, or the owner must have consented.
+
+Create a new rule (Power=2) "Facility Ranks" with the text:
+
+  Rank is a facility switch tracked by the Cartographor defaulting
+  to 1. Its possible values include all integers between 1 and 5,
+  inclusive.
+
+  A player CAN increase the rank of a facility e owns that is at eir
+  location by exactly 1 by announcement by paying any upgrade costs
+  of the facility for that specific rank.
+
+Create a new rule (Power=2) "Production Facilities" with the text:
+
+  For the purposes of this rule, the variable n is equivalent to the
+  rank of the facility.
+
+  The following facilities are defined as production facilities:
+
+  1. Mines
+     -  Build Cost: 5 lumber
+     -  Upkeep Cost: 2n-2 lumber
+     -  Production Details: 3n stones and 2n ore
+     -  Upgrade Costs:
+        -  Rank 2: 3 coins, 2 lumber
+        -  Rank 3: 4 coins, 4 lumber
+        -  Rank 4: 5 coins, 4 lumber, 3 stones
+        -  Rank 5: 6 coins, 6 lumber, 6 stones, 2 fabric
+
+  2. Orchards
+     -  Build Cost: 5 stones
+     -  Upkeep Cost: 2n-2 stones
+     -  Production Details: 3n apples and 3n lumber
+     -  Upgrade Costs:
+        -  Rank 2: 3 coins, 2 stones
+        -  Rank 3: 4 coins, 4 stones
+        -  Rank 4: 5 coins, 4 stones, 3 lumber
+        -  Rank 5: 6 coins, 6 stones, 6 lumber, 2 fabric
+
+  3. Farms
+     -  Build Cost: 3 lumber and 4 stones
+     -  Upkeep Cost: n-1 lumber and n-1 stones
+     -  Production Details: 3n corn and 3n cotton
+     -  Upgrade Costs:
+        -  Rank 2: 3 coins, 1 lumber, 1 stones
+        -  Rank 3: 4 coins, 2 lumber, 2 stones
+        -  Rank 4: 5 coins, 4 lumber, 4 stones, 1 fabric
+        -  Rank 5: 6 coins, 6 lumber, 6 stones, 3 fabric
+
+Create a new rule (Power=2) "Processing Facilities" with the text:
+
+  For the purposes of this rule, the variable n is equivalent to the
+  rank of the facility.
+
+  The following facilities are defined as processing facilities:
+
+  1. Refineries
+     -  Build Cost: 4 lumber and 8 stones
+     -  Upkeep Cost: n^2+2 coins
+     -  Processing Details: 1 ore to 2n+3 coins
+     -  Upgrade Costs:
+        -  Rank 2: 5 coins, 2 lumber, 3 stones
+        -  Rank 3: 6 coins, 4 lumber, 4 stones
+        -  Rank 4: 7 coins, 4 lumber, 3 stones, 3 fabric
+        -  Rank 5: 8 coins, 6 lumber, 6 stones, 4 fabric
+
+  2. Mills
+     -  Build Cost: 6 lumber and 6 stones
+     -  Upkeep Cost: n^2+2 coins
+     -  Processing Details: 1 lumber to 2n+3 paper
+     -  Upgrade Costs:
+        -  Rank 2: 6 coins, 3 lumber, 3 stones
+        -  Rank 3: 7 coins, 4 lumber, 5 stones
+        -  Rank 4: 8 coins, 5 lumber, 5 stones, 3 fabric
+        -  Rank 5: 9 coins, 6 lumber, 7 stones, 5 fabric
+
+  3. Looms
+     - Build Cost: 8 lumber and 4 stones
+     - Upkeep Cost: n^2+2 coins
+     - Processing Details: 1 cotton to 2n+3 fabric
+     -  Upgrade Costs:
+        -  Rank 2: 6 coins, 3 lumber, 2 stones
+        -  Rank 3: 7 coins, 4 lumber, 3 stones, 3 fabric
+        -  Rank 4: 8 coins, 5 lumber, 4 stones, 5 fabric
+        -  Rank 5: 9 coins, 6 lumber, 5 stones, 7 fabric
+
+Amend rule 2483 "Economics" by replacing it, in its entirety with the
+following text:
+
+  The following currencies are defined, and are tracked by the
+  Treasuror. They can be owned by Agora, players, contracts, and
+  facilities.
+
+  1. ore
+  2. stones
+  3. lumber
+  4. apples
+  5. cotton
+  6. corn
+  7. coins
+  8. papers
+  9. fabric
+
+  Stones, apples, and corn are considered unrefinable currencies;
+  ore, lumber, and cotton are considered refinable currencies; and
+  coins, papers, and fabric are considered refined currencies.
+
+  Coins are the official currency of Agora.
+
+Create a new rule (Power=2.6) "Preserved Land" with the text:
+
+  Preservation is a boolean land switch, defaulting to False. The
+  preservation switch CAN be set in a regulation promulgated by the
+  Cartographor without 2 objections. A Land Unit with its
+  preservation switch set to True is considered a preserved Land
+  Unit. A Land Unit with its preservation switch set to False is
+  considered an unconserved Land Unit.
+
+  Changes to the Land Type or ownership of a preserved land unit
+  are secured at a power threshold of 2.5.
+
+  Any Facilities built on a preserved land unit CANNOT have their
+  rank changed or be destroyed, rules to the contrary
+  notwithstanding.
+
+  Whenever a land unit becomes preserved, it is transferred to
+  Agora. Rules to the contrary notwithstanding, entities that are
+  not Agora CANNOT own preserved land.
+
+[ PART IV: Starting off the Map]
+
+Set the land type of all the following land units to White:
+
+(-1, -2), (-1, -1), (-1, 0), (0, -2), (0, -1), (+1, -2), and (+1, -1).
+
+Set the land type of all the following land units to Black:
+
+(-1, +2), (-1, +1), (0, +2), (0, +1), (0, 0), (+1, +2), (+1, +1), and
+(+1, 0).
+
+Set the preservation switch of the following land units to True:
+(-1, -1), (-1, 0), (-1, +1), (0, -1), (0, 0), (0, +1), (+1, -1),
+(+1, 0), and (+1, +1)
+
+Create the following facilities:
+
+- Two mines at (-1, -1) and (+1, +1).
+- An orchard at (-1, +1).
+- A farm at (+1, -1).
+
+[ This would make the landscape look something like this:
+
+  land type    facils.      pres.
+   -21012+     -21012+     -21012+
+  -       -   -       -   -       -
+  1 wwwbb 1   1 .M.O. 1   1 FTTTF 1
+  0 wwwbb 0   0 ..... 0   0 FTTTF 0
+  1 wwbbb 1   1 .F.M. 1   1 FTTTF 1
+  +       +   +       +   +       +
+   -21012+     -21012+     -21012+ ]
+
+Set the locations of all players to (0, 0).
+
+Make Trigon the Cartographor.
+
+[ PART V: Replace shinies. ]
+
+Replace all occurances of "shiny" and "shinies" in the ruleset with
+"coin" and "coins" respectively in ascending numerical order.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Voluntary Silliness
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+[Make Silliness voluntary but offer a reward.  Disadvantage is I kind of
+like requiring a range of people to take the role who might not do so
+voluntarily.]
+
+Amend Rule 1650 (Silliness) to read in full:
+
+ A Silly Proposal is a Proposal whose sole contents are one of
+  the following:
+
+  i) A limerick.
+
+  ii) A poem with a rhyme scheme and/or strict metrical structure no
+      longer than 14 lines (No free verse!)
+
+  iii) A joke or truly hideous pun of no more than a two hundred
+       words.
+
+  The first Silly Proposal submitted in an Agoran Week is an
+  Official Proposal.
+
+  If a Player has been the author of three Silly Proposals that
+  have been adopted within the past year, the Herald CAN and SHOULD
+  award em the Patent Title Comic by announcement.
+
+
+[Thought about using Bard, but seemed more of a carrot to offer a brand
+new title].
+
+//////////////////////////////////////////////////////////////////////
