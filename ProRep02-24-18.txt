@@ -1,0 +1,304 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+8016*  Alexis       2.4  PCOF [1]                    Alexis      3 sh.
+8017*  Alexis       3.0  RTRW Cleanups               Alexis      WO [2]
+8018*  Alexis       3.0  Random Bad Rule Cleaning    Alexis      WO [2]
+8019*  Alexis       3.0  Crime Reform                Alexis      WO [2]
+8020*  Aris, Ørjan  2.0  Office Restructuring v2     Aris        3 sh.
+8021*  G.           2.0  Limit Numerical silliness   G.          3 sh.
+8022*  G.           1.0  Anyone can balance Karma    G.          3 sh.
+8023*  G., Aris     2.0  Zombie Lots                 G.          3 sh.
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   Alexis        1.0  Supportive Proposals
+
+
+[1] Paradoxical Contract Obligation Fix
+[2] Pended Without Objection
+
+Legend: <ID>* : Proposal is pending.
+
+A proposal may be pended for 3 shinies or Without Objection.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8016
+Title: Paradoxical Contract Obligation Fix
+Adoption index: 2.4
+Author: Alexis
+Co-authors:
+
+
+Amend Rule 2523 "Contracts as Agreements" by replacing "If whether an
+action is permitted or forbidden by a contract" with "If whether an action
+is permitted, forbidden, required, or made optional by a contract".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8017
+Title: RTRW Cleanups
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Amend Rule 1688 (Power) by deleting the paragraph "Power less than one is
+called Ephemeral power, and an instrument with a power less than one is an
+Ephemeral instrument.".
+
+Amend Rule 2141 (Role and Attributes of Rules) by replacing "the
+Rulekeepor SHALL assign a title" with "the Rulekeepor CAN and SHALL assign
+a title".
+
+Amend Rule 2221 (Cleanliness) by replacing "capitalization," with
+"capitalization, formatting,". [I wanted to clean up some list bullet
+formatting, but found the rule doesn't allow it.]
+
+Amend Rule 2124 (Agoran Satisfaction) by replacing "the Executor of the
+announcement of intent is not eligible" with "the initiator of the intent
+is not eligible". [This deserves a note: we previously defined the Executor
+of a message to be the player who sent it, but that definition disappeared
+at some time. The effect was that if you were acting on behalf of someone
+else to intend something, you couldn't support the intent. But this wording
+accomplishes roughly the same effect, since under the old interpretation
+you could just have the player you acted on behalf of to intend the intent
+support it, seeing as there was no prohibition on it.]
+
+Amend Rules 1728 (Dependent Actions) and 2124, in that order, by replacing
+each instance of "With N Supporters" (case-insensitive) with "With N
+Support".
+
+Amend Rule 991 (Calls for Judgement) by replacing "within a week" with "in
+a timely fashion".
+
+Amend Rule 2492 (Recusal) to read as follows:
+   A judge CAN recuse emself from a CFJ e is assigned to by
+   announcement. When a judge recuses emself from a CFJ, then
+
+   * the CFJ becomes unassigned;
+
+   * the recused judge becomes ineligible to be assigned as a judge
+     for a week; and
+
+   * the recused judge SHOULD suggest another judge for the CFJ to
+     make the Arbitor's job easier.
+
+Amend Rule 2427 (Yellow Cards), by replacing "MAY" with "CAN",
+
+Amend Rule 2449 (Winning the Game) by adding "once, by announcement" after
+"Patent Title of Champion".
+
+Amend Rule 2509 (Numerical Switches) by replacing "In particular, a
+"natural" switch is a switch with possible values of the non-negative
+integers." with "In particular, a natural or integer switch is a switch
+with possible values the non-negative integers or all integers,
+respectively."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8018
+Title: Random Bad Rule Cleaning
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Repeal Rule 2443 (Expediting Proposals).
+Repeal Rule 2431 (Proposal Competitions).
+Repeal Rule 2530 (Poetry Duel Challenge Writ).
+Amend Rule 2160 (Deputisation) to read as follows:
+
+  A player (the deputy) CAN perform an action ordinarily reserved
+  for an office-holder as if e held the office if
+
+  1. the rules require the holder of that office, by virtue of
+     holding that office, to perform the action (this requirement is
+     fulfilled by the deputy performing the action);
+
+  2. it would be POSSIBLE for the deputy to perform the action,
+     other than by deputisation, if e held the office;
+
+  3. either (i) a time limit by which the rules require the action
+     to be performed has expired or (ii) the office is vacant.
+
+  4. either (i) the office is vacant, (ii) the aforementioned
+     time limit expired more than fourteen days ago, or (iii) the
+     deputy announced between two and fourteen days earlier that e
+     intended to deputise for that office for the purposes of the
+     particular action.
+
+  5. the deputy, when performing the action, announces that e
+     is doing so by deputisation.
+
+  When a player deputises for an elected office, e becomes the
+  holder of that office, unless the action being performed would
+  already install someone into that office.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8019
+Title: Crime Reform
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Amend Rule 2143 (Official Reports) by deleting both sentences containing
+the word "crime" (case-insensitive).
+
+Amend Rule 2202 (Ratification Without Objection) by deleting the sentence
+containing the word "crime" (case-insensitive).
+
+//////////////////////////////////////////////////////////////////////
+ID: 8020
+Title: Office Restructuring v2
+Adoption index: 2.0
+Author: Aris
+Co-authors: Ørjan
+
+
+[Change the office rule so that a player can be confirmed as the non-interim
+holder of an office by apathy. If e wants it, and no one else cares enough
+to run an election, the electoral process would probably be a waste of time
+anyway.]
+
+Amend Rule 1006, "Offices", by changing the text
+
+  A holder of an elected office who did not become its holder by
+  winning an election, and has not won an election for that office
+  since, is an interim holder. An elected office that is either
+  vacant or has an interim holder is an interim office.
+
+to read
+
+  A holder of an elected office is interim if and only if
+
+  a. e did not become its holder by winning an election;
+  b. e has not since won an election for that office; and
+  c. e has not held the office continuously for 30 days
+     without an election for the office being initiated
+     since e most recently came to hold the office.
+
+     An elected office that is either vacant or has an interim holder
+     is an interim office.
+
+[Make it slightly easier to remove bad officeholders. I thought of adding a
+temporary suspension procedure, but I can't think of a situation where it would
+be needed and we couldn't just Black Card the player. Can always be added in
+later though. This is intended for abuses that don't necessarily involve
+a breach of the rules, but where we still don't want the person in the office.]
+
+Enact a new power 2.0 rule, entitled "Impeachment", with the following text:
+
+  A player CAN be expelled (impeached) from a specified elected office which
+  e holds with 2 Agoran Consent. When a person is impeached from an office,
+  an election is immediately opened for that office. Players SHOULD NOT use
+  this method of removal unless the officer has abused the powers of eir
+  office or otherwise shown emself unworthy the trust of Agora.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8021
+Title: Limit Numerical silliness
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2509 (Numerical Switches) by inserting the following text
+before the first paragraph:
+
+  A "number" is considered to refer to a real number, unless
+  otherwise explicitly specified.  A "number of (items)", where
+  (items) is a set of discrete entities, is considered to refer to
+  a non-negative integer, unless otherwise explicitly specified.
+
+
+Change the title of R2509 to 'Agoran Numbers'.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8022
+Title: Anyone can balance Karma
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+[Allows anyone to aid in balancing Agora's karmic books]
+
+Amend Rule 2510 (Such is Karma):
+
+by replacing:
+  2. Specify any other player
+with:
+  2. Specify any other player or Agora
+
+
+and by replacing:
+  3. Specify any player
+with:
+  3. Specify any player or Agora
+
+
+and by inserting the following list item after the list item numbered 3:
+  4. Not result in Agora's karma moving farther away from 0.
+
+
+and by replacing each instance of 'player' with 'entity' in the
+paragraph beginning 'When a valid Notice of Honour is published'.
+
+
+Amend Rule 2511 (Karmic Balance) by deleting the paragraph beginning
+'While the Karma of Agora is not equal to 0'.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8023
+Title: Zombie Lots
+Adoption index: 2.0
+Author: G.
+Co-authors: Aris
+
+
+Amend Rule 1885, "Zombie Auctions", (Power = 2.0), to read in full:
+
+  Whenever a zombie (1) has Agora for a master, (2) an auction for it
+  is not underway, and (3) has not been won as an auction lot in the
+  past 14 days, then the Registrar CAN put that zombie (along with any
+  other zombies that fulfill the same conditions) up for auction.
+
+  In a timely fashion after the beginning of each month, the Registrar
+  SHALL either initiate such an auction or, if no zombies meeting these
+  conditions existed at the beginning of the month, announce that no
+  such auction is necessary.
+
+  For such an auction, the lots are the qualifying zombies, ordered at
+  the discretion of the Registrar. The Registrar is the announcer, and
+  the minimum bid is 1.
+
+  The Registrar CAN flip the master switch of a zombie lot from Agora
+  to that lot's winner after the winner has paid for the lot; for the
+  purposes of the auction, to transfer a zombie to a player is to set
+  that zombie's master switch to that player.
+
+
+[The termination clause elsewhere takes care of situations where the
+zombie ceases being owned by Agora].
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Supportive Proposals
+Adoption index: 1.0
+Author: Alexis
+Co-authors:
+
+
+Amend Rule 2445 by replacing "Without Objection" with "With 3 Support".
+
+//////////////////////////////////////////////////////////////////////
