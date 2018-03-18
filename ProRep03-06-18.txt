@@ -1,0 +1,342 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+
+ID     Author(s)    AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+8026*  G.           1.0  Zombiception                G.          3 sh.
+
+Revision: The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   Gaelan, [1]   3.0  PAoaM Patch
+
+
+[1] Trigon
+
+Legend: <ID>* : Proposal is pending.
+
+A proposal may be pended for 1 Paper or Without Objection.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8026
+Title: Zombiception
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Create the following Rule, Zombiception, Power-1:
+
+  If every member of a set of zombies has a master who is a member
+  of that set of zombies, then any player CAN announce a
+  Zombiception, listing the members of the set. Upon such an
+  announcement, all members of the set win the game and have their
+  master flipped to Agora.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: PAoaM Patch
+Adoption index: 3.0
+Author: Gaelan
+Co-authors:
+
+
+In Rule 105 “Rule Changes,” replace
+
+  "If the reenacting proposal provides new text for the rule, the rule
+  must have materially the same purpose as did the repealed version;
+  otherwise, the attempt to reenact the rule is null and void.”
+
+with
+
+  “If the reenacting proposal provides new text for the rule, the
+  rule SHOULD have materially the same purpose as did the repealed version."
+
+The Rulekeepor MAY list historical annotations for changes made by the
+following portion of this proposal (until the text “END CLEANUP”) however e
+wishes, including incorrectly or not at all.
+
+If rule 2599 is not currently enacted, re-enact it with the following
+text; if it is enacted but does not have the following text, amend it
+to have the following text: {
+
+ If a player has not received a Welcome Package since e most
+  recently registered, any player CAN cause em to receive one by
+  announcement.
+
+  When a player receives a Welcome Package, Agora creates the
+  following assets in eir possession:
+
+  1. 10 coins
+  2. 5 lumber
+  3. 5 stones
+  4. 10 apples
+  5. 3 papers
+}
+
+If no rule titled “Paydays” exists, create it at power 2 with the following
+text; if it exists but does not have the following text, amend it to have the
+following text: {
+
+  Whenever a Payday occurs, the following events happen in order:
+
+  1. The following assets are created in the possession of each
+     player:
+     A. 10 coins
+     B. 5 apples
+     C. 2 papers
+
+  2. For each office, if a single player held that office for 16 or
+     more days in the previous month and e was not issued any Cards
+     other than Green for eir conduct in that office during that
+     time, the following assets are created in the possession of
+     that player:
+     A. 5 coins
+     B. 1 corn
+
+  The occurrence of Paydays is secured.  At the beginning of each
+  month, a Payday occurs.
+}
+
+If Rule 1993 is not currently enacted, re-enact it with the following text;
+if it is enacted but does not have the following text, amend it to have the
+following text: {
+
+  Arcadia is a land entirely defined by the Arcadian Map (the Map).
+  The Map is the term for the set of all Land Units.
+
+  The Map divides Arcadia into a finite, discrete number of Units of
+  Land, or simply Land. Each Unit of Land is an indestructible asset
+  specified by an ordered pair of integers known as its Latitude and
+  Longitude.
+
+  Every unique ordered pair of integers within the limits defined in
+  the Rules for Latitude and Longitude signifies an existent Unit of
+  Land. No other Units of Land exist. Units of Land CAN only be
+  created or destroyed by changing the limits of Latitude and
+  Longitude defined in the Rules.
+
+  All values for Latitude and Longitude MUST lie between -6 and +6,
+  inclusive.
+
+  The Total Land Area of Arcadia is the number of existent Units of
+  Land defined by permissible Latitude and Longitude pairs.
+}
+
+If Rule 1994 is not currently enacted, re-enact it with the following text;
+if it is enacted but does not have the following text, amend it to have the
+following text: {
+
+  Any existent Land for which ownership has not been explicitly
+  changed belongs to Agora.
+
+  Land belonging to Agora is called Public Land. Land belonging to
+  a contract is called Communal Land. Land belonging to any other
+  entity is called Private Land. Together, Communal Land and Private
+  Land are called Proprietary Land.
+}
+
+If Rule 1995 is not currently enacted, re-enact it with the following text;
+if it is enacted but does not have the following text, amend it to have the
+following text: {
+
+  Each Unit of Land has a Land Type switch, tracked by the
+  Cartographor, whose values are "Black", "White", and "Aether" (the
+  default). Changes to Land Type switches are secured. To "change
+  the type" of, or to "transform" a Unit of Land is to flip its Type
+  switch. A “Unit of X” is a Unit of Land whose Land Type switch has
+  the value X.
+
+  When existent Land has not had its Type changed as explicitly
+  permitted by the Rules, or has a Type that is not currently
+  defined by the Rules, it is considered to have the Land Type of
+  Aether. Rules to the contrary nonwithstanding, Units of Aether
+  CANNOT be transferred from Agora, or owned by any entity other
+  than Agora.
+
+  If Proprietary Land becomes Aether, the Cartographor SHALL
+  transfer it to Agora in a timely fashion, destroy any facilities
+  on the Land Unit, and set all other switches to their default
+  values.
+
+  Type is a singleton switch with the values of Black and White,
+  defaulting to Black. When an act specifies that an alternating
+  land type is to be used, the current value of the Alternating Land
+  Type switch is used, and the switch is set to the next value of
+  the switch.
+}
+
+If Rule 1996 is not currently enacted, re-enact it with the following text;
+if it is enacted but does not have the following text, amend it to have the
+following text: {
+
+  The Cartographor is an office; its holder is recordkeepor for the
+  Land of Arcadia.
+
+  The Cartographor's Weekly Report shall include:
+
+  1. the ownership and land type of all existing land;
+  2. all changes in the ownership and land type of existing land
+     since the most recent report;
+  3. the location for the previous week and the current week of each
+     entity with a defined location;
+  4. the next alternating land type;
+  5. all facilities and their parent land units; and
+  6. a list of all preserved land units.
+}
+
+If Rule 1996 is not titled “The Cartographor”, retitle it “The Cartographor”.
+
+If Rule 1998 is not currently enacted, re-enact it with the following text;
+if it is enacted but does not have the following text, amend it to have the
+following text: {
+
+  Two Units of Land are Adjacent if they have the same Latitude, and
+  their Longitudes differ by exactly one; or they have the same
+  Longitude, and their Latitudes differ by exactly one.
+
+  Land Unit A is said to be connected to Land Unit B if it is
+  possible to reach B by moving only to adjacent Land Units of the
+  same color, starting from A.
+}
+
+If Rule 1999 is not currently enacted, re-enact it with the following text;
+if it is enacted but does not have the following text, amend it to have the
+following text: {
+
+  Location is a player switch, tracked by the Cartographer, whose
+  values are ordered pairs of integers where the first value is a
+  valid Latitude, and the second is a valid Longitude. The default
+  Location is (0, 0).
+
+  To "move" a player is to flip that player’s Location switch to the
+  Latitude and Longitude of the destination.
+
+  No other Entity can have a location unless it is defined in a rule
+  other than this one. Changes to the Location of an Entity are
+  secured. If an Entity is specified by this Rule as having a
+  defined Location, but its Location has not been explicitly set or
+  changed, its Location is set to (0, 0).
+}
+
+If Rule 2003 is not currently enacted, re-enact it with the following text;
+if it is enacted but does not have the following text, amend it to have the
+following text: {
+
+  Players CAN destroy:
+
+  1. 1 apple to move from one Land Unit to an adjacent Unit if their
+     Land Types are the same and the destination is not Aether;
+
+  2. 2 apples to move from one Land Unit to an adjacent Unit if
+     their Land Types differ and the destination is not Aether;
+
+  3. 2 apples to set Land Type of a Land Unit which e owns to any
+     Land Type other than Aether, whether or not e is located at
+     that Land Unit.
+
+  4. 3 apples to set the Land Type of a Land Unit that is adjacent
+     to the Entity's current location, is of type Aether, and is
+     owned by Agora, to an alternating Land Type.
+
+  5. 4 apples to set the Land Type of a Land Unit that is adjacent
+     to the Entity's current location, is of type Aether, and is
+     owned by Agora, to a Land Type of eir choice.
+
+  6. 6 apples to set the Land Type of a Land Unit that is of type
+     Aether, and is owned by Agora, to an alternating Land Type.
+
+  Players CAN, while performing the above actions, substitute 3
+  apples for 1 corn.
+}
+
+If rule 2004 is not currently enacted, re-enact it with the following text;
+if it is enacted but does not have the following text, amend it to have the
+following text: {
+
+  Every Agoran Week, if the number of units of Private Land is less
+  than one half the total number of units of Land, an auction SHALL
+  be initiated. For this auction, the announcer is the Cartographor,
+  the auctioneer is the Cartographor, the lots are chosen as such:
+
+  1. if there exist at least 5 Units of non-Aether Land in the
+     possession of Agora with the preservation switch set to False:
+     any 5 such Units of Land, to be chosen by the Cartographor,
+     each Land Unit in a separate lot;
+
+  2. if there exist fewer than 5 Units of non-Aether Land in the
+     possession of Agora: all such Units, each land unit in a
+     separate lot;
+
+  and the minimum bid is 1 coin.
+}
+
+If Rule 2022 is not currently enacted, re-enact it with the following text;
+if it is enacted but does not have the following text, amend it to have the
+following text: {
+
+  During the second Eastman week of each Agoran Month, the
+  Cartographor SHALL perform the following actions in sequence, and
+  report these changes:
+
+  1. Every Land Unit, with a preservation switch of False
+     that is not directly connected to a unit of Aether, or is not
+     connected by its own type to a unit of Aether, shall be
+     transformed to Aether.
+
+  2. Any entities whose locations are on land units so transformed
+     shall have their locations set to (0, 0).
+
+  3. If any land unit so transformed is not property of Agora, it
+     becomes property of Agora.
+}
+
+If Rule 2022 is not titled “Land Transfiguration”, retitle it
+“Land Transfiguration”.
+
+END CLEANUP
+
+Amend rule 2166 by replacing “shiny” with “unit of Agora’s official currency”
+in both instances.
+
+Amend rule 1995 by replacing “all other switches” with
+“all other switches on the Land Unit”.
+
+Amend Rule 2004 “Land Auctions” by replacing "the auctioneer is the
+Cartographor” with "the auctioneer is the Agora”.
+
+Amend the rule titled “Facilities” by making the following changes: {
+
+  Replace the last paragraph with "Facilities always have the same owner as
+  their parent land unit. If the owner of a facility is ever not the same as
+  that of its parent land unit, it is transferred to the owner of its parent
+  land unit.”
+
+  Append the following to the second paragraph: “Facilities on private land can
+  be destroyed by the owner by announcement. Facilities on communal land can be
+  destroyed by the owning contract by announcement. Facilities on public land
+  can be destroyed Without Objection.”
+}
+
+Amend rule 2022 “Land Transfiguration” by replacing the first paragraph with
+
+  “Once during the second or third Eastman weeks of each Agoran Month, the
+  Cartographor CAN perform the following actions in sequence, and report these
+  changes:”
+
+and by appending
+
+  “The Cartographor SHALL do so in the second Eastman week of each
+  Agoran Month.”
+
+at the end in a new paragraph.
+
+//////////////////////////////////////////////////////////////////////
