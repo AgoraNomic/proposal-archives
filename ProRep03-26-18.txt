@@ -1,0 +1,131 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+8031*  [1]          2.0  Nomicbots Minigame          CuddleBeam  1 Paper
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI   Title
+---------------------------------------------------------------------------
+pp1   G.            1.0  Free Tournaments
+
+
+[1] CuddleBeam, Gaelan, ATMunn, Trigon, Kenyon
+
+Legend: <ID>* : Proposal is pending.
+
+A proposal may be pended for 1 Paper or Without Objection.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8031
+Title: Nomicbots Minigame
+Adoption index: 2.0
+Author: CuddleBeam
+Co-authors: Gaelan, ATMunn, Trigon, Kenyon
+
+
+Create the following rule with Power = 2.0 and title "Nomicbots":
+
+------------------------------------------------------------
+-----------------
+
+Nomicbots are an asset. Each Nomicbot has Instructions, a Name, a Banner
+and a Memory Capacity. A Nomicbot's Instructions is a text document with
+instructions about its behavior. A Nomicbot's Instructions is blank by
+default. A Nomicbot's name is a string, defaulting to "Nomicbot". A
+Nomicbot's Banner is a switch with values of Risen or Lowered, defaulting
+to Lowered. A Nomicbot's Memory Capacity in a numerical switch, which
+defaults to 100.
+
+Any player CAN create a Nomicbot in eir possession by announcement by
+destroying 1 ore. A Player can change their Nomicbot's Name or Banner by
+announcement. A Player CAN destroy X of their corn and stone to cause
+modifications to the text of the Instructions of one of their Nomicbots which
+involve adding or removing up to X*3 characters (e.g. adding A characters
+and removing B characters, where A+B < X), by announcement, unless this
+would cause its Instructions to have more characters than its Memory
+Capacity, in which case its INEFFECTIVE.
+
+A Player CAN destroy 1 of their fabric per 50 Memory Capacity a Nomicbot
+they own has, to increase the Memory Capacity of that Nomicbot by 50, by
+announcement.
+
+Nomicbots can Battle, and there is a Battle at the Main Arena among all
+eligible Nomicbots at the start of each Month, hosted by the Botmastor -
+this is the Monthly Battle. A Nomicbot is eligible if they are the only
+Nomicbot belonging to a player with a Banner with a value of Risen.
+
+If a Nomicbot wins the Monthly Battle, their owner earns 1/Z Merit (a
+non-transferable
+and indestructible asset), where Z is the amount of Nomicbots which won
+that Battle. When a player has 1 Merit, they win the game and lose all
+their Merit.
+
+Nomicbot Battles are games of Nomic, played according to the Arena they
+take place at along:
+- With the players being the Nomicbots
+- All Judge and interpretation requirements specific to the Battle
+defaulting to the Botmastor.
+- If the result of a Nomicbot's Instructions at a situation is not
+unambiguous or determinate, or overly rely on external information, that
+Nomicbot crashes at that moment, and is then removed from play from that
+Battle.
+- If the Battle would never end, it instead ends with nobody as the winner.
+
+Arenas are rulesets of Nomic, tracked by the Botmastor, and Arenas have a
+Status switch of Main or Secondary (defaulting to Secondary). The Botmastor CAN
+add or remove a Secondary Arena with 2 Agoran Consent. The Botmastor CAN
+set the Status of an Arena to Main with 2 Agoran Consent. Doing this sets
+the Status of all other Arenas to Secondary .
+
+The Botmastor is an Office. The Botmastor shall publish a report within the
+first week of each month with:
+- The results of the Monthly Battle and their processing of it (and CAN and
+SHALL do this manual processing).
+- The Instructions, Name, Banner, Memory Capacity and owner of each
+Nomicbot.
+
+------------------------------------------------------------
+-----------------
+
+Then, add Peter Suber's original Nomic Initial Ruleset as a Main Arena.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Free Tournaments
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule Rule 2464 (Tournaments) by replacing:
+  within 4 weeks
+with:
+  within 3 months
+
+and by appending the following sentence to its text:
+  The person who initiates a tournament is its Gamemaster.
+
+
+Create the following Rule, Free Tournaments:
+
+  A player who is not the gamemaster of an existing tournament CAN
+  initiate a sanctioned tournament with a specified set of regulations
+  with 2 Agoran Consent. A tournament created using this method is
+  called a Free Tournament. Rules to the contrary notwithstanding, only
+  players CAN win the game via a free tournament.
+
+  A free tournament CAN be concluded with no winner without 3 objections.
+  Tournaments SHOULD only be concluded in this manner if it is clear that
+  its regulations are malformed or contrary to the tournament's intent or
+  that it is IMPOSSIBLE for any player to win the tournament.
+
+//////////////////////////////////////////////////////////////////////

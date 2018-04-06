@@ -1,0 +1,48 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                       Pender      Pend fee
+---------------------------------------------------------------------------
+8032*  G.           1.0  Free Tournaments            ATMunn      1 Paper
+
+Legend: <ID>* : Proposal is pending.
+
+A proposal may be pended for 1 Paper or Without Objection.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8032
+Title: Free Tournaments
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule Rule 2464 (Tournaments) by replacing:
+  within 4 weeks
+with:
+  within 3 months
+
+and by appending the following sentence to its text:
+  The person who initiates a tournament is its Gamemaster.
+
+
+Create the following Rule, Free Tournaments:
+
+  A player who is not the gamemaster of an existing tournament CAN
+  initiate a sanctioned tournament with a specified set of regulations
+  with 2 Agoran Consent. A tournament created using this method is
+  called a Free Tournament. Rules to the contrary notwithstanding, only
+  players CAN win the game via a free tournament.
+
+  A free tournament CAN be concluded with no winner without 3 objections.
+  Tournaments SHOULD only be concluded in this manner if it is clear that
+  its regulations are malformed or contrary to the tournament's intent or
+  that it is IMPOSSIBLE for any player to win the tournament.
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,3 @@
+The proposal pool is currently empty.
+
+A proposal may be pended for 1 Paper or Without Objection.
