@@ -1,0 +1,180 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                             Pender
+---------------------------------------------------------------------------
+8042*  G.           1.0  Agorans are Vulcans               Aris
+8043*  G.           1.0  Officer patching                  G.
+8044*  Trigon       1.0  5 auctions                        Trigon
+8045*  Trigon, [1]  2.0  Q*Bert the Second                 Trigon
+
+
+The proposal pool currently contains the following proposals:
+
+ID     Author(s)    AI     Title
+---------------------------------------------------------------------------
+pp1    V.J. Rada    2.0    Clearer & Better Zombies
+
+[1] G., Corona
+
+Legend: <ID>* : Proposal is pending.
+
+A proposal may be pended for 1 Paper.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8042
+Title: Agorans are Vulcans
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Repeal Rule 1650 (Silliness).
+Repeal Rule 2514 (Emotions).
+
+//////////////////////////////////////////////////////////////////////
+ID: 8043
+Title: Officer patching
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2445 (How to Pend a Proposal) by appending the following
+paragraph:
+
+  The holder of an Office CAN Rubberstamp a proposal for that
+  specified office, without 3 objections, if no other proposal has
+  been rubberstamped for that office in the current Agoran month.
+  When rubberstamped, the proposal becomes an official proposal
+  associated with that office. Rubberstamping SHOULD only be used to
+  make rule or gamestate corrections associated with the duties of
+  that office.
+
+[A proposed compromise between the "allow without objection fix
+proposals" and the "pay for every proposal including bugfixes" camps]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8044
+Title: 5 auctions
+Adoption index: 1.0
+Author: Trigon
+Co-authors:
+
+
+Amend rule 2004 "Land Auctions" by replacing the entire text with:
+
+  Every Agoran Week, if the number of Units of Private Land is less
+  than one half the total number of units of Land, a number of
+  Public, non-Aether, Preserved Land Units are chosen using the
+  following process:
+
+  1. If there exist more than 5 such units, the Cartographor SHALL
+     choose exactly 5 of them.
+
+  2. If there exist 5 or fewer such units, all are automatically
+     chosen.
+
+  For each land unit selected by the process described above, the
+  Cartographor CAN and SHALL initiate an auction with it as the only
+  lot. For this auction, the announcer is the Cartographor, the
+  auctioneer is Agora, and the minimum bid is 1 coin.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8045
+Title: Q*Bert the Second
+Adoption index: 2.0
+Author: Trigon
+Co-authors: G., Corona
+
+
+Amend rule 1995 "Land Types" by doing the following:
+
+  Replacing the first paragraph with:
+
+    Each Unit of Land has a Land Type switch, tracked by the
+    Cartographor. Possible values are:
+
+    1. Black
+    2. White
+    3. Gray
+    4. Aether (the default)
+
+    Changes to Land Type switches are secured. To "change the type"
+    of, or to "transform" a Unit of Land is to flip its Type switch. A
+    “Unit of X” is a Unit of Land whose Land Type switch has the value
+    X.
+
+  and replacing the first word of the final paragraph with "Alternating
+  Land Type".
+
+Re-enact rule 2046 (Power=1.0) "Q*Bert (tm)" [1]
+
+Rename rule 2046 to "Q*Bert"
+
+Amend rule 2046 by replacing its text, in its entirety, with:
+
+  Q*Bert is an entity which has a location. Q*Bert CAN be on a unit
+  of Aether.
+
+  Q*Bert has a color switch, tracked by the Cartographor, whose
+  possible values are all defined Land Type other than Aether or
+  Gray. The default value is Black. When Q*Bert moves to a Land
+  Unit, if the current type of the unit is not the same as Q*Bert's
+  color switch, Q*Bert changes that space's type to the value of eir
+  color switch.
+
+  Every week, the Cartographor CAN and SHALL move Q*Bert using the
+  following process:
+
+  1. If Q*Bert is on the same Land Unit as another entity, the
+     Cartographor SHALL select a Land Unit adjacent to Q*Bert's
+     current position and move em there.
+
+  2. Otherwise, the Cartographor SHALL select a Land Unit whose
+     longitude and latitude both differ from Q*Bert's by exactly
+     one.
+
+  If, after Q*Bert has moved, e is on a Preserved Land Unit, the
+  Cartographor SHALL repeat the process above, moving Q*Bert until e
+  is no longer on a Preserved Land Unit.
+
+  If the type of the Land Unit that Q*Bert is located on is
+  switched by an entity that is not Q*Bert, Q*Bert's color switch is
+  set to that type instead.
+
+  Whenever Q*Bert is moved to (0, 0), the Cartographor CAN and SHALL
+  choose a random Land Type that is an allowed value of Q*Bert's
+  color switch and set Q*Bert's color switch to it.
+
+  When referring to Q*Bert, entities CAN replace the "*" with any
+  punctuation character or spell it with a lowercase letter "b"
+  (i.e. Q-Bert, Q^bert)
+
+[1] Full History for Rulekeepor:
+
+Created by Proposal 4471 "Q-bert" (OscarMeyr), Mar 19, 2003
+Repealed by Proposal 4486 "Of what worth honor?" (Michael; with Goethe,
+  Murphy), Apr 23, 2003
+
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Clearer & Better Zombies
+Adoption index: 2.0
+Author: V.J. Rada
+Co-authors:
+
+
+In rule 2532, Zombies, replace the text "A zombie's master, if
+another player, is allowed to act on behalf of the zombie (i.e. as the
+zombie's agent) to perform LEGAL actions." with "A zombie's master, if
+another player, CAN act on behalf of the zombie to perform actions"
+
+//////////////////////////////////////////////////////////////////////

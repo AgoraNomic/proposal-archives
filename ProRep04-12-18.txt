@@ -1,0 +1,389 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)    AI   Title                             Pender
+---------------------------------------------------------------------------
+8033*  Kenyon, [1]  2.0  Gray Land and the Fountain        Kenyon
+8034*  G.           2.0  Paydays Fix                       Kenyon
+8035*  G., [2]      1.0  Nothing to worry about            G.
+8036*  Aris         2.0  Impeachment                       Aris
+8037*  ATMunn       1.0  Medals of Honour Correction Act   ATMunn
+8038*  V.J. Rada    1.0  V.J. Rada Equitable Remedy.       Corona
+8039*  Aris, [4]    2.1  V.J. Rada Equitable Remedy v2     Aris
+8040*  Aris, [5]    3.0  Blot Expansion v3                 Aris
+8041*  Aris, [6]    2.0  Consolidated Patch                Aris
+
+The proposal pool is currently empty.
+
+[1] Aris, Cuddle Beam, Gaelan, Trigon
+[2] omd, pokes, o
+[3] Medals of Honour Correction Act
+[4] V.J. Rada
+[5] Ørjan
+[6] Trigon, G.
+
+Legend: <ID>* : Proposal is pending.
+
+A proposal may be pended for 1 Paper.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8033
+Title: Gray Land and the Fountain
+Adoption index: 2.0
+Author: Kenyon
+Co-authors: Aris, Cuddle Beam, Gaelan, Trigon
+
+
+Amend "Land Types" (Power=2.0):
+    Replace "whose values are "Black", "White", and "Aether"", with the
+    text "whose values are "Black", "White", "Gray", and "Aether""
+
+Create a new rule "Facility Categories", (Power=2.0):
+    A facility's Category is a switch whose possible values are
+    “Production”, “Processing”, “Monument”, and “Miscellaneous”.  An “x
+    facility”, where x is a Category, refers to a facility that has
+    Category switch set to x.
+
+Amend "Asset Generation with Facilities" (Power=2.0) to read the following:
+  When an Production or Processing facility creates assets, the assets
+  are added to the facility's possession. The rule that creates an
+  Production or Processing facility CAN specify a carrying capacity for
+  assets. If, at any time, the amount of an asset in the possession of an
+  Production or Processing facility exceeds that asset's carrying
+  capacity, an amount of that asset is destroyed until the amount of that
+  asset in the possession of the facility is equal to its carrying
+  capacity.
+
+  At the end of every Agoran Week, Agora creates a number of assets in a
+  Production facility specified by the rule which creates the facility.
+
+  At the end of every Agoran Week, Agora destroys any refinable assets in
+  the possession of each Processing facility that that facility can
+  change into refined assets and replaces them with a corresponding
+  number of refined assets to be specified by the rule that creates the
+  facility.
+
+  A player can take a number of assets from an Production or Processing
+  facility's inventory by announcement if eir location is the same as
+  the facility's and the following criteria are met:
+   1. if the facility is built on unconserved Public Land, none.
+   2. if the facility is built on preserved Public Land and less than
+   four days have passed since assets were created in the facility most
+   recently, e must not have taken any assets from the inventory of
+   another facility located on a preserved Land Unit within this Agoran
+   week.
+   3. if the facility is built on Communal Land, e must be a party to
+   that contract and the text of the contract must permit em to do so.
+   4. if the facility is built on Private Land, e must own the facility,
+   or the owner must have consented.
+
+Amend "Facility Ranks" (Power=2.0) to read the following:
+  Rank is a facility switch tracked by the Cartographor defaulting to 1.
+  Its possible values include all integers between 1 and 5, inclusive.
+
+  If a facility specifies upgrade costs, a player CAN increase the rank
+  of a facility e owns that is at eir location by exactly 1 by
+  announcement by paying any upgrade costs of the facility for that
+  specific rank. If no upgrade costs are specified for a facility, a
+  player CANNOT increase the rank of that facility unless specified in
+  other rules.
+
+Create a new rule "Facility Colors" (Power=2.0):
+  A facility's Allowed Land Types is a switch with allowed values of a
+  list of allowed values of the Land Type switch, with a default value of
+  {"Black", "White"}. A facility may not have a Parent Land Unit whose
+  Land Type is not an element of their Allowed Land Types. If an action
+  or set of actions would cause a facility to be created with a Parent
+  Land Unit whose Land Type is not an element of its Allowed Land Types,
+  that action or set of actions fails. If a facility's Parent Land Unit's
+  Land Type is flipped to a color that is not in that facility's Allowed
+  Land Types, that facility is destroyed.
+
+  An “x facility”, where x is a Land Type or list of Land Types, refers
+  to a facility that has the Allowed Land Types switch set to x.
+
+Create a new rule "Gray Land" (Power=2.0):
+  Gray Land is preserved and owned by Agora. If Land becomes Gray Land,
+  it, along with any facilities with it as their Parent Land Unit, is
+  transferred to Agora.
+
+Amend “Actions in Arcadia” (Power=1.0) by replacing the first two element
+in the list with:
+  1. 1 apple to move from one Land Unit to an adjacent Unit if their Land
+  Types are the same or one of them is gray, and the destination is not
+  Aether;
+
+  2. 2 apples to move from one Land Unit to an adjacent Unit if their
+  Land Types differ, neither is gray, and the destination is not Aether;
+
+Create a new rule "Monument Facilities" (Power=1.0):
+  For each type of Monument facility, there may only be one instance of
+  that facility in existence at any one time. An action CANNOT cause an
+  Monument facility to exist while another Monument facility of the same
+  type is already in existence.
+
+Create a new rule "The Fountain" (Power=1.0):
+  A fountain is a Gray Monument facility. A fountain has no upkeep cost.
+
+Create a new rule "Wishing Fountain", (Power=1.0):
+  If a player's location is the same as a fountain, e CAN destroy a coin
+  to Throw A Coin into the fountain. This does nothing, unless specified
+  in another Rule. A player MAY announce what e wishes for when e Throws
+  A Coin.
+
+Set (0, 0)'s Land Type to "Gray".
+Create a fountain at (0, 0) belonging to Agora.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8034
+Title: Paydays Fix
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2559 (Paydays) by replacing the text:
+  e was not issued any Cards other than Green for eir conduct
+  in that office
+with:
+  no unforgivable fines were levied on em for eir conduct in that
+  office
+
+//////////////////////////////////////////////////////////////////////
+ID: 8035
+Title: Nothing to worry about
+Adoption index: 1.0
+Author: G.
+Co-authors: omd, pokes, o
+
+
+When this proposal takes effect:
+
+  IF a body of text labelled TALES OF THE ZOMBIE APOCALYPSE has been
+  published since April 1, 2018,
+
+  AND that body of text has the following SHA-512 Hash:
+   40ae885e13bb285c25cc19aba4d5d73bf98908781a800a2a389925aa7eb3ad49
+   17aee5e4cfa14fd615193fa1fe2ba3d15fc246c98fb13f159034ae135beafbdf
+
+  THEN:
+
+   - First, the power of that body of text is set to the adoption
+     index of this proposal;
+   - Second the provisions contained in that body of text take effect;
+   - Finally, the power of that body of text is set to 0.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8036
+Title: Impeachment
+Adoption index: 2.0
+Author: Aris
+Co-authors:
+
+
+Enact a new power 2.0 rule, entitled "Impeachment", with the following text:
+
+  A player CAN be expelled (impeached) from a specified elected office which
+  e holds with 2 Agoran Consent. When a person is impeached from an office,
+  an election is immediately opened for that office. Players SHOULD NOT use
+  this method of removal unless the officer has abused the powers of eir
+  office or otherwise shown emself unworthy the trust of Agora.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8037
+Title: Medals of Honour Correction Act
+Adoption index: 1.0
+Author: ATMunn
+Co-authors:
+
+
+In rule 2529 "Medals of Honour", amend the first paragraph after the bullet
+list to read as follows:
+{
+  Beginning in the second Eastman week of an Agoran month and ending when the
+  next Agoran month begins, if there are any players who are eligible for a
+  Medal of Honour, the Herald CAN, by announcement, initiate an Agoran Decision
+  on who is to be awarded a Medal of Honour. E SHALL do so within the second
+  Eastman week of that Agoran month. For this decision, the valid options are
+  all players who are eligible for a Medal of Honour, the vote collector is the
+  Herald, and the voting method is instant-runoff. Upon the resolution of this
+  decision, the Herald CAN, and SHALL in a timely fashion, award the outcome of
+  the decision a Medal of Honour by announcement. After a player is awarded a
+  Medal of Honour, all players who were previously eligible for a Medal of
+  Honour become no longer eligible.
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: 8038
+Title: V.J. Rada Equitable Remedy.
+Adoption index: 1.0
+Author: V.J Rada
+Co-authors:
+
+
+If the Contract "Hi!" does not exist, create in V.J. Rada's
+possession assets equal to the assets in that Contract at the moment
+before its destruction. If that Contract still exists, destroy it and
+then create in V.J. Rada's possession assets equal to the assets in
+that Contract at the moment before its destruction.
+
+Then, transfer one paper and one coin from V.J. Rada to whoever pended
+this proposal. Then, transfer one coin to any player that voted for
+this proposal.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8039
+Title: V.J. Rada Equitable Remedy v2
+Adoption index: 2.1
+Author: Aris
+Co-authors: V.J. Rada
+
+
+If the Contract "Hi!" does not exist, create in V.J. Rada's
+possession assets equal to the assets in that Contract at the moment
+before its destruction. If that Contract still exists, destroy it and
+then create in V.J. Rada's possession assets equal to the assets in
+that Contract at the moment before its destruction.
+
+Then, transfer one paper and one coin from V.J. Rada to whoever pended
+this proposal. Then, transfer one coin from V.J. Rada to any player
+that voted for this proposal.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8040
+Title: Blot Expansion v3
+Adoption index: 3.0
+Author: Aris
+Co-author(s): Ørjan
+
+
+Amend Rule 2483, "Economics", by: {
+  Appending "10. incense", as a new list item after "9. fabric"; and
+
+  Changing "Stones, apples, and corn are considered unrefinable currencies;"
+  to read "Stones, apples, corn, and incense are considered unrefinable
+  currencies;"
+}
+
+Amend Rule 2563, "Production Facilities", by appending
+
+  "4. Temples
+         -  Build Cost: 2 lumber, and 3 fabric
+         -  Upkeep Cost: n-1 fabric
+         -  Production Details: 3n incense
+         -  Upgrade Costs:
+            -  Rank 2: 4 coins, 1 lumber, 1 fabric
+            -  Rank 3: 6 coins, 2 lumber, 3 fabric
+            -  Rank 4: 8 coins, 4 lumber, 2 stones, 5 fabric
+            -  Rank 5: 10 coins, 6 lumber, 4 stones, 7 fabric"
+
+Amend Rule 2559, "Paydays", by appending "D. 3 incense", as a new list item
+after "C. 2 papers".
+
+Amend the rule defining welcome packages by adding as a new item, appropriately
+numbered, at the end of the list "5 incense".
+
+Create 5 incense in the possession of each non-zombie player.
+
+Amend Rule 2557, "Removing Blots", by changing the first paragraph to read
+  "A player CAN, by announcement, destroy N incense in eir possession to
+  expunge N of eir blots. When e does so, e is STRONGLY ENCOURAGED to publicly
+  and grandiloquently apologize to the Spirit of the Game for eir grave crime
+  in breaking the rules, to verbosely praise the same spirit, and to fervently
+  request forgiveness."
+
+Amend Rule 2556, "Penalties", by appending the text
+
+  "A player CAN, with 7 days notice, deregister (exile) a specified player
+  (the outlaw) who has more than 40 blots."
+
+as a new paragraph at the end of the rule.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8041
+Title: Consolidated Patch
+Adoption index: 2.0
+Author: Aris
+Co-author(s): Trigon, G.
+
+
+Reenact Rule 2456, "The Treasuror" (Power = 1.0), with the following text:
+  The Treasuror is an office.
+
+  The Treasuror's weekly report includes the list of all public classes
+  of assets.
+
+Make Gaelan the Treasuror.
+
+If Rule 2499 is not currently enacted, re-enact it with the following
+text: {
+
+ If a player has not received a Welcome Package since e most
+  recently registered, any player CAN cause em to receive one by
+  announcement.
+
+  When a player receives a Welcome Package, Agora creates the
+  following assets in eir possession:
+
+  1. 10 coins
+  2. 5 lumber
+  3. 5 stones
+  4. 10 apples
+  5. 3 papers
+}
+
+If a proposal entitled "Gray Land and the Fountain" has not passed: {
+  Amend Rule 2561, Asset Generation with Facilities, by inserting before
+  the text
+
+    "A player can take a number of assets from a facility's inventory
+    by announcement if eir location is the same as the facility's and
+  the following criteria are met:"
+
+  the text
+
+    "A player CANNOT transfer assets to a facility not at eir location."
+}
+otherwise: {
+  Amend Rule 2561, Asset Generation with Facilities, by inserting before the
+  text
+    "A player can take a number of assets from an Production or Processing
+    facility's inventory by announcement if eir location is the same as the
+    facility's and the following criteria are met:"
+
+  the text
+
+  "A player CANNOT transfer assets to a facility not at eir location."
+}
+
+Amend Rule 2003, Actions in Arcadia, by changing the text "substitute 3
+apples for 1 corn" to read "substitute 1 coin for three or fewer apples".
+
+Amend Rule 2551, "Auction End", by changing the text
+
+  "When e does so, the Auctioneer SHALL transfer the items in that lot
+  to that winner in a timely fashion. If the Auctioneer is not a
+  person, then a person authorized to cause the Auctioneer to transfer
+  those items SHALL do so in a timely fashion after the winner pays the
+  Auctioneer, instead."
+
+  to read
+
+  "When e does so, if the auctioneer CAN transfer the items in that lot to
+  that winner at will, e immediately does so; otherwise, e SHALL do so in a
+  timely fashion. For this purpose, a contract CAN do whatever it could
+  do if it were a person in addition to what it can do as a contract,
+  and Agora CAN do anything."
+
+Amend Rule 1885, Zombie Auctions, by removing the final paragraph and by
+appending the text "For the purpose of such a auction, to transfer a zombie to
+a player is to set that zombie's master switch to that player." to the third
+paragraph.
+
+//////////////////////////////////////////////////////////////////////
