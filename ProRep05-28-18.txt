@@ -1,0 +1,106 @@
+The proposal pool currently contains the following proposals:
+
+ID     Author(s)   AI     Title
+---------------------------------------------------------------------------
+pp1    Corona      1.0    go, Go! v2
+pp2    G.          1.7    Pledge Simplification
+
+Legend: <ID>* : Proposal is pending.
+
+The full text of the aforementioned proposals is included below.
+
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: go, Go! v2
+Adoption index: 1.0
+Author: Corona
+Co-authors:
+Note: Text enclosed in square brackets is not part of the proposal.
+
+
+[This proposal implements a 3 coin, 2 apple reward for each captured
+stone, possibly livening up the board]
+
+Amend the rule 1998 "Land Topology" to read in full:
+
+  Two Units of Land are Adjacent if they have the same Latitude, and their
+  Longitudes differ by exactly one; or they have the same Longitude, and
+  their Latitudes differ by exactly one.
+
+  Land Unit A is said to be connected to Land Unit B if it is possible to
+  reach B by moving only to adjacent Land Units of the same Land Type,
+  starting from A.
+
+  [Here I changed color to Land Type, as color is not defined. So far, it
+  didn't break anything, as no LUs were to be changed into Aether]
+
+  A set Land Units is said to be a Subgroup if all of these Land Units have
+  the same Land Type are connected to each other.
+
+  A Subgroup is said to be a Group if no set exists such that:
+    1) Its elements are all Land Units of that Subgroup and at least one Land
+    Unit not an element of that Subgroup.
+    2) It is a Subgroup.
+
+[Group = a group of stones in Go]
+
+Amend the rule 2022 "Land Transfiguration" to read in full:
+
+[Changing it so that it happens automatically]
+
+At the end of the second Eastman week of each Agoran Month, the following
+happens in sequence:
+
+  1. Every Land Unit, with a preservation switch of False that is not
+     directly connected to a unit of Aether, or is not connected by its
+     own type to a unit of Aether, shall be transformed to Aether.
+
+     For every Land Unit that has its type changed to Aether by this
+     procedure, the player who most recently changed the Land Type of any
+     Land Unit such that it is an element of the Full Group of the transformed
+     Land Unit or adjacent to any of the Land Units of the Full Group of the
+     transformed Land Unit, among the players who aren't Cartographor, receives
+     3 coins and 2 apples.
+
+  2. Any entities whose locations are on land units so transformed
+     shall have their locations set to (0, 0).
+
+  3. If any land unit so transformed is not property of Agora, it
+     becomes property of Agora.
+
+  The Cartographor SHALL announce all of these changes in a timely manner.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Pledge Simplification
+Adoption index: 1.7
+Author: G.
+Co-authors:
+
+[The Asset-nature of pledges is complicated and serves no purpose;
+if pledges are to be used for out-of-Agora agreements, the Agoran
+Consent constraint makes no sense as it's not a voting matter].
+
+Amend Rule 2450 (Pledges) to read in full:
+
+  If a Player makes a clear public pledge (syn. Oath) to perform
+  (or refrain from performing) certain actions, then breaking the
+  pledge within the pledge's time window is the Class N crime of
+  Oathbreaking, where N is 2 unless the pledge explicitly states
+  otherwise.  The time window of a pledge is 60 days, unless
+  the pledge explicitly states otherwise.
+
+  If breaking the pledge harms specific other parties, the Referee
+  SHOULD solicit the opinion of those parties in determining an
+  appropriate fine.
+
+  The Notary's Weekly Report includes a copy of all pledges that
+  are within their time window, and the dates the pledges were
+  made.
+
+All pledges that existed as assets the instant before this Proposal
+took effect are considered to have been made as pledges under the
+current version of Rule 2450.
+
+//////////////////////////////////////////////////////////////////////

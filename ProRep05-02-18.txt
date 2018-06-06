@@ -1,0 +1,126 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 7.0 [1], the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)      AI   Title                             Pender
+---------------------------------------------------------------------------
+8046*  ATMunn         2.0  no more zombies                   ATMunn
+8047*  G., Aris       3.0  Basic Nerf                        G.
+8048*  Aris, Trigon   2.0  Crystals v2                       Aris
+
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+[1] Quorum is provisional due to a disputed vote. It could be 6.0, although
+    in the Promotor's opinion the listed result is more likely.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8046
+Title: no more zombies
+Adoption index: 2.0
+Author: ATMunn
+Co-authors:
+
+
+Repeal rule 2532 "Zombies".
+Repeal rule 1885 "Zombie Auctions".
+Repeal rule 2554 "Zombiception".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8047
+Title: Basic Nerf
+Adoption index: 3.0
+Author: G.
+Co-authors: Aris
+
+
+Enact a new power 3.0 rule, entitled "Zombie Restrictions", with the
+following text:
+
+  Rules to the contrary notwithstanding, a zombie who is being acted
+  on behalf of CANNOT initiate, support, object to, or perform a dependent
+  action.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8048
+Title: Crystals v2
+Adoption index: 2.0
+Author: Aris
+Co-authors: Trigon
+
+
+Amend Rule 2562, Facility Ranks, to read as follows:
+
+  Rank is a secured facility switch tracked by the Cartographor defaulting
+  to 1, with possible values of all positive integers.
+
+  A player CAN increase the rank of a facility that is at eir location by
+  exactly 1 by announcement by paying any upgrade costs of the facility for
+  that specific rank. A player CAN increase the rank of a facility at any
+  location by N by announcement by destroying N crystals in eir possession.
+
+Enact a new rule, entitled "Crystals" (Power = 2.0), with the following text
+
+  Crystals are a currency, with the Treasuror as their recordkeepor.
+  They may be owned by Agora, persons, and contracts. The following units
+  are defined:
+
+  - Bronze Crystal, 1 crystal
+  - Silver Crystal, 2 crystals
+  - Gold Crystal, 4 crystals
+  - Platinum Crystal, 8 crystals
+
+Amend the rule defining welcome packages by adding as a new item, appropriately
+numbered, at the end of the list "1 Bronze Crystal".
+
+Amend Rule 2483, Economics, by changing the text "The following currencies are
+defined, and are tracked by the Treasuror." to read "The following currencies,
+known collectively as economic currencies, are defined, and are tracked by the
+Treasuror."
+Enact a new rule, "Crystal Rewards" (Power = 2.0), with the following text:
+
+  When a person wins the game, if e has not won in the preceding month, 1 Bronze
+  Crystal is created in eir possession.
+
+  A player CAN, by announcement, destroy a crystal in eir possession
+  to create 5 economic currencies of specified, possibly varying type.
+
+[I expect the above to be expanded in future.]
+
+Amend Rule 2003, Actions in Arcadia, by adding
+
+  "7. 1 crystal to move to any location which is not Aether."
+as a new item at the end of the numbered list.
+
+
+Enact a new rule, entitled "Crystal Auctions" (Power = 2.0), with the following
+text:
+
+  At the beginning of each month, the Treasuror CAN and SHALL initiate an
+  auction. For this auction, the announcer is the Treasuror, the auctioneer is
+  Agora, the minimum bid is 1, and there is one lot, chosen as follows:
+
+    - January: Gold Crystal
+    - February: Silver Crystal
+    - March: Silver Crystal
+    - April: Gold Crystal
+    - May: Silver Crystal
+    - June: Silver Crystal
+    - July: Platinum Crystal
+    - August: Silver Crystal
+    - September: Silver Crystal
+    - October: Gold Crystal
+    - November: Silver Crystal
+    - December: Silver Crystal
+
+  When the winner of the auction pays eir bid, the auctioned crystal is
+  immediately created in eir possession.
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,31 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)      AI   Title                             Pender
+---------------------------------------------------------------------------
+8052*  V.J. Rada      3.0  [1]                               V.J. Rada
+
+[1] Let's not make game assets one letter different from each other
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Proposal is pending.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8052
+Title: Let's not make game assets one letter different from each other
+Adoption index: 3.0
+Author: V.J. Rada
+Co-authors:
+
+
+Amend rule 2003 by replacing "substitute 1 coin for three or fewer
+apples" with "substitute 1 corn for 3 or fewer apples".
+
+//////////////////////////////////////////////////////////////////////
