@@ -1,0 +1,249 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5.0 [1], the voting method is AI-majority and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+[1] Quorum is provisional, and could actually be anywhere between
+5.0 and 7.0.
+
+ID     Author(s)      AI   Title                             Pender
+---------------------------------------------------------------------------
+8058*  V.J. Rada      1.0  Medal of Honour Auctions          V.J. Rada
+8059*  G.             1.0  honour is its own reward          G.
+8060*  V.J. Rada      1.8  Notary-B-Gone                     V.J. Rada
+8061+  Aris           1.0  Free Proposals                    Aris
+8062*  Trigon         3.0  The End of the World, Again       Trigon
+8063*  V.J. Rada      2.0  IAR Writs Repeal                  V.J. Rada
+8064*  G.             1.0  Land Grants                       G.
+8065*  twg            2.0  No undead courts                  twg
+
+The proposal pool currently contains the following proposals:
+
+ID     Author(s)   AI     Title
+---------------------------------------------------------------------------
+pp1    V.J. Rada   1.0    Secret Auctions
+
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, and before any other
+                action taken by sending this message, I pay a
+                paper to pend the marked proposal.
+
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8058
+Title: Medal of Honour Auctions
+Adoption index: 1.0
+Author: V.J. Rada
+Co-authors:
+
+
+Amend rule 2529 "Medals of Honour" by replacing the second paragraph with
+
+  "Beginning in the second Eastman Week of an Agoran Month and ending
+  at the end of that Month, the Herald CAN initiate an auction for a Medal
+  of Honour as the only lot. E SHALL do so in the second Eastman Week of
+  that Month. For this auction, the announcer is the Herald, the minimum
+  bid is 60 coins, and Agora is the auctioneer. Only eligible players
+  are allowed to bid in such an Auction.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8059
+Title: honour is its own reward
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Repeal Rule 2529 (Medals of Honour).
+
+[We've given it a good go, with both this and previously with
+Victory Elections.  Straight-up vote-for-a-winner mechanisms just
+don't attract enough interest].
+
+//////////////////////////////////////////////////////////////////////
+ID: 8060
+Title: Notary-B-Gone
+Adoption index: 1.8
+Author: V.J. Rada
+Co-authors:
+
+
+Delete the last paragraph of rule 2450, "Pledges"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8061
+Title: Free Proposals
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+
+Change Rule 2445, "How to Pend a Proposal", to read in full:
+
+  Imminence is a switch, tracked by the Promotor, possessed by
+  proposals in the Proposal Pool, whose value is either "pending" or
+  "not pending" (default).
+
+  Any player CAN flip a specified proposal's imminence to "pending"
+  by announcement, but cannot use this method more than five times
+  each week. The first five proposals pended by the Promotor of which e
+  is not the author do not count against eir weekly limit.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8062
+Title: The End of the World, Again
+Adoption index: 3.0
+Author: Trigon
+Co-authors:
+
+
+Repeal Rule 1993 "The Land of Arcadia"
+Repeal Rule 1994 "Ownership of Land"
+Repeal Rule 1995 "Land Types"
+Repeal Rule 1996 "The Cartographor"
+Repeal Rule 1998 "Land Topology"
+Repeal Rule 1999 "Entity Location"
+Repeal Rule 2003 "Actions in Arcadia"
+Repeal Rule 2004 "Land Auctions"
+Repeal Rule 2022 "Land Transfiguration"
+Repeal Rule 2565 "Preserved Land"
+Repeal Rule 2560 "Facilities"
+Repeal Rule 2561 "Asset Generation with Facilities"
+Repeal Rule 2562 "Facility Ranks"
+Repeal Rule 2563 "Production Facilities"
+Repeal Rule 2564 "Processing Facilities"
+Repeal Rule 2567 "Facility Categories"
+Repeal Rule 2568 "Facility Colors"
+Repeal Rule 2569 "Gray Land"
+Repeal Rule 2570 "Monument Facilities"
+Repeal Rule 2571 "The Fountain"
+Repeal Rule 2572 "Wishing Fountain"
+Repeal Rule 2046 "Q*Bert"
+Repeal Rule 2499 "Welcome Packages"
+Repeal Rule 2559 "Paydays"
+Repeal Rule 2483 "Economics"
+Repeal Rule 2532 "Zombies"
+Repeal Rule 2574 "Zombie Life Cycle"
+Repeal Rule 1885 "Zombie Auctions"
+Repeal Rule 2515 "Distributing Assets"
+Repeal Rule 2545 "Auctions"
+Repeal Rule 2546 "Lots"
+Repeal Rule 2547 "The Auctioneer"
+Repeal Rule 2548 "The Auction Announcer"
+Repeal Rule 2549 "Auction Initiation"
+Repeal Rule 2550 "Bidding"
+Repeal Rule 2551 "Auction End"
+Repeal Rule 2552 "Auction Termination"
+
+Amend Rule 2555 "Blots" by adding the following paragraphs:
+       If a player has neither gained blots nor expunged any blots from
+       emself in the current Agoran week, e CAN expunge 1 blot from
+       emself by announcement.
+
+       At the beginning of each quarter, half (rounded down) of each
+       fugitive's blots are destroyed.
+
+If "Free Proposals" is REJECTED, amend Rule 2445 "How to Pend a
+Proposal" by replacing its text with:
+
+       Imminence is a switch, tracked by the Promotor, possessed by
+       proposals in the Proposal Pool, whose value is either "pending" or
+       "not pending" (default).
+
+       Any player CAN flip a specified proposal's imminence to "pending"
+       by announcement, but cannot use this method more than five times
+       each week. The first five proposals pended by the Promotor of
+       which e is not the author do not count against eir weekly limit.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8063
+Title: IAR Writs Repeal
+Adoption index: 2.0
+Author: V.J. Rada
+Co-authors:
+
+
+Remove the second paragraph of rule 2531 "Referee Accountability".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8064
+Title: Land Grants
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2003 (Actions in Arcadia) by adding the following
+list item at the end of the numbered list:
+
+      7. 3 apples to Stake a Land Claim on a specified land unit that is
+         adjacent to the Entity's current location, is of type Aether,
+         and is owned by Agora, if and only if e is active, has not
+         staked a land claim in the current month, and has not won a
+         land auction in the current or previous month.  When e stakes a
+         land claim, the unit's land type is set to the land type of eir
+         choice, then is transferred to em, then e moves onto that unit.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8065
+Title: No undead courts
+Adoption index: 2.0
+Author: twg
+Co-authors:
+
+
+Amend rule 2532, "Zombies", by adding "initiate a Call for Judgement;" as a
+list item after "enter a contract, pledge, or other type of agreement;"
+
+Amend rule 991, "Calls for Judgement", to change "all players except the
+initiator and the person barred" to "all active players except the initiator
+and the person barred".
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Secret Auctions
+Adoption index: 1.0
+Author: V.J. Rada
+Co-authors:
+
+
+Rename rule 2550, "Bidding" to "Secret Bidding" Amend that rule
+by replacing "A person authorized to bid on an Auction CAN do so by
+announcement," with "A person authorized to bid on an Auction CAN do
+so by secretly communicating with that Auction's announcer,". Also,
+remove the text " A person CAN withdraw their bid on an Auction by
+announcement. If a person submits a bid on an Auction, all bids
+previously placed  on that Auction by that person are withdrawn." Also
+add in a new paragraph "Rules to the contrary notwithstanding, no
+Announcer may ever bid on an Auction they are Announcing unless they
+do so in a verifiably secret way either in the same post as the
+Auction initiation,
+or up to two days before its initiation. Whichever method they choose, the
+method must be verifiably datable to before or during the auction's initiation,
+and revealed only at the auction's end.".
+
+Amend rule 2551 "Auction End" by removing the text ", or immediately if no
+bid has been placed or withdrawn in the last 96 hours". Also, replace
+the text "In the same message, e SHALL include the a list of all the
+bids on the Auction and the winner(s) (if there are any) of the
+Auction." (by the way, typo) with "In the same message, e SHALL
+include an unamended list of the auction-related communications e
+privately received, and the bids contained within those
+communications, and the winner(s) (if any) of the Auction. E shall
+also list the times at which those communications were received.
+Failing to correctly and fully relate the results of an Auction as an
+Auction announcer is the Class-9 Crime of Auction Obfuscation, and
+Auction announcers SHALL NOT so fail. Revealing information about the
+auction before its end either privately or publicly is also the same crime, if
+performed by Auction announcers, who SHALL NOT do so.". Also amend that rule
+by replacing "The winner of a lot SHALL pay the Auctioneer the number of
+the Auction's currency equal to eir bid," with "The winner of a lot
+SHALL pay the Auctioneer the number of the Auction's currency equal to
+the bid one lower than eir bid, plus one unit of that currency".
+
+//////////////////////////////////////////////////////////////////////

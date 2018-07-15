@@ -1,0 +1,306 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3.0, the voting method is AI-majority and the valid options
+are FOR and AGAINST (PRESENT is also a valid vote, as are conditional
+votes).
+
+ID     Author(s)      AI   Title                             Pender
+---------------------------------------------------------------------------
+8053*  G., Aris       1.0  patch patch patch                 G. [1]
+8054+  Aris, [2]      3.0  Minimalist Contracts v2           Aris
+8055+  Aris, G.       3.0  Distributed Assets v3             Aris
+8056+  Aris, G.       3.0  Deregulation Act v2               Aris
+8057*  Corona         1.0  No quorum, no medal               Corona [1]
+
+The Proposal Pool is currently empty.
+
+[1] Ruberstamped official proposal
+[2] G., V.J. Rada
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, and before any other
+                action taken by sending this message, I pay a
+                paper to pend the marked proposal.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8053
+Title: patch patch patch
+Adoption index: 1.0
+Author: G.
+Co-authors: Aris
+
+
+Amend the rule defining welcome packages by adding as a new item,
+appropriately numbered, at the end of the list "5 incense".
+
+Create 5 incense in the possession of each player who received a
+welcome package since April 28, 2018.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8054
+Title: Minimalist Contracts v2
+Adoption index: 3.0
+Author: Aris
+Co-authors: G., V.J. Rada
+
+
+Lines beginning with hashmarks ("#") and comments in square brackets ("[]")
+have no effect on the behavior of this proposal. They are not part of any rules
+created or amended herein, and may be considered for all game purposes to
+have been removed before its resolution.
+
+[This proposal saves allowing contracts to control or auction assets until we
+decide to allow them to be persons, which is its own can of worms.]
+
+# 1 Repeal
+
+Destroy all contracts.
+
+Repeal rules 2524, 2526, 2520, 2525, 2522, 2523, 2521, 2527, and 2517, in
+that order.
+
+In rule 2545 "Auctions", delete the text "or contract"
+
+In rule 2547 "The Auctioneer", delete the text "or contracts",
+change the last comma in the last sentence of the second paragraph
+to a period, deleting the all parts of the sentence beyond it, and delete
+the last paragraph.
+
+In rule 2548 "The Auction Announcer" delete the text "or contract" and
+the last sentence.
+
+In rule 2549 "Auction Initiation", delete all instances of the text
+"or contract"
+
+In rule 2550 "Bidding", replace the last comma with a full stop and
+delete all text after it, and delete all instances of the text "or
+contract"
+
+In rule 2483 "Economics", delete the text "contracts,"
+
+In rule 1994 "Ownership of Land", delete the text "Land belonging to a
+contract is called Communal Land." and delete the text "Together,
+Communal Land and Private Land are called Proprietary Land." and
+replace the text "Land belonging to any other entity is called Private
+Land." with "Land belonging to any other entity is called Private Land
+(syn. Proprietary Land)
+
+In rule 2561 "Asset Generation with Facilities", delete the text "3.
+if the facility is built on Communal Land, e must be a party to that
+contract and the text of the contract must permit em to do so." and
+renumber the fourth bullet point 3.
+
+# 2 Replacement
+
+Reenact Rule 1742, "Contracts", at power 2.5, with the following text:
+
+  Any group of two or more consenting persons (the parties) may
+  make an agreement among themselves with the intention that it be
+  binding upon them and be governed by the rules. Such an agreement
+  is known as a contract. A contract may be modified, including
+  by changing the set of parties, by agreement between all existing
+  parties. A contract may also terminate by agreement between all
+  parties. A contract automatically terminates if the number of
+  parties to it falls below two. For the purposes of this rule,
+  agreement includes both consent and agreement specified by
+  contract.
+
+  Parties to a contract governed by the rules SHALL act in
+  accordance with that contract. This obligation is not impaired
+  by contradiction between the contract and any other contract, or
+  between the contract and the rules.
+
+  A party to a contract may act on behalf of another party to
+  it as allowed in the contract.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8055
+Title: Distributed Assets v3
+Adoption index: 3.0
+Author: Aris
+Co-authors: G.
+
+
+Amend Rule 2166, "Assets", to read as follows:
+
+  An asset is an entity defined as such by a document that has been
+  granted Mint Authority by the Rules (hereafter the asset's backing
+  document), and existing solely because its backing document defines
+  its existence. An asset's backing document can generally specify when
+  and how that asset is created, destroyed, and transferred.
+
+  The rules collectively have Mint Authority. Contracts have Mint
+  Authority. A rule defined asset is public; one defined by a contract
+  is private.
+
+  The recordkeepor of a class of assets is the entity (if any)
+  defined as such by, and bound by, its backing document. That
+  entity's report includes a list of all instances of that class and
+  their owners. This portion of that entity's report is
+  self-ratifying.
+
+Create a power 3.0 rule, entitled "Ownership", with the following text:
+
+  Each asset has exactly one owner. If an asset's backing document
+  restricts its ownership to a class of entities, then that asset
+  CANNOT be gained by or transferred to an entity outside that
+  class, and is destroyed if it is owned by an entity outside that
+  class. The restrictions in the previous sentence are subject to
+  modification by its backing document. By default, ownership of an
+  asset is restricted to Agora, players, and contracts.
+
+  If an asset would otherwise lack an owner, it is owned by the Lost
+  and Found Department. Rules to the contrary notwithstanding, the
+  Lost and Found Department can own assets of every type. Assets owned
+  by the Lost and Found Department can be transferred or destroyed
+  by any player without objection.
+
+
+Create a power 3.0 rule, entitled "Asset Actions", with the following text:
+
+  An asset generally CAN be destroyed by its owner by announcement,
+  subject to modification by its backing document. An indestructible
+  asset is one defined as such by it backing document, and CANNOT be
+  destroyed except by a proposal or rule, other than this one,
+  specifically addressing the destruction of indestructible assets
+  or that asset in particular; any other asset is destructible.
+
+  To "lose" an asset is to have it destroyed from one's possession;
+  to "revoke" an asset from an entity is to destroy it from that
+  entity's possession.
+
+  An asset generally CAN be transferred (syn. given) by
+  announcement by its owner to another entity, subject to
+  modification by its backing document. A fixed asset is one defined
+  as such by its backing document, and CANNOT be transferred; any
+  other asset is liquid.
+
+  When a rule indicates transferring an amount that is not a natural
+  number, the specified amount is rounded up to the nearest natural
+  number.
+
+Create a power 3.0 rule, entitled "Currencies", with the following text:
+  A currency is a class of asset defined as such by its backing
+  document. Instances of a currency with the same owner are
+  fungible.
+
+  The "x balance of an entity", where x is a currency, is the number
+  of x that entity possesses. Where it resolves ambiguity, the asset or
+  currency being referred to is the currency designated as "Agora's
+  official currency", if there is one.
+
+
+Create a power 3.0 rule, entitled "Fee-based Actions":
+
+  If the Rules associate payment of a set of assets (hereafter
+  the fee for the action; syns: cost, price, charge) with performing an
+  action, that action is a fee-based action.
+
+  If the fee is a non-integer quantity of a fungible asset, the actual
+  fee is the next highest integer amount of that asset.
+
+  To perform a fee-based action, an entity (the Actor) who is
+  otherwise permitted to perform the action must announce that e
+  is performing the action; the announcement must specify the
+  correct set of assets for the fee and indicate intent
+  to pay that fee for the sole purpose of performing the action.
+
+  Upon such an announcement:
+
+    - If the Rules specify a recipient for the fee, and the Actor
+      CAN transfer that specified fee from emself to the recipient,
+      then that fee is transferred from the Actor to the recipient
+      and the action is performed simultaneously;
+
+    - If the Rules do not specify a recipient, and the Actor CAN
+      destroy the specified fee in eir possession, then that fee
+      in eir possession is destroyed and the action is
+      performed simultaneously.
+
+    - Otherwise, no changes are made to asset holdings and the
+      action is not performed.
+
+  If the Rules define a fee-based action but the specified
+  set of assets is the empty set, then the action can be performed by
+  announcement, but the announcement must include that there
+  is an (empty or 0) fee for the action.
+
+In Rule 2003, amend the text "Players CAN destroy:" to read "Players CAN
+pay the listed fee to take the associated action:"
+
+[I think that's the only rule that actually needs to be changed over.
+Most of the other phrasings in the ruleset seem as if they'll transfer
+over on there own. The only other case that I can see that won't is the
+last paragraph of Rule 2551, "Auction End", which isn't really designed
+to work in a fee-based way, and so actually shouldn't be switched over.]
+
+For the avoidance of doubt, all assets existing under the old system continue
+to so under the new system, and if they would not otherwise do so, new assets
+are created to replace them.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8056
+Title: Deregulation Act v2
+Adoption index: 3.0
+Author: Aris
+Co-authors: G.
+
+
+Repeal Rule 2494, "The Regkeepor".
+
+Amend Rule 2493, "Regulations", to read in full:
+
+  A regulation is an textual entity defined as such by this rule,
+  and under the authority of an officer, known as its Promulgator.
+  A regulation must be authorized by a rule (its parent rule) in
+  order to exist. It has only the effect that rule explicitly
+  gives it.
+
+  A regulation CAN be enacted, amended, and repealed as specified
+  by its parent rule. By default, a Promulgator can enact or amend
+  a regulation with 2 Agoran Consent and repeal a regulation by
+  announcement. Regulations are tracked in their Promulgator's
+  weekly report.
+
+
+Change the power of Rule 2493 to 3.0.
+
+Amend Rule 2565, "Preserved Land", by changing the text
+
+  "The preservation switch CAN be set in a regulation promulgated
+   by the Cartographor without 2 objections"
+
+to read
+
+  "The preservation switch CAN be set by the Cartographor without
+  2 objections".
+
+Amend Rule 2125 by changing all instances of the text "restricted" (case
+insensitive) to read "regulated", preserving the capitalization of the first
+letter.
+
+For the avoidance of doubt, all regulations existing under the old system
+continue to so under the new system, and if they would not otherwise do so,
+new regulations are created with as similar properties as possible
+to replace them.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8057
+Title: No quorum, no medal
+Adoption index: 1.0
+Author: Corona
+Co-authors:
+
+
+In rule 2529 "Medals of Honour", replace the following:
+  "After a player is awarded a Medal of Honour, all players who were
+  previously eligible for a Medal of Honour become no longer eligible."
+
+With:
+
+  "After a resolution of an Agoran Decision on who is to be awarded a Medal
+  of Honour, all players who were previously eligible for a Medal of Honour
+  become no longer eligible."
+
+//////////////////////////////////////////////////////////////////////
