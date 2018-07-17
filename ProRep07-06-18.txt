@@ -1,0 +1,459 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5.0 [1], the voting method is AI-majority and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+[1] Quorum is provisional, and could actually be anywhere between
+5.0 and 7.0.
+
+ID     Author(s)      AI   Title                                 Pender
+---------------------------------------------------------------------------
+8066+  twg, Trigon    2.0  Separation of church and state        Aris
+8067+  twg, Trigon    2.0  Reining in the Von Neumann machines   Aris
+8068+  twg            1.0  Back to one auction                   Aris
+8069+  twg            1.0  Frankenstein's land auctions          Aris
+8070+  twg            2.0  [1]                                   Aris
+8071+  twg            2.0  [2]                                   Aris
+8072+  Aris, twg      3.0  Steel Based Manufacturing v3          Aris
+8073+  Aris           3.0  Comments                              Aris
+8074+  Aris, [3]      3.0  Office Patch                          Aris
+8075+  Aris, G.       3.0  Less Critical Patching                Aris
+8076+  Aris, G.       3.0  Regulation Patches                    Aris
+
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI     Title
+---------------------------------------------------------------------------
+pp1   twg           2.0    From each according to eir means
+pp2   twg, Trigon   2.0    This planet is too chilly
+pp3   twg           2.1    Something to use paper for
+
+
+[1] Crackdown on minting (reindustrialisation edition)
+[2] Crackdown on minting (scorched-earth edition)
+[3] G., P.S.S.
+
+Legend: <ID>+ : By publishing this report, and before any other
+                action taken by sending this message, I pay a
+                paper to pend the marked proposal.
+
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8066
+Title: Separation of church and state
+Adoption index: 2.0
+Author: twg
+Co-authors: Trigon
+
+
+[ The blots amendment is lifted verbatim from Trigon's version of the repeal,
+  so I listed em as a co-author. ]
+
+Amend rule 2559, "Paydays", by removing the list item "3 incense".
+
+Destroy all temples.
+
+Amend rule 2563, "Production Facilities", by removing the list item "Temples"
+and all bullet points subordinate to it.
+
+Destroy all incense.
+
+Amend rule 2483, "Economics", by removing incense from the list of currencies
+and from the list of unrefinable currencies.
+
+Amend rule 2555, "Blots", by adding the following paragraphs:
+
+  If a player has neither gained blots nor expunged any blots from
+  emself in the current Agoran week, e CAN expunge 1 blot from
+  emself by announcement.
+
+  At the beginning of each quarter, half (rounded down) of each
+  fugitive's blots are destroyed.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8067
+Title: Reining in the Von Neumann machines
+Adoption index: 2.0
+Author: twg
+Co-authors: Trigon
+
+
+Amend rule 2564, "Processing Facilities", to read in full:
+
+  The following facilities are defined as processing facilities:
+    1. Refineries
+       -  Build Cost: 4 lumber and 8 stones
+       -  Upkeep Cost: 3 coins
+       -  Processing Details: 1 ore to 5 coins
+
+    2. Mills
+       -  Build Cost: 6 lumber and 6 stones
+       -  Upkeep Cost: 3 coins
+       -  Processing Details: 1 lumber to 5 paper
+
+    3. Looms
+       - Build Cost: 8 lumber and 4 stones
+       - Upkeep Cost: 3 coins
+       - Processing Details: 1 cotton to 5 fabric
+
+Flip the ranks of all processing facilities to their default values.
+
+[ That last sentence relieves the Cartographor of keeping track of the legacy
+  ranks that don't mean anything any more. ]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8068
+Title: Back to one auction
+Adoption index: 1.0
+Author: twg
+Co-authors:
+
+
+Amend rule 2004, "Land Auctions", by replacing the first sentence of the last
+paragraph with the following:
+
+  If at least one land unit is selected by the process described above,
+  the Cartographor CAN and SHALL initiate an auction with each selected
+  land unit as a lot. The authorized bidders for this auction are all
+  active players.
+
+[ Note that, unlike the original version, zombies are banned from bidding. ]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8069
+Title: Frankenstein's land auctions
+Adoption index: 1.0
+Author: twg
+Co-authors:
+
+
+[ Here's another option: specific land auction rules that are a hybrid of one
+  and five auctions. Pick your favourite? ]
+
+Amend rule 2004, "Land Auctions", by replacing the last sentence with the
+following:
+
+  For this auction, the announcer is the Cartographor, the auctioneer
+  is Agora, the minimum bid is 1 coin, and the authorized bidders
+  are all active players.
+
+[ The above bans zombies from bidding. ]
+
+Amend rule 2004, "Land Auctions", by appending the following as a new
+paragraph:
+
+  When a land auction ends, all bids by the winner of that auction on
+  other land auctions are withdrawn.
+
+[ The phrasing here is based on the assumption that auctions started in the
+  same message end one at a time rather than simultaneously, which I think I
+  remember reading a CFJ about. The idea is that people can choose which units
+  of land they are interested in (which is the principal advantage of the five-
+  auction method) but can't dominate the market and win all the auctions. ]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8070
+Title: Crackdown on minting (reindustrialisation edition)
+Adoption index: 2.0
+Author: twg
+Co-authors:
+
+
+[ As I've said before, I think coin production needs to go altogether, but
+  destroying the refineries outright seems unnecessarily unfair, so my
+  preference is for this edition - though I haven't come up with anything to
+  use steel for yet. Also, G., I apologise for my appalling timing in proposing
+  to render your contract ineffective! ]
+
+Amend rule 2483, "Economics", by:
+- adding "steel" to the list of currencies (appropriately numbered)
+- adding "steel" to the list of refined currencies
+- adding "coins" to the list of unrefinable currencies
+- removing "coins" from the list of refined currencies
+
+Amend rule 2564, "Processing Facilities", by changing "coins" to "steel" in the
+Processing Details of Refineries.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8071
+Title: Crackdown on minting (scorched-earth edition)
+Adoption index: 2.0
+Author: twg
+Co-authors:
+
+
+If "Crackdown on minting (reindustrialisation edition)" has been adopted, or if
+its voting period has ended and the votes on it are such that it will be
+adopted, this proposal has no effect.
+
+Amend rule 2483, "Economics", by:
+- adding "coins" to the list of unrefinable currencies
+- removing "coins" from the list of refined currencies
+
+Destroy all refineries.
+
+Amend rule 2564, "Processing Facilities", by removing the list item
+"Refineries" and all bullet points subordinate to it.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8072
+Title: Steel Based Manufacturing v3
+Adoption index: 3.0
+Author: Aris
+Co-authors: twg
+
+
+If "Crackdown on minting (reindustrialisation edition)" has not been
+adopted, or if the votes on it are such that it would not be adopted if
+it were resolved now, this proposal has no effect.
+
+Amend Rule 2563 by changing all instances of the words "coin" and "coins"
+to "steel".
+
+Amend Rule 2564 by changing all instances of the words "coin" and "coins"
+to "steel".
+
+Add "5 steel", appropriately numbered, to the list in Rule 2499,
+"Welcome Packages".
+
+Create 5 steel in the possession of every player who is not eligible for a
+Welcome Package.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8073
+Title: Comments
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+[I'm sick of tired of all of the boilerplate around comments.
+Time for a legislative solution.]
+
+Amend Rule 106, "Adopting Proposals", by adding, after the sentence
+
+  "Except as prohibited by other rules, a proposal that
+  takes effect CAN and does, as part of its effect, apply the
+  changes that it specifies."
+
+the sentence
+
+  "Clearly marked comments are considered to be removed from the
+  proposal before it takes effect, unless otherwise stated by
+  the proposal."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8074
+Title: Office Patch
+Adoption index: 3.0
+Author: Aris
+Co-authors: G., P.S.S
+
+
+Amend Rule 1006, "Offices", by changing the first sentence to read:
+  Officeholder is an office switch tracked by the ADoP, with possible values
+  of any person or "vacant" (default).
+
+Change the gamestate to whatever it would be if officeholder had been a switch
+for as long as it has been described as such by the rules, with "vacant" as
+its default value.
+
+Make omd the Distributor.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8075
+Title: Less Critical Patching
+Adoption index: 3.0
+Author: Aris
+Co-authors: G.
+
+
+Amend Rule 2162, "Switches", by changing item 2 of the numbered list to
+read as follows:
+  One or more possible values for instances of that switch,
+  exactly one of which should be designated as the default.
+  No values other than those listed are possible for
+  instances of that switch, except that, if no default is
+  specified, then rules to the contrary notwithstanding, the
+  "null" value is a possible value for that switch, and is
+  the default.
+
+
+Increase the power of Rule 2162 to 3.0.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8076
+Title: Regulation Patches
+Adoption index: 3.0
+Author: Aris
+Co-authors: G.
+
+
+[Innumerable minor patches and tweaks. In some cases I have gone slightly
+beyond the minimum required for operability. For instance, I made it
+a bit easier for the Birthday Tournament to be amended, on the basis that
+people are likely to object if an amendment is improper, and to make the
+criteria for amendment the same as those for enactment. I believe
+that all of my changes are only common sense, but if any are likely
+to prove controversial, please let me know.]
+
+Amend Rule 2495, "The Birthday Tournament", to read in full:
+
+  In a timely fashion after the start of June 1 of each year, the
+  Herald SHALL propose a set of Regulations governing a Birthday
+  Tournament for that year; the Herald CAN also delegate the
+  responsibility for creating or running the tournament to another
+  player, with that player's consent, by announcement.
+
+  The Birthday Tournament's regulations SHOULD be such that all
+  persons who choose to participate have a fair chance of winning
+  the tournament (according to its regulations), and a winner
+  SHOULD be expected within 2-3 weeks following the tournament's
+  initiation.
+
+  After adequate time for discussion of the Birthday Tournament's
+  regulations, the Herald (or delegate) CAN initiate a sanctioned
+  tournament, promulgating a specified, finalized set of tournament
+  regulations, Without 3 Objections. This title may thereafter
+  be amended only by the Herald or eir designee Without 3
+  Objections. The initiation SHOULD be timed to coincide
+  with Agora's Birthday.
+
+Amend Rule 2464, "Tournaments", to read in full:
+
+  A Tournament is a sub-game of Agora specifically sanctioned to be
+  initiated as a tournament by the Rules. The person who initiates a
+  tournament is its Gamemaster. If a winner of a tournament is
+  determined within within 3 months of its initiation, that person
+  or persons win the game, otherwise the tournament concludes
+  with no winner.
+
+  A Tournament is governed by set of regulations, created in
+  accordance with its parent rule, which have binding control over
+  those who freely consent to play the tournament and over the
+  tournament itself. Once the tournament is concluded, these regulations
+  cease to have any effect, and CAN be repealed by any player by
+  announcement.
+
+Amend Rule 2493, "Regulations", by changing the text "officer" to "person".
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: From each according to eir means
+Adoption index: 2.0
+Author: twg
+Co-authors:
+
+
+[ This is an attempt at a reset/rebalance that strikes a middle ground between
+  completely erasing everyone's progress and leaving the current exponentially-
+  growing inequality in place. I'm not positive that I struck the right balance
+  but even if it's rejected it can be a starting point for discussion. ]
+
+For each facility owned by a player, transfer all coins owned by that facility
+to its owner.
+
+For each zombie owned by a player, transfer all coins owned by that zombie to
+its owner.
+
+Decrease the coin balance of each player to the square root (rounded up to the
+next largest integer) of however many coins e possessed before this sentence
+took effect.
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: This planet is too chilly
+Adoption index: 2.0
+Author: twg
+Co-authors: Trigon
+
+
+[ Coal is not my idea; I lifted it from Trigon's proto-proposal. It restricts
+  processing facilities a little, which is perhaps a good thing, but it also
+  increases the number of land units you need to maintain self-sufficiency,
+  which is a bit of a barrier for new players. I figured I might as well put
+  it in the pile. ]
+
+Amend rule 2483, "Economics", by adding:
+- "coal" to the list of currencies (appropriately numbered); and
+- "coal" to the list of unrefinable currencies.
+
+Amend rule 2561, "Asset Generation with Facilities", by changing the third
+paragraph to read in full:
+
+  At the end of every Agoran Week, for each Processing facility, as
+  many times as possible, Agora destroys a number of assets in the
+  possession of that facility and replaces them with a corresponding
+  number of different assets, as specified by the rule that creates
+  the facility.
+
+Amend rule 2564, "Processing Facilities", by changing every occurrence of the
+word "to" to "and 1 coal to".
+
+Amend rule 2563, "Production Facilities", by adding the following new list
+item, appropriately numbered:
+
+  Coal Mines
+     -  Build Cost: 5 lumber
+     -  Upkeep Cost: 2n-2 lumber
+     -  Production Details: 3n stones and 2n coal
+     -  Upgrade Costs:
+        -  Rank 2: 3 coins, 2 lumber
+        -  Rank 3: 4 coins, 4 lumber
+        -  Rank 4: 5 coins, 4 lumber, 3 stones
+        -  Rank 5: 6 coins, 6 lumber, 6 stones, 2 fabric
+
+[ This is functionally equivalent to adding in Trigon's specialisation options,
+  but I felt it would have made the proposal a little too long and hard to make
+  a decision on. I intend, without objection, to declare apathy, specifying
+  myself to win the game. If this passes, we can always simplify it later; the
+  specicialisation options do sound fun in principle. ]
+
+//////////////////////////////////////////////////////////////////////
+ID: pp3
+Title: Something to use paper for
+Adoption index: 2.1
+Author: twg
+Co-authors:
+
+
+[ With free proposals, paper is entirely useless - not that anyone was
+  producing it anyway - so this is an idea to make mills a little more
+  attractive. ]
+
+Enact a new rule of power 2.1, "Libraries", with the following text:
+
+  The following facilities are defined as Miscellaneous facilities:
+
+  Libraries
+     -  Build Cost: 1 lumber and 1 paper
+     -  Upkeep Cost: n paper
+     -  Upgrade Costs:
+        -  Rank 2: 1 lumber and 2 paper
+        -  Rank 3: 2 lumber and 3 paper
+
+  A player CAN, by announcement, Request Texts from a library e owns
+  regarding the reduction of a specified currency in the upkeep costs of a
+  specified non-library facility. This has the following effects, which
+  last until the end of the message in which the Texts were Requested:
+
+     - The facility's upkeep cost is reduced by n of the currency, where n
+       is the rank of the library. (If this would cause the facility's
+       upkeep cost to include a negative quantity of any currency, it
+       instead includes zero of that currency.)
+     - Further attempts to Request Texts specifying the same currency and
+       facility are INEFFECTIVE.
+
+[ The above phrasing is a little cumbersome but it was the best way I could
+  think of to have the intended effect (each facility can have exactly one
+  library help pay for each currency) without producing more things for
+  officers to keep track of. ]
+
+  Libraries CANNOT own assets.
+
+//////////////////////////////////////////////////////////////////////
