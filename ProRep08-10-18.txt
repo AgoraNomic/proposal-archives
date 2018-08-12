@@ -1,0 +1,388 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 7.0, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)       AI    Title
+---------------------------------------------------------------------------
+8077A*  twg             3.0   Patchy McPatchface
+8078A*  twg             2.0   From each according to eir means
+8079A*  twg             2.0   From each according to eir means v2
+8080A*  Aris            2.0   From each according to eir means v3
+8081A*  Aris, G., twg   3.0   Point Installation Act v2
+8082*   twg             1.0   Gamestate correction for July 2018
+8083*   G.              3.0   quorum fixes
+8084*   Trigon          1.0   Needs more Competition
+8085*   Kenyon, twg     2.0   Plain Old Bribery, Mk. II
+8086*   Trigon, [1]     1.0   Revamping movement v3.1
+8087*   Aris            1.0   Even Freer Proposals v2
+8088*   Kenyon, twg     1.0   Return of the Zombie Loopholes
+
+
+The proposal pool is currently empty.
+
+[1] twg, Aris, G., Corona
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, I pend the marked proposal.
+        <ID>A : Distribution identifier for a second distribution.
+
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8077
+Title: Patchy McPatchface
+Adoption index: 3.0
+Author: twg
+Co-author(s):
+
+
+Amend rule 478, "Fora", by replacing "may change" with "CAN change".
+
+Amend rule 1789, "Cantus Cygneus", by replacing every occurrence of
+"shall" with "SHALL".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8078
+Title: From each according to eir means
+Adoption index: 2.0
+Author: twg
+Co-author(s):
+
+
+[ This is an attempt at a reset/rebalance that strikes a middle ground between
+  completely erasing everyone's progress and leaving the current exponentially-
+  growing inequality in place. I'm not positive that I struck the right balance
+  but even if it's rejected it can be a starting point for discussion. ]
+
+For each facility owned by a player, transfer all coins owned by that facility
+to its owner.
+
+For each zombie owned by a player, transfer all coins owned by that zombie to
+its owner.
+
+Decrease the coin balance of each player to the square root (rounded up to the
+next largest integer) of however many coins e possessed before this sentence
+took effect.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8079
+Title: From each according to eir means v2
+Adoption index: 2.0
+Author: twg
+Co-author(s):
+
+
+[An alternative algorithm which may be slightly preferable: Quarter
+the coin balances instead of square-rooting them.]
+
+If the votes on the proposal titled "From each according to eir
+means" authored by twg are such that it has been or will undoubtedly
+be ADOPTED, then this proposal has no effect.
+
+For each facility owned by a player, transfer all coins owned by that
+facility to its owner.
+
+For each zombie owned by a player, transfer all coins owned by that
+zombie to its owner.
+
+Decrease the coin balance of each player to one-quarter (rounded up to
+the next largest integer) of however many coins e possessed before
+this sentence took effect.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8080
+Title: From each according to eir means v3
+Adoption index: 2.0
+Author: Aris
+Co-author(s): twg
+
+
+If the votes on any proposal, the title of which contains "From each",
+authored by twg, are such that it has been or will undoubtedly
+be ADOPTED, then this proposal has no effect.
+
+For each facility owned by a player, transfer all coins owned by that
+facility to its owner.
+
+For each zombie owned by a player, transfer all coins owned by that
+zombie to its owner.
+
+Decrease the coin balance of each player to one-tenth (rounded up to
+the next largest integer) of however many coins e possessed before
+this sentence took effect.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8081
+Title: Point Installation Act v2
+Adoption index: 3.0
+Author: Aris
+Co-authors: G., twg
+
+
+Create the following Rule, Points, AI-2.0:
+
+  Points are the official currency of Agora.  Points can
+  only be owned by players and Agora.  Points are tracked by the
+  Treasuror.
+
+
+For each player, create a number of points in eir possession equal
+to either (A) the number of coins e had immediately before this proposal
+took effect, or (B) 1000, whichever is less.
+
+
+[Why am I doing things in this rule that could go in existing rules?
+To maintain the separation of concerns between different levels of play.
+We should be able to do whatever we want to with land without affecting
+points, and this is the simplest way to do that. The Rulekeepor may
+want to add cross references. However, I am still open to alternative
+suggestions.]
+
+Create the following Rule, Earning Points, AI-1.5:
+
+  For a player to 'earn' a point is for it to be created in eir
+  possession.  For a player to 'lose' a point is for it to be
+  destroyed (if e has one).
+
+  When a decision to adopt a proposal is resolved:
+
+  - If the outcome was ADOPTED, its author earns a number of points
+    equal to (the total strength of all valid ballots cast FOR the
+    decision - the total strength of all valid ballots cast AGAINST)
+    times the adoption index of the decision (final result rounded
+    up).
+
+  - If the outcome was REJECTED, its author loses a number of points
+    equal to (the minimum of (the total strength of all valid ballots cast
+    AGAINST the decision - the total strength of all valid ballots cast FOR)
+    and 0).
+
+  - If the outcome was FAILED QUORUM, every active player who didn't
+    cast a ballot loses 1 point.
+
+  At the start of each month, for each office, if a single player
+  held that office for 16 or more days in the previous month and no
+  unforgivable fines were levied on em for eir conduct in that
+  office during that time, that player earns 10 points.
+
+  When a player registers who has not been a player at any time in
+  the past 30 days, e earns 25 points.
+
+  When a zombie becomes active, e earns 25 points.
+
+  When a judge issues eir first official judgement on a given CFJ, e earns
+  5 points.
+}
+
+Create 25 points in the possession of each player who is not eligible for
+a welcome package.
+
+[The following translates existing rules to the new system.]
+
+Remove coins from all lists it occurs in Rule 2483, "Economics",
+renumbering appropriately where necessary, and remove the text
+"Coins are the official currency of Agora." from the same rule.
+
+Amend Rule 2559, "Paydays", by: {
+* Removing item 1(A) and relettering appropriately; and
+* Removing item 2(A) and relettering appropriately;.
+}
+
+Amend Rule 2499, "Welcome Packages", by removing item 1 and renumbering
+appropriately.
+
+Repeal Rule 2572, "Wishing Fountain".
+
+[Should work fine without the optionally, by NCNA.]
+
+Amend Rule 2549, "Auction Initiation", by removing the text ", optionally"
+and changing the text "If no currency is specified, it defaults to coins."
+to read "If no currency is specified, it defaults to Agora's official
+currency. If no minimum bid is specified, it defaults to 1 of the auction's
+currency."
+
+Amend each rule, in ascending numerical order, by changing the work "coin"
+to "point" and the word "coins" to "points".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8082
+Title: Gamestate correction for July 2018
+Adoption index: 1.0
+Author: twg
+Co-authors:
+
+
+Create 54 apples and 54 lumber in the possession of Corona.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8083
+Title: quorum fixes
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 208 (Resolving Agoran Decisions) by replacing:
+  3. It specifies the outcome, as described elsewhere, and, if there
+     was more than one valid option, provides a tally of the voters'
+     valid ballots.
+with:
+  3. It specifies the number of voters (or a list of the voters).
+     For these purposes and for determining quorum, a "voter" is
+     someone who submitted a ballot on the decision that was valid
+     when it was submitted and also valid (i.e. not withdrawn or
+     otherwise invalidated) at the end of the voting period.
+
+  4. It specifies the outcome, as described elsewhere, and, if there
+     was more than one valid option, provides a tally of the voters'
+     valid ballots.
+
+
+Amend Rule 955 (Determining the Will of Agora) by replacing:
+  - If there is more than one option, and the number of valid
+    ballots is less than the quorum of that decision, the outcome is
+    instead FAILED QUORUM.
+with:
+  - If there is more than one option, and the number of voters is
+    less than the quorum of that decision, the outcome is instead
+    FAILED QUORUM.
+
+
+Amend Rule 879 (Quorum) by replacing:
+  is equal to the number of players who voted on
+with:
+  is equal to the number of voters on
+
+
+Amend Rule 2034 (Vote Protection and Cutoff for Challenges) by adding
+the following list item after list item 1, and then renumbering the
+list accordingly:
+
+  2.  it had the number of voters indicated,
+
+//////////////////////////////////////////////////////////////////////
+ID: 8084
+Title: Needs more Competition
+Adoption index: 1.0
+Author: Trigon
+Co-authors:
+
+
+Amend Rule 2004 "Land Auctions" by replacing all occurences of "5" with
+"3" and all occurences of "five" with "three".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8085
+Title: Plain Old Bribery, Mk. II
+Adoption index: 1.0
+Author: Kenyon
+Co-authors: twg
+
+
+Each person who has
+  (a) cast a vote FOR this proposal that is valid, unconditional and not
+      withdrawn, and
+  (b) cast a vote on each of proposals 8077-8081 that is valid and not
+      withdrawn, and
+  (c) either:
+      (i)  has not been a zombie master at any time since July 25,
+           2018, or
+      (ii) has acted on behalf of a zombie to cast a vote on each of
+           proposals 8077-8081 that is valid and not withdrawn
+hereby earns a Black Ribbon.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8086
+Title: Revamping movement v3.1
+Adoption index: 1.0
+Author: Trigon
+Co-authors: twg, Aris, G., Corona
+
+
+Amend rule 2003 "Actions in Arcadia" by replacing its text with:
+  Energy Points (abbreviated EP) is an untracked natural player
+  switch. Any action which would decrease a player's EP below 0
+  is INEFFECTIVE.
+
+  Players CAN eat a quantity of apples or corn. To eat is to pay a
+  fee of the stated quantity to increase your EP by one for each
+  apple and three for each corn.
+
+  Players CAN feed another player a quantity of apples or corn. To
+  force-feed is to pay a fee of the stated quantity to increase the
+  EP of another player using the values given above.
+
+  At the beginning of the week, each player's Energy Points switch
+  is flipped to 0.
+
+  Any player CAN perform any of the following actions by
+  announcement:
+
+  1. move from one Land Unit to an adjacent Unit. This action
+    decreases eir EP by:
+
+    a. 1 if the their Land Types are the same or one is gray;
+    b. 2 if their Land Types differ, neither is gray, and the
+       destination is not Aether.
+
+  2. set the Land Type of a Land Unit that is adjacent to the
+    Entity's current location, is of type Aether, and is owned by
+    Agora, to:
+
+      a. an alternating Land Type. This action decreases eir EP by 3.
+      b. eir choice of either Black or White. This action decreases
+         eir EP by 4.
+
+  3. set the Land Type of any Land Unit to:
+
+      a. if e owns it, eir choice of either Black or White. This
+         action decreases eir EP by 2.
+      b. if Agora owns it, an alternating Land Type. This action
+         decreases eir EP by 6.
+
+  4. Stake a Land Claim on a specified Land Unit that is adjacent to
+    the Entity's current location, is of type Aether, and is owned
+    by Agora, if and only if e is active, has not staked a land
+    claim in the current month, and has not won a land auction in
+    the current or previous month.  When e stakes a land claim, the
+    unit's land type is set to the land type of eir choice, then is
+    transferred to em, then e moves onto that unit.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8087
+Title: Even Freer Proposals v2
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+Change Rule 2445, "How to Pend a Proposal", to read in full:
+
+  Imminence is a switch, tracked by the Promotor, possessed by
+  proposals in the Proposal Pool, whose value is either "pending" or
+  "not pending" (default).
+
+  Any player CAN flip a specified proposal's imminence to "pending"
+  by announcement. A player SHALL NOT submit and/or pend proposals that,
+  taken collectively, are manifestly unreasonable and excessive (hereafter
+  excess proposals); doing so constitutes the Class-4 Crime of
+  Excess Legislation. The Promotor CAN remove a specified excess proposal
+  from the proposal pool by announcement.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8088
+Title: Return of the Zombie Loopholes
+Adoption index: 1.0
+Author: Kenyon
+Co-authors: twg
+
+
+Amend rule 2003, "Actions in Arcadia", by replacing the text "and has
+not won a land auction in the current or previous month" with "and has
+not, in the current or previous month, either won a land auction or
+been the master of a zombie when the zombie won a land auction".
+
+//////////////////////////////////////////////////////////////////////

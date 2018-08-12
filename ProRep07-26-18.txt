@@ -1,0 +1,297 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 14.0, the voting method is AI-majority and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID     Author(s)       AI    Title
+---------------------------------------------------------------------------
+8077*  twg             3.0   Patchy McPatchface
+8078+  twg             2.0   From each according to eir means
+8079+  twg             2.0   From each according to eir means v2
+8080+  Aris            2.0   From each according to eir means v3
+8081+  Aris, G., twg   3.0   Point Installation Act v2
+
+
+The proposal pool currently contains the following proposals:
+
+ID    Author(s)     AI    Title
+---------------------------------------------------------------------------
+pp1   twg, Trigon   2.0   This planet is too chilly
+pp2   twg           2.1   Something to use paper for
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, I pend the marked proposal.
+
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8077
+Title: Patchy McPatchface
+Adoption index: 3.0
+Author: twg
+Co-author(s):
+
+
+Amend rule 478, "Fora", by replacing "may change" with "CAN change".
+
+Amend rule 1789, "Cantus Cygneus", by replacing every occurrence of
+"shall" with "SHALL".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8078
+Title: From each according to eir means
+Adoption index: 2.0
+Author: twg
+Co-author(s):
+
+
+[ This is an attempt at a reset/rebalance that strikes a middle ground between
+  completely erasing everyone's progress and leaving the current exponentially-
+  growing inequality in place. I'm not positive that I struck the right balance
+  but even if it's rejected it can be a starting point for discussion. ]
+
+For each facility owned by a player, transfer all coins owned by that facility
+to its owner.
+
+For each zombie owned by a player, transfer all coins owned by that zombie to
+its owner.
+
+Decrease the coin balance of each player to the square root (rounded up to the
+next largest integer) of however many coins e possessed before this sentence
+took effect.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8079
+Title: From each according to eir means v2
+Adoption index: 2.0
+Author: twg
+Co-author(s):
+
+
+[An alternative algorithm which may be slightly preferable: Quarter
+the coin balances instead of square-rooting them.]
+
+If the votes on the proposal titled "From each according to eir
+means" authored by twg are such that it has been or will undoubtedly
+be ADOPTED, then this proposal has no effect.
+
+For each facility owned by a player, transfer all coins owned by that
+facility to its owner.
+
+For each zombie owned by a player, transfer all coins owned by that
+zombie to its owner.
+
+Decrease the coin balance of each player to one-quarter (rounded up to
+the next largest integer) of however many coins e possessed before
+this sentence took effect.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8080
+Title: From each according to eir means v3
+Adoption index: 2.0
+Author: Aris
+Co-author(s): twg
+
+
+If the votes on any proposal, the title of which contains "From each",
+authored by twg, are such that it has been or will undoubtedly
+be ADOPTED, then this proposal has no effect.
+
+For each facility owned by a player, transfer all coins owned by that
+facility to its owner.
+
+For each zombie owned by a player, transfer all coins owned by that
+zombie to its owner.
+
+Decrease the coin balance of each player to one-tenth (rounded up to
+the next largest integer) of however many coins e possessed before
+this sentence took effect.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8081
+Title: Point Installation Act v2
+Adoption index: 3.0
+Author: Aris
+Co-authors: G., twg
+
+
+Create the following Rule, Points, AI-2.0:
+
+  Points are the official currency of Agora.  Points can
+  only be owned by players and Agora.  Points are tracked by the
+  Treasuror.
+
+
+For each player, create a number of points in eir possession equal
+to either (A) the number of coins e had immediately before this proposal
+took effect, or (B) 1000, whichever is less.
+
+
+[Why am I doing things in this rule that could go in existing rules?
+To maintain the separation of concerns between different levels of play.
+We should be able to do whatever we want to with land without affecting
+points, and this is the simplest way to do that. The Rulekeepor may
+want to add cross references. However, I am still open to alternative
+suggestions.]
+
+Create the following Rule, Earning Points, AI-1.5:
+
+  For a player to 'earn' a point is for it to be created in eir
+  possession.  For a player to 'lose' a point is for it to be
+  destroyed (if e has one).
+
+  When a decision to adopt a proposal is resolved:
+
+  - If the outcome was ADOPTED, its author earns a number of points
+    equal to (the total strength of all valid ballots cast FOR the
+    decision - the total strength of all valid ballots cast AGAINST)
+    times the adoption index of the decision (final result rounded
+    up).
+
+  - If the outcome was REJECTED, its author loses a number of points
+    equal to (the minimum of (the total strength of all valid ballots cast
+    AGAINST the decision - the total strength of all valid ballots cast FOR)
+    and 0).
+
+  - If the outcome was FAILED QUORUM, every active player who didn't
+    cast a ballot loses 1 point.
+
+  At the start of each month, for each office, if a single player
+  held that office for 16 or more days in the previous month and no
+  unforgivable fines were levied on em for eir conduct in that
+  office during that time, that player earns 10 points.
+
+  When a player registers who has not been a player at any time in
+  the past 30 days, e earns 25 points.
+
+  When a zombie becomes active, e earns 25 points.
+
+  When a judge issues eir first official judgement on a given CFJ, e earns
+  5 points.
+}
+
+Create 25 points in the possession of each player who is not eligible for
+a welcome package.
+
+[The following translates existing rules to the new system.]
+
+Remove coins from all lists it occurs in Rule 2483, "Economics",
+renumbering appropriately where necessary, and remove the text
+"Coins are the official currency of Agora." from the same rule.
+
+Amend Rule 2559, "Paydays", by: {
+* Removing item 1(A) and relettering appropriately; and
+* Removing item 2(A) and relettering appropriately;.
+}
+
+Amend Rule 2499, "Welcome Packages", by removing item 1 and renumbering
+appropriately.
+
+Repeal Rule 2572, "Wishing Fountain".
+
+[Should work fine without the optionally, by NCNA.]
+
+Amend Rule 2549, "Auction Initiation", by removing the text ", optionally"
+and changing the text "If no currency is specified, it defaults to coins."
+to read "If no currency is specified, it defaults to Agora's official
+currency. If no minimum bid is specified, it defaults to 1 of the auction's
+currency."
+
+Amend each rule, in ascending numerical order, by changing the work "coin"
+to "point" and the word "coins" to "points".
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: This planet is too chilly
+Adoption index: 2.0
+Author: twg
+Co-authors: Trigon
+
+
+[ Coal is not my idea; I lifted it from Trigon's proto-proposal. It restricts
+  processing facilities a little, which is perhaps a good thing, but it also
+  increases the number of land units you need to maintain self-sufficiency,
+  which is a bit of a barrier for new players. I figured I might as well put
+  it in the pile. ]
+
+Amend rule 2483, "Economics", by adding:
+- "coal" to the list of currencies (appropriately numbered); and
+- "coal" to the list of unrefinable currencies.
+
+Amend rule 2561, "Asset Generation with Facilities", by changing the third
+paragraph to read in full:
+
+  At the end of every Agoran Week, for each Processing facility, as
+  many times as possible, Agora destroys a number of assets in the
+  possession of that facility and replaces them with a corresponding
+  number of different assets, as specified by the rule that creates
+  the facility.
+
+Amend rule 2564, "Processing Facilities", by changing every occurrence of the
+word "to" to "and 1 coal to".
+
+Amend rule 2563, "Production Facilities", by adding the following new list
+item, appropriately numbered:
+
+  Coal Mines
+     -  Build Cost: 5 lumber
+     -  Upkeep Cost: 2n-2 lumber
+     -  Production Details: 3n stones and 2n coal
+     -  Upgrade Costs:
+        -  Rank 2: 3 coins, 2 lumber
+        -  Rank 3: 4 coins, 4 lumber
+        -  Rank 4: 5 coins, 4 lumber, 3 stones
+        -  Rank 5: 6 coins, 6 lumber, 6 stones, 2 fabric
+
+[ This is functionally equivalent to adding in Trigon's specialisation options,
+  but I felt it would have made the proposal a little too long and hard to make
+  a decision on. I intend, without objection, to declare apathy, specifying
+  myself to win the game. If this passes, we can always simplify it later; the
+  specicialisation options do sound fun in principle. ]
+
+//////////////////////////////////////////////////////////////////////
+ID: pp2
+Title: Something to use paper for
+Adoption index: 2.1
+Author: twg
+Co-authors:
+
+
+[ With free proposals, paper is entirely useless - not that anyone was
+  producing it anyway - so this is an idea to make mills a little more
+  attractive. ]
+
+Enact a new rule of power 2.1, "Libraries", with the following text:
+
+  The following facilities are defined as Miscellaneous facilities:
+
+  Libraries
+     -  Build Cost: 1 lumber and 1 paper
+     -  Upkeep Cost: n paper
+     -  Upgrade Costs:
+        -  Rank 2: 1 lumber and 2 paper
+        -  Rank 3: 2 lumber and 3 paper
+
+  A player CAN, by announcement, Request Texts from a library e owns
+  regarding the reduction of a specified currency in the upkeep costs of a
+  specified non-library facility. This has the following effects, which
+  last until the end of the message in which the Texts were Requested:
+
+     - The facility's upkeep cost is reduced by n of the currency, where n
+       is the rank of the library. (If this would cause the facility's
+       upkeep cost to include a negative quantity of any currency, it
+       instead includes zero of that currency.)
+     - Further attempts to Request Texts specifying the same currency and
+       facility are INEFFECTIVE.
+
+[ The above phrasing is a little cumbersome but it was the best way I could
+  think of to have the intended effect (each facility can have exactly one
+  library help pay for each currency) without producing more things for
+  officers to keep track of. ]
+
+  Libraries CANNOT own assets.
+
+//////////////////////////////////////////////////////////////////////
