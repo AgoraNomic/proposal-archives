@@ -10,12 +10,12 @@ ID      Author(s)       AI    Title
 8077A*  twg             3.0   Patchy McPatchface
 8078A*  twg             2.0   From each according to eir means
 8079A*  twg             2.0   From each according to eir means v2
-8080A*  Aris            2.0   From each according to eir means v3
+8080A*  Aris, twg       2.0   From each according to eir means v3
 8081A*  Aris, G., twg   3.0   Point Installation Act v2
 8082*   twg             1.0   Gamestate correction for July 2018
 8083*   G.              3.0   quorum fixes
 8084*   Trigon          1.0   Needs more Competition
-8085*   Kenyon, twg     2.0   Plain Old Bribery, Mk. II
+8085*   Kenyon, twg     1.0   Plain Old Bribery, Mk. II
 8086*   Trigon, [1]     1.0   Revamping movement v3.1
 8087*   Aris            1.0   Even Freer Proposals v2
 8088*   Kenyon, twg     1.0   Return of the Zombie Loopholes

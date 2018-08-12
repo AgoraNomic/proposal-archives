@@ -10,7 +10,7 @@ ID     Author(s)       AI    Title
 8077*  twg             3.0   Patchy McPatchface
 8078+  twg             2.0   From each according to eir means
 8079+  twg             2.0   From each according to eir means v2
-8080+  Aris            2.0   From each according to eir means v3
+8080+  Aris, twg       2.0   From each according to eir means v3
 8081+  Aris, G., twg   3.0   Point Installation Act v2
 
 
