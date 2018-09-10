@@ -1,0 +1,114 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 4.0, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)       AI    Title
+---------------------------------------------------------------------------
+8090*   D Margaux       1.7   Shenanigans For INEFFECTIVE Fines (v2)
+8091*   Murphy, Oerjan  2.0   Slow your quorum v1.1
+8092*   twg             1.0   Yet Another Economics Patch
+8093*   Aris            1.0   Proposal Re-insertion
+
+
+The proposal pool is currently empty.
+
+[1] twg, Aris, G., Corona
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, I pend the marked proposal.
+
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8090
+Title: Shenanigans For INEFFECTIVE Fines (v2)
+Adoption index: 1.7
+Author: D Margaux
+Co-authors:
+
+
+Amend Rule 2478 to replace this text:
+
+“or that it would be ILLEGAL to levy a fine for it”
+
+
+with this text:
+
+“or that it would be ILLEGAL or INEFFECTIVE to levy a fine for it”
+
+//////////////////////////////////////////////////////////////////////
+ID: 8091
+Title: Slow your quorum v1.1
+Adoption index: 2.0
+Author: Murphy
+Co-authors: Oerjan
+
+
+Amend Rule 879 (Quorum) by replacing this text:
+
+       The quorum that an Agoran Decision gains as it is created can be
+       defined by other rules of power 2 or greater. If no other rule
+       defines the quorum of an Agoran Decision, the quorum for that
+       decision is equal to the number of players who voted on the Agoran
+       Decision to adopt a proposal that had been most recently resolved
+       at the time of that decision's initiation, minus 2.
+
+with this text:
+
+       The quorum that an Agoran Decision gains as it is created can be
+       defined by other rules of power 2 or greater. If no other rule
+       defines the quorum of an Agoran Decision, the quorum for that
+       decision is equal to 2.
+
+Create a rule titled "Baseline Quorum" with Power = 2 and this text:
+
+       Baseline Quorum is a switch, tracked by the Promotor, with values
+       equal to the positive integers and default value 1. When an Agoran
+       Decision is created, it gains quorum equal to Baseline Quorum.
+
+       Target Quorum is N - 2, where N is the number of players who voted
+       on the most recently resolved Agoran Decision to adopt a proposal.
+
+       Once per week, the Promotor CAN increase or decrease Baseline
+       Quorum by 1 by announcement, and SHALL do so as follows:
+
+         a) If Baseline Quorum < Target Quorum, then increase it.
+
+         b) If Baseline Quorum > Target Quorum, then decrease it.
+
+         c) If Baseline Quorum = Target Quorum, then announce it. E need
+            not change it that week.
+
+Set Baseline Quorum equal to what Target Quorum would have been
+immediately before the adoption of this proposal, if it had been
+defined as above.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8092
+Title: Yet Another Economics Patch
+Adoption index: 1.0
+Author: twg
+Co-authors:
+
+
+Amend rule 2499, "Welcome Packages", by removing the list item
+"5 incense" and renumbering the other list items appropriately.
+
+Destroy all incense.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8093
+Title: Proposal Re-insertion
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+
+Add each proposal that has been resolved as FAILED QUORUM since the beginning
+of August, 2018, to the proposal pool; then, make each of them pending.
+
+//////////////////////////////////////////////////////////////////////
