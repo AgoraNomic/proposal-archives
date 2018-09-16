@@ -15,7 +15,6 @@ ID      Author(s)       AI    Title
 
 The proposal pool is currently empty.
 
-[1] twg, Aris, G., Corona
 
 Legend: <ID>* : Proposal is pending.
         <ID>+ : By publishing this report, I pend the marked proposal.

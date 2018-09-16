@@ -1,0 +1,53 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 4.0, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)       AI    Title
+---------------------------------------------------------------------------
+8094*   Aris            1.0   Award of Victory
+8095*   Aris, [1]       2.0   Quorum Reduction v2
+
+
+The proposal pool is currently empty.
+
+[1] Murphy, D Margaux
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, I pend the marked proposal.
+
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8094
+Title: Award of Victory
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+
+If they have not done so in the month of September, twg and D Margaux hereby
+win the game.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8095
+Title: Quorum Reduction v2
+Adoption index: 2.0
+Author: Aris
+Co-authors: Murphy, D Margaux
+
+
+Amend Rule 879, Quorum, by changing its second paragraph to read as follows:
+
+  The quorum that an Agoran Decision gains as it is created can be
+  defined by other rules of power 2 or greater. If no other rule
+  defines the quorum of an Agoran Decision, the quorum for that
+  decision is equal to 2/3 of the number of voters on the Agoran
+  Decision to adopt a proposal that had been most recently resolved
+  at the time of that decision's initiation, the whole rounded to
+  the nearest integer (breaking ties upward).
+
+//////////////////////////////////////////////////////////////////////
