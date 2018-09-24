@@ -1,0 +1,200 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6.0, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)        AI    Title
+---------------------------------------------------------------------------
+8096*   twg, D. Margaux  2.0  PTPMFUBGOFTDAODWTVOAWIC [1]
+8097*   G.               1.0  Left||Right
+8098*   G.               3.0  Zombie Overstock
+8099*   Aris             1.5  Patent Petitions
+8100+   D. Margaux       3.0  Points Bug Fix
+8101*   D. Margaux, [2]  1.0  Slate A to Win (v2.1)
+8102*   D. Margaux, [2]  1.0  Slate B to Win (v2.1)
+8103+   D. Margaux, [2]  1.0  Slate C to Win (v2.1)
+
+
+The proposal pool is currently empty.
+
+[1] Protect The Prime Minister From Unfairly Being Guilty Of Failing To
+    Discharge An Official Duty When The Validity Of A Win Is Contested
+[2] Aris, G., ais523
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, I pend the marked proposal.
+
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8096
+Title: Protect The Prime Minister From Unfairly Being Guilty Of Failing To
+       Discharge An Official Duty When The Validity Of A Win Is Contested
+Adoption index: 2.0
+Author: twg
+Co-authors: D. Margaux
+
+
+  Amend Rule 103, "The Speaker", by changing the second paragraph to:
+  The player or players who have most recently been awarded the
+  Patent Title Champion are called Laureled. If at any time the
+  office of Speaker is vacant, or when one or more players are
+  awarded the Patent Title Champion, then the Prime Minister CAN and
+  and SHALL, once and in a timely fashion, appoint a Laureled player
+  to the office of Speaker by announcement.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8097
+Title: Left||Right
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+In this proposal, any text to the   || In this proposal, any text to the
+right of double pipe marks are      || left of double pipe marks are
+comments with no effect.            || comments with no effect.
+                                    ||
+The following players win the game: || The following players win the game:
+ Corona                             ||  Publius Scribonius Scholasticus
+ Cuddle Beam                        ||  VJ Rada
+ Trigon                             ||  Murphy
+ G.                                 ||  omd
+ Aris                               ||  twg
+ ATMunn                             ||  D. Margaux
+
+//////////////////////////////////////////////////////////////////////
+ID: 8098
+Title: Zombie Overstock
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+Amend Rule 2574 (Zombie Life Cycle) by appending the following sentence
+to the 2nd paragraph:
+
+  At the end of a zombie auction, every zombie that is an excess
+  lot in that auction has eir resale value decreased by 1.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8099
+Title: Patent Petitions
+Adoption index: 1.5
+Author: Aris
+Co-authors:
+
+Amend Rule 649, "Patent Titles", by appending
+
+  "If a player publicly petitions that the Herald award a patent title
+   to another player for a specified reason, the Herald SHALL respond
+   in a timely fashion by either attempting to grant an appropriate
+   patent title or explaining publicly why no patent title is
+   warranted."
+
+as a new paragraph at the end of the rule.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8100
+Title: Points Bug Fix
+Adoption index: 3.0
+Author: D Margaux
+Co-authors:
+
+
+If a rule entitled “Earning Points” exists, amend that Rule to replace the
+text “if e has one” with “if e has any”.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8101
+Title: Slate A to Win (v2.1)
+Adoption index: 1.0
+Author: D. Margaux
+Co-authors: Aris, G., ais523
+
+
+1.  If there is no Rule entitled "Round Robin," enact a Rule entitled
+"Round Robin" with the following text:
+
+  The "Effective Date" is the Agoran day that is 8 days after the Agoran day
+  on which this Rule was enacted.  This Rule is automatically repealed at
+  00:01 UTC on the Agoran day after the Effective Date.
+
+  The Slate A players are VJ Rada, Cuddle Beam, D. Margaux, Aris,
+  G., omd, Murphy, ATMunn, and Publius Scribonius Scholasticus.
+
+  The Slate B players are VJ Rada, D. Margaux, G., L., omd, Corona,
+  Trigon, twg, and Publius Scribonius Scholasticus.
+
+  The Slate C players are Cuddle Beam, Aris, L., Corona, Murphy,
+  Trigon, ATMunn, and twg.
+
+2.  Amend the Rule entitled "Round Robin" to add the following:
+
+  The Slate A players CAN win the game by announcement on the
+  Effective Date, unless the Slate B players also CAN win the game
+  by announcement on the Effective Date.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8102
+Title: Slate B to Win (v2.1)
+Adoption index: 1.0
+Author: D. Margaux
+Co-authors: Aris, G., ais523
+
+
+1.  If there is no Rule entitled "Round Robin," enact a Rule entitled
+"Round Robin" with the following text:
+
+  The "Effective Date" is the Agoran day that is 8 days after the Agoran day
+  on which this Rule was enacted.  This Rule is automatically repealed at
+  00:01 UTC on the Agoran day after the Effective Date.
+
+  The Slate A players are VJ Rada, Cuddle Beam, D. Margaux, Aris,
+  G., omd, Murphy, ATMunn, and Publius Scribonius Scholasticus.
+
+  The Slate B players are VJ Rada, D. Margaux, G., L., omd, Corona,
+  Trigon, twg, and Publius Scribonius Scholasticus.
+
+  The Slate C players are Cuddle Beam, Aris, L., Corona, Murphy,
+  Trigon, ATMunn, and twg.
+
+2.  Amend the Rule entitled "Round Robin" to add the following:
+
+  The Slate B players CAN win the game by announcement on the
+  Effective Date, unless the Slate C players also CAN win the game
+  by announcement on the Effective Date.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8103
+Title: Slate C to Win (v2.1)
+Adoption index: 1.0
+Author: D. Margaux
+Co-authors: Aris, G., ais523
+
+
+1.  If there is no Rule entitled "Round Robin," enact a Rule entitled
+"Round Robin" with the following text:
+
+  The "Effective Date" is the Agoran day that is 8 days after the Agoran day
+  on which this Rule was enacted.  This Rule is automatically repealed at
+  00:01 UTC on the Agoran day after the Effective Date.
+
+  The Slate A players are VJ Rada, Cuddle Beam, D. Margaux, Aris,
+  G., omd, Murphy, ATMunn, and Publius Scribonius Scholasticus.
+
+  The Slate B players are VJ Rada, D. Margaux, G., L., omd, Corona,
+  Trigon, twg, and Publius Scribonius Scholasticus.
+
+  The Slate C players are Cuddle Beam, Aris, L., Corona, Murphy,
+  Trigon, ATMunn, and twg.
+
+2.  Amend the Rule entitled "Round Robin" to add the following:
+
+  The Slate C players CAN win the game by announcement on the
+  Effective Date, unless the Slate A players also CAN win the game
+  by announcement on the Effective Date.
+
+//////////////////////////////////////////////////////////////////////
