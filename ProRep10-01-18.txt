@@ -1,0 +1,69 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)        AI    Title
+---------------------------------------------------------------------------
+8104*   G., Aris         3.0   Pending is Pointless
+
+The proposal pool currently contains the following proposals:
+
+ID      Author(s)        AI    Title
+---------------------------------------------------------------------------
+pp1     D Margaux        3.0   Buried Intent Prevention Act
+
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, I pend the marked proposal.
+
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8104
+Title: Pending is Pointless
+Adoption index: 3.0
+Author: G.
+Co-authors: Aris
+
+
+Amend Rule 2350 (Proposals) by deleting the following sentence:
+  The Promotor CAN remove a proposal from the Proposal Pool by
+  announcement if it is not pending and has been added to the Pool
+  more than 14 days ago.
+
+
+Repeal Rule 2445 (How to Pend a Proposal).
+
+
+Amend Rule 1607 (Distribution) by deleting:
+  The Promotor SHALL NOT distribute proposals which are not pending.
+and by replacing:
+  distribute all pending proposals except
+with:
+  distribute all proposals in the Proposal Pool except
+
+//////////////////////////////////////////////////////////////////////
+ID: pp1
+Title: Buried Intent Prevention Act
+Adoption index: 3.0
+Author: D Margaux
+Co-authors:
+
+[Comment:  Several months ago, Corona tried to smuggle an intent to
+declare apathy in the text of a lengthy Treasuror report.  Someone
+objected, but I think that would have been EFFECTIVE if it had not
+been noticed.  This proposal is meant to prevent that scam.]
+
+Amend Rule 1728 ("Dependent Actions") to add the following paragraph
+after the paragraph numbered 6:
+
+  7.  If the intent was announced in a message that contains a
+  report required by these Rules, the first line of the message states:
+  "This message contains at least one announcement of intent to perform
+  a dependent action."
+
+//////////////////////////////////////////////////////////////////////
