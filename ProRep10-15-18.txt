@@ -1,0 +1,317 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)        AI    Title
+---------------------------------------------------------------------------
+8105*   Trigon           0.5   Trust no one
+8106*   Aris             1.0   Attainable Karma
+8107*   D Margaux, [1]   3.0   Buried Intent Prevention Act v2
+8108*   Aris             3.0   Uniform Regulatory Process Act
+8109*   G.               3.0   Patent Diversity
+8110*   G., [2]          3.0   Delenda Est
+
+
+The proposal pool is currently empty.
+
+
+Legend: <ID>* : Proposal is pending.
+        <ID>+ : By publishing this report, I pend the marked proposal.
+
+[1] Aris, G
+[2] Aris, Trigon
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8105
+Title: Trust no one
+Adoption index: 0.5
+Author: Trigon
+Co-authors:
+
+
+Repeal Rule 2452 "Trust Tokens"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8106
+Title: Attainable Karma
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+
+[We were expecting at least a few players to be in these bands, but
+currently, none are. This proposal fixes that by lowering the threshold
+to something more consistent with our experience.]
+
+Amend Rule 2510, Such is Karma, by changing the text
+
+  "- Any player with a karma of 7 or greater is a Samurai.
+
+   - Any player with a karma of -7 or less is an Gamma."
+
+to read
+
+  "- Any player with a karma of 3 or greater is a Samurai.
+
+   - Any player with a karma of -3 or less is an Gamma."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8107
+Title: Buried Intent Prevention Act v2
+Adoption index: 3.0
+Author: D Margaux
+Co-authors: Aris, G
+
+
+Amend Rule 1728 to replace,
+
+  “1. A person (the initiator) announced intent to perform the action,
+  unambiguously and clearly specifying the action and method(s) (including
+  the value of N and/or T for each method), at most fourteen days earlier.“
+
+with:
+
+  “1. A person (the initiator) conspicuously and without obfuscation
+  announced intent to perform the action, unambiguously and clearly
+  specifying the action and method(s) (including the value of N and/or T for
+  each method), at most fourteen days earlier.“
+
+//////////////////////////////////////////////////////////////////////
+ID: 8108
+Title: Uniform Regulatory Process Act
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+This matters because I'm seriously considering using regulations for
+something.]
+
+Amend Rule 2493, Regulations, by changing the text
+
+  "By default, a Promulgator can enact or amend a regulation with
+  2 Agoran Consent and repeal a regulation by announcement."
+
+to read
+  "By default, a Promulgator can enact, amend, or repeal a regulation with
+  2 Agoran Consent."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8109
+Title: Patent Diversity
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+// MAIN IDEA:  Let different officers award specifically-relevant titles.
+//             Having specific goals may better promote their use than an
+//             open-ended "the Herald can award anything" (which e still
+//             would be able to do).
+//
+//             Also, turn the Silver Quill concept into a broader set of
+//             annual awards.
+
+// Ideas for awards very welcome!  Especially for not-currently included
+// offices (Treasuror, Cartographer, PM, Distributor).  But also, if
+// some of these titles seem like trivial clutter, please critique.
+// Titles themselves are a mix of some old, some new.
+
+
+Create the following Rule, Official Patent Titles, power=1:
+
+  The following Patent Titles CAN be awarded by the indicated
+  Officers with 2 Agoran Consent.  In order to balance the history,
+  dignity, spontaneity, and serendipity of the awards, the Herald,
+  Speaker, and Prime Minister are STRONGLY ENCOURAGED to provide
+  their support or objections, and reasons for doing so, reasonably
+  quickly after any such intents are announced.
+
+   - Tapecutter, awardable by the Rulekeepor to the author of an
+     adopted proposal that significantly reduces, streamlines, or
+     simplifies the ruleset.
+
+   - Scamster, awardable by the Referee to any player who has shown
+     great enthusiasm, persistence, or skill in the perpetrating of
+     scams without breaking any Rules.
+
+   - Hard Labor, awardable by the ADoP to any player who holds 2+
+     offices for 3+ continous months while performing eir official
+     duties in a timely and conscientious manner that promotes the
+     gameplay of the office.
+
+   - MacGyver, awardable by the Assessor to the author of an adopted
+     proposal that fixes serious bugs in the ruleset, especially if
+     the fix uses existing rules text in novel and unexpected ways,
+     or to a judge for similarly using rules text to resolve an
+     apparent bug without the need for legislative action.
+
+   - Bard, by Speaker the award should given be, to persons who
+     publish repeated creative wit or poetry.
+
+   - Necromancer, awardable by the Registrar to any player who makes
+     such sufficient persistent legal use of zombies that rules need
+     to be amended to prevent such practices.
+
+   - Tycoon, awardable by the Treasuror to any player who executes a
+     novel economic or contractual enterprise that has a significant
+     impact on the game, especially if it involves leveraging synergies
+     for win-win outcomes for the benefit of multiple players.
+
+   - Helping Hand, awardable by any Officer to any person not holding
+     that office who puts substantial labor into aiding in the duties
+     of that office, without consideration of any other reward they
+     might receive.
+
+  The Herald is also ENCOURAGED to proactively recommend or, as
+  otherwise permitted, award these titles when appropriate,
+  especially if the potential awardee is the officer emself.
+
+
+Create the following Rule, Annual Awards, power=1:
+
+  April is hereby designated Awards Month.
+
+  The following Patent Titles CAN be awarded by the indicated
+  Officers with 2 Agoran Consent, provided the intent to make
+  the awards is announced during awards month, and the award is
+  made to commemorate acts performed in the previous Agoran year.
+  The full name of each awarded Patent Title is [Title Below] NNNN,
+  where NNNN is the year each act was performed.
+
+  Each indicated Officer SHOULD award these titles to 1-2 persons
+  each year, and SHOULD solicit an open call for nominations and
+  discussion before making these awards. The Herald SHALL note any
+  additional information indicated below as part of eir report of
+  Patent Titles.
+
+    - Silver Quill, awardable by the Promotor to the author of a
+     proposal of outstanding merit and influence on the game
+     (additional information: ID Number of the proposal).
+
+    - Wooden Gavel, awardable by the Arbitor to the judge of a CFJ
+     or series of CFJs with a strong and foundational impact on the
+     judicial precedents of Agora (additional information: ID Numbers
+     of the judgements).
+
+    - Golden Glove, awardable by the Tailor to the player who made the
+     most interesting, successful, and/or competitive series of moves
+     while attempting to win or get substantially ahead in the game.
+
+    - Employee of the Year, awardable by the ADoP to the persons
+     who put the most persistent hard labor into keeping the game
+     going through the performance of Officers' duties (additional
+     information: offices held by the awardee during that year).
+
+
+Repeal Rule 2444 (Silver Quill).
+
+//////////////////////////////////////////////////////////////////////
+ID: 8110
+Title: Delenda Est
+Adoption index: 3.0
+Author: G.
+Co-authors: Aris, Trigon
+
+
+Any person who owned a unit of land at any time since Feb 1, 2018 is
+hereby awarded the Patent Title "Badge of the Salted Earth".
+
+
+Destroy Rule 1993 (The Land of Arcadia)
+Raze Rule 1994 (Ownership of Land)
+Eliminate Rule 1995 (Land Types)
+Slaughter Rule 1996 (The Cartographor)
+Obliterate Rule 1998 (Land Topology)
+Annihilate Rule 1999 (Entity Location)
+Eradicate Rule 2003 (Actions in Arcadia)
+Liquidate Rule 2004 (Land Auctions)
+Demolish Rule 2022 (Land Transfiguration)
+Knock down Rule 2565 (Preserved Land)
+Burn out Rule 2560 (Facilities)
+Slash Rule 2561 (Asset Generation with Facilities)
+Put Rule 2562 (Facility Ranks) to the sword
+Dismantle Rule 2563 (Production Facilities)
+EX-TER-MI-NATE Rule 2564 (Processing Facilities)
+Do away with Rule 2567 (Facility Categories)
+Purge Rule 2568 (Facility Colors)
+Extirpate Rule 2569 (Gray Land)
+Undo Rule 2570 (Monument Facilities)
+Overthrow Rule 2571 (The Fountain)
+Dynamite Rule 2572 (Wishing Fountain)
+Wipe Q*Bert (Rule 2046) off the face of the earth
+
+[In other words...]
+Each of the above-listed Rules is hereby REPEALED, in the
+order listed.
+
+
+If Proposal 8081 (Point Installation Act v2) has taken effect,
+ALL PROPOSAL CLAUSES BELOW THIS SENTENCE HAVE NO EFFECT.
+
+
+Amend Rule 2483 (Economics) to read in full:
+
+  Coins are the official currency of Agora, tracked by the
+  Treasuror.  They can be owned by Agora, players, and
+  contracts.
+
+  A player CAN win the game by paying a fee of 1,000 Coins.
+
+
+Amend Rule 2559 (Paydays) to read in full:
+
+  Whenever a Payday occurs, the following events happen in order:
+
+  1. The following assets are created in the possession of each
+     player:
+     A. 10 coins
+
+  2. For each office, if a single player held that office for 16 or
+     more days in the previous month and no unforgivable fines were
+     levied on em for eir conduct in that office during that time,
+     the following assets are created in the possession of that
+     player:
+     A. 5 coins
+
+  The occurrence of Paydays is secured.  At the beginning of each
+  month, a Payday occurs.
+
+
+Amend Rule 2499 (Welcome Packages) by deleting all line items on the
+numbered list except for "1. 10 coins"
+
+
+
+Create the following Rule, Earning Coins, AI-1.5:
+
+  For a player to 'earn' a coin is for it to be created in eir
+  possession.  For a player to 'lose' a coin is for it to be
+  destroyed (if e has one).
+
+  When a decision to adopt a proposal is resolved:
+
+    - If the outcome was ADOPTED, its author earns a number of coins
+      equal to (the total strength of all valid ballots cast FOR the
+      decision - the total strength of all valid ballots cast AGAINST)
+      times the adoption index of the decision (final result rounded
+      up).
+
+    - If the outcome was REJECTED, its author loses a number of coins
+      equal to (the minimum of (the total strength of all valid ballots
+      cast AGAINST the decision - the total strength of all valid
+      ballots cast FOR) and 0).
+
+    - If the outcome was FAILED QUORUM, every active player who didn't
+      cast a ballot loses 1 coin.
+
+  When a judge issues eir first official judgement on a given CFJ, e
+  earns 5 coins.
+
+
+//////////////////////////////////////////////////////////////////////

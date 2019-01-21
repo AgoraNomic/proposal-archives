@@ -1,0 +1,143 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8133  Trigon              1.0   Proposals aren't worth *that* much
+8134  G.                  2.0   The judge switch
+8135  twg, D Margaux      2.0   Blot Decay (Reprise)
+8136  V.J. Rada           3.0   I hate myself
+8137  Aris, twg, Trigon   3.0   Uncorrecting Rewards
+8138  twg                 2.5   Access to contracts' assets
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8133
+Title: Proposals aren't worth *that* much
+Adoption index: 1.0
+Author: Trigon
+Co-authors:
+
+
+Amend rule 2496 by replacing the text "the total strength of all valid
+ballots", wherever it appears, to "the number of valid ballots".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8134
+Title: The judge switch
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Amend R991 (Calls for Judgement) by replacing the paragraph beginning
+"When a CFJ has no judge assigned" with the following text:
+
+  Judge is an untracked CFJ switch with possible values of any
+  person or "unassigned" (default).  To "assign" a CFJ to a person
+  is to flip that CFJ's judge to that person.  To "remove" or
+  "recuse" a person from a being the judge of a CFJ is to flip that
+  CFJ's judge from that person to unassigned.
+
+  When a CFJ's judge is unassigned, the Arbitor CAN assign any
+  eligible player to be its judge by announcement, and SHALL do so
+  in a timely fashion. The players eligible to be assigned as judge
+  are all active players except the initiator and the person barred
+  (if any). The Arbitor SHALL assign judges over time such that all
+  interested players have reasonably equal opportunities to judge.
+  If a CFJ has no judge assigned, then any player eligible to judge
+  that CFJ CAN assign it to emself Without 3 Objections.
+
+
+[I think all instances of judge assignment/removal work with the
+above definitions, without further modification].
+
+For every CFJ that was assigned to a judge immediately before this
+proposal took effect, that CFJ's judge switch is flipped to that
+judge.
+
+[Note:  all old cases - however old - are still considered to have
+their last-assigned judge (judges are not "removed" when a case is
+closed).  This is true both before and after this proposal].
+
+//////////////////////////////////////////////////////////////////////
+ID: 8135
+Title: Blot Decay (Reprise)
+Adoption index: 2.0
+Author: twg
+Co-authors: D Margaux
+
+
+Amend Rule 2555 to replace:
+
+  “If a player has neither gained blots nor expunged any blots from emself
+  in the current Agoran week, e CAN expunge 1 blot from emself by
+  announcement.”
+
+With:
+
+  “At the end of each Agoran week, 1 blot is automatically expunged from each
+  impure player who that week had not gained any blots.”
+
+//////////////////////////////////////////////////////////////////////
+ID: 8136
+Title: I hate myself
+Adoption index: 3.0
+Author: V.J. Rada
+Co-authors:
+
+
+Rules or Instruments to the contrary notwithstanding, this proposal
+shall act as though its text is the text submitted to a public forum and
+clearly marked "Memes submission" by the last person to vote FOR it.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8137
+Title: Uncorrecting Rewards
+Adoption index: 3.0
+Author: Aris
+Co-authors: twg, Trigon
+
+[
+  This is A.I. 3.0 because I don't know what Rule 2496's power is.
+  Proposal 8127 "reenacted" it, meaning it acquires the power it had
+  when it was originally repealed, but I wasn't around when that
+  happened and it's not in the SLR yet.
+]
+
+Amend rule 2496 by replacing all instances of the text "create in eir
+possession" with the word "earn".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8138
+Title: Access to contracts' assets
+Adoption index: 2.5
+Author: twg
+Co-authors:
+
+[ Been floating around in my mind since G. and D. Margaux pulled off
+  the "First Bank of Agora" scam, which frankly deserved to work
+  first time. This proposal allows contract parties to manipulate the
+  contract's assets as permitted by the contract, and also tidies up
+  the verbiage a little bit. ]
+
+Amend Rule 1742, "Contracts", by replacing the last paragraph with
+the following:
+
+  A party to a contract CAN perform any of the following actions
+  as permitted by the contract's text:
+
+  * Act on behalf of another party to the contract.
+
+  * Destroy destructible assets in the contract's possession.
+
+  * Transfer liquid assets in the contract's possession.
+
+//////////////////////////////////////////////////////////////////////

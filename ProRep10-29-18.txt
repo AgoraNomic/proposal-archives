@@ -1,0 +1,314 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8112  G., ATMunn          1.0   The Middle Way
+8113  Trigon              1.0   Auction cleanup
+8114  Trigon, twg, G.     1.0   Free auctions 2
+8115  Aris, Trigon        1.5   Heraldic uncertainty
+8116  Trigon, D Margaux   1.5   Control-C, Control-V
+8117  D Margaux, twg      2.0   Fix for Uncertain Laurelings
+8118  G.                  2.0   Laurels Last Longer
+8119  D Margaux           2.0   Criminal Justice Adjustments Act
+8120  D Margaux           2.0   Blot Decay
+8121  G.                  3.0   Retroactive Documents
+8122  Murphy              3.0   Middle of the road
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposals is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8112
+Title: The Middle Way
+Adoption index: 1.0
+Author: G.
+Co-authors: ATMunn
+
+
+Amend Rule 2510 (Such is Karma) by replacing the list in which the list
+items are delimited with the - symbol with the following list:
+
+  - Any player with a karma of 5 or greater is a Samurai.
+
+  - Any player with a karma of -5 or less is an Gamma.
+
+  - The Samurai with the highest karma (if any) is the Shogun.
+
+  - The Gamma with the lowest karma (if any) is the Honourless
+    Worm.
+
+[By replacing 'player' with 'Samurai' and 'Gamma' in the last two
+list items, you can't get Shogun/Worm unless you've cleared a basic
+barrier - right now you could be a Worm even if your karma isn't
+all that low].
+
+//////////////////////////////////////////////////////////////////////
+ID: 8113
+Title: Auction cleanup
+Adoption index: 1.0
+Author: Trigon
+Co-authors:
+
+
+[ Comment: I noticed that there are an entire eight rules defining
+  auctions and I thought that was a bit excessive. Oh, we also missed a
+  few sentences about contracts initiating auctions so this removes
+  them. This contains no functional changes but it makes the rules
+  defining auctions less cumbersome. ]
+
+Amend rule 2545 'Auctions' to read:
+
+  An Auction is a way for entities to give away items in exchange
+  for a currency. Any rule CAN permit or require Auctions to be
+  initiated.
+
+  Each Auction has one or more lots of items. A lot is a non-empty
+  list of items to be transferred to a single recipient.
+
+  Each Auction has an Auctioneer. All rules permitting Auctions to
+  be initiated should specify an entity to be Auctioneer. If no
+  Auctioneer is specified, the default Auctioneer is Agora.
+
+  Each Auction has an Announcer. Only persons can be Announcers. If
+  the Auctioneer of an Auction is a player, then that player is also
+  the Announcer of that Auction. Otherwise, the rule defining an
+  Auction CAN define the Announcer for that Auction.
+
+Amend the last paragraph of rule 2549 'Auction Initiation' by replacing
+'coins' with 'Agora's official currency'.
+
+Amend the last paragraph of rule 2551 'Auction End' by removing the
+final sentence.
+
+Repeal rule 2546 'Lots'
+Repeal rule 2547 'The Auctioneer'
+Repeal rule 2548 'The Auction Announcer'
+
+//////////////////////////////////////////////////////////////////////
+ID: 8114
+Title: Free auctions 2
+Adoption index: 1.0
+Author: Trigon
+Co-authors: twg, G.
+
+
+[ Comment: Not sure how I actually feel about this being enacted but
+  proposals are cheap so I might as well.
+
+  Version 2: Clear up wording. ]
+
+Create a new power-1 rule entitled 'Free Auctions' with the text:
+
+  A player who is not the Auctioneer of an existing Auction
+  specified by this rule CAN, by announcement, initiate an auction
+  with emself as the Announcer and Auctioneer.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8115
+Title: Heraldic uncertainty
+Adoption index: 1.5
+Author: Aris
+Co-authors: Trigon
+
+
+Amend rule 649 by appending the following sentence to the first paragraph:
+
+  The Herald's monthly report is self-ratifying.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8116
+Title: Control-C, Control-V
+Adoption index: 3.0
+Author: Trigon
+Co-authors: D Margaux
+
+
+If a rule entitled 'Earning Coins' exists, amend that rule by replacing
+the text "if e has one" with "if e has any".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8117
+Title: Fix for Uncertain Laurelings
+Adoption index: 2.0
+Author: D Margaux
+Co-authors: twg
+
+
+[Based on twg’s prior proposal. The idea here is to relieve the PM of
+the obligation to appoint a new speaker until any doubt about a recent
+Laureling is resolved.]
+
+Amend Rule 103 to replace this text:
+
+  “If at any time the office of Speaker is vacant, or when one or more
+  players win Agora, then the Prime Minister CAN and SHALL, once and
+  in a timely fashion, appoint a Laureled player to the office of Speaker
+  by announcement.”
+
+With:
+
+  “If at any time the office of Speaker is vacant, or when one or more players
+  win Agora, then the Prime Minister CAN once appoint a Laureled player
+  to the office of Speaker by announcement.  Whenever the Prime Minister CAN
+  appoint a Laureled player to the office of Speaker, e SHALL do so in a timely
+  manner, except that the Prime Minister MAY defer appointing a new Speaker
+  while there is pending one or more open CFJs that could plausibly determine
+  or affect the question of whether a player is Laureled.”
+
+//////////////////////////////////////////////////////////////////////
+ID: 8118
+Title: Laurels Last Longer
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 103 (The Speaker) by replacing:
+  The player or players who have most recently won the game are
+  called Laureled.
+with:
+  Every player who has won the game since a Speaker was last
+  appointed is called Laureled.
+
+
+[If several wins happen in quick succession, the P.M. can choose from
+any of those winners, not just the most very recent (which are likely
+the most uncertain).  Of course, it doesn't fix things if all winners
+since the last speaker appointment are uncertain, but it helps.  It's
+also fairer to the set of winners overall].
+
+//////////////////////////////////////////////////////////////////////
+ID: 8119
+Title: Criminal Justice Adjustments Act
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+[Purpose is to streamline and clarify the conditions under
+which fines can be imposed; make it possible to impose
+fines after 14 days when a finger is pointed within 14 days;
+and to clarify the time period for imposing fines when it is
+based on the failure to meet a deadline]
+
+Amend Rule 2531 (Referee Accountability) to replace this text:
+
+  "Any attempt to levy a fine is INEFFECTIVE if it does not include
+  (1) value of the fine in blots, (2) the name of the person being
+  fined (the perp), and (3) the specific reason for the fine, or if
+  it attempts to levy a fine on a person for an action or inaction
+  which e (more likely than not) did not commit, or if it attempts
+  to levy a fine for an action or inaction which is not prohibited
+  by law, or if it attempts to levy a fine with a value which is
+  blatantly and obviously unsuited to the conduct which constitutes
+  the reason for its levy or to the person to which it is being
+  levied, or if it is made more than 14 days after the conduct
+  constituting the reason for the fine, or if it attempts to levy a
+  fine to a player who has already been levied a fine for the
+  conduct constituting the reason for the levy, or if it attempts to
+  levy a fine on a zombie for an action that its master performed on
+  its behalf."
+
+with this text:
+
+"Any attempt to levy a fine is INEFFECTIVE if:
+
+  (1) it does not include value of the fine in blots, the name
+      of the person being fined (the perp), and the specific
+      reason for the fine;
+
+  (2) it attempts to levy a fine on a person for an action or
+      inaction which e (more likely than not) did not commit;
+
+  (3) it attempts to levy a fine for an action or inaction
+      which is not prohibited by law;
+
+  (4) it attempts to levy a fine with a value that is blatantly
+      and obviously unsuited to the conduct which constitutes
+      the reason for its levy or to the person on whom it is
+      being levied;
+
+  (5) it attempts to levy a fine (i) by summary judgement more
+      than 14 days after the action constituting the reason
+      for the fine or (ii) based upon the investigation of
+      of a Finger that had been Pointed more than 14 days
+      after the action constituting the reason for the fine;
+
+  (6) it attempts to levy a fine on a player for failing to
+      take an action within the time period set by the Rules
+      and that time period had expired (i) more than 14 days
+      prior to the attempted fine, if the attempted fine is
+      imposed by summary judgement or (ii) more than 14 days
+      prior to the Pointed Finger, if the fine is imposed
+      based on an investigation of such Finger;
+
+  (7) it attempts to levy a fine on a player who has already
+      been fined for the conduct constituting the reason for
+      the levy; or
+
+  (8) it attempts to levy a fine on a zombie for an action
+      that its master performed on its behalf."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8120
+Title: Blot Decay
+Adoption index: 2.0
+Author: D Margaux
+Co-authors:
+
+
+Amend Rule 2551 to replace:
+
+  “If a player has neither gained blots nor expunged any blots from emself
+  in the current Agoran week, e CAN expunge 1 blot from emself by
+  announcement.”
+
+With:
+
+  “At the end of each Agoran week, 1 blot is automatically expunged from each
+  impure player who that week had not gained any blots.”
+
+//////////////////////////////////////////////////////////////////////
+ID: 8121
+Title: Retroactive Documents
+Adoption index: 3.0
+Author: D Margaux
+Co-authors:
+
+Amend Rule 1551 (Ratification) by replacing:
+  the gamestate is modified to what it would be if,
+  at the time the ratified document was published, the gamestate had
+  been minimally modified to make the ratified document as true and
+  accurate as possible.
+with:
+  the gamestate is modified to what it would be if,
+  at the time the ratified document was published, the gamestate had
+  been minimally modified to make the ratified document as true and
+  accurate as possible; however, if the document explicitly specifies
+  a different past time as being the time the document was true, the
+  specified time is used to determine the minimal modifications.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8122
+Title: Middle of the road
+Adoption index: 3.0
+Author: Murphy
+Co-authors:
+
+Amend Rule 2422 (Voting Strength) by replacing this text:
+
+  If not otherwise specified, the voting strength of an entity on an
+  Agoran decision is 1.
+
+with this text:
+
+  If not otherwise specified, the voting strength of an entity on an
+  Agoran decision is 3.
+
+//////////////////////////////////////////////////////////////////////

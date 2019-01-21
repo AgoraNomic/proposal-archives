@@ -1,0 +1,648 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 7, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8139  twg, G.             2.5   Access to contracts' assets v2
+8140  twg, [1]            1.0   spaaace! v5.2
+8141  twg, G., Ørjan      1.0   Miscellaneous Reward Fixes v2
+8142  twg, [2]            2.0   Let Me Back In!
+8143  Trigon              1.0   Happy Birthday to You v3
+8144  Trigon              1.0   Sharing the Wealth
+8145  Gaelan              1.0   No Rebirth
+
+
+The proposal pool is currently empty.
+
+[1] Aris, ATMunn, CuddleBeam, D. Margaux, G., Gaelan, Murphy,
+    Ørjan, Trigon
+[2] Alexis, Aris, Murphy, Trigon
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8139
+Title: Access to contracts' assets v2
+Adoption index: 2.5
+Author: twg
+Co-authors: G.
+
+
+[ Been floating around in my mind since G. and D. Margaux pulled off
+  the "First Bank of Agora" scam, which frankly deserved to work
+  first time. This proposal allows contract parties to manipulate the
+  contract's assets as permitted by the contract, and also tidies up
+  the verbiage a little bit. ]
+
+[ v2 brings the following changes:
+  * Added "by announcement" to the latter two bullet points
+    (preventing assets from being destroyed/transferred by private
+    messages!).
+  * Rephrased to use the verbs defined in Rule 2577, "Asset
+    Actions". ]
+
+Amend Rule 1742, "Contracts", by replacing the last paragraph with
+the following:
+
+  A party to a contract CAN perform any of the following actions
+  as permitted by the contract's text:
+
+  * Act on behalf of another party to the contract.
+
+  * By announcement, revoke destructible assets from the contract.
+
+  * By announcement, take liquid assets from the contract.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8140
+Title: spaaace! v5.2
+Adoption index: 1.0
+Author: twg
+Co-authors: Aris, ATMunn, CuddleBeam, D. Margaux, G., Gaelan, Murphy,
+            Ørjan, Trigon
+
+
+Enact a new rule "Sectors" (Power=1.0) with the following text:
+
+  Sectors are entities; each Sector has an ID number, which is (the
+  number of existent sectors that were created before it + 1).
+
+  Creating, destroying or altering Sectors is secured.
+
+  If no Spaceship is in a particular Sector, then that Sector is
+  "empty"; otherwise it is "occupied".
+
+  Two Sectors are "adjacent" if their IDs differ by exactly 1.
+
+
+Enact a new rule "Galaxy Maintenance" (Power=1.0) with the following
+text:
+
+  Ideal Sector Count is the number of Spaceships plus two.
+
+  If there are ever fewer Sectors than the Ideal Sector Count, then
+  the Astronomor CAN by announcement and SHALL in a timely fashion
+  create a new Sector.
+
+  If there are ever more Sectors than the Ideal Sector Count, then
+  the Astronomor CAN by announcement and SHALL in a timely fashion
+  destroy an empty Sector.
+
+  Violation of this rule is the Class-3 Crime of Galaxy Neglect.
+
+  Enact a new rule "The Astronomor" (Power=1.0) with the following text:
+
+    The Astronomor is an office. The Astronomor's weekly report
+    includes, in addition to any information required by other rules, a
+    list of all Sectors and their ID numbers.
+
+Enact a new rule "Spaceships" (Power=1.0) with the following text:
+
+  Spaceships are a class of fixed asset, tracked by the Astronomor,
+  with ownership restricted to players. The following are Spaceship
+  switches, tracked by the Astronomor:
+
+  * Location (possible values any Sector, defaulting to the Sector
+    with the lowest ID number);
+
+  * Armour (an integer switch limited to values from 0 to 10
+    inclusive).
+
+  A Spaceship is "in" its Location. For a Spaceship to "move" to a
+  Sector is for its Location to be flipped to that Sector. When a
+  player registers, a Spaceship is created in eir possession. When a
+  Spaceship is created, it immediately moves to the lowest-numbered
+  empty Sector, if any.
+
+  A Spaceship with an Armour of 0 is "Defeated". A Spaceship is
+  "Pilotable" if it is neither Defeated nor engaging in a Space
+  Battle.
+
+  Any player CAN, by announcement, spend a coin to increase the
+  Armour of a Pilotable Spaceship e owns by 1. This is called
+  "Repairing" the Spaceship.
+
+Enact a new rule "Spaceship Energy" (Power=1.0) with the following
+text:
+
+  Energy is a fixed currency, tracked by the Astronomor, with
+  ownership restricted to Spaceships. If a Spaceship's Energy
+  balance exceeds 20, any excess Energy it possesses is destroyed.
+
+  When a Spaceship is created, 20 Energy is created in its possession.
+
+  At the start of each Agoran day, each Pilotable Spaceship gains 2
+  Energy. Any player also CAN, by announcement, pay 2 coins to grant
+  a Pilotable Spaceship e owns 1 Energy.
+
+  Any player CAN, by announcement, cause a Pilotable Spaceship e
+  owns to pay 1 Energy to move to a Sector adjacent to its Location.
+
+Enact a new rule "Space Battles" (Power=1.0) with the following text:
+
+  Two players are "allied" if they agree to be allied or if one is
+  the master of the other; otherwise they are "opponents". For the
+  purposes of this rule, agreement includes both consent and
+  agreement specified by contract.
+
+  A player who owns a Pilotable Spaceship in the same Sector as one of
+  eir opponents' Pilotable Spaceships CAN, by announcement, initiate a
+  Space Battle between the two Spaceships. These two players are the
+  "combatants" of the Space Battle, and the two Spaceships are then
+  "engaging" in the Space Battle until it is resolved.
+
+  A Space Battle CANNOT be initiated if either of the two involved
+  Spaceships has been engaging in a Space Battle within the last 24
+  hours.
+
+  The resolver for a Space Battle is the player highest in the
+  following list at the time of the Space Battle's initiation who is
+  not a combatant in the Space Battle:
+
+  1) the Astronomor;
+  2) the Arbitor;
+  3) the Prime Minister;
+  4) the non-combatant who has least recently registered.
+
+  For the initiation of a Space Battle to be EFFECTIVE, the initiator
+  must correctly specify the resolver.
+
+  In a timely fashion after a Space Battle is initiated, the
+  combatants SHALL each once communicate to the resolver the amount
+  of Energy they wish to spend in the battle, via any method that
+  cannot be understood by the other combatant until e has also
+  fulfilled this obligation. For example:
+
+  * by publishing a salted cryptographic hash, and revealing its text
+    after the other combatant has also communicated the Energy e will
+    spend;
+  * by sending the amount to the resolver in a private message;
+  * by publishing the amount, if the other combatant has already
+    communicated the Energy e will spend.
+
+  Failing to do so is the Class-2 Crime of Being a Bad Space Captain.
+
+  For the resolver to reveal the Energy a combatant is spending
+  before both combatants have made their decisions is the Class-5
+  Crime of Violating General Relativity.
+
+  After both combatants have communicated the Energy they will spend,
+  or if the time limit to do so has expired, the resolver CAN, and
+  SHALL in a timely fashion, resolve the Space Battle by announcing
+  the changes in each Spaceship's Energy balance and Armour
+  (described below), and the Winner (if any) of the Space Battle.
+
+  When a Space Battle is resolved:
+
+  1) N Energy is revoked from each Spaceship, where N is the lesser of
+     the Spaceship's Energy balance and the amount of Energy decided
+     on by the Spaceship's owner, or 0 if the Spaceship's owner
+     failed to do so;
+  2) each Spaceship's Armour is decreased by X, where X is the lesser
+     of the Spaceship's Armour and the amount of Energy revoked from
+     the other Spaceship;
+  3) the Winner of the Space Battle is the combatant, if any, whose
+     Spaceship's Armour was reduced by a smaller amount than the other
+     Spaceship's.
+
+Enact a new rule "Fame" (Power=1.0) with the following text:
+
+  Fame is an integer player switch tracked by the Astronomor, limited
+  to values between -10 and 10 inclusive. Players with positive Fame
+  are "Famous", and those with negative Fame are "Infamous".
+
+  If a player is the Winner in a Space Battle against an Infamous
+  player, eir Fame is increased by 1. Likewise, if a player is the
+  Winner in a Space Battle against a Famous player or one with a Fame
+  of 0, eir Fame is decreased by 1.
+
+  Any player whose Fame is either 10 or -10 CAN win the game With 2
+  Days Notice.
+
+Perform the following action a number of times equal to (the number of
+registered players + 2): Create a Sector.
+
+
+
+Perform the following action for each player, iterating over them in
+order of the days of the year (1 January to 31 December) on which they
+most recently registered, breaking ties in order of the times at which
+they most recently registered: Create a Spaceship in the possession of
+that player.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8141
+Title: Miscellaneous Reward Fixes v2
+Adoption index: 1.0
+Author: twg
+Co-authors: G., Ørjan
+
+
+Amend Rule 2496, "Rewards", by replacing its text with the following:
+
+  A player CAN earn the set of assets associated with a reward
+  condition exactly once in a timely fashion each time e fulfills it
+  by stating how many assets e earns as a result of this action.
+
+  Below is a list of reward conditions and their associated assets.
+
+  * Being the author of an adopted proposal: a number of coins equal
+    to ((the total number of valid ballots cast FOR the decision -
+    the total number of valid ballots cast AGAINST) times the
+    adoption index of the result) rounded up.
+
+  * Judging a CFJ that e was assigned to without violating a time
+    limit to do so: 5 coins.
+
+  * Publishing a duty-fulfilling report: 5 coins. For each office,
+    this reward can only be claimed for the first weekly report
+    published in a week and the first monthly report published in a
+    month.
+
+  * Having a Thesis pass peer-review and be granted a Degree based
+    on its merit: 20 coins
+
+//////////////////////////////////////////////////////////////////////
+ID: 8142
+Title: Let Me Back In!
+Adoption index: 2.0
+Author: twg
+Co-authors: Alexis, Aris, Murphy, Trigon
+
+
+Re-enact Rule 2533, "Political Parties" (Power=2.0), with the
+following text:
+
+  There are 5 Parties, in order:
+
+  - Platonic Isolationists
+  - New Punchbowl Reformers
+  - Costume Conservatives
+  - Substance Use Liberals
+  - Official Raving Monster Looney Party
+
+  Politicians are entities; each Politician has a name and an
+  associated Party. Politicians exist only as specified by the
+  rules. Creating, altering, or destroying Politicians is secured.
+
+  If there are ever fewer than 20 Politicians, then the Clork CAN by
+  announcement and SHALL in a timely fashion create a new Politician,
+  specifying eir Party and name. The Party must be selected at random
+  from:
+
+  - The set of Parties with the lowest number of Politicians if any
+    Party has fewer than 3;
+  - Otherwise, the set of Parties with fewer than 5 Politicians.
+
+Re-enact Rule 2534, "Clork" (Power=2.0), with the following text:
+
+  The Clork is an office. The Clork's weekly report includes:
+  - a list of all Politicans with their names and Parties.
+  - the assignment of Policies to Parties.
+
+Re-enact Rule 2535, "Echelon Forms" (Power=2.0), with the following
+text:
+
+  Posts are entities. Holder is a Post switch, tracked by the Clork,
+  with possible values all Politicians and none (default). No
+  Politician can hold more than one Post at a time. Each Post is in
+  an Echelon, which has an associated Rank. The Echelons, and their
+  Posts and Ranks, are as follows:
+
+  Chamber of Power (Rank 5):
+  - Host
+  Upper Echelon (Rank 3):
+  - Planner
+  - Enforcer
+  - Organizer
+  - Creep
+  Row Echelon (Rank 1):
+  - Schmoozer
+  - Decorator
+  - Loner
+  - Drunk
+  - Mystery
+  - Wild One
+  - Hat Rack
+
+  Each Politician who holds a Post is in the Echelon of that post;
+  other Politicians are in the Row-Reduced Echelon, which has Rank
+  0. Likewise, the Rank of a Post or Politician is the Rank of their
+  Echelon.
+
+  If a rule provides that a Post can take an action, then the
+  Advisor of the holder of that Post CAN take that action. If there
+  is no such player, and the Post is required to take that action,
+  then the Clork CAN do it prior to any deadline for its
+  performance. After a deadline for a Post to perform an action, any
+  player CAN take it.
+
+Re-enact Rule 2536, "Taken Under Advisement" (Power=2.0), with the
+following text:
+
+  Advisor is a Politician switch, tracked by the Clork, with
+  possible values all players and none (default). For each
+  Politician, Influence over <Politician> is a natural player
+  switch, tracked by the Clork.
+
+  A player CAN, by announcement, spend Favours in a Politician's
+  Party to gain Influence over that Politician, depending on the
+  Politician's Echelon:
+  - Chamber of Power: 3 Favours for 2 Influence
+  - Upper Echelon: 1 Favour for 1 Influence
+  - Row Echelon: 2 Favours for 3 Influence
+  - Row-Reduced Echelon: 1 Favour for 2 Influence
+
+  If a player has more Influence over a given Politician than any
+  other player, e can Advise that Politican by announcement. When e
+  does so, if no other player Advises the same Politician later in
+  the same Agoran week, then at the start of the next Agoran week,
+  that player becomes that Politician's Advisor.
+
+Re-enact Rule 2537, "Balloons" (Power=2.0), with the following text:
+
+  Balloons are a fixed currency, tracked by the Clork, with
+  ownership restricted to players. Creation or destruction of
+  balloons is secured.
+
+  At the start of each Agoran week, after Advisors are flipped:
+  - For each player, if e owns more Balloons than e was awarded by
+    this procedure at the start of the previous week, any excess
+    Balloons are destroyed.
+  - Each player is awarded Balloons equal to the sum of the Ranks of
+    the Politicians for which e is Advisor.
+  - The Decorator's Advisor, if any is awarded one additional
+    Balloon.
+
+  A player CAN, by announcement, spend a Balloon e owns to increase
+  eir voting strength on a specified Agoran Decision, other than one
+  with an adoption index of 3 or higher, by 1.
+
+  A player CAN, by announcement, spend Balloons equal to the sum of
+  the Ranks of all Posts in order to win the game. Upon doing so,
+  all eir Influence switches are set to 0.
+
+Re-enact Rule 2538, "Party Favours" (Power=2.0), with the following
+text:
+
+  For each Party, there is a currency called Favours in that Party.
+  Ownership of Favours is tracked by the Clork. Ownership of Favours
+  is restricted to players.
+
+  A player CAN, by announcement, spend 3 Favours in a single Party
+  to award another player 2 Favours in that Party.
+
+  A player CAN, by announcement, spend 3 Favours in a single Party
+  to gain a Favour in another specified Party.
+
+Re-enact Rule 2539, "Retirement" (Power=2.0), with the following
+text:
+
+  Stress Level is a natural Politician switch, tracked by the Clork.
+  At the start of each Agoran week, each Politician's Stress Level
+  is increased by eir Rank. If, after this procedure, a Politician's
+  Stress Level is 20 or greater, the Politician announces retirement
+  and is destroyed at the beginning of the following Agoran week.
+  The Clork SHALL announce this fact in a timely fashion.
+
+Re-enact Rule 2540, "Political Elections" (Power=2.0), with the
+following text:
+
+  For each Post, Vote for <Post> is a secured Politician switch
+  tracked by the Clork, with possible values all Politicians and
+  undecided (default).
+
+  The voting strength of a Politician for a Post is defined as
+  follows:
+  - For an election for Host, Politicians have strength equal to
+    their Rank.
+  - For an election for an Upper Echelon Post, the Host has strength
+    4, and Upper Echelon Politicians have strength 2.
+  - For an election for a Row Echelon Post, the Host has strength 3,
+    Upper Echelon Politicians have strength 2, and Row Echelon
+    politicians have strength 1.
+  - The Organizer has voting strength 1 greater than e would have
+    based on the above.
+
+  The eligible Politicians in an election for a Post are all
+  Politicians in the highest non-empty Echelon below that of the
+  Post up for election. The number of votes cast for an eligible
+  Politician in an election is the sum of voting strengths for that
+  Post of all Politicians whose Vote for that Post is the eligible
+  Politician; the number of votes cast for a Politician that is not
+  eligible is 0.
+
+  An election for a Post is resolvable if that Post is vacant, there
+  is a single Politician with the most votes in that election, and
+  either at least four days have passed since either the vacancy or
+  since its previous occupant Announced Retirement, whichever was
+  first, or if the leader has more votes than the Policitian with
+  the second-most, plus the total voting strength of all undecided
+  Politicians in that election. When an election for a Post is
+  resolvable, any player CAN, by announcement, end the election and
+  install the winning Politician (which must be specified or else
+  the announcement is INEFFECTIVE) into the Post.
+
+  If a Post is vacant and either has been so for seven days or more
+  than eleven days have passed since its previous holder Announced
+  Retirement, then the Host CAN and SHALL, in a timely fashion, by
+  announcement end the election and install one of the Politicians
+  with the most votes into the Post.
+
+  When an election for a Post ends, all Vote switches for that Post
+  are set to undecided.
+
+Enact a new rule "Party Policy" (Power=2.0) with the following text:
+
+  There are 5 Policies, in order:
+
+  - Justice: interested in seeing justice served
+  - Efficiency: interested in seeing official duties performed
+  - Legislation: interested in seeing proposals passed
+  - Participation: interested in seeing votes cast
+  - Economy: interested in economic activity
+
+  At any time, each Policy is held by exactly one Party. The
+  assignments must be in cyclic order of their definitions, wrapping
+  from bottom to top. For example, if the Platonic Isolationists
+  hold Participation as their Policy, then the New Punchbowl Reformers
+  hold Economy, the Costume Conservatives hold Justice, and so on.
+
+  At the start of each Agoran month, the Planner CAN and SHALL, in a
+  timely fashion, by announcement, select a new assignment of
+  Policies to Parties (specifying the Policy of one Party is
+  sufficient, since it implies the remainder). E CANNOT specify
+  either of the assignments used in the previous two months.
+
+Re-enact Rule 2542, "Favour Award" (Power=2.0), with the following
+text:
+
+  The following officers CAN by announcement award Favours in the
+  listed Parties, but SHALL NOT do so except as required by rule.
+
+  - Arbitor and Referee: the Party holding Justice.
+  - ADoP: the Party holding Efficiency.
+  - Assessor: the Parties holding Legislation and Participation.
+  - Clork: all Parties.
+
+  When a player judges a CFJ, the Arbitor SHALL, in a timely
+  fashion, award that player 3 Favours in the Party holding Justice.
+  When a player's Finger-Pointing leads to a Card award, or when the
+  Referee issues Summary Judgement, the Referee shall award a Favour
+  in the Party holding Justice to the responsible player.
+
+  Complexity is an office switch, tracked by the ADoP, with values 0, 1
+  (default), 2, and 3. The ADoP CAN, without 2 Objections, set the
+  Complexity of an office. As part of eir weekly duties, the ADoP
+  SHALL award to each officeholder a number of Favours in the Party
+  holding Efficiency equal to the Complexity of that Office.
+
+  Whenever the Assessor resolves an Agoran decision:
+  - If the decision was to adopt a proposal, and it was ADOPTED, e
+    SHALL immediately award the proposal's author a number of
+    Favours in the Party holding Legislation equal to the proposal's
+    AI, rounded up.
+  - For each voter who voted on that Agoran decision and did not
+    already receive this type of award earlier in the same Agoran
+    week, e SHALL award that player 2 Favours in the Party holding
+    Participation.
+
+  Any player CAN spend 2 coins to gain a Favour in the Party holding
+   Economy.
+
+  As part of eir weekly duties, the Clork SHALL award, to the
+  Advisor of a Politician holding one of the below Posts, 3
+  Favours in the corresponding Party:
+  - Loner: Platonic Isolationists
+  - Drunk: New Punchbowl Reformers
+  - Mystery: Costume Conservatives
+  - Wild One: Substance Use Liberals
+  - Hat Rack: Official Raving Monster Looney Party
+
+Re-enact Rule 2543, "Post Powers" (Power=2.0), with the following
+text:
+
+  The Creep CAN by announcement, but no more than once per Agoran
+  week, increase eir own Stress Level by 1 in order to increase the
+  Stress Level of another specified Politician by 2.
+
+  The Schmoozer CAN by announcement, but no more than once per
+  Agoran week, change the Party of a specified other Politician to
+  the next Party in order, wrapping around.
+
+  The Enforcer CAN, no more than once per week, with Support from at
+  least one other Politician not in the Row-Reduced Echelon, remove
+  a specified Row Echelon Politician from eir Post. E must specify
+  the supporting Politician when doing so, or it is INEFFECTIVE.
+  Upon doing so, both the Enforcer and supporting Politician's
+  Stress Levels are increased by 1.
+
+Set the Complexities of the offices as follows:
+- ADoP: 2
+- Arbitor: 2
+- Assessor: 3
+- Astronomor: 2
+- Clork: 2
+- Distributor: 0
+- Herald: 2
+- Prime Minister: 1
+- Promotor: 2
+- Referee: 2
+- Registrar: 2
+- Rulekeepor: 3
+- Speaker: 1
+- Tailor: 1
+- Treasuror: 3
+
+Enact a new rule "Get This Party Started" (Power=2.0) with the
+following text:
+
+  The Clork CAN, by announcement, and SHALL, in a timely fashion
+  after this rule is enacted:
+  - Create 20 Politicians, 4 in each Party, specifying their names;
+  - Increase each Politician's Stress Level by twice eir Rank;
+  - Assign one Politician to each Post, chosen at random;
+  - Randomly assign Policies to Parties (obeying the cyclic order
+    restriction); then
+  - Cause this rule to repeal itself.
+
+  Rules to the contrary notwithstanding, while this rule is in
+  effect, it provides the only mechanism by which Politicians can be
+  created, Posts or Policies assigned, Stress Levels changed.
+  Moreover, rules to the contrary notwithstanding, Favour cannot be
+  created.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8143
+Title: Happy Birthday to You v3
+Adoption index: 1.0
+Author: Trigon
+Co-authors:
+
+
+Enact a new rule entitled "Birthday Gifts", power=1, with the text:
+
+  It is considered to be a player's Agoran Birthday on the
+  anniversary of the day e most recently registered. Every time it
+  is a player's Agoran Birthday, each of the other players CAN
+  grant em 3 coins by announcement.
+
+  Players are ENCOURAGED to announce their Agoran Birthdays.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8144
+Title: Sharing the Wealth
+Adoption index: 1.0
+Author: Trigon
+Co-authors:
+
+
+Amend rule 2496 "Rewards" by replacing the list element beginning "Being
+the author" that reads:
+
+  * The following apply to adopted proposals:
+
+    *  Being the author: a number of coins equal to ((the total
+       number of valid ballots cast FOR the decision - the total
+       number of valid ballots cast AGAINST) times its adoption
+       index) rounded up.
+    *  Being listed as a coauthor: the same amount, divided by 2 and
+       rounded up.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8145
+Title: No Rebirth
+Adoption index: 1.0
+Author: Gaelan
+Co-authors:
+
+
+IF THE PROPOSAL “Happy Birthday to You v3” HAS BEEN RESOLVED AND ENACTED:
+  Amend the rule entitled “Birthday Gifts” by replacing “anniversary of the
+  day e most recently registered” with “anniversary of the day e first
+  registered. If the day a player first registered is unknown, that player
+  CAN, with Agoran Consent, declare a day to be eir Agoran Birthday. As long
+  as the day a player first registered remains unknown, it is considered to be
+  eir Agoran Birthday on the anniversary of the day e most recently declared
+  as eir Agoran Birthday”
+
+IF THE PROPOSAL “Happy Birthday to You v3” HAS NOT BEEN RESOLVED, BUT IF
+RESOLVED WOULD BE ENACTED:
+  Create a power-1 rule entitled “ugh” with the text “Any player may, by
+  announcement cause this rule to amend the rule entitled “Birthday Gifts”
+  by replacing “anniversary of the day e most recently registered” with
+  “anniversary of the day e first registered. If the day a player first
+  registered is unknown, that player CAN, with Agoran Consent, declare a day to
+  be eir Agoran Birthday. As long as the day a player first registered remains
+  unknown, it is considered to be eir Agoran Birthday on the anniversary of the
+  day e most recently declared as eir Agoran Birthday”, then repeal itself.
+
+IF THE PROPOSAL “Happy Birthday to You v3” HAS BEEN RESOLVED BUT NOT ENACTED,
+OR HAS NOT BEEN RESOLVED BUT IF RESOLVED WOULD NOT BE ENACTED:
+  This proposal has no effect.
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,262 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8123  Gaelan              3.0   Independence
+8124  Trigon              1.0   Only proposals should be distributed
+8125  Trigon              3.0   Time periods are confusing
+8126  Trigon              3.0   High-level asset verbs
+8127  Trigon              2.0   Reinstituting Rewards
+8128  twg                 2.0   [1]
+8129  twg, Trigon, G.     3.0   Bugfix: Treasuror doesn't self-ratify v2
+8130  Gaelan              2.0   Law is Ambiguous Word Act
+8131  天火狐, twg          2.0   V.J. Rada Protection Act
+8132  Aris                1.0   Website Ruleset Update Petition
+
+
+[1] With not very much responsibility comes fewer shinies
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8123
+Title: Independence
+Adoption index: 3.0
+Author: Gaelan
+Co-authors:
+
+
+Prepend “Such an action is known as a dependent action.” to the
+beginning of the last paragraph of rule 1728, “Dependent Actions.”
+
+//////////////////////////////////////////////////////////////////////
+ID: 8124
+Title: Only proposals should be distributed
+Adoption index: 1.0
+Author: Trigon
+Co-authors:
+
+
+[ COMMENT: This was pretty useless back in the day and it still is. If
+   someone decides they need this mechanic for anything, just reenact
+   it. ]
+
+Repeal Rule 2515 "Distributing Assets".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8125
+Title: Time periods are confusing
+Adoption index: 3.0
+Author: Trigon
+Co-authors:
+
+
+[ COMMENT: The current way is a really roundabout way of doing it, in my
+   opinion. I'm not sure if this is any better, to be honest, but
+   I think it has some merit. ]
+
+Amend Rule 1728 "Dependent Actions" by:
+    replacing the following:
+       2. If the action is to be performed Without N Objections, With N
+          Agoran Consent, or With Notice, if the intent was announced at
+          least 4 days earlier
+
+       3. If the action is to be performed With T Notice, if the intent
+          was announced at least T earlier.
+    with:
+       2. The intent was announced at least T earlier. If T is undefined,
+          it is instead considered to be 4 days if the action is not With
+          N Support; otherwise 0 days.
+
+    and by renumbering the list accordingly.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8126
+Title: High-level asset verbs
+Adoption index: 3.0
+Author: Trigon
+Co-authors:
+
+
+[ COMMENT: This terminology is ripped from the coins rule and applies to
+   all assets. I really like this one. ]
+
+Amend Rule 2577 "Asset Actions" by replacing the second paragraph with
+the following three paragraphs:
+  For an entity to earn an asset is for that asset to be created in
+  that entity's possession. To grant an entity an asset is to create
+  it in eir possession.
+
+  For an entity to lose an asset is for that asset to be destroyed
+  from that entity's possession. To revoke an asset from an entity
+  is to destroy it from that entity's possession.
+
+  For entity A to take an asset from entity B is to transfer it from
+  entity B to entity A.
+
+
+Amend Rule 2559 "Paydays" by replacing its text with:
+  Whenever a Payday occurs, the following events happen in order:
+
+  1. Each player first earns 10 coins; then
+
+  2. For each office, if a single player held that office for 16 or
+    more days in the previous month and no unforgivable fines were
+    levied on em for eir conduct in that office during that time,
+    that player earns 5 coins.
+
+  The occurrence of Paydays is secured.  At the beginning of each
+  month, a Payday occurs.
+
+
+Amend Rule 2499 "Welcome Packages" by replacing its text with:
+  If a player has not received a Welcome Package since e most
+  recently registered, any player CAN cause em to receive one by
+  announcement.
+
+  When a player receives a Welcome Package, e earns 10 coins.
+
+
+Amend Rule 2555 "Blots" by replacing the paragraph beginning "To Lefy a
+Fine" with:
+  To Levy a Fine of N on a person, where N is a positive integer, is
+  to grant em N blots. To expunge a blot is to destroy it.
+
+
+Amend Rule 2583 "Earning Coins" by deleting the paragraph beginning "For
+a player to".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8127
+Title: Reinstituting Rewards
+Adoption index: 3.0
+Author: Trigon
+Co-authors:
+
+
+[ COMMENT: For those of you who know that I really liked the rewards
+   system from last year, this shouldn't come as a surprise. Now that
+   there's no minigame, I think we should have a constant source for
+   earning coins, so how about we tie it to general participation in the
+   game? ]
+
+Repeal Rule 2583 "Earning Coins"
+
+Reenact Rule 2496 "Rewards" and replace its text with:
+  A player CAN earn the set of assets associated with a reward
+  condition exactly once in a timely fashion each time e fulfills it
+  by stating how many assets e earns as a result of this action.
+
+  Below is a list of reward conditions and their associated assets.
+
+  * Being the author of an adopted proposal: a number of coins equal
+   to ((the total strength of all valid ballots cast FOR the
+  decision - the total strength of all valid ballots cast AGAINST)
+  times the adoption index of the result) rounded up.
+
+  * Judging a CFJ that e was assigned to: 5 coins.
+
+  * Publishing a duty-fulfilling report: 5 coins. This reward can
+   only be claimed once per office per week for a weekly report and
+   once per office per month for a monthly report.
+
+  * Having a Thesis pass peer-review and be granted a Degree based
+   on its merit: 20 shinies
+
+
+If a proposal by Trigon has not passed in the same distribution as this
+proposal entitled "High-level asset verbs", amend rule 2496 by replacing
+all instances of the word "earn" with "create in eir possession".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8128
+Title: With not very much responsibility comes fewer shinies
+Adoption index: 2.0
+Author: twg
+Co-authors:
+
+
+Amend rule 2559, "Paydays", by changing the text "For each office" to
+"For each office that has official duties".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8129
+Title: Bugfix: Treasuror doesn't self-ratify v2
+Adoption index: 3.0
+Author: twg
+Co-authors: Trigon, G.
+
+Amend Rule 2166, "Assets", by appending the following paragraph to it:
+
+  For a class of assets to be "tracked by" an entity is for that
+  entity to be its recordkeepor.
+
+For the purposes of this proposal, the "Authoritative Document" is the
+document that as of the resolution of the most recent Agoran Decision
+to adopt this proposal:
+   (a) is a portion of the Treasuror's weekly report;
+   (b) is a list of all instances of coins and their owners;
+   (c) has been continuously undoubted for at least one week; and
+   (d) is the most recently published document that satisfies each of
+       criteria (a), (b) and (c).
+
+Ratify the Authoritative Document. Designate this ratification a
+convergence.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8130
+Title: Law is Ambiguous Word Act
+Adoption index: 2.0
+Author: Gaelan
+Co-authors:
+
+
+Amend Rule 2531 (Referee Accountability) by replacing “law” with “the rules."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8131
+Title: V.J. Rada Protection Act
+Adoption index: 2.0
+Author: 天火狐
+Co-authors: twg
+
+
+Amend Rule 1885, "Zombie Auctions", by appending the following as a
+new paragraph:
+
+  Rules to the contrary notwithstanding, if a player's master
+  switch is flipped while a zombie auction in which e is a lot
+  is ongoing, then the winner of that lot NEED NOT pay Agora eir
+  bid and Agora CANNOT and NEED NOT transfer the contents of the
+  lot to the winner.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8132
+Title: Website Ruleset Update Petition
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+
+WHEREAS the FLR is the most complete record of Agora's rules;
+WHEREAS the copy of the Ruleset posted on the Agoran website is thus a form
+  of the FLR;
+WHEREAS Players, Observers, and Other Interested Parties go to Agora's website
+  for the most accurate and current information about the rules;
+WHEREAS the FLR is only updated once a month; and
+WHEREAS, given that the Rulesets are generated programmatically,
+  it would impose little additional strain on the Rulekeepor to update
+  the version of the FLR posted on the website each time e releases an
+  SLR (i.e. once a week);
+
+NOW, THEREFORE, BE IT RESOLVED that it is THE WILL OF AGORA that the Honorable
+Rulekeepor update the main ruleset linked from the Agoran website each time
+e releases an SLR, and that e additionally post a copy of the official FLR
+on the website.
+
+//////////////////////////////////////////////////////////////////////
