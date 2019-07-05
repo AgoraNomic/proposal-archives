@@ -1,0 +1,301 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8165  D Margaux, Gaelan   3.0   Dependent Action Cleanup Act
+8166  D Margaux, twg      2.0   Politics Election Bug Fix
+8167  G.                  1.0   Ritual Sacrifice
+8168  G.                  1.0   No more meh
+8169  twg, [1]            1.0   Spaceship Armour Defaults
+8170  G.                  1.0   line-item veto 2.02
+8171  G.                  1.0   The Tiger Team
+8172  Aris                3.0   SLR Ratification
+8173  Murphy, Ørjan       3.2   Effective deference
+
+[1] D Margaux, Telnaior
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8165
+Title: Dependent Action Cleanup Act
+Adoption index: 3.0
+Author: D Margaux
+Co-authors: Gaelan
+
+
+Retitle Rule 1728 to “Dependent Action Methods.”
+
+Amend Rule 1728 to replace its entire text with the following:
+
+{
+
+The following methods of taking actions are known as "dependent actions":
+
+1. Without N Objections, where N is a positive integer no greater than 8
+("Without Objection" is shorthand for this method with N = 1);
+
+2. With N Support, where N is a positive integer ("With Support" is shorthand
+for this method with N = 1);
+
+3. With N Agoran Consent, where N is an integer multiple of 0.1 with a minimum
+of 1 ("With Agoran Consent" is shorthand for this method with N = 1);
+
+4. With Notice; or
+
+5. With T Notice, where T is a time period.
+
+N is 1 unless otherwise specified.
+
+}
+
+Enact a new rule (power=3) entitled “Performing a Dependent Action” with this
+text:
+
+{
+
+A rule that purports to allow a person (the performer) to perform an action by
+a set of one or more dependent actions identified in Rule 1728 thereby
+allows em
+to perform the action by announcement if all of the following are true:
+
+1. A person (the initiator) published an announcement of intent that
+unambiguously, clearly, conspicuously, and without obfuscation specified
+the action intended to be taken and the method(s) to be used;
+
+2.  The announcement referenced in paragraph (1) of this Rule
+unambiguously, clearly, conspicuously, and without obfuscation states:
+
+     * the value of T, if the action is to be taken with T Notice; and
+
+     * the value of N, if N is not equal to 1 and the action is to be taken
+       Without N Objections, With N Support, or With N Agoran Consent;
+
+3. The announcement referenced in paragraph (1) of this Rule was published:
+
+    * within the 14 days preceding the action, if the action is to be
+      performed With N Support;
+
+    * between 4 and 14 days preceding the action, if the action is to be
+      performed Without N Objections, With N Agoran Consent, or With Notice;
+      or
+
+    * between T and 14 days preceding the action, if the action is to be
+      performed With T Notice;
+
+4. At least one of the following is true:
+
+    * the performer is the initiator;
+
+    * the initiator was authorized to perform the action due to holding a
+      rule-defined position now held by the performer; or
+
+    * the initiator is authorized to perform the action, the action
+      depends on support, the performer has supported the intent, and the
+      rule authorizing the performance does not explicitly prohibit supporters
+      from performing it;
+
+5. Agora is Satisfied with the announced intent, as defined by other Rules; and
+
+6. The conditions are all met, if any conditions were stated in the
+announcement of intent referenced in paragraph (1) of this Rule.
+
+The performer SHOULD publish a list of supporters and objectors if the
+action is to
+be taken with N Agoran Consent.
+
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: 8166
+Title: Politics Election Bug Fix
+Adoption index: 2.0
+Author: D Margaux
+Co-authors: twg
+
+
+Amend Rule 2540 as follows: (1) Add this sentence to the end of the first
+paragraph of Rule 2540: {For each Politician, the player (if any) advising that
+politician CAN by announcement flip that Politician’s Vote switch.}
+
+(2) Replace this text:  {If a Post is vacant and either has been so for seven
+days or more than eleven days have passed since its previous holder Announced
+Retirement, then the Host CAN and SHALL, in a timely fashion, by announcement
+end the election and install one of the Politicians with the most votes into the
+Post.}
+
+With this text: {If a Post is vacant and either has been so for seven days or
+more than eleven days have passed since its previous holder Announced
+Retirement, then a player advising a Politician with the most votes, or if no
+such player exists, the Clork, CAN and SHALL, in a timely fashion, by
+announcement end the election and install one of the Politicians with the most
+votes into the Post.}
+
+//////////////////////////////////////////////////////////////////////
+ID: 8167
+Title: Ritual Sacrifice
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Create a Rule entitled "The Ritual", Power-0.5, with the following
+text:
+
+  Any player CAN perform The Ritual by paying a fee of 7 Coins.
+  The Ritual MUST be performed at least once in every Agoran week.
+  If The Ritual was performed at least once in the previous Agoran
+  week, then the Ruleset is Appeased.
+
+  If the Ruleset is appeased, then any player CAN banish this rule
+  (cause it to repeal itself) with N Agoran Consent, where N is the
+  maximum of 1.0 and 10/(B+1), rounded up to the nearest 0.1, and B
+  is the number of weeks that the Ruleset has been continuously
+  appeased at the moment of banishment.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8168
+Title: No more meh
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Repeal Rule 2465 (Victory by Apathy).
+
+//////////////////////////////////////////////////////////////////////
+ID: 8169
+Title: Spaceship Armour Defaults
+Adoption index: 1.0
+Author: twg
+Co-authors: D Margaux, Telnaior
+
+
+Amend Rule 2591, "Spaceships", by replacing the following:
+
+  * Armour (an integer switch limited to values from 0 to 10
+    inclusive).
+
+with:
+
+  * Armour (an integer switch limited to values from 0 to 10
+    inclusive, defaulting to 10).
+
+Flip to 10 the Armour of each Spaceship that, at the time of the
+submission of this proposal, was:
+
+* in Sector 04 and owned by Baron von Vaderham, or;
+* in Sector 05 and owned by twg [previously Lost & Found], or;
+* in Sector 08 and owned by Falsifian, or;
+* in Sector 09 and owned by Telnaior, or;
+* in Sector 16 and owned by Telnaior [previously Lost & Found].
+
+
+//////////////////////////////////////////////////////////////////////
+ID: 8170
+Title: line-item veto 2.02
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Enact a Rule, "Line-item Veto", with the following text:
+
+  The Comptrollor is an imposed office.  When the office is vacant,
+  the ADoP CAN, by announcement, set the Comptrollor to a player
+  chosen at random from the set of current Officers, excepting any
+  player who was most recently the Comptrollor.  The ADoP SHALL do
+  so in a timely fashion after the office becomes vacant.
+
+  When the Comptrollor office has been held for the same player for
+  30 days, it becomes vacant.
+
+  A Notice of Veto is a body of text, published by the Comptrollor,
+  clearly, directly, and without obfuscation labelled within the
+  publishing message as being a Notice of Veto.
+
+  When a Comptrollor publishes a Notice of Veto, the office of
+  Comptrollor becomes vacant.
+
+  If the text of a Notice of Veto clearly indicates certain
+  provisions within specified Proposals as being vetoed, and the
+  voting period for a decision to adopt the proposal is ongoing
+  when the Notice is published, then the provisions are vetoed.
+  For the purposes of this Rule, each individual change specified
+  within a proposal's text is a "provision".
+
+  Vetoed provisions in a proposal are prohibited from being applied
+  when the proposal takes effect (that is, that part of the
+  proposal's effect CANNOT be applied).
+
+//////////////////////////////////////////////////////////////////////
+ID: 8171
+Title: The Tiger Team
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2581 (Official Patent Titles) by inserting the following
+paragraph immediately following the paragraph that begins
+"- Helping Hand":
+
+  - Tiger Team, awardable by any Officer to any player who points
+    out a usable rules bug that would directly provide em with a
+    strong game advantage if e used it, but proposes a fix without
+    attempting to use the bug.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8172
+Title: SLR Ratification
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+Ratify the Short Logical Ruleset published on the 24th of February, 2019,
+available here [1].
+
+[1] https://mailman.agoranomic.org/cgi-bin/mailman/private/agora-official/2019-February/012797.html
+
+//////////////////////////////////////////////////////////////////////
+ID: 8173
+Title: Effective deference
+Adoption index: 3.2
+Author: Murphy
+Co-authors: Ørjan
+
+
+Amend Rule 1030 (Precedence between Rules) by replacing this text:
+
+  - In a conflict between Rules with different Power, the Rule with
+    the higher Power takes precedence over the Rule with the lower
+    Power; otherwise,
+
+with this text:
+
+  - In a conflict between Rules with different Power, the Rule with
+    the higher Power takes precedence over the Rule with the lower
+    Power; unless the Rule with the higher Power explicitly says of
+    itself that it defers to the Rule with the lower Power (or a
+    type of Rule including the Rule with the lower Power), and this
+    does not lead to contradictions between them, in which case such
+    provisions shall be used to resolve the conflict; otherwise,
+
+and by replacing this text:
+
+  Clauses in any other rule that broadly claim precedence
+
+with this text:
+
+  Clauses in any other rule that broadly claim precedence or
+  deference
+
+//////////////////////////////////////////////////////////////////////

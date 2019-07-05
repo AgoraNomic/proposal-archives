@@ -1,0 +1,55 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8177  Aris, [1]           3.0   Side-Game Suspension Act (v3)
+
+The proposal pool is currently empty.
+
+[1] D Margaux, G.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8177
+Title: Side-Game Suspension Act (v3)
+Adoption index: 3.0
+Author: Aris
+Co-authors: D Margaux, G.
+
+Enact a new power 3.0 rule, entitled "Side-Game Suspension", with the
+following text:
+
+
+  1. The Spaaace Rules are defined to be Rules 2588, 2589, 2590, 2591, 2592,
+     2593 and 2594.
+
+  2. The Politics Rules are defined to be Rules 2533, 2534, 2535, 2536, 2537,
+     2538, 2539, 2540, 2586, 2542, and 2543.
+
+  3. Rules to the contrary notwithstanding, the Spaaace Rules are suspended and
+     have no force or effect until Spaaace is Revived.
+
+  4. Rules to the contrary notwithstanding, the Politics Rules are
+     suspended and have no force or effect until Politics is Revived.
+
+  5. A player CAN with 2 support Revive Spaaace (unless Spaaace has already
+     been Revived); that player is thereby installed into the office of Astronomor.
+
+  6. A player CAN with 2 support Revive Politics (unless Politics has already
+     been Revived); that player is thereby installed into the office of Clork.
+
+  7. If Politics and Spaaace have both been Revived, then any player CAN cause
+     this Rule to repeal itself with Notice.
+
+  8. Any player CAN with Agoran Consent trigger this Rule.  When this Rule is
+     triggered, the following events happen in order: (a) the Politics Rules are
+     automatically repealed in ascending numerical order (unless Politics has been
+     Revived), (b) the Spaaace Rules are automatically repealed in ascending
+     numerical order (unless Spaaace has been Revived), and (c) this Rule is
+     automatically repealed.

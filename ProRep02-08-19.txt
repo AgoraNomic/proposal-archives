@@ -1,0 +1,314 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8152  G.                  2.0   Justice Reenactment
+8153  D Margaux           1.0   Favour Loophole Closure
+8154  CuddleBeam          1.0   [Seductive yodeling noises]
+8155  twg, Telnaior       1.0   Spaaace Loophole #493
+8156  Trigon              3.0   version ∞
+8157  Trigon              1.0   No one likes a (space) bully
+8158  D Margaux,  G.      3.0   The Duumvirate v.1.2
+8159  G.                  3.0   Temporary Deputies
+8160  D Margaux           1.0   Justice Favour Adjustments
+8161  Trigon, Ørjan       3.0   Extend "amend" and "reenact"
+8162  Telnaior, G.        2.0   No Contract Reporting Rewards
+8163  twg                 3.0   Holey Loops, Batman!
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8152
+Title: Justice Reenactment
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Re-enact Rule 2246 (name at repeal: Submitting a CFJ to the Justiciar),
+at Power-2, and the following text:
+
+  When a person initiates a Call for Judgement, e CAN, optionally,
+  submit it to the Referee by announcement. All persons are
+  ENCOURAGED to submit a case to the Referee only when there is a
+  good reason not to let it be processed by the Arbitor as usual.
+
+  When a CFJ is submitted to the Referee, the Referee receives all
+  obligations and powers for the specific case that the Arbitor
+  would otherwise receive due to being Arbitor.  This takes
+  precedence over Rules that would otherwise assign duties and
+  powers regarding a judicial case to the Arbitor.
+
+
+Retitle Rule 2246 to "Submitting a CFJ to the Referee".
+
+
+
+[
+History of R2246:
+Created by Proposal 6181 (comex), 7 April 2009
+Amended(1) by Proposal 6333 (coppro), 29 May 2009
+Amended(2) by Proposal 6496 (coppro), 26 September 2009
+Amended(3) by Proposal 6662 (Murphy; disi.), 10 March 2010
+Amended(4) by Proposal 6752 (Murphy), 2 August 2010
+Amended(5) by Proposal 6891 (coppro), 20 November 2010
+Repealed by Proposal 6961 '52-pickup v2' (G.), 3 March 2011
+]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8153
+Title: Favour Loophole Closure
+Adoption index: 1.0
+Author: D Margaux
+Co-authors:
+
+
+Amend Rule 2542 to replace:
+
+  “The following officers CAN by announcement award Favours in the listed
+  Parties, but SHALL NOT do so except as required by rule.”
+
+With:
+
+  “The following officers CAN by announcement award Favours in the listed
+  Parties only to the extent required by rule.”
+
+
+//////////////////////////////////////////////////////////////////////
+ID: 8154
+Title: [Seductive yodeling noises]
+Adoption index: 1.0
+Author: CuddleBeam
+Co-authors:
+
+
+In Rule 2594, change "Any player whose Fame is either 10 or -10 CAN win the
+game With 2 Days
+Notice." to "Any player whose Fame is either 10 or -10 CAN Become One With
+The Cosmos With 2 Days Notice.
+
+When a player Becomes One With The Cosmos, if their Fame is either 10 or
+-10, their Fame is set to 0 and they win the game."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8155
+Title: Spaaace Loophole #493
+Adoption index: 1.0
+Author: twg
+Co-authors: Telnaior
+
+
+Amend Rule 2591, "Spaceships", by changing the text "Armour (an
+integer switch limited to values from 0 to 10 inclusive)" to "Armour
+(an integer switch limited to values less than or equal to 10)" and
+by changing the text 'A Spaceship with an Armour of 0 is "Defeated"'
+to 'A Spaceship with an Armour of 0 or less is "Defeated"'.
+
+[There are other ways to patch this, but I feel this is more elegant.
+ If anybody else prefers a different solution, feel free to propose
+ it.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8156
+Title: version ∞
+Adoption index: 3.0
+Author: Trigon
+Co-authors:
+
+
+Amend Rule 2350 (Power=3) 'Proposals' by adding an item to the bulleted
+list:
+
+  * A version, which SHOULD only be used when a proposal has been
+   retracted and another proposal has been created with a similar
+   purpose.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8157
+Title: No one likes a (space) bully
+Adoption index: 1.0
+Author: Trigon
+Co-authors:
+
+
+Amend the paragraph beginning "A Space Battle CANNOT be initiated" in
+Rule 2593 (Power=1) 'Space Battles' by removing the final period and
+adding the following: "or if the prior Space Battle the spaceship
+initiating the Space Battle has been in was against the spaceship it is
+attacking."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8158
+Title: The Duumvirate v.1.2
+Adoption index: 1.0
+Author: D Margaux
+Co-authors: G.
+
+
+Enact a power 3 rule entitled "The Duumvirate" with the following text:
+
+{
+The Duumvirate is an organization whose members are D. Margaux and G.
+Each member of the Duumvirate is a "Dictator."
+
+Either Dictator CAN by announcement cause this Rule to repeal itself.
+
+No person can act on behalf of a Dictator (other than the Dictator acting as
+emself).
+
+A Decree is a document clearly labeled as such. Either Dictator CAN proclaim a
+Decree with support from the other Dictator.
+
+When a Decree is proclaimed, then:
+
+     (1)  its power is set to 3;
+
+     (2)  it takes effect by applying to the gamestate the changes specified
+          in the text of the Decree, to the greatest extent permitted by the
+          rules; and then,
+
+     (3) its power is set to 0.
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: 8159
+Title: Temporary Deputies
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2160 (Deputisation) by replacing:
+  5. the deputy, when performing the action, announces that e is
+  doing so by deputisation.
+with:
+  5. the deputy, when performing the action, announces that e is
+  doing so by deputisation or by temporary deputisation.
+
+and by replacing:
+  When a player deputises for an elected office, e becomes the
+  holder of that office, unless the action being performed would
+  already install someone into that office.
+with:
+  When a player deputises for an elected office, e becomes the
+  holder of that office, unless the action being performed would
+  already install someone into that office, and/or unless the
+  deputisation is temporary.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8160
+Title: Justice Favour Adjustments
+Adoption index: 3.0
+Author: D Margaux
+Co-authors:
+
+
+[[Comment: This proposal fixes a mistaken reference to “cards,” requires the
+Referee to act in a timely fashion, and increases the reward to encourage a
+little more finger pointing, which I find to be an entertaining part of the
+game.]]
+
+Amend Rule 2542 to replace:
+
+  {When a player's Finger-Pointing leads to a Card award, or when the Referee
+  issues Summary Judgement, the Referee shall award a Favour in the Party
+  holding Justice to the responsible player.}
+
+With:
+  {When a player's Finger-Pointing results in a player being fined one or more
+  blots, or when the Referee issues Summary Judgement, the Referee SHALL in a
+  timely fashion award 2 Favours in the Party holding Justice to the responsible
+  player.}
+
+//////////////////////////////////////////////////////////////////////
+ID: 8161
+Title: Extend "amend" and "reenact"
+Adoption index: 3.0
+Author: Trigon
+Co-authors: Ørjan
+
+
+[ Comment: I stole Ørjan's wording for the third bullet point under
+   reenactments and I got rid of all instances of "re-enact", opting for
+   the nonhyphenated version. I also changed the title slightly. ]
+
+Amend Rule 105 (Power=3) 'Rule Changes' by removing items 3-6 in the
+ordered list and then adding to that list:
+
+  3. reenact a rule. A repealed rule not in the ruleset identified
+     by its most recent rule number MUST be specified for
+     reenactment. The rule's properties are to be set as follows:
+
+    * its ID number will be the same as it was when the rule was
+      most recently repealed.
+
+    * its change identifier will be one more than its change
+      identifier when it was most recently repealed.
+
+    * Each of its text, power and title shall be as provided by the
+      reenacting instrument, or if not provided, the same as when
+      it was most recently repealed, with power defaulting to 1 if
+      it had none. The rule SHOULD have materially the same purpose
+      as did the repealed version.
+
+    If the reenacting instrument is incapable of setting the
+    reenacted rule's power to that value, then the reenactment is
+    INEFFECTIVE.
+
+  4. amend a rule. This may include changing the rule's text, name,
+     or power.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8162
+Title: No Contract Reporting Rewards
+Adoption index: 2.0
+Author: Telnaior
+Co-authors: G.
+
+
+Add the following line to Rule 1006 ("Offices") after "If the holder of
+an office is ever not a player, it becomes vacant.":
+
+"Offices can only exist as long as they are defined by a rule."
+
+Amend the phrase "Publishing a duty-fulfilling report" in Rule 2496
+("Rewards") to the following:
+"Publishing a report fulfilling the weekly or monthly duties of an office"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8163
+Title: Holey Loops, Batman!
+Adoption index: 3.0
+Author: twg
+Co-authors:
+
+
+Amend Rule 1742, "Contracts", by inserting, between the fifth and
+sixth sentences of the first paragraph, the sentence "It is IMPOSSIBLE
+for a person to become a party to a contract without eir agreement."
+
+Amend Rule 2124, "Agoran Satisfaction", by changing each occurrence of
+"eligible entity" to "eligible entity, acting as emself,".
+
+Amend Rule 869, "How to Join and Leave Agora", by changing "A player
+CAN deregister" to "A player, acting as emself, CAN deregister".
+
+Amend Rule 2480, "Festivals", by changing the second paragraph to:
+
+  If Agora's Festivity has had the same nonzero value for 14 days or
+  more, or if it has a nonzero value and fewer than 5 players are
+  Festive, then any player CAN flip it to 0 by announcement.
+
+Amend Rule 683, "Voting on Agoran Decisions", by changing "a player
+CAN by announcement withdraw (syn. retract) a ballot that e submitted"
+to "an entity CAN by announcement withdraw (syn. retract) a ballot
+that e submitted".
+
+//////////////////////////////////////////////////////////////////////

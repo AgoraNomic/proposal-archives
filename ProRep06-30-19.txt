@@ -1,0 +1,127 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 7, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)              AI    Title
+---------------------------------------------------------------------------
+8196  Jason Cobb, Falsifian  1.7   Perfecting pledges (v1.2)
+8197  G.                     none  no power is all powerful
+8198  Jason Cobb             1.0   Be gone, foul demon!
+8199  Jason Cobb             3.0   Fixing instant runoff
+8200  Aris, G.               3.0   Sane AI Defaulting
+8201  Aris                   3.0   Just Make Them Write It Out
+
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8196
+Title: Perfecting pledges (v1.2)
+Adoption index: 1.7
+Author: Jason Cobb
+Co-authors: Falsifian
+
+
+[Comment: This clarifies the wording to explicitly use both the time
+window and penalty specified in the Oath. This also specifies that
+pledges can only be violated once.]
+
+Amend the first paragraph of Rule 2450 ("Pledges") to read:
+
+  If a Player makes a clear public pledge (syn. Oath) to perform (or
+  refrain from performing) certain actions, then breaking the pledge
+  within the pledge's time window is the Class N crime of
+  Oathbreaking. If the pledge specifically states that the pledge is
+  under penalty of a Class A crime, where A is an integer not less
+  than 1, then N is A; otherwise, N is 2. If the pledge specifically
+  states that it operates only for a certain time window, and if that
+  time window is prospective and not retrospective, then it operates
+  only for that time window; otherwise, the pledge operates for 60
+  days. It is impossible to commit the crime of Oathbreaking multiple
+  times for a single pledge; breaking a single pledge multiple times
+  constitutes a single crime.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8197
+Title: no power is all powerful
+Adoption index: none
+Author: G.
+Co-authors:
+
+
+Create the following Rule, "Supreme Power", Power=4:
+
+  G. CAN make arbitrary changes to the gamestate by announcement.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8198
+Title: Be gone, foul demon!
+Adoption index: 1.0
+Author: Jason Cobb
+Co-authors:
+
+
+Repeal Rule 2596 ("The Ritual").
+
+//////////////////////////////////////////////////////////////////////
+ID: 8199
+Title: Fixing instant runoff
+Adoption index: 3.0
+Author: Jason Cobb
+Co-authors:
+
+
+Amend item 3 of the only list of Rule 2528 ("Voting Methods") to read:
+
+  3. For an instant runoff decision, non-empty ordered lists for which
+  each element is a valid option.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8200
+Title: Sane AI Defaulting
+Adoption index: 3.0
+Author: Aris
+Co-authors: G.
+
+
+Amend Rule 1950 (Decisions with Adoption Indices) by replacing:
+  Adoption index is an untracked switch possessed by Agoran
+  decisions and proposals, whose value is either "none" (default) or
+  an integral multiple of 0.1 from 1.0 to 9.9.
+with:
+  Adoption index (AI) is an untracked switch possessed by Agoran
+  decisions and proposals.  For decisions, the possible values are
+  "none" (default) or integral multiples of 0.1 from 1.0 to 9.9.
+  For proposals, the possible values are integral multiples of 0.1
+  from 1.0 to 9.9 (default 1.0).
+
+//////////////////////////////////////////////////////////////////////
+ID: 8201
+Title: Just Make Them Write It Out
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+[It's terribly confusing for everyone to leave out a proposal title. Leaving
+out AI only works if it's 1.0 anyway, and confuses me every time I see it.
+I usually spend like a solid minute checking that I haven't missed something
+as Promotor and that the proposal is effective at that power as a player.
+Just making these fields mandatory would save everyone so much trouble and
+be only marginally more work for authors.]
+
+Amend Rule 2350, "Proposals", by changing the first paragraph, including
+the following list, to read in full:
+
+  A proposal is an entity consisting of a body of text and
+  other attributes. A player CAN create a proposal by announcement,
+  specifying its text, an associated title, and a valid adoption index, and
+  optionally specifying a list of co-authors (who must be persons other
+  than the author).
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,170 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 9, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)             AI    Title
+---------------------------------------------------------------------------
+8180  Trigon, D Margaux     1.0   Paying our Assessor
+8181  D Margaux, [1]        1.7   Referee CAN Impose Fines (v1.1)
+8182  Jason Cobb            3.0   Add value to zombies
+8183  V.J. Rada, Tiger      3.0   Regulated Actions Reform
+8184  G.                    3.0   power-limit precedence
+8185  Trigon                3.0   OUGHT we?
+8186  Jason Cobb            3.0   Minor currency fixes
+8187  Jason Cobb            3.0   Not so indestructible now, eh?
+
+[1] Falsifian, twg
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8180
+Title: Paying our Assessor
+Adoption index: 1.0
+Author: Trigon
+Co-authors: D Margaux
+
+
+[ Comment: This is something I didn't include from the version of
+   Rule 2496 that I didn't include for whatever reason. ]
+
+To Rule 2496 "Rewards" add the following bullet point after the third
+one:
+  "Resolving an Agoran Decision on whether to adopt a proposal,
+  provided that no other Agoran Decision on whether to adopt that or any
+  other proposal had been resolved earlier in that Agoran week: 5 coins."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8181
+Title: Referee CAN Impose Fines (v1.1)
+Adoption index: 1.7
+Author: D Margaux
+Co-authors: Falsifian, twg
+
+
+Amend Rule 2478 to replace this text:
+
+  “When a player Points a Finger, the investigator SHALL investigate the
+  allegation and, in a timely fashion, SHALL conclude the investigation by:”
+
+With this text:
+
+  “When a player Points a Finger, the investigator SHALL investigate the
+  allegation and CAN, and in a timely fashion SHALL, conclude the investigation
+  by:”
+
+//////////////////////////////////////////////////////////////////////
+ID: 8182
+Title: Add value to zombies
+Adoption index: 3.0
+Author: Jason Cobb
+Co-authors:
+
+
+Amend Rule 2574 as follows:
+
+  Replace the text
+    "Resale is a secured natural switch for zombies"
+  with the text
+    "Resale value is a secured natural switch for zombies".
+
+  Replace the text "Resale value" in the third item of the only list
+  with the text "resale value".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8183
+Title: Regulated Actions Reform
+Adoption index: 3.0
+Author: V.J. Rada
+Co-authors: Tiger
+
+
+Amend Rule 2125 "Regulated Actions" by replacing the text
+  "The Rules SHALL NOT be interpreted so as to proscribe unregulated actions."
+
+with the text
+
+  "Nothing in the Rules and no other Entity nor any other thing under these
+  rules proscribes unregulated actions, and this sentence takes precedence
+  over any Rule or Entity that could be interpreted as proscribing such an
+  action"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8184
+Title: power-limit precedence
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2140 (Power Controls Mutability) by replacing:
+      No entity with power below
+with:
+      Rules to the contrary notwithstanding, no entity with power below
+
+//////////////////////////////////////////////////////////////////////
+ID: 8185
+Title: OUGHT we?
+Adoption index: 3.0
+Author: Trigon
+Co-authors:
+
+In Rule 2152:
+  replace "SHOULD NOT, DISCOURAGED, DEPRECATED"
+  with "SHOULD NOT, OUGHT NOT, DISCOURAGED, DEPRECATED",
+
+  and replace "SHOULD, ENCOURAGED, RECOMMENDED"
+  with "SHOULD, OUGHT, ENCOURAGED, RECOMMENDED"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8186
+Title: Minor currency fixes
+Adoption index: 3.0
+Author: Jason Cobb
+Co-authors:
+
+Amend Rule 2578 ("Currencies") as follows:
+
+  Replace all instances of the text '"Agora's official currency"' with
+  the text "the official currency of Agora". [Note: this strikes the
+  quotation marks]
+
+  Amend Rule 2549 ("Auction Initiation") as follows:
+  Replace all instances of the text "Agora's official currency" with
+  the text "the official currency of Agora".
+
+  Amend Rule 2483 ("Economics") as follows:
+
+  Replace the text "Coins are the official currency of Agora tracked
+  by the Treasuror." with the text "Coins are the official currency of
+  Agora and are tracked by the Treasuror."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8187
+Title: Not so indestructible now, eh?
+Adoption index: 3.0
+Author: Jason Cobb
+Co-authors:
+
+[Comment: This fixes the underlying issue behind my recently submitted
+CFJ. This also allows contracts to destroy their own indestructible assets.]
+
+
+Amend the first paragraph of Rule 2577 as follows:
+
+  Replace the text
+    "An indestructible asset is one defined as such by it backing document,
+    and CANNOT be destroyed except by a proposal or rule, other
+    than this one, specifically addressing the destruction of indestructible
+    assets or that asset in particular"
+  with the text
+    "An indestructible asset is one defined as such by its backing document,
+    and CANNOT be destroyed except as explicitly specified by its backing
+    document"
+
+//////////////////////////////////////////////////////////////////////

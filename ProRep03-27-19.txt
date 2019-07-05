@@ -1,0 +1,38 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8174  G.                  1.0   Understated
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8174
+Title: Understated
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2496 (Rewards) by replacing:
+       A player CAN earn the set of assets associated with a reward
+       condition exactly once in a timely fashion each time e fulfills it
+       by stating how many assets e earns as a result of this action.
+with:
+       A player CAN, by announcement, earn the set of assets associated
+       with a reward condition exactly once in a timely fashion each time
+       e fulfills it, provided the announcement specifies the action that
+       e performed and the amount of assets e earns as a result.
+
+[in addition to putting in the 'by announcement', use of the term
+'specify' invokes the same standard as in R478 that (by precedent)
+allows for shorthand, references, quanging, etc.]
+
+//////////////////////////////////////////////////////////////////////

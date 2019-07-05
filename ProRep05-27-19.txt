@@ -1,0 +1,64 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8178  Trigon              3.0   n't
+8179  D Margaux, Aris     2.0   Intent is Important (v1.1)
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8178
+Title: n't
+Adoption index: 3.0
+Author: Trigon
+Co-authors:
+
+
+In Rule 2125 'Mother, May I?':
+
+  replace: "CANNOT, IMPOSSIBLE, INEFFECTIVE, INVALID"
+  with:    "CANNOT, CAN'T, IMPOSSIBLE, INEFFECTIVE, INVALID"
+
+  replace: "MUST NOT, MAY NOT, SHALL NOT, ILLEGAL, PROHIBITED"
+  with:    "MUST NOT, MUSTN'T, MAY NOT, SHALL NOT, SHAN'T, ILLEGAL,
+  PROHIBITED"
+
+  replace: "NEED NOT, OPTIONAL"
+  with:    "NEED NOT, NEEDN'T, OPTIONAL"
+
+  replace: "SHOULD NOT, DISCOURAGED, DEPRECATED"
+  with:    "SHOULD NOT, SHOULDN'T, DISCOURAGED, DEPRECATED"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8179
+Title: Intent is Important (v1.1)
+Adoption index: 2.0
+Author: D Margaux
+Co-authors: Aris
+
+
+[Comment: I don’t think we should be fining people for actions unless they
+knew or should know they are violating the rules (what the criminal law
+calls a “guilty mind”).]
+
+In Rule 2531, in the list that follows this text:
+
+“Any attempt to levy a fine is INEFFECTIVE if:”
+
+Add the following text as paragraph 3:
+
+“(3) the perp likely did not know and reasonably should not be expected to
+have known that e violated the rules as a result of the action or inaction
+that is the reason for the levy;”
+
+And renumber the rest of the list accordingly.
+
+//////////////////////////////////////////////////////////////////////

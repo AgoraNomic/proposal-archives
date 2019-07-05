@@ -1,0 +1,54 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID     Author(s)           AI    Title
+---------------------------------------------------------------------------
+8174A  G.                  1.0   Understated
+8175   Aris                3.0   SLR Ratification
+
+The proposal pool is currently empty.
+
+Legend: <ID>A : Distribution identifier for a second distribution.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8174
+Title: Understated
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2496 (Rewards) by replacing:
+       A player CAN earn the set of assets associated with a reward
+       condition exactly once in a timely fashion each time e fulfills it
+       by stating how many assets e earns as a result of this action.
+with:
+       A player CAN, by announcement, earn the set of assets associated
+       with a reward condition exactly once in a timely fashion each time
+       e fulfills it, provided the announcement specifies the action that
+       e performed and the amount of assets e earns as a result.
+
+[in addition to putting in the 'by announcement', use of the term
+'specify' invokes the same standard as in R478 that (by precedent)
+allows for shorthand, references, quanging, etc.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8175
+Title: SLR Ratification
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+Ratify the Short Logical Ruleset published on the 24th of February, 2019,
+available here [1].
+
+[1] https://mailman.agoranomic.org/cgi-bin/mailman/private/agora-official/2019-February/012797.html
+
+//////////////////////////////////////////////////////////////////////

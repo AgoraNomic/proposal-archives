@@ -1,0 +1,29 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 2, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8176  G.                  2.0   Zombies take care of this now
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8176
+Title: Zombies take care of this now
+Adoption index: 2.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2139 (The Registrar) by deleting:
+  In the first Eastman week of every month the Registrar SHALL
+  attempt to deregister every player that has not sent a message to
+  a public forum in the preceding month.
+
+//////////////////////////////////////////////////////////////////////

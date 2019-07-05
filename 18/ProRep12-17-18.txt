@@ -94,11 +94,11 @@ text:
 
   Violation of this rule is the Class-3 Crime of Galaxy Neglect.
 
-  Enact a new rule "The Astronomor" (Power=1.0) with the following text:
+Enact a new rule "The Astronomor" (Power=1.0) with the following text:
 
-    The Astronomor is an office. The Astronomor's weekly report
-    includes, in addition to any information required by other rules, a
-    list of all Sectors and their ID numbers.
+  The Astronomor is an office. The Astronomor's weekly report
+  includes, in addition to any information required by other rules, a
+  list of all Sectors and their ID numbers.
 
 Enact a new rule "Spaceships" (Power=1.0) with the following text:
 
@@ -223,10 +223,9 @@ Enact a new rule "Fame" (Power=1.0) with the following text:
   Any player whose Fame is either 10 or -10 CAN win the game With 2
   Days Notice.
 
+
 Perform the following action a number of times equal to (the number of
 registered players + 2): Create a Sector.
-
-
 
 Perform the following action for each player, iterating over them in
 order of the days of the year (1 January to 31 December) on which they

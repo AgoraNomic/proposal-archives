@@ -1,0 +1,110 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID    Author(s)           AI    Title
+---------------------------------------------------------------------------
+8146  twg                 0.1   Powerless Tangeloes
+8147  twg                 0.1   Tangeloes Taking Precedence
+8148  twg                 3.0   Powerful Tangeloes
+8149  twg, G.             1.0   Bad Space Captaincy Legalisation
+8150  twg, Trigon         1.0   Sharing the Wealth Again
+8151  twg., G.            1.0   With apologies to Michael Suber
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8140
+Title: Powerless Tangeloes
+Adoption index: 0.1
+Author: twg
+Co-authors:
+
+
+Enact a new rule "The Tangelo Rule" (Power=0.1) with the following
+text:
+
+  Tangelo. All rules begin with the word "Tangelo". This rule
+  automatically repeals itself 10 days after it is enacted.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8141
+Title: Tangeloes Taking Precedence
+Adoption index: 0.1
+Author: twg
+Co-authors:
+
+
+If a rule named "The Tangelo Rule" exists, amend it by replacing the
+text "All rules" with "Rules to the contrary notwithstanding, all
+rules".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8142
+Title: Powerful Tangeloes
+Adoption index: 3.0
+Author: twg
+Co-authors:
+
+
+If a rule named "The Tangelo Rule" exists, set its Power to 3.0.
+
+Otherwise, enact a new rule "The Tangelo Rule" (Power=3.0) with the
+following text:
+
+  Tangelo. All rules begin with the word "Tangelo". This rule
+  automatically repeals itself 10 days after it is enacted.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8143
+Title: Bad Space Captaincy Legalisation
+Adoption index: 1.0
+Author: twg
+Co-authors: G.
+
+
+Amend the Rule entitled "Space Battles" by changing the words
+"the combatants SHALL" to "the combatants SHOULD".
+
+Amend the Rule entitled "Space Battles" by removing the following
+paragraph:
+
+  Failing to do so is the Class-2 Crime of Being a Bad Space Captain.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8144
+Title: Sharing the Wealth Again
+Adoption index: 1.0
+Author: twg
+Co-authors: Trigon
+
+
+Amend rule 2496 "Rewards" by replacing the list element beginning "Being
+the author" to read:
+
+  * The following apply to adopted proposals:
+
+    *  Being the author: a number of coins equal to ((the total
+       number of valid ballots cast FOR the decision - the total
+       number of valid ballots cast AGAINST) times its adoption
+       index) rounded up.
+    *  Being listed as a coauthor: the same amount, divided by 2 and
+       rounded up.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8145
+Title: With apologies to Michael Suber
+Adoption index: 1.0
+Author: twg
+Co-authors: G.
+
+
+Amend Rule 2593, "Space Battles", by replacing the word
+"non-combatant" with "active non-combatant player".
+
+//////////////////////////////////////////////////////////////////////
