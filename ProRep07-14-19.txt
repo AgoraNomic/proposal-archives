@@ -1,0 +1,454 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 7, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID     Author(s)              AI    Title
+---------------------------------------------------------------------------
+8188A  G.                     3.0   Blanket Denial
+8189A  Jason Cobb             1.7   Rule 2479 Cleanup (v1.2)
+8190A  G., D Margaux          2.0   Report Rewards
+8191A  R. Lee                 1.1   Spaceships
+8192A  G.                     1.0   auctions have fees
+8195A  Aris, omd, Jason Cobb  3.0   Timeline Control Ordnance v2
+8202   Falsifian, Jason Cobb  1.7   Police Power
+8203   Jason Cobb             2.0   Fixing Summary Judgement
+8204   R. Lee                 1.0   SMH @ Herald
+8205   R. Lee                 1.7   Timing proposal w/ no effect
+8206   Jason Cobb             2.0   Rule 2472 Simplification
+8207   G.                     [1]   no power is all powerful
+8208   Jason Cobb, [2]        3.0   Regulated actions reform (v2)
+8209   D Margaux, [3]         2.0   AFK Reform Act v1.1
+8210   Jason Cobb             2.5   Single-party Contracts
+8211   G.                     3.0   Law School
+8212   Jason Cobb             3.0   Rule Recreation Reversal
+8213   nch                    1.0   Space Fixes
+8214   nch                    1.0   Space Isn't Linear
+
+The proposal pool is currently empty.
+
+[1] The proposal has AI "none", whereas the decision shall have AI 1.0.
+[2] Aris, omd, G., Falsifian
+[3] G., Jason Cobb
+
+Legend: <ID>A : Distribution identifier for a second distribution.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8188
+Title: Blanket Denial
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2201 (Self-Ratification) by replacing:
+  do one of the following in a timely fashion:
+with
+  do one of the following in a timely fashion, in an announcement
+  that clearly cites the claim of error:
+
+//////////////////////////////////////////////////////////////////////
+ID: 8189
+Title: Rule 2479 Cleanup (v1.2)
+Adoption index: 1.7
+Author: Jason Cobb
+Co-authors:
+
+
+Amend Rule 2479 ("Official Justice") as follows:
+
+Replace the text
+
+>  The Referee CAN, subject to the provisions of this rule, impose
+>  Summary Judgment on a person who plays the game by levying a fine
+>  of up to 2 blots on em. Summary Judgement is imposed on the
+>  Referee's own initiative, and not in response to any official
+>  proceeding.
+
+with the text
+
+>  Subject to the provisions of this rule, the Referee CAN, by announcement,
+>  impose Summary Judgment on a player. When e does so, e levies a fine of
+>  up to 2 Blots on em. If e does not specify the number of Blots in the fine,
+>  the attempt to impose Summary Judgment is INEFFECTIVE. Summary Judgement is
+>  imposed on the Referee's own initiative, and not in response to any official proceeding.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8190
+Title: Report Rewards
+Adoption index: 2.0
+Author: G.
+Co-authors: D Margaux
+
+
+Amend Rule 1006 (Offices) by prepending the following text to the 1st
+paragraph:
+  An Office is a position described as an Office by the Rules.
+
+Amend Rule 2496 (Rewards) by replacing:
+  * Publishing a duty-fulfilling report: 5 coins. For each office,
+    this reward can only be claimed for the first weekly report
+    published in a week and the first monthly report published in a
+    month.
+with:
+  * Publishing an office's weekly or monthly report, provided that
+    publication was the first report published for that office in
+    the relevant time period (week or month respectively) to fulfill
+    an official weekly or monthly duty: 5 coins.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8191
+Title: Spaceships
+Adoption index: 1.1
+Author: R. Lee
+Co-authors:
+
+
+Create a spaceship in the possession of each player without a
+spaceship
+
+//////////////////////////////////////////////////////////////////////
+ID: 8192
+Title: auctions have fees
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+[The payment rule for auctions just says that if you happen to have an
+auction debt, if you pay Agora under any circumstances, it triggers
+stuff.  This means, if someone happens to have two auction debts, they
+can make one payment and it would count for both.  This brings things
+into line.]
+
+Amend Rule 2551 (Auction End) by replacing:
+  The winner of a lot SHALL pay the Auctioneer the number of the
+  Auction's currency equal to eir bid, in a single payment, in a
+  timely fashion.
+with:
+  The winner of the lot SHALL, in a timely fashion, pay a fee (the
+  number of the Auction's currency equal to eir bid) to the
+  Auctioneer in order to satisfy eir auction debt.
+
+[This makes "satisfying eir auction debt" a fee-based action governed
+under R2579, which didn't exist when the auction rules were written.
+R2579 then takes care of the various CANs and method details.  The
+transfer of the lots is then a consequence of "satisfying eir auction
+debt"].
+
+//////////////////////////////////////////////////////////////////////
+ID: 8195
+Title: Timeline Control Ordnance v2
+Adoption index: 3.0
+Author: Aris
+Co-authors: omd, Jason Cobb
+
+
+Enact a new power 3.1 Rule, entitled "Timelines", with the following text:
+
+  A timeline is a temporal sequence of events and states.
+
+  The Objective Timeline is the timeline of matters as they actually happened.
+  On the Objective Timeline, the consequences of an event are determined
+  based on the conditions actually in effect, under Agoran law, when that event
+  occurred. The Objective Timeline is not part of the gamestate; instead, it
+  is the recording of events on reality itself, and changing it retroactively
+  without actual time travel is thus IMPOSSIBLE, rules to the contrary
+  notwithstanding.
+
+  The Standard Timeline is the timeline used for the purposes of ordinary
+  gameplay. By default, the Standard Timeline is defined by events and their
+  consequences in the same way that the Objective Timeline is. However,
+  the Standard Timeline is part of the gamestate. Accordingly, it can be
+  modified retroactively; such retroactive modifications are secured
+  at power 3.
+
+  Attempted retroactive changes are to be interpreted as attempts to change the
+  Standard Timeline. All changes are to be interpreted as prospective unless
+  they are explicitly retroactive.
+
+  By default, any entity with a power less than the power of this rule that
+  refers to the past, present, or future is to be interpreted as referring to
+  the Standard Timeline; however, entities may explicitly reference
+  different timelines.
+
+Amend Rule 1551, "Ratification" by changing the text "the gamestate is modified"
+to read "the gamestate is retroactively modified".
+
+Amend Rule 591, "Delivering Judgements", by changing the text
+
+  "The valid judgements for an inquiry case are as follows, based on
+  the facts and legal situation at the time the inquiry case was
+  initiated, not taking into account any events since that time:"
+
+to read
+
+  "The judgement of an inquiry case should be based on the facts and legal
+  situation as they objectively existed at the time the inquiry case was
+  initiated, not taking into account any events or retroactive modifications
+  since that time.
+
+  The valid judgements for an inquiry case are as follows:"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8202
+Title: Police Power
+Adoption index: 1.7
+Author: Falsifian
+Co-authors: Jason Cobb
+
+
+In Rule 2557, replace the first paragraph with:
+
+  When the rules authorize an investigator to impose the Cold Hand
+  of Justice for a violation, e CAN do so by levying a fine of B on
+  the perp by announcement, within the following guidelines:
+
+and add a new list item at the start of the list (that is, right after
+the first paragraph), with the text:
+
+  - B is at least 1 and at most twice the base value of the
+    violation.
+
+Retitle Rule 2557 to "Sentencing Guidelines".
+
+[Comment: Rule 2557 is currently titled "Removing Blots". When I tried
+to understand why, I noticed that the 2018-04-07 SLR lists two Rule
+2557s, one of which actually is about removing blots, and the other of
+which is titled "Sentencing Guidelines". The next SLR I could find is
+published much later, 2018-10-14, and has R2557 in or close to its
+current form. I don't know exactly what happened there.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8203
+Title: Fixing Summary Judgement
+Adoption index: 2.0
+Author: Jason Cobb
+Co-authors:
+
+
+Amend Rule 2531 ("Referee Accountability") as follows:
+
+  After list item (1) insert the following phrase: "Any attempt to
+  levy a fine pursuant to the imposition of the Cold Hand of Justice
+  is INEFFECTIVE if:"
+
+  Renumber list items (2) - (8) to be items (1) - (7) in the new list.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8204
+Title: SMH @ Herald
+Adoption index: 1.0
+Author: R. Lee
+Co-authors:
+
+
+1. Halve (rounding towards 0) the Karma of every Unregistered person.
+
+2. Set the Karma of Agora such that the sum of all Karma switch
+instance values in the game is equal to 0.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8205
+Title: Timing proposal w/ no effect
+Adoption index: 1.7
+Author: R. Lee
+Co-authors:
+
+
+R. Lee pledges to timely transfer half of the money e gains from  the
+adoption of this proposal to the last person to vote FOR this proposal.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8206
+Title: Rule 2472 Simplification
+Adoption index: 2.0
+Author: Jason Cobb
+Co-authors:
+
+
+[Comment: use "with Notice" instead of writing it out.]
+
+Replace the last paragraph of Rule 2472 ("Office Incompatibilities")
+with the following paragraph:
+
+  If a player is Overpowered, any player CAN, with Notice, Demand
+
+  Overpowered player holds becomes vacant.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8207
+Title: no power is all powerful
+Adoption index: none
+Author: G.
+Co-authors:
+
+
+Create the following Rule, "Supreme Power", Power=4:
+
+  G. CAN make arbitrary changes to the gamestate by announcement.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8208
+Title: Regulated actions reform (v2)
+Adoption index: 3.0
+Author: Jason Cobb
+Co-authors: Aris, omd, G., Falsifian
+
+
+[Comment: see proto thread for changes and rationales.]
+
+
+Amend Rule 2493 ("Regulations") as follows:
+
+  Append the following text to the first paragraph: "Regulations are
+  binding."
+
+
+Amend Rule 1742 ("Contracts") as follows:
+
+  Append the following sentence to the first paragraph: "Contracts are
+  binding."
+
+
+Amend Rule 2125 ("Regulated Actions") to read:
+
+  An entity is binding if and only if the Rules designate it as such.
+  The Rules as a whole is an entity that is binding; this entity is
+  known as the ruleset.
+
+  An action is regulated by a binding entity if: (1) the entity
+  directly and explicitly defines, limits, allows, enables, permits,
+  forbids, or requires its performance; (2) the entity describes the
+  circumstances under which the action would succeed or fail; or (3)
+  the action would, as part of its effect, modify information for
+  which the entity requires some player to be a "recordkeepor".
+
+  When a binding entity explicitly defines an action, describes the
+  possibility of performing an action, or describes the methods by
+  which an action can be performed, it creates an action that is
+  distinct from all other actions; the binding entity is said to "own"
+  this created action. A binding entity CAN only state that it
+  requires or forbids an action that it does not own; it CANNOT modify
+  any other properties of the action.
+
+  An action that is owned by a binding entity CAN only be performed as
+  described by the entity, and only using the methods explicitly
+  specified in the entity for performing the given action.
+  Interpretations that result in the entity directly proscribing
+  actions that are not regulated by it are invalid.
+
+
+Retitle Rule 2125 to "Binding Entities".
+
+Set the power of Rule 2125 to 3.1.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8209
+Title: AFK Reform Act v1.1
+Adoption index: 2.0
+Author: D Margaux
+Co-authors: G., Jason Cobb
+
+
+Amend rule 2532 as follows:
+
+Add this sentence:
+
+  "A player CAN by announcement pay 10 coins to Agora to flip to emself
+  another player's master switch without objection from that other player
+  or that other player's master (if any), provided the intent to flip that
+  switch was announced at least 7 days before the switch is flipped."
+
+Immediately following this sentence:
+
+  "A zombie's master CAN flip that zombie's master switch to Agora
+  by announcement."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8210
+Title: Single-party Contracts
+Adoption index: 2.5
+Author: Jason Cobb
+Co-authors:
+
+
+Amend Rule 1742 ("Contracts") by replacing the text "Any group of two or
+more" with the text "Any group of one or more".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8211
+Title: Law School
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+In R1367, Insert the following line between the line starting
+"- Associate" and the line starting "- Bachelor":
+    - Juris Doctor of Nomic                  (J.N.)
+
+In R1367, Insert the following line between the line starting
+"- Doctor of Nomic History" and the line starting
+"- Doctor of Nomic Science":
+    - Doctor of Nomic Law                (D.N.Law.)
+
+If Falsifian has not been awarded a degree, Award Falsifian the degree
+of J.N.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8212
+Title: Rule Recreation Reversal
+Adoption index: 3.0
+Author: Jason Cobb
+Co-authors:
+
+
+Repeal Rule 2517.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8213
+Title: Space Fixes
+Adoption index: 1.0
+Author: nch
+Co-authors:
+
+
+Amend rule 2591 "Spaceships" by changing:
+
+  * Armour (an integer switch limited to values less than or equal to
+    10).
+
+to:
+
+  * Armour (an integer switch limited to values less than or equal to
+    10, defaulting to 10).
+
+and by appending the following to the end of the rule:
+
+  If a player does not have a spaceship in eir possession e CAN, by
+  announcement, create a spaceship in eir possession.
+
+Flip every spaceships' Armour switch to 10.
+
+
+//////////////////////////////////////////////////////////////////////
+ID: 8214
+Title: Space Isn't Linear
+Adoption index: 1.0
+Author: nch
+Co-authors:
+
+
+Amend rule 2588 "Sectors" by appending, after the final sentence, the
+following:
+
+  If a sector exists with an ID equivalent to the current month of
+  the year, and a sector exists with an ID equivalent to the current day
+  of the month then those sectors are adjacent.
+
+//////////////////////////////////////////////////////////////////////
