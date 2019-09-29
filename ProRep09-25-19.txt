@@ -1,0 +1,48 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 9, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID     Author(s)                AI    Title
+---------------------------------------------------------------------------
+8250  Murhpy, twg               1.7   Finger bending
+
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8250
+Title: Finger bending
+Adoption index: 1.7
+Author: Murphy
+Co-authors: twg
+
+
+Amend Rule 2478 (Vigilante Justice) by replacing this text:
+
+  The Referee is by default the investigator for all Finger
+  Pointing. When a Finger, other than the Arbitor's, is Pointed over
+  an allegation related to the official duties or powers of the
+  Referee, then the Arbitor CAN, by announcement, take over the
+  investigation and thereby become the investigator.
+
+  The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
+  Finger at the Referee.
+
+with this text:
+
+  The above notwithstanding, the investigator CANNOT resolve a
+  Finger Pointing for which e is the perp.
+
+  The Referee is by default the investigator for all Finger
+  Pointing. If the Referee is the perp, then the Arbitor CAN
+  become the investigator of that Finger Pointing by announcement.
+
+[Limiting resolution is more important than limiting initiation, as
+offices may change hands during the process.]
+
+//////////////////////////////////////////////////////////////////////
