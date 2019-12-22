@@ -1,0 +1,65 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID     Author(s)                AI    Title
+---------------------------------------------------------------------------
+8275   Jason Cobb               3.0   "By announcement" clarification
+8276   Jason Cobb               2.0   Various Election Fixes v2
+
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8275
+Title: "By announcement" clarification
+Adoption index: 3.0
+Author: Jason Cobb
+Co-authors:
+
+
+Amend Rule 478 ("Fora") by replacing the text
+
+  Where the rules define an action that CAN be performed "by
+  announcement", a person performs that action by unambiguously and
+  clearly specifying the action and announcing that e performs it.
+
+with the text
+
+  Where the rules define an action that a person CAN perform "by
+  announcement", that person performs that action by unambiguously and
+  clearly specifying the action and announcing that e performs it.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8276
+Title: Various Election Fixes v2
+Adoption index: 2.0
+Author: Jason Cobb
+Co-authors:
+
+
+Amend Rule 2154 ("Election Procedure") by replacing the text "declare em
+the winner of the election by announcement" with the text "by
+announcement declare em the winner of the election, thereby causing em
+to win the election".
+
+[This clarifies that this actually causes the person to win the
+election, which could be construed as a distinct action from "declaring
+em the winner". The replaced text differs from the one in the most
+recent SLR because Falsifian cleaned the text by replacing "them" with
+"em" since then.]
+
+Amend Rule 2154 ("Election Procedure") by replacing the text "In a
+timely fashion after the nomination period ends, the ADoP CAN and SHALL"
+with the text "After the nomination period ends, the ADoP CAN and, in a
+timely fashion, SHALL".
+
+[Ensures that the ADoP doesn't lose the ability to initiate an Agoran
+Decision for an election after a week passes.]
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,27 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 3, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID     Author(s)                AI    Title
+---------------------------------------------------------------------------
+8277   G.                       1.0   Minor Giveaway
+
+
+The proposal pool is currently empty.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8277
+Title: Minor Giveaway
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+I transfer 5 coins to each active player, in the order that they
+are listed in the most recent Registrar's Weekly Report.
+
+//////////////////////////////////////////////////////////////////////

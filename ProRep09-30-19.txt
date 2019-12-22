@@ -1,0 +1,50 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 6, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID     Author(s)                AI    Title
+---------------------------------------------------------------------------
+8251   G.                       3.0   Ruleset definition
+8252   Jason Cobb               1.0   Blasphemy
+
+
+At the beginning of this Agoran Week, the Proposal Pool contained only the
+two proposals listed above.
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8251
+Title: Ruleset definition
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2141 (Role and Attributes of Rules) by appending the following
+text to its first paragraph:
+  The ruleset is the set of all currently-existing rules.
+
+[and while we're at it...]
+Amend Rule 1030 (Precedence between Rules) by replacing all instances
+of "Ruleset" with "ruleset".
+
+[I mean, I think that definition matches what would be the "common"
+definition anyway, but may be useful to have it there].
+
+//////////////////////////////////////////////////////////////////////
+ID: 8252
+Title: Blasphemy
+Adoption index: 1.0
+Author: Jason Cobb
+Co-authors:
+
+
+Destroy the contract that is known as the Reformed Church of the Ritual.
+
+[It's useless now.]
+
+//////////////////////////////////////////////////////////////////////
