@@ -15,7 +15,8 @@ ID     Author(s)                AI    Title
 8285   Alexis                   3.0   Line-Item Roulette
 8286   Aris                     1.0   I Forbid Vetos!
 
-The proposal pool is currently empty.
+The proposal pool contained only the above proposals at 4:30 AM UTC
+on Wednesday the 8th of January, 2020. 
 
 The full text of the aforementioned proposal(s) is included below.
 
