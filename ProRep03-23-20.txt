@@ -1,0 +1,218 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 7, the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID     Author(s)                AI    Title
+---------------------------------------------------------------------------
+8357p  G.                       1.0   Homework extension fail
+8358j  Jason, Alexis            2.0   No zombie blot creation v2
+8359p  Alexis                   1.0   Karmic Linkage
+8360*  Alexis                   3.0   Social Distancing
+8361*  Aris, Alexis             3.0   Fix Emergencies
+8362*  Aris                     3.0   Recurring Emergencies
+8363e  Warrigal                 1.0   Somebody gets a coin
+8364*  Aris                     3.0   Mint Regulations
+8365*  Aris                     3.0   Emergency Termination Notice
+
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal.
+        <ID>f : Efficiency ministry proposal.
+        <ID>j : Justice ministry proposal.
+        <ID>l : Legislation ministry proposal.
+        <ID>p : Participation ministry proposal.
+
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8357
+Title: Homework extension fail
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2327 (Read the Ruleset Week) by deleting the second paragraph.
+
+[For reference, it's the "... in the year 2020, Read the Ruleset Week is,
+instead, the week of February 24 - March 1" paragraph].
+
+//////////////////////////////////////////////////////////////////////
+ID: 8358
+Title: No zombie blot creation v2
+Adoption index: 2.0
+Author: Jason
+Co-authors: Alexis
+
+
+Amend Rule 2532 (Zombies) by inserting the following list item before
+the item that says "deregister.":
+
+    - create blots;
+
+Expunge each blot that a zombie's master caused that zombie to create.
+
+[First attempt was ineffective due to typo in "self-punishment"
+proposal. Masters should not be able to hurt their zombies in this way.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8359
+Title: Karmic Linkage
+Adoption index: 1.0
+Author: Alexis
+Co-authors:
+
+
+Amend rule 2510 (Such is Karma) by inserting the following as a new
+paragraph after the first list:
+
+"The reasons for provided for the gain and loss of karma SHOULD, but
+NEED NOT, be related to one another."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8360
+Title: Social Distancing
+Adoption index: 3.0
+Author: Alexis
+Co-authors:
+
+
+Enact a new power-3.01 rule entitled "Eclipse Light", reading as follows:
+{{
+  An emergency message is one whose subject line contains the text "[Emergency]".
+
+  The Prime Minister CAN, in an emergency message and with 3 Agoran
+  consent, enact, amend, or repeal Emergency Regulations, provided that
+  the intent to do so was also contained in an emergency message.
+
+  Emergency Regulations CAN:
+    - Extend any deadline provided for by any instrument other than this
+  rule, including a deadline for an obligation to be met, or deadline
+  prior to which an action must be performed in order to be valid, such
+  as the end of voting period. Such an extension CANNOT cause the total
+  time period, such as the time from when an obligation was created to
+  the deadline or the whole of a voting period, to be more than double
+  its original length.
+    - Create, destroy, or transfer assets, or require or forbid their
+  creation, destruction, or transfer.
+    - Cause one or more players to win Agora.
+    - Appoint or remove officeholders.
+    - Modify the Festivity.
+    - Award Patent Titles not mentioned in any Rule and Badges.
+    - Modify the Publicity of Fora.
+
+  The Prime Minister CAN, in an emergency message and with 4 Agoran
+  Consent, provided that the intent to do so was also contained in an
+  emergency message, Extend the Emergency.
+
+  If the Prime Minister has not Extended the Emergency in the past
+  month, any player CAN cause this rule to repeal all Emergency
+  Regulations and then itself.
+
+  If the Prime Minister has not sent a message to a public forum in the
+  preceding four days, the Speaker CAN exercise eir powers under this
+  rule as if e were the Prime Minister, and notwithstanding any rule
+  that would prohibit a single player from holding both offices.
+}}
+
+[I don't think we actually need an emergency rule. But deadline
+extensions might be nice, and I figure a little bit of levity might
+help us all.]
+
+[Knowing us, we will manage to not only pass it too late, but also too soon.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8361
+Title: Fix Emergencies
+Adoption index: 3.0
+Author: Aris
+Co-authors: Alexis
+
+
+Amend the rule entitled "Eclipse Light" by changing the text
+  "If the Prime Minister has not Extended the Emergency in the past
+  month, any player CAN cause this rule to repeal all Emergency
+  Regulations and then itself."
+to read
+  "If there is an Emergency Regulation that has existed for at least a month
+  and the Prime Minister has not Extended the Emergency in the past month, any
+  player CAN, by announcement, cause this rule to repeal all Emergency
+  Regulations and then itself."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8362
+Title: Recurring Emergencies
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+Amend the rule entitled "Eclipse Light" by deleting the text "and then itself".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8363
+Title: Somebody gets a coin
+Adoption index: 1.0
+Author: Warrigal
+Co-authors:
+
+
+Enact a power-1 rule titled "A Coin Award":
+  {
+      When this rule is enacted, a player other than the
+      author of the proposal which enacted this rule earns 1
+      coin. Then, if a player earned a coin this way, this
+      rule repeals itself.
+  }
+
+//////////////////////////////////////////////////////////////////////
+ID: 8364
+Title: Mint Regulations
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+Amend Rule 2166, "Assets", by changing the text "A rule defined asset is
+public" to read "An asset defined by rule or regulation is public".
+
+Amend Rule 2464, "Tournaments", by appending the text
+  "A Tournament's regulations collectively have Mint Authority.".
+
+If there is a Rule entitled "Eclipse Light", amend it by adding, after
+the list item beginning "Create, destroy, or transfer assets", a new
+list item in the same format as the rest of the list with the text
+"Collectively, exercise Mint Authority"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8365
+Title: Emergency Termination Notice
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+[This gives everyone a bit of warning before someone goes and repeals the
+Emergency Regulations, and gives the PM time to potentially extend
+the emergency. Note that explicitly specifying the deadline in this rule
+means that it can't be extended further.]
+
+Amend the rule entitled "Eclipse Light" by changing the text
+  "If there is an Emergency Regulation that has existed for at least a month
+  and the Prime Minister has not Extended the Emergency in the past month, any
+  player CAN, by announcement, cause this rule to repeal all Emergency
+  Regulations and then itself."
+to read
+  "If there is an Emergency Regulation that has existed for at least a month
+  and the Prime Minister has not Extended the Emergency in the past month, any
+  player CAN, with 7 days notice, cause this rule to repeal all Emergency
+  Regulations and then itself."
+
+//////////////////////////////////////////////////////////////////////
