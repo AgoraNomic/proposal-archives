@@ -1,0 +1,247 @@
+I hereby distribute each listed proposal, initiating the Agoran
+Decision of whether to adopt it, and removing it from the proposal
+pool. For this decision, the vote collector is the Assessor, the
+quorum is 5 the voting method is AI-majority, and the valid
+options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID     Author(s)                AI    Title
+---------------------------------------------------------------------------
+8377j  R. Lee                   2.0   Burden + Accurate Naming
+8378f  R. Lee                   2.0   Bug Fixing IAR Writ
+8379p  Murphy                   1.0   Expand wins by paradox
+8380p  Muprhy                   1.0   Justice for R. Lee
+8381p  Murphy                   1.0   You Tried
+8382f  nch                      1.0   The Webmastor
+8383p  Trigon                   1.0   Agora plays table tennis
+8384j  P.S.S.                   1.0   Bones of Criminals
+8385e  Jason                    1.0   Slaying the dragon
+8386*  G.                       3.0   Restraining Motions
+8387l  Aris, P.S.S.             1.0   Defense Against the Dark Arts
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal.
+        <ID>f : Efficiency ministry proposal.
+        <ID>j : Justice ministry proposal.
+        <ID>l : Legislation ministry proposal.
+        <ID>p : Participation ministry proposal.
+
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8377
+Title: Burden + Accurate Naming
+Adoption index: 2.0
+Author: R. Lee
+Co-authors:
+
+
+WHEREAS an elementary aspect of legal traditions that we all share is that
+no criminal defendant should bear the burden of proof, and that the Agoran
+system of criminal justice fails in other basic respects the people of
+Agora HEREBY RESOLVE the following
+  Retitle rule 2531 to "Defendant's Rights"
+  Retitle rule 2479 to "Official Injustice"
+  Amend the following text in rule 2531 "(1) it attempts to levy a fine on a
+  person for an action or inaction which e (more likely than not) did not
+  commit" to state "(1) it attempts to levy a fine on a person when that
+  person can't be established by a preponderance of the evidence to have
+  committed the action or inaction for which the fine was levied"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8378
+Title: Bug Fixing IAR Writ
+Adoption index: 2.0
+Author: R. Lee
+Co-authors:
+
+
+Amend the following paragraph in rule 2531 "
+
+  If the Referee attempts to levy three or more INEFFECTIVE fines
+  in a week, any player CAN, with two support, issue a writ of
+  Impartial Arbitration Restoration, immediately making the
+  position of Referee vacant. When a writ of Impartial Arbitration
+  Restoration is issued, the ADoP SHALL initiate an election for
+  the Referee in a timely fashion.
+
+"
+
+so that it states
+
+  If the Referee attempts to levy three or more INEFFECTIVE fines in a week,
+  any player CAN, within two Agoran weeks of that week, issue a writ of
+  Impartial Arbitration Restoration with two support, immediately making the
+  position of Referee vacant. When a writ of Impartial Arbitration
+  Restoration is issued, an election SHOULD be initiated in a timely fashion.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8379
+Title: Expand wins by paradox
+Adoption index: 1.0
+Author: Murphy
+Co-authors:
+
+
+Amend Rule 2553 (Win by Paradox) by replacing this text:
+
+  If a CFJ about the legality or possibility of a game action,
+
+with this text:
+
+  If a CFJ about the effectiveness, possibility, or legality of a
+  change in the gamestate
+
+//////////////////////////////////////////////////////////////////////
+ID: 8380
+Title: Justice for R. Lee
+Adoption index: 1.0
+Author: Murphy
+Co-authors:
+
+
+Award R. Lee the Patent Title of Champion, unless e has already been
+awarded it in connection with CFJ 3828.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8381
+Title: You Tried
+Adoption index: 1.0
+Author: Murphy
+Co-authors:
+
+
+Award R. Lee the Patent Title of Money Launderer.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8382
+Title: You Tried
+Adoption index: 1.0
+Author: nch
+Co-authors:
+
+
+Enact a rule titled "The Webmastor" with Power=1 and the following text:
+
+  The Webmastor is an office.
+
+  The Webmastor's monthly report includes a Directory, a Changelog, a
+  Warning Log, and an Error Log. The Directory lists notable
+  currently maintained public resources. The Changelog lists notable
+  changes to resources. The Warning Log lists notable potential
+  issues, such as inaccurate or aging resources or unintended issues
+  with a public resource. The Error Log lists notable losses of
+  resources - where a resource has become inaccessible, unmaintained,
+  or unusable. Where 'notable' is used in this rule its meaning is up
+  to the Webmastor's discretion.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8383
+Title: Agora plays table tennis
+Adoption index: 1.0
+Author: Trigon
+Co-authors:
+
+
+Create a new rule entitled "Ping Pong" with Power=0.1 that reads:
+
+  The first public message sent by a player each Agoran day must
+  begin with the word ping (case-insensitive). The second public
+  message sent by a player each Agoran day must end with the word
+  pong (case-insensitive).
+
+  If a player fails to include ping or pong as mandated by the
+  previous paragraph, then, in that same Agoran day, any player CAN
+  once revoke one coin from em.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8384
+Title: Bones of Criminals
+Adoption index: 1.0
+Author: P.S.S.
+Co-authors:
+
+
+Create a new rule entitled "Criminal Ossification" with Power 1 that reads:
+
+  To take any action that would cause Agora to become ossified,
+  notwithstanding Rule 1698, is the Class 8 Crime of Ossification.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8385
+Title: Slaying the dragon
+Adoption index: 1.0
+Author: Jason
+Co-authors:
+
+
+For the purposes of this proposal, the Dragon Corporation is the
+contracted created on or about March 1, 2020 by Warrigal.
+
+For each coin owned by the Dragon Corporation, transfer that coin to the
+Lost and Found Department.
+
+Destroy the Dragon Corporation.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8386
+Title: Restraining Motions
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2496 (Rewards) by replacing:
+  * Judging a CFJ that e was assigned to without violating a time
+    limit to do so: 5 coins (Arbitor).
+with:
+  * Judging a CFJ that e was assigned to without violating a time
+    limit to do so, unless at the time of judgement the case was
+    open due to self-filing a motion to reconsider it: 5 coins
+    (Arbitor).
+
+
+Amend Rule 2438 (Ribbons) by replacing:
+  Blue (B): When a person assigns a judgement to a CFJ, and has
+  never violated a time limit to assign a judgement to that CFJ,
+  that person earns a Blue Ribbon.
+with:
+  Blue (B): When a person assigns a judgement to a CFJ, and has
+  never violated a time limit to assign a judgement to that CFJ,
+  nor ever self-filed a motion to reconsider that CFJ, that person
+  earns a Blue Ribbon.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8387
+Title: Defense Against the Dark Arts
+Adoption index: 1.0
+Author: Aris
+Co-authors: P.S.S.
+
+If a rule entitled "Criminal Ossification" exists, repeal it.
+
+Enact a new power 1.0 rule entitled "Defense Against the Dark Arts" with the
+following text:
+  A proposal is forbidden if it would, upon successfully taking effect,
+  cause Agora to be ossified or to cease to exist.  An action is forbidden
+  if it would, upon its successful occurrence, cause Agora to be ossified or to
+  cease to exist.
+
+  Attempting a forbidden action is PROHIBITED, and is the Class-8 Crime of
+  Engaging in Forbidden Arts.
+
+  Submitting a forbidden proposal is PROHIBITED, and is the Class-4 Crime of
+  Contemplating Forbidden Arts.
+
+  Being the author of an adopted forbidden proposal is PROHIBITED, and is the
+  Class-4 Crime of Suborning Forbidden Arts.
+
+  Having a final ballot that evaluates to FOR in the Agoran decision on whether
+  to adopt a forbidden proposal is PROHIBITED, and is the Class-2 Crime of
+  Abetting Forbidden Arts.
+
+//////////////////////////////////////////////////////////////////////
