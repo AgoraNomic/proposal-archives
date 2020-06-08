@@ -1,0 +1,32 @@
+Revision: At around May 14 20:13:10 UTC 2020, when a proposal pool report was
+published, the proposal pool actually contained the following proposal:
+
+Author(s)                AI    Title                   Chamber
+---------------------------------------------------------------------------
+nch                      1.0   The Webmastor           Efficiency
+
+
+The full text of the aforementioned proposal(s) is included below.
+
+//////////////////////////////////////////////////////////////////////
+Title: The Webmastor
+Adoption index: 1.0
+Author: nch
+Co-authors:
+
+
+Enact a rule titled "The Webmastor" with Power=1 and the following text:
+
+  The Webmastor is an office.
+
+  The Webmastor's monthly report includes a Directory, a Changelog, a
+  Warning Log, and an Error Log. The Directory lists notable
+  currently maintained public resources. The Changelog lists notable
+  changes to resources. The Warning Log lists notable potential
+  issues, such as inaccurate or aging resources or unintended issues
+  with a public resource. The Error Log lists notable losses of
+  resources - where a resource has become inaccessible, unmaintained,
+  or unusable. Where 'notable' is used in this rule its meaning is up
+  to the Webmastor's discretion.
+  
+//////////////////////////////////////////////////////////////////////
