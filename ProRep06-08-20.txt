@@ -7,15 +7,17 @@ conditional votes).
 
 ID     Author(s)                AI    Title
 ---------------------------------------------------------------------------
-8431#  Aris, ais523             1.0   Proposal Reward Trimming
+8431l  Aris, ais523             1.0   Proposal Reward Trimming
 8432*  Aris, Alexis, Falsifian  3.0   The Administrative State
-8433#  Aris, [1]                1.5   Simpler Heraldry
-8434#  Aris                     1.0   Majoritarian Confidence
-8435#  Aris, nch, Trigon        1.0   No Confidence Isn't Personal
-8436#  Aris                     2.0   Stately Officiation
+8433p  Aris, [1]                1.5   Simpler Heraldry
+8434f  Aris                     1.0   Majoritarian Confidence
+8435f  Aris, nch, Trigon        1.0   No Confidence Isn't Personal
+8436f  Aris                     2.0   Stately Officiation
 8437l  R. Lee, G.               1.0   Guilderoy Lockhart
 8438e  R. Lee                   1.0   Tailor Pay
-8439#  P.S.S.                   2.0   Termination of Candidacy
+8439f  P.S.S.                   2.0   Termination of Candidacy
+8440j  R. Lee, P.S.S.           1.7   0 blots patch
+8441e  nch, Trigon              1.0   Transmutation
 
 [1] Alexis, Jason, P.S.S.
 
@@ -166,7 +168,7 @@ Rule 2602 ("Glitter"), in that order, by changing the text
 //////////////////////////////////////////////////////////////////////
 ID: 8437
 Title: Guilderoy Lockhart
-Adoption index: 2.0
+Adoption index: 1.0
 Author: R. Lee
 Co-authors: G.
 
@@ -206,5 +208,30 @@ beginning, "When an election is initiated," to read in full:
   make em Overpowered. During the nomination period, a candidate CAN
   cease to be a candidate by announcement if there is at least one
   other candidate.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8440
+Title: 0 blots patch
+Adoption index: 1.7
+Author: R. Lee
+Co-authors: Publius Scribonius Scholasticus
+
+
+Amend rule 2557 "Sentencing Guidelines" by replacing "- B is at least
+1 and at most twice the base value of the violation" with "- B is at most
+twice the base value of the violation".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8441
+Title: Transmutation
+Adoption index: 1.0
+Author: nch
+Co-authors: Trigon
+
+
+Enact a new Power=1 rule titled "Transmutation" with the text:
+
+  A player CAN pay 3 Cards (syn. transmute) to earn a Card of a
+  specified type.
 
 //////////////////////////////////////////////////////////////////////

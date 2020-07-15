@@ -1,0 +1,206 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 9, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)                AI    Title
+---------------------------------------------------------------------------
+8473p   Jason, G.                1.0   Plain Old Bribery
+8474p   G., omd                  1.0   Agora the karma bank
+8475p   Aris                     1.0   Saving Sponsorship
+8476e^  ATMunn, [1]              1.0   Contract charities
+
+The proposal pool contains the following proposals:
+
+Author(s)                AI    Title
+---------------------------------------------------------------------------
+R. Lee                   1.0   Inverted Bribery
+ATMunn, nch              1.0   Warmer Welcomes [2]
+P.S.S.                   1.0   Regulated Welcoming Coinage
+
+[1] G., Falsifian, P.S.S.
+[2] This title is provisional because it may include double quotes on
+    both sides
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal.
+        <ID>f : Efficiency ministry proposal.
+        <ID>j : Justice ministry proposal.
+        <ID>l : Legislation ministry proposal.
+        <ID>p : Participation ministry proposal.
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8473
+Title: Plain Old Bribery
+Adoption index: 1.0
+Author: Jason
+Co-authors: G.
+
+
+Every player who cast a valid non-withdrawn unconditional ballot FOR
+this proposal earns a Black Ribbon.
+
+[Note to the Tailor: the definition of Black Ribbons in R2438 means
+that, immediately after this proposal is adopted, people will have the
+Black Ribbons without needing to separately claim them.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8474
+Title: Agora the karma bank
+Adoption index: 1.0
+Author: G.
+Co-authors: omd
+
+
+[First, a partial reset.  People with negative karma are mostly zombies
+or people with fairly old sins; worth a full forgiveness/reset. People
+with positive karma have generally done good things more recently - a
+partial reset for them, akin to the just-passed July releveling.  Agora
+is balanced one last time so we can start counting total positivity or
+negativity from here on out.]
+
+Each person with positive karma has eir karma set to half its current
+value, rounded up.
+
+Each person with negative karma has eir karma set to 0.
+
+Agora's karma is then set such that the sum of all Karma values in the
+game equals 0.
+
+
+Amend Rule 2510 (Such is Karma) by deleting:
+
+      4. Not result in Agora's karma moving farther away from 0.
+
+and by replacing its last paragraph with:
+
+      At the beginning of each quarter, the Karma of every person is
+      halved (rounding towards 0).
+
+[It's still an exchange of karma, but you can take freely from Agora.
+Everybody's karma decays every quarter, but Agora's karma isn't reset
+to zero-sum, therefore Agoran's karma is an inverse measure of our
+overall positivity/negativity over time.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8475
+Title: Saving Sponsorship
+Adoption index: 1.0
+Author: Aris
+Co-authors:
+
+
+Each of the following proposals is hereby rendered sponsored:
+- "Plain Old Bribery", by Jason
+- "Agora the karma bank", by G.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8476
+Title: Contract charities
+Adoption index: 1.0
+Author: ATMunn
+Co-authors: G., Falsifian, Publius Scribonius Scholasticus
+
+
+[Comment: The original version was by G., then resubmitted by Falsifian,
+then again by me. :) P.S.S. also suggested a minor change, so I included
+em as a coauthor as well.]
+
+Enact the following rule, Charities:
+
+  Donation Level is a natural switch for contracts, tracked by the
+  Notary, with a default of 0 and a maximum of 25.  A contract with
+  nonzero donation level is called a Charity.
+
+  The Notary CAN flip a contract's donation level to a non-default
+  value with 3 Agoran consent.  This SHOULD only be done if the
+  contract's provisions ensure that its funds received from Agora
+  will be used solely for the betterment of Agora.  Any player CAN
+  flip a contract's donation level to 0 with Agoran consent.
+
+  Whenever a payday occurs, half of each charity's coin holdings
+  (rounded down) are destroyed, and then each charity earns a
+  number of coins equal to its donation level.
+
+//////////////////////////////////////////////////////////////////////
+Title: Inverted Bribery
+Adoption index: 1.0
+Author: R. Lee
+Co-authors:
+
+
+Every player who voted unconditionally AGAINST the proposal "Plain
+Old Bribery" earns a Black Ribbon
+
+//////////////////////////////////////////////////////////////////////
+Title: Warmer Welcomes
+Adoption index: 1.0
+Author: ATMunn
+Co-authors: nch
+
+
+Amend rule 2499 "Welcome Packages" by replacing the sentence that reads:
+
+"When a player receives a Welcome Package, e earns 10 coins and one of
+each type of Card defined in the rules."
+
+with the following:
+
+"When a player receives a Welcome Package, e earns 25 coins and one of
+each type of Card defined in the rules.
+
+
+Create 15 coins in the possession of every player who received a Welcome
+Package for the first time in the past 30 days before this proposal was
+adopted.
+
+//////////////////////////////////////////////////////////////////////
+Title: Regulated Welcoming Coinage
+Adoption index: 1.0
+Author: Publius Scribonius Scholasticus
+Co-authors:
+
+
+If "Warmer Welcomes" has passed:
+{
+  Amend rule 2499 "Welcome Packages" by replacing the sentence that
+  reads:
+
+  "When a player receives a Welcome Package, e earns 25 coins and one of
+  each type of Card defined in the rules."
+
+  with the following:
+
+  "When a player receives a Welcome Package, e earns a one of each type
+  of Card and a number of coins defined by the Treasuror's
+  administrative regulations. When the Treasuror's administrative
+  regulations are silent, e earns 25 coins and one of each type of Card
+  defined in the rules."
+}
+Otherwise:
+{
+  Amend rule 2499 "Welcome Packages" by replacing the sentence that
+  reads:
+
+  "When a player receives a Welcome Package, e earns 10 coins and one of
+  each type of Card defined in the rules."
+
+  with the following:
+
+  "When a player receives a Welcome Package, e earns a one of each type
+  of Card and a number of coins defined by the Treasuror's
+  administrative regulations. When the Treasuror's administrative
+  regulations are silent, e earns 10 coins and one of each type of Card
+  defined in the rules."
+}
+
+//////////////////////////////////////////////////////////////////////
