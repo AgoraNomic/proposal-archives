@@ -1,0 +1,134 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 8, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)                AI    Title
+---------------------------------------------------------------------------
+8477e^  Jason                    1.0   More officer cards
+
+The proposal pool contains the following proposals:
+
+Author(s)                AI    Title
+---------------------------------------------------------------------------
+Murphy, R. Lee           3.0   Simpler ribbon switches
+Murphy, CB               3.0   Clarify asset ownership
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal.
+        <ID>f : Efficiency ministry proposal.
+        <ID>j : Justice ministry proposal.
+        <ID>l : Legislation ministry proposal.
+        <ID>p : Participation ministry proposal.
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8477
+Title: More officer cards
+Adoption index: 1.0
+Author: Jason
+Co-authors:
+
+
+Amend Rule 2624 (Card Administration) by replacing the final paragraph
+(including the list) with the following:
+
+{
+
+  The officeholder of an office CAN by announcement grant another player a
+  specified type of card, specifying that office, under the following
+  conditions:
+
+  * e has not done so in reference to that office in the current Agoran month,
+
+  * that office's interests includes the card's associated ministry,
+
+  * the player receiving the card does not hold an office with the card's
+  associated ministry in its interests, and
+
+  * the player receiving the card is not a zombie.
+
+}
+
+//////////////////////////////////////////////////////////////////////
+Title: Simpler ribbon switches
+Adoption index: 3.0
+Author: Murphy
+Co-authors: R. Lee
+
+
+Amend Rule 2438 (Ribbons) by replacing this text:
+
+  Ribbon Ownership is a secured person switch, tracked by the
+  Tailor in eir monthly report, whose values are the subsets of
+  the set of types of Ribbon, defaulting to the empty set. If the
+  rules are amended to change the types of Ribbon, if a player's
+  Ribbon Ownership is subsequently illegal, then it is updated by
+  removing all nonexistent types rather than resetting the entire
+  value to default.
+
+  To "award a person a <Ribbon type>" is to add that type of Ribbon
+  to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
+  if that type of Ribbon is an element of eir Ribbon Ownership.
+
+with this text:
+
+  For each type of Ribbon, <type> Ribbon Ownership is a secured
+  negative boolean person switch, tracked by the Tailor in eir
+  monthly report.
+
+  To "award a person a <Ribbon type>" is to flip that person's
+  <that type> Ribbon Ownership to True. A person "owns a <Ribbon
+  type>" if eir <that type> Ribbon Ownership is True.
+
+and by replacing this text:
+
+  While a person owns all types of Ribbon, that person can Raise a
+  Banner by announcement. This causes that person to win the game.
+  That person's Ribbon Ownership becomes the empty set.
+
+with this text:
+
+  While a person owns all types of Ribbon, that person can Raise a
+  Banner by announcement. This causes that person to win the game.
+  When a person wins this way, for each type of Ribbon, that
+  person's <type> Ribbon Ownership is flipped to False.
+
+For each type of Ribbon, for each person whose Ribbon Ownership prior to
+the adoption of this proposal included that type, flip eir <that type>
+Ribbon Ownership to True.
+
+//////////////////////////////////////////////////////////////////////
+Title: Clarify asset ownership
+Adoption index: 3.0
+Author: Murphy
+Co-authors: CuddleBeam
+
+
+Amend Rule 2576 (Ownership) to read:
+
+  Each asset has exactly one owner.
+
+  If ownership of an asset is restricted to a class of entities,
+  then that asset CANNOT be gained by or transferred to an entity
+  outside that class. By default, ownership of an asset is
+  restricted to Agora, players, and contracts, but an asset's
+  backing document may modify this.
+
+  If an asset's owner would otherwise be nonexistent, indeterminate,
+  or invalid, then it is owned by the Lost and Found Department (if
+  possible) or destroyed (otherwise), subject to modification by its
+  backing document. Rules to the contrary notwithstanding, the Lost
+  and Found Department can own assets of every type. Assets owned by
+  the Lost and Found Department can be transferred or destroyed by
+  any player without objection.
+
+//////////////////////////////////////////////////////////////////////
