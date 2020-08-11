@@ -1,0 +1,100 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 7, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)                AI    Title
+---------------------------------------------------------------------------
+8488*^  Falsifian, Jason, omd    3.0   Empty the escalator v1
+8489e^  Jason, Trigon            1.0   Interesting economics
+
+
+Author(s)                AI    Title
+---------------------------------------------------------------------------
+Jason                    3.0   Unscoped RWO
+Jason                    3.0   Functional Emergency Regulations
+R. Lee                   1.0   why are we passing these
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal.
+        <ID>f : Efficiency ministry proposal.
+        <ID>j : Justice ministry proposal.
+        <ID>l : Legislation ministry proposal.
+        <ID>p : Participation ministry proposal.
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8488
+Title: Empty the escalator v1
+Adoption index: 3.0
+Author: Falsifian
+Co-authors: Jason, omd
+
+
+Amend Rule 2577 by adding the sentence "Attempts to destroy no assets
+are successful." before the sentence that begins "An indestructible asset".
+
+Amend Rule 2577 by adding the sentence "Attempts to transfer no assets
+are successful." before the sentence that begins "A fixed asset".
+
+Amend Rule 2579 by deleting the paragraph that ends with "0 or empty fee".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8489
+Title: Interesting economics
+Adoption index: 1.0
+Author: Jason
+Co-authors:
+
+
+Amend Rule 2624 by appending the following sentence to the first
+paragraph: "The type of card with the fewest existing instances is
+associated with the Ministry of Economy."
+
+//////////////////////////////////////////////////////////////////////
+Title: Unscoped RWO
+Adoption index: 3.0
+Author: Jason
+Co-authors:
+
+
+Amend Rule 2202 by replacing the paragraph beginning "A player CAN" with
+the following: "A player CAN, without objection, ratify a specified
+public document."
+
+//////////////////////////////////////////////////////////////////////
+Title: Functional Emergency Regulations
+Adoption index: 3.0
+Author: Jason
+Co-authors:
+
+
+Amend Rule 2614 by appending the following sentence to the paragraph
+beginning "The Prime Minister CAN, in an emergency message and with 3
+Agoran consent": "To the extent explicitly permitted by this rule,
+Emergency Regulations are always taking effect."
+
+[Right now, Emergency Regulations CAN do some stuff, but they never
+actually take effect to do it.]
+
+//////////////////////////////////////////////////////////////////////
+Title: why are we passing these
+Adoption index: 1.0
+Author: R. Lee
+Co-authors:
+
+
+If R. Lee has published a doument to the public forum labelled DOING STUFF
+before the end of the voting period of this proposal, make the changes
+specified in that document.
+
+//////////////////////////////////////////////////////////////////////
