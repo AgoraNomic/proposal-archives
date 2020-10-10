@@ -1,0 +1,170 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID       Author(s)                AI    Title
+---------------------------------------------------------------------------
+8500*    Murphy, G.               3.0   Clarify asset ownership some more
+8501*    Jason, Gaelan            3.0   Statutes are Instruments
+8502l^   Jason, Aris              1.0   Timely reminders
+8503j^   Aris, G., nix, Jason     2.2   Assorted Obligatory Patches
+
+
+The proposal pool is currently empty.
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal (ordinary).
+        <ID>f : Efficiency ministry proposal (ordinary).
+        <ID>j : Justice ministry proposal (ordinary).
+        <ID>l : Legislation ministry proposal (ordinary).
+        <ID>p : Participation ministry proposal (ordinary).
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8500
+Title: Clarify asset ownership some more
+Adoption index: 3.0
+Author: Murphy
+Co-authors: G.
+
+
+Amend Rule 2576 (Ownership) by replacing this text:
+
+  If an asset's owner would otherwise be nonexistent, indeterminate,
+  or invalid, then it is owned by the Lost and Found Department (if
+  possible) or destroyed (otherwise), subject to modification by its
+  backing document.
+
+with this text:
+
+  An asset "in abeyance" is one whose owner is nonexistent,
+  indeterminate, or invalid. If an asset would otherwise be in
+  abeyance, then it is owned by the Lost and Found Department (if
+  possible) or destroyed (otherwise), subject to modification by its
+  backing document (provided that the modification either destroys
+  it or prevents it from being in abeyance).
+
+//////////////////////////////////////////////////////////////////////
+ID: 8501
+Title: Statutes are Instruments
+Adoption index: 3.0
+Author: Jason
+Co-authors: Gaelan
+
+
+Amend Rule 2612 by replacing the sentence beginning "The statutes of
+Agora form a body of law" with the following: "The statutes of Agora
+form a body of law with unlimited scope, where each statute is a single
+instrument in that body of law."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8502
+Title: Timely reminders
+Adoption index: 1.0
+Author: Jason
+Co-authors: Aris
+
+
+Amend Rule 2168 by replacing  the text "Upon such an occurrence" with
+the text "Within four days of such an occurrence"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8503
+Title: Assorted Obligatory Patches
+Adoption index: 2.2
+Author: Aris
+Co-author(s): G., nix, Jason
+Chamber: Justice
+
+
+[Breaking pledges is currently not ILLEGAL. Pledges can arguably
+be created without consent. Rule 2450 does not actually delegate
+selection of crime class to the pledge at present, and simply fails to
+specify its class if the pledge does.
+
+Current text:
+Rule 2450/9 (Power=1.7)
+Pledges
+
+  If a Player makes a clear public pledge (syn. Oath) to perform (or
+  refrain from performing) certain actions, then breaking the pledge
+  within the pledge's time window is the Class N crime of
+  Oathbreaking, where N is 2 unless the pledge explicitly states
+  otherwise. It is also Oathbreaking for a player to let a pledge
+  expire without taking an action e pledged to do in that pledge.
+  The time window of a pledge is 60 days, unless the pledge
+  explicitly states otherwise. A pledge ceases to exist at the end
+  of its time window.
+
+  If breaking the pledge harms specific other parties, the Referee
+  SHOULD solicit the opinion of those parties in determining an
+  appropriate fine.
+
+  The Notary CAN destroy a pledge Without Objection, but SHOULD NOT
+  do so unless the pledge no longer serves any significant purpose.
+]
+
+Amend Rule 2450, "Pledges", by changing it to read in full:
+
+  If a consenting Player makes a clear public pledge (syn. Oath) to perform
+  (or refrain from performing) certain actions, then breaking the pledge
+  is ILLEGAL; doing so is the Class N crime of Oathbreaking, where N is the
+  value explicitly stated by the pledge, or 2 if the pledge does not explicitly
+  state a value. Allowing a pledge to expire without carrying out an action
+  one pledged to do in it constitutes breaking the pledge.
+
+  The time window of a pledge is W days, where W is the value explicitly
+  stated by the pledge, or 60 if the pledge does not explicitly state a
+  value. A pledge ceases to exist at the end of its time window.
+
+  If breaking the pledge harms specific other parties, the Referee
+  SHOULD solicit the opinion of those parties in determining an
+  appropriate fine.
+
+  The Notary CAN destroy a pledge Without Objection, but SHOULD NOT
+  do so unless the pledge no longer serves any significant purpose.
+
+
+[Promises can arguably be created without consent. Currently the rule purports
+to authorize non-player persons to create promises, which is pretty pointless
+and doesn't really work because non-players can't own promises. In addition,
+currently one must grant oneself a promise and then transfer it; this is an
+unnecessary extra step.]
+
+Amend Rule 2618, "Promises", by replacing:
+
+  A person CAN, by announcement, grant emself a promise, specifying its text
+  and becoming its creator.
+
+with:
+
+  A consenting player CAN, by announcement, grant a specified entity a promise,
+  specifying its text and becoming its creator.
+
+[Currently it is arguably the reports and the tabular data that is in violation
+of the rule.]
+Amend Rule 2143, "Official Reports and Duties", by replacing:
+
+  Reports SHALL be published in plain text. Tabular data must line
+  up properly when viewed in a monospaced font. Publishing a report
+  that deviates from these restrictions is the Class 2 Crime of
+  Making My Eyes Bleed.
+
+with:
+
+  An officer SHALL publish eir report in plain text, with tabular data lining
+  up properly when viewed in a monospaced font. Publishing a report
+  that deviates from these restrictions is the Class 2 Crime of
+  Making My Eyes Bleed.
+
+//////////////////////////////////////////////////////////////////////

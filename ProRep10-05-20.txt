@@ -1,0 +1,108 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID       Author(s)                AI    Title
+---------------------------------------------------------------------------
+8504e^   G.                       1.0   easier bargains
+8505e^   Jason                    1.0   Card clarifications
+8506p^   ATMunn, G.               1.0   Happy Belated Birthday v2
+
+
+The proposal pool contains the following proposals:
+
+Author(s)                AI    Title
+---------------------------------------------------------------------------
+Falsifian                2.0   No Zombie Races
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal (ordinary).
+        <ID>f : Efficiency ministry proposal (ordinary).
+        <ID>j : Justice ministry proposal (ordinary).
+        <ID>l : Legislation ministry proposal (ordinary).
+        <ID>p : Participation ministry proposal (ordinary).
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8504
+Title: easier bargains
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Amend Rule 2627 (The General Store) by replacing:
+      a list of 6 or more rules-defined card types
+with:
+      a list of 4 or more rules-defined card types with at least
+      two of the types being different
+
+[Commentary: make bargains easier, but ensure they're not identical
+(double-rewards) for base trades.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8505
+Title: Card clarifications
+Adoption index: 1.0
+Author: Jason
+Co-authors:
+
+
+Amend Rule 2624 as follows:
+
+  - Replace "The type of card with the fewest existing instances" with
+    "The single type of card with the fewest existing instances (if any)"
+
+  - Replace all instances of "the card's associated ministry" with "a
+    ministry associated with the card".
+
+[Right now the text assumes that each type of card has only a single
+associated ministry, but this is not true because of the recent change
+for the Ministry of Economy. There's also ambiguity with what happens if
+multiple types of card are tied for fewest instances.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8506
+Title: Happy Belated Birthday v2
+Adoption index: 1.0
+Author: ATMunn
+Co-authors: G.
+
+
+Amend Rule 2585, "Birthday Gifts", by adding the following paragraph
+before the sentence "Players are ENCOURAGED to announce their Agoran
+Birthdays.":
+
+   During the 7 days following the end of a player's Agoran Birthday, if
+   nobody granted em any coins via this rule, any player CAN once grant
+   em 2 coins by announcement, wishing em a Happy Belated Birthday.
+
+If this proposal was resolved later than September 28, 2020, then ATMunn
+is granted 2 coins for every vote on this proposal that evaluated to
+FOR.
+
+//////////////////////////////////////////////////////////////////////
+Title: No Zombie Races
+Adoption index: 2.0
+Author: Falsifian
+Co-authors:
+
+
+Amend Rule 1885 by replacing "existed at the beginning of the month" with
+"exist".
+
+[Comment: With the current text, the Registrar is in an awkward position
+if at least one eligible talisman existed at the start of the month, but
+none exist by the time e gets around to starting an auction.]
+
+//////////////////////////////////////////////////////////////////////

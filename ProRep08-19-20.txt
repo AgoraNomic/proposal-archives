@@ -1,0 +1,100 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 7, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)                AI    Title
+---------------------------------------------------------------------------
+8490*   Jason                    3.0   Functional Emergency Regulations
+8491f^  ATMunn                   2.0   Minor Speaker fix
+8492*^  Jason                    3.0   Unscoped RWO
+
+The proposal pool contains the following proposals:
+
+Author(s)                AI    Title
+---------------------------------------------------------------------------
+R. Lee                   1.0   why are we passing these
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal.
+        <ID>f : Efficiency ministry proposal.
+        <ID>j : Justice ministry proposal.
+        <ID>l : Legislation ministry proposal.
+        <ID>p : Participation ministry proposal.
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8490
+Title: Functional Emergency Regulations
+Adoption index: 3.0
+Author: Jason
+Co-authors:
+
+
+Amend Rule 2614 by appending the following sentence to the paragraph
+beginning "The Prime Minister CAN, in an emergency message and with 3
+Agoran consent": "To the extent explicitly permitted by this rule,
+Emergency Regulations are always taking effect."
+
+[Right now, Emergency Regulations CAN do some stuff, but they never
+actually take effect to do it.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8491
+Title: Minor Speaker fix
+Adoption index: 2.0
+Author: ATMunn
+Co-authors:
+
+
+Amend Rule 103 "The Speaker" by appending the following sentence to
+the paragraph beginning "If the office of Speaker has been held
+continuously":
+  Rules to the contrary notwithstanding, the Speaker CANNOT object to
+  an intent by any player to do so.
+
+  [Explanation: Currently, if the Speaker has been Speaker for at least
+  90 days, e can be replaced with support. However, the Speaker has
+  the power to stop any intent, even one that is with support, by
+  objecting to it. This would mean that the Speaker cannot be removed by
+  this method. The office can still be reappointed by the Prime Minister
+  if another player wins the game, but as is, the 90+ days method is
+  relatively obsolete. The fix is to either remove the feature
+  altogether or fix it, and I think it's a nice feature, so I proposed
+  this fix. I've also just managed to make an explanation about 3 times
+  as long as the actual proposal. Oops.]
+
+
+//////////////////////////////////////////////////////////////////////
+ID: 8492
+Title: Unscoped RWO
+Adoption index: 3.0
+Author: Jason
+Co-authors:
+
+
+Amend Rule 2202 by replacing the paragraph beginning "A player CAN" with
+the following: "A player CAN, without objection, ratify a specified
+public document."
+
+//////////////////////////////////////////////////////////////////////
+Title: why are we passing these
+Adoption index: 1.0
+Author: R. Lee
+Co-authors:
+
+
+If R. Lee has published a doument to the public forum labelled DOING STUFF
+before the end of the voting period of this proposal, make the changes
+specified in that document.
+
+//////////////////////////////////////////////////////////////////////

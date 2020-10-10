@@ -1,0 +1,37 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+The proposal pool contains the following proposals:
+
+Author(s)                AI    Title
+---------------------------------------------------------------------------
+Falsifian                2.0   No Zombie Races
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal (ordinary).
+        <ID>f : Efficiency ministry proposal (ordinary).
+        <ID>j : Justice ministry proposal (ordinary).
+        <ID>l : Legislation ministry proposal (ordinary).
+        <ID>p : Participation ministry proposal (ordinary).
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+Title: No Zombie Races
+Adoption index: 2.0
+Author: Falsifian
+Co-authors:
+
+
+Amend Rule 1885 by replacing "existed at the beginning of the month" with
+"exist".
+
+[Comment: With the current text, the Registrar is in an awkward position
+if at least one eligible talisman existed at the start of the month, but
+none exist by the time e gets around to starting an auction.]
+
+//////////////////////////////////////////////////////////////////////

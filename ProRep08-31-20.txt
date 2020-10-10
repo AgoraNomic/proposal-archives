@@ -1,0 +1,164 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID       Author(s)                AI    Title
+---------------------------------------------------------------------------
+8488A*^  Falsifian, Jason, omd    3.0   Empty the escalator v1
+8489Ae^  Jason, Trigon            1.0   Interesting economics
+8495p^   G.                       1.0   Please stand by
+8496l^   Jason, Aris              1.0   Timely reminders
+8497*^   nix                      3.0   Withdrawal Quick-Fix
+
+The proposal pool contains the following proposals:
+
+Author(s)                AI    Title
+---------------------------------------------------------------------------
+Murphy, G.               3.0   Clarify asset ownership some more
+
+Proposals distributed since the last proposal pool report (before the one
+above):
+
+ID      Author(s)                AI    Title
+---------------------------------------------------------------------------
+8493*   G.                       3.0   Minor Adjustments
+8494l^  Gaelan                   1.0   nope
+8495*^  Gaelan                   3.0   nopenopenope
+
+
+Legend: <ID>A : Distribution identifier for a second distribution.
+        <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal (ordinary).
+        <ID>f : Efficiency ministry proposal (ordinary).
+        <ID>j : Justice ministry proposal (ordinary).
+        <ID>l : Legislation ministry proposal (ordinary).
+        <ID>p : Participation ministry proposal (ordinary).
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8488
+Title: Empty the escalator v1
+Adoption index: 3.0
+Author: Falsifian
+Co-authors: Jason, omd
+
+
+Amend Rule 2577 by adding the sentence "Attempts to destroy no assets
+are successful." before the sentence that begins "An indestructible asset".
+
+Amend Rule 2577 by adding the sentence "Attempts to transfer no assets
+are successful." before the sentence that begins "A fixed asset".
+
+Amend Rule 2579 by deleting the paragraph that ends with "0 or empty fee".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8489
+Title: Interesting economics
+Adoption index: 1.0
+Author: Jason
+Co-authors:
+
+
+Amend Rule 2624 by appending the following sentence to the first
+paragraph: "The type of card with the fewest existing instances is
+associated with the Ministry of Economy."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8495
+Title: Please stand by
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Create a rule, "Please Stand By", with the following text:
+
+  Normal service will resume shortly.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8496
+Title: Timely reminders
+Adoption index: 1.0
+Author: Jason
+Co-authors: Aris
+
+
+Amend Rule 2168 by replacing  the text "Upon such an occurrence" with
+the text "Within two days of such an occurrence"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8497
+Title: Withdrawal Quick-Fix
+Adoption index: 3.0
+Author: nix
+Co-authors:
+
+
+Amend R2350 "Proposals" by adding, to the last paragraph:
+
+"When a player withdraws a pending proposal, e CAN, by announcement,
+grant a Pendant to the player that pended the proposal."
+
+//////////////////////////////////////////////////////////////////////
+Title: Clarify asset ownership some more
+Adoption index: 3.0
+Author: Murphy
+Co-authors: G.
+
+
+Amend Rule 2576 (Ownership) by replacing this text:
+
+  If an asset's owner would otherwise be nonexistent, indeterminate,
+  or invalid, then it is owned by the Lost and Found Department (if
+  possible) or destroyed (otherwise), subject to modification by its
+  backing document.
+
+with this text:
+
+  An asset "in abeyance" is one whose owner is nonexistent,
+  indeterminate, or invalid. If an asset would otherwise be in
+  abeyance, then it is owned by the Lost and Found Department (if
+  possible) or destroyed (otherwise), subject to modification by its
+  backing document (provided that the modification either destroys
+  it or prevents it from being in abeyance).
+
+//////////////////////////////////////////////////////////////////////
+ID: 8493
+Title: Minor Adjustments
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+Increase the power of Rule 2633 (Rulebending) to 3.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8494
+Title: nope
+Adoption index: 1.0
+Author: Gaelan
+Co-authors:
+
+
+Repeal rule 2633.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8495
+Title: nopenopenope
+Adoption index: 3.0
+Author: Gaelan
+Co-authors:
+
+
+Repeal rule 2633.
+
+//////////////////////////////////////////////////////////////////////

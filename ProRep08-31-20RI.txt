@@ -1,0 +1,51 @@
+It has come to my attention that there are two Proposal 8495s. I will correct
+this by assigning each a new ID number that unambiguously refers to only it
+It is not my intent to invalidate the old ID numbers where they do not
+create ambiguity, merely to provide new ones for ease of reference.
+
+"nopenopenope" by Gaelan is now Proposal 8498.
+"Please stand by" by G. is now Proposal 8499.
+
+An index of the renumbered proposals follows.
+
+ID       Author(s)                AI    Title
+---------------------------------------------------------------------------
+8498*^   Gaelan                   3.0   nopenopenope
+8499p^   G.                       1.0   Please stand by
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal (ordinary).
+        <ID>f : Efficiency ministry proposal (ordinary).
+        <ID>j : Justice ministry proposal (ordinary).
+        <ID>l : Legislation ministry proposal (ordinary).
+        <ID>p : Participation ministry proposal (ordinary).
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8498
+Title: nopenopenope
+Adoption index: 3.0
+Author: Gaelan
+Co-authors:
+
+
+Repeal rule 2633.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8499
+Title: Please stand by
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Create a rule, "Please Stand By", with the following text:
+
+  Normal service will resume shortly.
+
+//////////////////////////////////////////////////////////////////////

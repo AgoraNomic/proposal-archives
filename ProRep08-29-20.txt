@@ -1,0 +1,46 @@
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 3, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)                AI    Title
+---------------------------------------------------------------------------
+8494l^  Gaelan                   1.0   nope
+8495*^  Gaelan                   3.0   nopenopenope
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>e : Economy ministry proposal.
+        <ID>f : Efficiency ministry proposal.
+        <ID>j : Justice ministry proposal.
+        <ID>l : Legislation ministry proposal.
+        <ID>p : Participation ministry proposal.
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8494
+Title: nope
+Adoption index: 1.0
+Author: Gaelan
+Co-authors:
+
+
+Repeal rule 2633.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8495
+Title: nopenopenope
+Adoption index: 3.0
+Author: Gaelan
+Co-authors:
+
+
+Repeal rule 2633.
+
+//////////////////////////////////////////////////////////////////////
