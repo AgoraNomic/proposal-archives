@@ -4,7 +4,7 @@ The proposal pool contains the following proposals:
 
 Author(s)                AI    Title
 ---------------------------------------------------------------------------
-Falsifian                2.0   No Zombie Races
+ATMunn, G., Falsifian    1.0   Happy Belated Birthday v3
 
 
 Legend: <ID>* : Democratic proposal.
@@ -21,17 +21,24 @@ the information shown below differs from the information shown above,
 the information shown above shall control.
 
 //////////////////////////////////////////////////////////////////////
-Title: No Zombie Races
-Adoption index: 2.0
-Author: Falsifian
-Co-authors:
+Title: Happy Belated Birthday v3
+Adoption index: 1.0
+Author: ATMunn
+Co-authors: G., Falsifian
 
 
-Amend Rule 1885 by replacing "existed at the beginning of the month" with
-"exist".
+Amend Rule 2585, "Birthday Gifts", by deleting the sentence "Every time
+it is a player's Agoran Birthday, each of the other players CAN once
+grant em 3 coins by announcement.", and inserting the following
+paragraph in its place:
 
-[Comment: With the current text, the Registrar is in an awkward position
-if at least one eligible talisman existed at the start of the month, but
-none exist by the time e gets around to starting an auction.]
+  During a player's Agoran Birthday and the 7 days following, each
+  other player CAN, once, grant em X coins, where X is 3 if it is
+  actually the day of the player's birthday, and 2 otherwise.
+
+[This simplifies the rule change and fixes the bugs mentioned by
+Falsifian. There's no real reason to prevent players from granting the
+belated birthday gift just because people already granted the birthday
+gift.]
 
 //////////////////////////////////////////////////////////////////////
