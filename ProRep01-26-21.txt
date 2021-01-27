@@ -1,0 +1,431 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 7, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)                 AI    Title
+---------------------------------------------------------------------------
+8532*   G.                        3.0   Turn Undead v2
+8533*   G., Jason, nix            3.0   de-dictatorship
+8534*   Aris                      3.3   Power Up
+8535*   Aris, nix, G., Gaelan     3.0   We the People
+8536c   Aris, G., Jason           1.7   Justice for All
+8537c   G.                        1.7   Unofficial injustice
+
+
+The proposal pool contains the following proposals:
+
+Author(s)                AI    Title
+---------------------------------------------------------------------------
+nix, Aris, Jason         3.0   Strengthening Extra Votes v2.0
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>c : Compliance ministry proposal (ordinary).
+        <ID>e : Economy ministry proposal (ordinary).
+        <ID>g : Legacy ministry proposal (ordinary).
+        <ID>l : Legislation ministry proposal (ordinary).
+        <ID>p : Participation ministry proposal (ordinary).
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8532
+Title: Turn Undead v2
+Adoption index: 3.0
+Author: G.
+Co-authors:
+
+
+[
+diffs from proto:
+ - Made activity switchable in both directions at will.
+ - Defined two verbs.
+ - Adjusted time limits as suggested.
+ - Added inactivity as a cfj recusal reason.
+diffs from v1:
+ - Made emailing a deregistree a SHOULD, but changed the method to
+   w/o three objections, with the idea that if there's question
+   about the email headers or whatever, objections can pragmatically
+   handle the issue.
+]
+
+Create the following Rule, Activity:
+
+  Activity is a player switch tracked by the Registrar, with values
+  Active (default) and Inactive.  To flip a player's activity to
+  active (inactive) is to activate (deactivate) em.  The date on
+  which each player's activity was last changed is part of the
+  Registrar's weekly report.
+
+  A player CAN activate or deactivate emself by announcement.
+
+  Any player CAN, with notice, make a player who has not made a
+  public announcement in the past 30 days inactive.
+
+  If a player has been inactive continuously for the past 60 days,
+  then any player CAN deregister em without 3 objections. The
+  Registrar SHOULD attempt to deregister players who meet this
+  condition. The publication of intent for such a deregistration
+  SHOULD be sent to the inactive player's registered email address
+  at the same time that it is published.
+
+
+Every player's activity is flipped to active [unneeded I think due
+to default behavior, but precautionary?]
+
+
+Amend Rule 2492 (Recusal) by appending the following text to the
+second paragraph:
+  The Arbitor CAN recuse an inactive or deregistered judge from a
+  case by announcement.
+
+Repeal Rule 2532 (Zombies).
+Repeal Rule 2574 (Zombie Life Cycle).
+Repeal Rule 2639 (Zombie Phase-Out).
+Repeal Rule 1885 (Zombie Auctions).
+
+Amend Rule 2472 (Office Incompatibilities) by deleting:
+  A zombie is Overpowered if e holds one or more offices.
+
+Amend Rule 2531 (Defendant's Rights) by deleting:
+  (10) it attempts to levy a fine on a zombie for an action that
+       its master performed on its behalf.
+
+Amend Rule 2621 (VP Wins) by replacing "non-zombie"  with "active".
+
+Amend Rule 2581 (Official Patent Titles) by deleting:
+  - Necromancer, awardable by the Registrar to any player who makes
+    such sufficient persistent legal use of zombies that rules need
+    to be amended to prevent such practices.
+
+[Checked all the other uses of "active" and "inactive" pertaining to
+players, looked like all would work fine under this version]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8533
+Title: de-dictatorship
+Adoption index: 3.0
+Author: G.
+Co-author(s): Jason, nix
+
+
+Amend Rule 2614 (Eclipse Light) by appending the following paragraph:
+  Rules to the contrary notwithstanding, Emergency Regulations
+  CANNOT be enacted, amended, or repealed except as described in
+  this Rule.
+
+
+Amend Rule 683 (Voting on Agoran Decisions) by appending the following
+sentence to the final paragraph:
+  Submitting and withdrawing ballots is secured.
+
+
+Amend Rule 955 (Determining the Will of Agora) by replacing:
+
+  The strength of a ballot is the voting strength of the voter who cast
+  it on that Agoran decision.
+
+with:
+
+  The strength of a ballot is the voting strength of the voter who cast
+  it on that Agoran decision, as calculated at the end of that
+  decision's voting period.
+
+
+Change the power of Rule 2168 (Extending the Voting Period) to 2.
+
+
+[Adding security to R107 makes a jumbled couple of paragraphs
+so some logical re-arranging is needed.  I think no text was deleted or
+modified other than adding the security.]
+
+Amend Rule 107 (Initiating Agoran Decisions) by replacing:
+  The publication of such a valid notice initiates the voting period
+  for the decision. The voting period lasts for 7 days. The minimum
+  voting period for a decision with at least two options is five
+  days. The vote collector for a decision with less than two options
+  CAN and SHALL end the voting period by announcement, if it has not
+  ended already, and provided that e resolves the decision in the
+  same message.
+
+  The voting period for a decision cannot be set or changed to a
+  duration longer than fourteen days.
+
+with:
+
+  The publication of such a valid notice initiates the voting period
+  for the decision. The voting period lasts for 7 days. The minimum
+  voting period for a decision with at least two options is five
+  days. The voting period for a decision cannot be set or changed to
+  a duration longer than fourteen days. Changing the length of a
+  decision's voting period is secured at power 2.
+
+  The vote collector for a decision with less than two options
+  CAN and SHALL end the voting period by announcement, if it has not
+  ended already, and provided that e resolves the decision in the
+  same message.
+
+
+Repeal Rule 2633 (Rulebending).
+
+
+[R2486 openly welcomes additions to the parade when events warrant it]
+Amend Rule 2486 (The Royal Parade) by appending the following text:
+
+  NEXT UP in the Parade comes the Discordian Court:  G. the Grand
+  Vizier is arguing with Jason the Untitled, while nix, Court
+  Anarchist, is cramming cancelled ballots into eir pockets.
+
+
+//////////////////////////////////////////////////////////////////////
+ID: 8534
+Title: Power Up
+Adoption index: 3.3
+Author: Aris
+Co-authors:
+
+
+Change the power of Rule 1030, "Precedence between Rules", from 3.2
+to 3.3.
+
+Change the power of Rule 2141, "Role and Attributes of Rules",
+from 3.1 to 3.2.
+
+Change the power of Rule 1551, "Ratification", from 3.1 to 3.2.
+
+Change the power of Rule 2614, "Eclipse Light", from 3.01 to 3.1.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8535
+Title: We the People
+Adoption index: 3.0
+Author: Aris
+Co-authors: Trigon, nix, G., Gaelan
+
+
+Amend Rule 869, "How to Join and Leave Agora", by replacing:
+
+  Any entity that is or ever was an organism generally capable of
+  freely originating and communicating independent thoughts and
+  ideas is a person. Rules to the contrary notwithstanding, no other
+  entities are persons.
+
+with:
+
+  Any entity (including a group of confederated entities) that is or
+  ever was able to willingly communicate original ideas is a person.
+  Rules to the contrary notwithstanding, no other entities are persons.
+
+  Questions about personhood are to be resolved equitably,
+  with regard for the good-faith of those involved and the customs of
+  honorable play.
+
+and then, immediately after:
+
+  An Unregistered person CAN (unless explicitly forbidden or
+  prevented by the rules) register by publishing a message that
+  indicates reasonably clearly and reasonably unambiguously that e
+  intends to become a player at that time.
+
+inserting the new text:
+
+  No person can be a player if e is part of another player or
+  another player is part of em.
+
+and inserting a paragraph break immediately thereafter.
+
+
+Amend Rule 2499, "Welcome Packages", by replacing:
+
+  When a player receives a Welcome Package, if e has not received
+  one in the past 30 days, then e gains 10 boatloads of coins and
+  one of each type of Card defined in the rules.
+
+with:
+
+  When a player receives a Welcome Package, e gains 10 boatloads of coins and
+  one of each type of Card defined in the rules, unless e, or any person
+  of whom e was a part or who was a part of em has received a welcome
+  package in the last 30 days.
+
+
+# CLEANUP
+
+Ben and Claire of the BC System are hereby declared to be separate persons;
+each patent title they collectively bore is revoked and granted to
+each of them individually.
+
+[Interpretive notes may be found in the message "BUS: Interpretive Notes
+for We the People".]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8536
+Title: Justice for All
+Adoption index: 1.7
+Author: Aris
+Co-authors: G., Jason
+
+
+[This is OP and was only used twice in the whole of last year. We could
+reform it so that the Referee could only use it for just reasons,
+but honestly I don't think that's a priority — this feels like
+a waste of space on something that's dangerous and almost unused. If
+someone wants to add something like it back later, they can figure out how
+to do it in less space.]
+
+Repeal Rule 2479, "Official Injustice".
+
+Amend Rule 2478, "Vigilante Justice", by replacing:
+
+  The Referee is by default the investigator for all Finger
+  Pointing. If the Referee is the perp, then the Arbitor CAN
+  become the investigator of that Finger Pointing by announcement.
+
+  The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
+  Finger at the Referee. A high crime is any crime specified as
+  being class 4 or greater. The Referee CANNOT levy the Cold Hand of
+  Justice to punish a high crime, notwithstanding Rule 2478.
+
+with:
+
+  The Referee is by default the investigator for all Finger
+  Pointing. When the Referee's Finger is Pointed or the Referee
+  is the perp, the Arbitor is the investigator.
+
+  The Referee CANNOT Point eir Finger at the Arbitor, and the Arbitor
+  CANNOT point eir finger at the Referee.
+
+  A high crime is any crime specified as being class 4 or greater.
+  The Referee CANNOT levy the Cold Hand of Justice to punish a high crime,
+  the other provisions of this rule notwithstanding.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8537
+Title: Unofficial injustice
+Adoption index: 1.7
+Author: G.
+Co-authors:
+
+
+[The only functionality change is to add a method for giving
+people blots for a fee.  The rule has a typo, and needs a logical
+rearrangement, so putting in the whole text.]
+
+Amend Rule 2555 (Blots) to read in full.
+
+  Blots are an indestructible fixed currency with ownership
+  restricted to persons. A person with 1 or more blots is Impure, a
+  person with 0 blots is Pure. An impure unregistered person is a
+  Fugitive. The Referee is an office, and the recordkeepor for
+  blots.
+
+  To levy a fine of N on a person, where N is a positive integer or
+  zero, is to grant em N blots. To expunge a blot is to destroy it.
+  Levying fines and destroying blots are each secured with a Power
+  Threshold of 1.7.
+
+  A person CAN, by announcement, create a specified number of blots
+  in eir possession.
+
+  Any player CAN expunge a blot from a specified person (or emself
+  if no one is specified) by paying a fee of one Blot-B-Gone.
+
+  Any player CAN levy a fine of one blot on a specified person by
+  paying a fee of two Blot-B-Gones, provided the specified person
+  has not already gained two blots or more in the current week.
+
+  At the beginning of each quarter, half (rounded down) of each
+  fugitive's blots are destroyed.
+
+
+Repeal Rule 2479 (Official Injustice).
+
+//////////////////////////////////////////////////////////////////////
+Title: Strengthening Extra Votes v2.0
+Adoption index: 3.0
+Author: nix
+Co-authors: Aris, Jason
+
+
+[
+This proposal does three things:
+
+* Removes all passive Voting Strength bonuses. They rarely make a
+   difference, which makes them uninteresting complexity. That also means
+   I'm removing chambers, since they no longer do anything.
+
+* Strengthens Extra Votes. Now they apply to all decisions within a
+   voting period. This just makes them feel nicer to use. Also the Buying
+   Strength cap is gone.
+
+* Adds a weekly reward for having the highest strength. So there's
+   incentive to consider using them even when you're not trying to force
+   through/sink a proposal.
+
+* Removes the Economy focus. Since EVs will give a cash reward, they
+   fill the same niche as this focus but in a more interesting way.
+   Additionally, removing one focus makes the others more competitive.
+]
+
+Amend R2422, "Voting Strength", by replacing:
+
+  A player CAN Buy Strength by paying 1 Extra Vote and specifying a
+  current Agoran decision on which e is a voter. For each time a
+  player has Bought Strength on a decision, eir voting strength is
+  1 greater on that decision. If the decision is on a proposal, and
+  the proposal's chamber and the player's focus are the same value,
+  then eir voting strength is instead 2 greater on that decision.
+  A player CANNOT Buy Strength for the same decision more than 3
+  times.
+
+with:
+
+  A player CAN Buy Strength by paying a fee of 1 Extra Vote. A
+  player's Voting Strength on an ordinary referendum is 1 greater
+  for every time e Bought Strength during that decision's voting
+  period.
+
+Amend R2645, "The Stones", by replacing:
+
+  - Power Stone (weekly, 40%): A specified player hereby buys
+    strength 3 times on a specified unresolved Agoran decision.
+
+with:
+
+  - Power Stone (weekly, 40%): A specified player hereby Buys
+    Strength 3 times.
+
+Repeal R2637, "Office Interests".
+
+Repeal R2607, "Proposal Chambers".
+
+Amend R103, "The Speaker", by removing the following:
+
+  The Speaker has voting strength one greater than e would have if e
+  did not hold the office.
+
+Amend R2624, "Card Administration, by removing the following:
+
+  Ministry of Economy: 50 boatloads of coins divided by X, rounded
+  up; where X is the number of players with their Ministry Focus set
+  to Economy. The Ministor SHALL report this value in a timely
+  manner after the beginning of the month.
+
+Enact a new Power 1 rule titled "Vocal Voter Verification Award" with
+the following text:
+
+  The sole player, if any, who had the highest voting strength
+  among all votes cast on all decisions resolved in the last 7 days
+  CAN once grant emself 7 boatloads of coins by announcement,
+  provided that no referenda initiated in the same message as it
+  remain unresolved.
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,40 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 6, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)                 AI    Title
+---------------------------------------------------------------------------
+8526e^  G.                        1.0   Debarreling
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>c : Compliance ministry proposal (ordinary).
+        <ID>e : Economy ministry proposal (ordinary).
+        <ID>g : Legacy ministry proposal (ordinary).
+        <ID>l : Legislation ministry proposal (ordinary).
+        <ID>p : Participation ministry proposal (ordinary).
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8526
+Title: Debarreling
+Adoption index: 1.0
+Author: G.
+Co-authors:
+
+
+Repeal Rule 2627 (The General Store).
+
+Repeal Rule 2628 (Bargains on the Barrel).
+
+//////////////////////////////////////////////////////////////////////

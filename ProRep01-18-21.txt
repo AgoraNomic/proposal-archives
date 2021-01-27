@@ -1,0 +1,135 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 2, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)                 AI    Title
+---------------------------------------------------------------------------
+8530g^  nix, Jason                1.0   No Honour
+8531g^  Jason                     1.5   Patent Title Restoration v2
+
+
+The proposal pool contains the following proposals:
+
+Author(s)                AI    Title
+---------------------------------------------------------------------------
+nix, Gaelan, Aris        3.0   Personhood Revisited
+JTAC, Jason, G.          2.0   Extension to Blot Expungement Definitions [1]
+
+
+[1] Chamber: Compliance
+
+Legend: <ID>* : Democratic proposal.
+        <ID># : Ordinary proposal, unset chamber.
+        <ID>c : Compliance ministry proposal (ordinary).
+        <ID>e : Economy ministry proposal (ordinary).
+        <ID>g : Legacy ministry proposal (ordinary).
+        <ID>l : Legislation ministry proposal (ordinary).
+        <ID>p : Participation ministry proposal (ordinary).
+        <ID>^ : Sponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8530
+Title: No Honour
+Adoption index: 1.0
+Author: nix
+Co-authors: Jason
+
+
+Repeal R2510, "Such is Karma".
+
+[Karma gets rare, sporadic usage and I'd prefer not to maintain it if
+it's not going to be used. I'm also open to supporting efforts to revive
+it, but I don't have the time/interest to write such proposals myself
+right now.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8531
+Title: Patent Title Restoration v2
+Adoption index: 1.5
+Author: Jason
+Co-author(s):
+
+
+Amend Rule 649 by replacing "A Patent Title is a legal title given to a
+person in recognition of the person's distinction" with "A Patent Title
+is a legal title held by an entity in recognition of eir distinction".
+
+[The current version could plausibly be read to strip patent titles when
+an entity ceases to be a person. This makes it so that patent titles can
+be held by all entities, but can only be awarded to persons. The
+requirement on personhood/citizenship is explicit for most awarding
+methods (including the Herald's general method), while the other methods
+require 2 Agoran consent, which should be enough to prevent them going
+to non-persons if we don't want them to as a group. There's not really
+an easy place to put an explicit restriction, because some of the 2
+Agoran consent methods are at Power 3, while the patent titles rule is
+at Power 1.5.]
+
+Award all Patent Titles to eir former holders that were lost solely due
+to the entity not being a person (under any current or former definition
+of "person"), other than Hero of Agora Nomic or Grand Hero of Agora Nomic.
+
+[Don't try to award HAN/GHAN because it seems unlikely they were ever
+stripped and because this proposal doesn't have high enough AI to do so.]
+
+//////////////////////////////////////////////////////////////////////
+Title: Personhood Revisited
+Adoption index: 3.0
+Author: nix
+Co-author(s): Gaelan, Aris
+
+
+Amend R869 by replacing:
+
+  Any entity that is or ever was an organism generally capable of
+  freely originating and communicating independent thoughts and
+  ideas is a person. Rules to the contrary notwithstanding, no other
+  entities are persons.
+
+with:
+
+  Every intelligence is a person. A group of persons can elect to
+  create a composite person, which is in eirself a person for all
+  Agoran purposes. A person cannot become a player if e is part of a
+  composite person that is already a player. A composite person
+  cannot become a player if any part of em is already a player. A
+  person does not ever cease to be a person for the purposes of
+  Agora.
+
+[This reworks and combines versions put forth by both Aris and Gaelan.]
+
+//////////////////////////////////////////////////////////////////////
+Title: Extension to Blot Expungement Definitions
+Adoption index: 2.0
+Author: JTAC
+Co-author(s): Jason, G.
+
+
+Amend Rule 2555 by adding "If expungement would destroy N blots, but the
+target has P<N blots, then the expungement instead destroys P blots. If
+P=0, the action attempts to destroy no blots." between the second and
+third paragraphs.
+
+Amend Rule 2555 again by adding "The above paragraph notwithstanding, if
+an expungement attempts to destroy no blots, a player does not pay any
+Blot-B-Gones to perform this action." between the second last and last
+paragraph.
+
+[Clarifies an edge case where a person tries to apologize after
+expunging a blot. Improves on Jason's withdrawn proposal by improving
+scope of redefinition.
+
+Adapts G.'s draft rule to a form which should prevent contradiction with
+rule 2577 using any reasonable interpretation, as well as circumvents
+the weirdness with Blot-B-Gones by preventing rule 2579 from taking
+effect when P=0.]
+
+//////////////////////////////////////////////////////////////////////
