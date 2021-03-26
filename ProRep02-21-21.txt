@@ -1,0 +1,216 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8541*   Aris                    3.0   You CAN, CAN'T You?
+8542&   Jason, Aris             2.0   Stone Excitement Act
+8543&   Jason, Aris, nix        1.0   En Passant v2
+
+The proposal pool currently contains the following proposal(s):
+
+Author(s)               AI    Title
+---------------------------------------------------------------------------
+Murphy                  3.0   Clarify dependent actions
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8541
+Title: You CAN, CAN'T You?
+Adoption index: 3.0
+Author: Aris
+Co-authors:
+
+
+[Currently, there are a bunch of CANs without a method that thus fail.]
+
+Amend Rule 2585, "Birthday Gifts", by replacing:
+
+  During a player's Agoran Birthday and the 7 days following, each
+  other player CAN, once, grant em X boatloads of coins, where X is
+  3 if it is actually the day of the player's birthday, and 2
+  otherwise.
+
+with:
+
+  During a player's Agoran Birthday and the 7 days following, each
+  other player CAN once grant em X boatloads of coins by announcement,
+  where X is 3 if it is actually the day of the player's birthday, and 2
+  otherwise.
+
+["Public designation" is used instead of "announcement" so as to not
+invalidate the current method of simply publishing a report with the
+relevant information.]
+
+Amend Rule 2141, "Role and Attributes of Rules", by replacing:
+
+  Every rule shall have an ID number, distinct among current and
+  former rules, to be assigned once by the Rulekeepor.
+
+with:
+
+  Every rule shall have an ID number, distinct among current and
+  former rules, to be assigned once by the Rulekeepor by public
+  designation.
+
+Amend Rule 2608, "The Notary", by replacing:
+
+  If the Notary is required to report a title, but none has been
+  otherwise publicly provided, e CAN select one.
+
+with:
+
+  If the Notary is required to report an entity's title, but none has been
+  otherwise publicly provided, e CAN assign one by public designation.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8542
+Title: Stone Excitement Act
+Author: Jason
+Co-authors: Aris
+Adoption index: 2.0
+
+
+Amend Rule 2643 "Collecting Stones" by replacing the final paragraph
+with the following:
+{
+
+  A collection notice includes zero or more random choices of whether each
+  stone escapes. Each choice results in escape with probability equal to
+  its escape risk; a stone escapes if any choice selects escape. When a
+  collection notice is published, stones that escape are transferred to
+  Agora in an order specified by the collection notice.
+
+  If a stone is immune, there are zero escape choices; otherwise, there is
+  one choice if the stone was used in the previous Agoran month, or two if
+  it was not.
+
+}
+
+//////////////////////////////////////////////////////////////////////
+ID: 8543
+Title: En Passant v2
+Author: Jason
+Co-authors: Aris, nix
+Adoption index: 1.0
+
+
+Amend Rule 2621 "VP Wins" to read, in whole:
+{
+
+  If a player has at least 20 more Victory Points than any other player, e
+  CAN Take Over the Economy by announcement, provided no person has done
+  so in the past 30 days.
+
+  When a player takes over the economy, e wins the game. If a player Took
+  Over the Economy 4 days ago, all Cards and all Products are destroyed,
+  then each active player is granted 1 card of each type.
+
+}
+
+//////////////////////////////////////////////////////////////////////
+Title: Clarify dependent actions
+Author: Murphy
+Co-authors:
+Adoption index: 3.0
+
+
+Amend Rule 2595 (Performing a Dependent Action) to read:
+
+   A rule that purports to allow a person (the performer) to perform
+   an action by a set of one or more dependent actions thereby allows
+   em to perform the action by announcement if all of the following
+   are true:
+
+   1. A person (the initiator) published an announcement of intent
+      that unambiguously, clearly, conspicuously, and without
+      obfuscation specified the action intended to be taken and the
+      method(s) to be used, including these values if relevant:
+
+        * If the action is to be taken with T notice, then the value
+          of T.
+
+        * If the action is to be taken without N objections, with N
+          support, or with N Agoran Consent, and N is not equal to 1,
+          then the value of N.
+
+   2. The time between the announcement of intent and the action is
+      at most 14 days. In addition:
+
+        * If the action is to be taken without N objections or with N
+          Agoran consent, then it is at least 4 days.
+
+        * If the action is to be taken with T notice, then it is at
+          least T (minimum of 4 days).
+
+   3. At least one of the following is true:
+
+        * The performer is the initiator.
+
+        * The initiator was authorized to perform the action due to
+          holding a rule-defined position now held by the performer.
+
+        * The initiator is authorized to perform the action, the
+          action depends on support, the performer has supported the
+          intent, and the rule authorizing the performance does not
+          explicitly prohibit supporters from performing it.
+
+   4. Agora is Satisfied with the announced intent, as defined by
+      other Rules.
+
+   5. If the announcement of intent stated any conditions, then those
+      conditions are all met.
+
+   If the action is to be taken with N Agoran consent, then the
+   performer SHOULD publish a list of supporters and objectors.
+
+Amend Rule 2124 (Agoran Satisfaction) to read:
+
+  A Supporter of an intent to perform an action is an eligible
+  entity who has publicly posted (and not withdrawn) support for an
+  announcement of that intent.
+
+  An Objector to an intent to perform an action is an eligible
+  entity who has publicly posted (and not withdrawn) an objection to
+  the announcement of that intent.
+
+  The entities eligible to support or object to an intent to perform
+  an action are, by default, all players, subject to modification by
+  the document authorizing the dependent action. However, the
+  previous sentence notwithstanding, the initiator of the intent is
+  not eligible to support it, and a person CANNOT support or object
+  to an announcement of intent before the intent is announced, or
+  after e has withdrawn the same type of response.
+
+  Agora is Satisfied with an intent to perform a specific action
+  unless at least one of the following is true:
+
+  1. The action is to be performed without N objections, and there
+    are at least N Objectors to that intent.
+
+  2. The action is to be performed with N support, and there are
+    fewer than than N Supporters of that intent.
+
+  3. The action is to be performed with N Agoran consent, and the
+    number of Supporters of that intent is less than or equal to N
+    times the number of Objectors to that intent.
+
+  4. The action is to be performed without N objections or with N
+    Agora consent, and an objection to that intent was withdrawn
+    within the past 24 hours.
+
+  5. The Speaker objected to that intent within the past 48 hours.
+
+//////////////////////////////////////////////////////////////////////

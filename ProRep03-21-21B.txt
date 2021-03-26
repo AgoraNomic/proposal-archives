@@ -1,0 +1,116 @@
+PLEASE VOTE HERE.
+
+Index of proposals currently up for voting:
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8549&   Aris, Gaelan, G.        2.2   You Can Only Stack Turtles So High
+8552&   Jason, ais523           1.0   Apathy for all
+8553&   Jason                   1.0   Slightly less apathetic
+8554&   Aris, nix               2.2   I Want My Promise Back!
+8555&   G.                      1.0   something to vote on
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8549
+Title: You Can Only Stack Turtles So High
+Author: Aris
+Co-authors: Gaelan, G.
+Adoption index: 2.2
+
+
+[This fixes G.'s scam, which would otherwise allow indeterminacy to be
+created through infinite promise loops.]
+
+Amend Rule 2618, "Promises", by inserting, after the text:
+
+  A promise's bearer CAN, by announcement, cash the promise,
+  provided that any conditions for cashing it specified by its text
+  are unambiguously met. By doing so, e acts on the creator of the
+  promise's behalf, causing the creator to act as if e published the
+  promise's text, and destroys the promise.
+
+the text:
+
+  However, to limit recursion, no promise can be cashed during the execution
+  of another promise unless it existed before the execution of that promise
+  began.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8552
+Title: Apathy for all
+Author: Jason
+Co-authors: ais523
+Adoption index: 1.0
+
+
+Amend Rule 2465 by replacing, as a single amendment, the text "set of
+players" with "set of persons" and the text "specified players" with
+"specified persons".
+
+//////////////////////////////////////////////////////////////////////
+ID: 8553
+Title: Slightly less apathetic
+Author: Jason
+Co-authors:
+Adoption index: 1.0
+
+
+Amend Rule 2465, "Victory by Apathy", by replacing the final "."
+character with the following: ", except for those who have won the game
+through this Rule in the past 14 days."
+
+//////////////////////////////////////////////////////////////////////
+ID: 8554
+Title: I Want My Promise Back!
+Author: Aris
+Co-authors: nix
+Adoption index: 2.2
+
+
+[This is intended to remove the need to put in a special provision
+to a promise allow the creator to destroy a promise in the possession of
+the Library. Since that's usually what's wanted, this makes it the
+default behavior, while still allowing the creator to override it.]
+
+Amend Rule 2618, "Promises", by inserting, after the text:
+
+  The Library is an entity and CAN own promises. Any player CAN take
+  a specified promise from the Library by announcement, provided e
+  cashes the promise in the same message.
+
+the text:
+
+  The creator of a promise CAN take or revoke it from the Library by
+  announcement, unless the promise's text unambiguously designates
+  it as irrevocable.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8555
+Title: something to vote on
+Author: G.
+Co-authors:
+Adoption index: 1.0
+
+
+The player who voted unambiguously FOR, and had the highest
+unique[*] voting strength (at the end of the voting period) on,
+the decision to adopt this proposal
+
+                      is hereby granted
+
+                  ****  1 Victory Card   *****
+
+[* "Highest unique" means if the top two are 15 and the next
+highest is 14, and no one else is at 14, the 14 wins].
+
+//////////////////////////////////////////////////////////////////////
