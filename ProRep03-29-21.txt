@@ -1,0 +1,39 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 3, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8556&   Jason, nix              1.0   Ministry Normalization
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8556
+Title: Ministry Normalization
+Author: Jason
+Co-authors: nix
+Adoption index: 1.0
+
+
+Amend Rule 2624 by inserting the following line after the line "Ministry
+of Participation: 1 Voting Card": "Ministry of Legacy: 1 Victory Point"
+and by deleting "and 1 Victory Point to every other player whose
+Ministry Focus is Legacy".
+
+[This allows the Concentration Stone to work (at least partially) for
+players focused on Legacy.]
+
+//////////////////////////////////////////////////////////////////////
