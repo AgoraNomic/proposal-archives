@@ -1,0 +1,37 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 3, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8559&   ATMunn, G., Aris        2.5   Paper Shredding
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8559
+Title: Paper Shredding
+Adoption index: 2.5
+Author: ATMunn
+Co-author(s): G., Aris
+
+
+Amend Rule 1742 "Contracts" by appending the following:
+
+  Any player CAN cause a contract to be terminated (syn. "shred")
+  without 2 objections. This SHOULD only be done to remove unused
+  contracts or contracts deemed detrimental to the game as a whole.
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,50 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 3, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8558&   Aris                    2.0   Silver Quill 2020
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8558
+Title: Silver Quill 2020
+Adoption index: 2.0
+Author: Aris
+Co-author(s):
+
+
+[This enables me to award the Silver Quill, and is necessary
+because one of the proposals was selected after the official deadline.
+I set it up as a temporary rule because I still want to do the
+big announcement where I actually award the title.]
+
+Enact a power 2.0 rule, entitled "Silver Quill 2020", with
+the following text:
+
+  The Promotor CAN once, by announcement, award the patent title
+  Silver Quill 2020 to nix for eir authorship of Proposal 8408,
+  "Sets v1.4".
+
+  The Promotor CAN once, by announcement, award the patent title
+  Silver Quill 2020 to Aris for eir authorship of Proposal 8514,
+  "The Buoyant Economy".
+
+  The Promotor CAN cause this rule to repeal itself by announcement,
+  and SHALL do so in a timely fashion after its enactment.
+
+//////////////////////////////////////////////////////////////////////

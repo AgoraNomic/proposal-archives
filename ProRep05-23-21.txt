@@ -1,0 +1,148 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 3, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8560&   G., nix                 1.7   simplify indictments
+
+The proposal pool currently contains the following proposal(s):
+
+Author(s)               AI    Title
+---------------------------------------------------------------------------
+G., nix                 2.0   Election Cycle
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8560
+Title: simplify indictments
+Adoption index: 1.7
+Author: G.
+Co-author(s): nix
+
+
+Repeal Rule 2619 (Indictment).
+
+Amend Rule 2557 (Sentencing Guidelines) by appending the following paragraph:
+
+  When the rules authorize an investigator to issue an Indictment
+  for a violation, e CAN do so by levying a fine on the perp, with
+  1.5 Agoran Consent, provided that levying the fine would be
+  otherwise LEGAL and EFFECTIVE.
+
+[
+Turns indictment into a simple "if we want to apply a punishment outside
+the 1...2xBase violation range (either higher or lower), we do so with 1.5
+Consent and call that an indictment."  The 1.5 level was chosen to match
+the AI of the current indictment proposals.
+
+The "otherwise LEGAL and EFFECTIVE" clause is so that this ability is
+still limited by Defendant's Rights.
+]
+
+//////////////////////////////////////////////////////////////////////
+Title: Election Cycle
+Adoption index: 2.0
+Author: G.
+Co-author(s): nix
+
+
+Create a power=2 rule, "The Election Cycle", with the following text:
+
+  A holder of an elected office who did not become its holder by
+  winning an election, and has not won an election for that office
+  since, is an interim holder. An elected office that is either
+  vacant or has an interim holder is an interim office.
+
+  An office is term-limited if the most recent election for that
+  office was resolved more than the length of that office's term
+  prior. The term for the office of Prime Minister is 90 days. The
+  term for all other elected offices is 180 days.
+
+  A player CAN initiate an election for a specified elected office:
+
+  a) with 2 support, if either the office is interim or term-
+     limited, and provided that the initiator becomes a candidate
+     in the same message.
+
+  b) By announcement, if e is the ADoP (or, if the office is the
+     ADoP, if e is the Assessor) and the office is interim, or if
+     e is the holder of that office.
+
+  Once per quarter, the ADoP CAN and SHALL publish a Notice of
+  Election specifying between 2-4 term-limited offices (if there
+  fewer than 2 term-limited offices, the ADoP MUST instead list
+  all of them).  Such a notice initiates elections for the
+  specified offices.  The ADoP SHOULD prioritize offices that
+  have gone longest since their last elections.
+
+  The above notwithstanding, an election for an office CANNOT be
+  initiated if one is already in progress.
+
+
+[Delete this section added to the previous rule - better gathers
+election procedure rules in one place].
+
+Amend Rule 1006 (Offices) by removing:
+  A holder of an elected office who did not become its holder by
+  winning an election, and has not won an election for that office
+  since, is an interim holder. An elected office that is either
+  vacant or has an interim holder is an interim office.
+
+
+[For the below rule, remove text placed in the new rule above,
+and add the Assessor as the vote collector for ADoP elections].
+
+Amend Rule 2154 (Election Procedure) to read in full:
+
+  When an election is initiated, it enters the nomination period,
+  which lasts for 4 days. After an election is initiated and until
+  nominations close, any player CAN become a candidate by
+  announcement. A candidate ceases to be a candidate if e ceases to
+  be a player during the election or if holding the office would
+  make em Overpowered. During the nomination period, a candidate CAN
+  cease to be a candidate by announcement if there is at least one
+  other candidate.
+
+  An election whose nomination period is complete is contested if it
+  has two or more candidates, and uncontested otherwise. Nominations
+  close at the end of the poll's voting period or when the election
+  is ended, whichever comes first.
+
+  After the nomination period ends, the ADoP (or, if the office is
+  the ADoP, the Assessor) CAN and, in a timely fashion, SHALL:
+
+  1) If the election is contested, initiate an Agoran decision to
+     select the winner of the election (the poll). For this
+     decision, the Vote Collector is the ADoP (or, if the office
+     is the ADoP, the Assessor), the valid options are
+     the candidates for that election (including those who become
+     candidates after its initiation), and the voting method is
+     instant runoff. When the poll is resolved, its outcome, if a
+     player, wins the election. If the outcome is not a player, the
+     election ends with no winner.
+
+  2) If POSSIBLE per the following paragraph, end the election
+     immediately.
+
+  If at any point an uncontested election has a single candidate,
+  then any player CAN by announcement declare em the winner of the
+  election, thereby causing em to win the election. If at any point
+  an uncontested election has no candidates, then any player CAN
+  declare the election ended with no winner by announcement.
+
+  When a player wins an election, e is installed into the associated
+  office and the election ends.
+
+//////////////////////////////////////////////////////////////////////
