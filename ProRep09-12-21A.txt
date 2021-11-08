@@ -1,0 +1,54 @@
+Accepted. Revision:
+
+At about 09:13 UTC on September 12, when the last Promotor's report
+was submitted, the proposal pool contained the following proposals:
+Author(s)               AI    Title
+---------------------------------------------------------------------------
+G.                      1.0   another device defect
+Telna, ais523, Alexis   3.0   Asset Self-Ratification Fix
+
+[1] This proposal has no author, as it was created by Proposal 8598.
+[2] This proposal has no title.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+Title: another device defect
+Adoption index: 1.0
+Author: G.
+Co-author(s):
+
+
+Amend Rule 2655 by replacing:
+  responsible for building and maintaining the Device.
+with:
+  responsible for building, tracking, and maintaining the Device.
+
+and by deleting:
+  This intent announcement counts as the Mad Engineers's weekly report.
+
+[with the reporting duty for the device status added, by default a weekly
+switch value report, we no longer need this intent to count as a report to
+get the weekly report reward.  The intent is still part of "weekly duties"
+but not the report.]
+
+//////////////////////////////////////////////////////////////////////
+Title: Asset Self-Ratification Fix
+Adoption index: 3.0
+Author: Telna
+Co-author(s): ais523, Alexis
+
+
+In Rule 2166 "Assets", replace the text "This portion of that entity's
+report is self-ratifying." with the following:
+
+  A public document purporting to be this portion of that entity's report
+  is self-ratifying.
+
+//////////////////////////////////////////////////////////////////////

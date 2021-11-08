@@ -1,0 +1,119 @@
+[I'm sorry this has taken so long. I don't know why I'm so very out of it
+this week, but I hope to improve my performance going forward. I honestly
+thought I'd sent this already, which]
+
+PROMOTOR'S REPORT AS OF RIGHT NOW.
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8575*   R. Lee                  3.0   Nicer Definitions
+
+
+The proposal pool currently contains the following proposal(s):
+
+Author(s)               AI    Title
+---------------------------------------------------------------------------
+Mask                    1.0   Reduce, Reuse, Recycle
+R. Lee, Jason           3.0   It's a gray, gray world.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8575
+Title: Nicer Definitions
+Adoption index: 3.0
+Author: R. Lee
+Co-author(s):
+
+
+Amend rule 2152, "Mother May I", by replacing
+
+  "SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
+  described action, the full implications of performing it should
+   be understood and carefully weighed."
+
+with
+
+
+  ""SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
+  described action, the full implications of performing it ought to be
+  be understood and carefully weighed."
+
+
+and also by replacing
+
+  "SHOULD, ENCOURAGED, RECOMMENDED: Before failing to perform the
+   described action, the full implications of failing to perform
+   it should (in the ordinary-language sense) be understood and
+   carefully weighed."
+
+with
+
+  "SHOULD, ENCOURAGED, RECOMMENDED: Before failing to perform the
+  described action, the full implications of failing to perform
+  it ought to be understood and
+  carefully weighed."
+
+[Explanation: The word SHOULD is currently defined as meaning the word
+should. This is not technically recursive because the upper case terms are
+terms of art, but it looks awful. This proposal means that it becomes
+"ought to", which just looks better. I also get to remove a terribly clunky
+parenthetical.]
+
+//////////////////////////////////////////////////////////////////////
+Title: Reduce, Reuse, Recycle
+Adoption index: 1.0
+Author: Mask
+Co-author(s):
+
+
+On successful repeal of a rule, the player who proposed the repeal gains
+2 Pendants.
+
+//////////////////////////////////////////////////////////////////////
+Title: It's a gray, gray world.
+Adoption index: 3.0
+Author: R. Lee
+Co-author(s): Jason
+
+
+Amend rule 2438, "Ribbons", by deleting the last list item.
+[Comment: Awarding coins can be done at power 1, piggybacking off of the
+Ribbon rule. No reason to have Glitter here at power 3]
+
+Amend rule 2602, "Glitter" to read, in full:
+
+  "Each type of Ribbon has a corresponding type of Glitter
+  with the same name. A player qualifies for a type of Glitter
+  when e qualifies for the same type of Ribbon while already
+  owning such a Ribbon. If a player has not been awarded
+  that type of Ribbon or e corresponding type of Glitter
+  since e last earned or came to qualify for that type of
+  Ribbon, and has not been so awarded five or more times
+  within the past 24 hours, any player CAN award em that
+  type of Glitter by announcement. When a player gains
+  a type of Glitter, the Tailor SHALL in an officially
+  timely fashion and CAN once by announcement award em
+  N/2 boatloads of coins rounded up, where N is the number
+  of players that did not own the corresponding type of
+  Ribbon at the time of the award. The amount payable for
+  each type of Glitter is tracked in the Tailor's weekly
+  report.
+
+[comment: Nonplayer persons can currently get Glitter, they don't need to
+be able to though because it does nothing. N+1 becomes N/2 because Glitter
+is currently the most powerful way to get coins, by far. ]
+
+//////////////////////////////////////////////////////////////////////

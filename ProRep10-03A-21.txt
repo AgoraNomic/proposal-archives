@@ -1,0 +1,41 @@
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8630*   Cuddlebeam              3.0   A Very Merry Unvictory to Me! [1]
+
+[1] I am obliged to note that this title contains a final space.
+
+CoE on the latest Promotor's report, submitted at approximately
+04:26 UTC October 4: at the time of that report, the proposal pool contained
+the above proposal.
+
+Accepted. Revision: at the time of the latest Promotor's report, the proposal
+pool contained the above proposal.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8630
+Title: A Very Merry Unvictory to Me!
+Adoption index: 3.0
+Author: Cuddlebeam
+Co-author(s):
+
+
+Ratify the following: {Cuddlebeam has not won the game by Proposal.}
+
+Then, if it is possible to do, revoke the Title of Champion (by Proposal)
+from Cuddlebeam.
+
+//////////////////////////////////////////////////////////////////////

@@ -1,0 +1,138 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW.
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8603&   Jason, Bucky            2.0   Buying Strength Eligibility
+8604&   R. Lee, G.              2.0   Stony Silence
+8605&   G., Ørjan               1.0   Covered under warranty
+8606&   [1]                     1.0   [2]
+
+The proposal pool currently contains the following proposal(s):
+
+Author(s)               AI    Title
+---------------------------------------------------------------------------
+G.                      1.0   another device defect
+
+[1] This proposal has no author, as it was created by Proposal 8598.
+[2] This proposal has no title.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8603
+Title: Buying Strength Eligibility
+Adoption index: 2.0
+Author: Jason
+Co-author(s): Bucky
+
+
+Amend Rule 2653 by replacing "A player's Voting Strength on referendum"
+with "A person's Voting Strength on a referendum".
+
+[There's no reason that buying strength should stop applying on
+deregistration, since a non-player can still be eligible to vote.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8604
+Title: Stony Silence
+Adoption index: 2.0
+Author: R. Lee
+Co-author(s): G.
+
+
+Amend rule 2642, 'Distributing Stones' by replacing its second paragraph
+with 'The Stonemason SHALL if possible initiate such an auction monthly and
+only once a month, in a timely fashion after a collection notice has been
+issued. The Stonemason SHALL auction exactly 2 stones in a month if
+possible'
+
+Retitle rule 2644 'The Gauntlet' to 'Zen Gardening' [cosmetic change to
+remove the annoying movie reference that I discussed once on discord]
+
+Amend rule 2644 by replacing any instances of the word 'Gauntlet' with
+'Rock Garden'
+
+Amend rule 2644 by replacing '5 or more' with '8 or more'
+
+Amend rule 2645 'The Stones' by adding the following text on the end.
+"
+- Recursion Stone (Monthly, 80%): The recursion stone can be wielded once
+  per month as if it had the power of any other stone of your choice.
+
+- Hot Potato Stone (Weekly, 100%):  When this stone is wielded, the
+  wielder gains 8 boatloads of coins if the wielder, in the same message
+  as the wielding, transfers this stone to a player who has not owned
+  this stone since Agora last owned it. This stone cannot otherwise be
+  transferred, other rules notwithstanding. This stone is immune if 3 or
+  more players have wielded it since the most recent collection notice.
+
+- Blank Stone (Monthly, 5%): This stone has no effect.
+
+- Alchemy Stone (weekly, 70%): Destroy four cards you own. If four cards were
+  destroyed this way, gain 7 products of your choice.
+"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8605
+Title: Covered under warranty
+Adoption index: 1.0
+Author: G.
+Co-author(s): Ørjan
+
+
+Amend Rule 2655 (The Mad Engineer) by replacing:
+  skip directly to proposal submission.
+with:
+  skip directly to announcing intent, below.
+
+and by replacing:
+  with Agoran Consent, cause this rule to amend the rule "The Device"
+  as indicated,
+with:
+  with Agoran Consent, cause this rule to amend the rule "The Device"
+  as indicated (or, if 007 has been spotted, cause this rule to repeal
+  both that rule and this one),
+
+//////////////////////////////////////////////////////////////////////
+ID: 8606
+Title:
+Adoption index: 1.0
+Author:
+Co-author(s):
+
+
+I create a proposal with this sentence as its text, and make it pending.
+
+//////////////////////////////////////////////////////////////////////
+Title: another device defect
+Adoption index: 1.0
+Author: G.
+Co-author(s):
+
+
+Amend Rule 2655 by replacing:
+  responsible for building and maintaining the Device.
+with:
+  responsible for building, tracking, and maintaining the Device.
+
+and by deleting:
+  This intent announcement counts as the Mad Engineers's weekly report.
+
+[with the reporting duty for the device status added, by default a weekly
+switch value report, we no longer need this intent to count as a report to
+get the weekly report reward.  The intent is still part of "weekly duties"
+but not the report.]
+
+//////////////////////////////////////////////////////////////////////
