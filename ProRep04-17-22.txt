@@ -1,0 +1,64 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8667&   G.                      1.0   welcome fix
+8668&   G.                      1.0   a light on darkness
+
+
+The proposal pool contains the following proposals:
+
+Author(s)               AI    Title
+---------------------------------------------------------------------------
+Jason                   1.7   No finger pointing on behalf
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8667
+Title: welcome fix
+Adoption index: 1.0
+Author: G.
+Co-author(s):
+
+
+Amend Rule 2499 (Welcome Packages) by replacing:
+    Any player CAN grant
+with:
+    Any player CAN, by announcement, grant
+
+//////////////////////////////////////////////////////////////////////
+ID: 8668
+Title: a light on darkness
+Adoption index: 1.0
+Author: G.
+Co-author(s):
+
+
+Repeal Rule 2617 (Defense Against the Dark Arts).
+
+//////////////////////////////////////////////////////////////////////
+Title: No finger pointing on behalf
+Adoption index: 1.7
+Author: Jason
+Co-author(s):
+
+
+Amend Rule 2478 by replacing "A player CAN by announcement Point eir
+Finger" with "A player, acting as emself, CAN by announcement Point eir
+Finger".
+
+//////////////////////////////////////////////////////////////////////

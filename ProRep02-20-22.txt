@@ -1,0 +1,64 @@
+The proposal pool contains the following proposals:
+
+Author(s)               AI    Title
+---------------------------------------------------------------------------
+nix                     3.0   Some RTRW Clean-Ups
+G.                      1.7   Cheaters shouldn't prosper
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+Title: Some RTRW Clean-Ups
+Adoption index: 3.0
+Author: nix
+Co-author(s):
+
+
+Amend R2464 by replacing "set of regulations," with "a set of
+regulations,".
+
+Amend R2493 by:
+
+     * replacing "an textual entity" with "a textual entity"; and
+     * replacing "an person" with "a person".
+
+Amend R2495 by replacing "This title" with "These regulations".
+
+Amend R2471 by replacing "be not to be true" with "be not true".
+
+Amend R2602 by removing any quotation marks and replacing "or e
+corresponding" with "or the corresponding".
+
+//////////////////////////////////////////////////////////////////////
+Title: Cheaters shouldn't prosper
+Adoption index: 1.7
+Author: G.
+Co-author(s):
+
+
+[
+- clarifies timing of JC grant paragraph
+- the default penalty is 2 blots.  a set-complete JC removes 2.5
+  blots.  A perp shouldn't profit from their crime by pointing
+  at themselves and getting a JC for it.  So this removes self-points
+  from the counting.
+]
+
+Amend Rule 2478 (Vigilante Justice) by replacing:
+  The player who initiated the most Finger Pointings that resulted
+  in a Warning, Indictment, or Cold Hand of Justice in the previous
+  Agoran Week CAN once grant emself a Justice Card by announcement.
+with:
+  The player who initiated the most Finger Pointings at other
+  players that, in the previous Agoran Week, resulted
+  in a Warning, Indictment, or Cold Hand of Justice, CAN once
+  grant emself a Justice Card by announcement.
+
+//////////////////////////////////////////////////////////////////////

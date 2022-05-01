@@ -1,0 +1,97 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8665*   nix, Jason, ais523      3.0   Promise Expirations 1.1
+8666&   snail, nix              1.0   The Secretarybird
+
+The proposal pool contains the following proposals:
+
+Author(s)               AI    Title
+---------------------------------------------------------------------------
+juan                    9.9   Don't Vote For Me
+Jason                   1.7   No finger pointing on behalf
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8665
+Title: Promise Expirations 1.1
+Adoption index: 3.0
+Author: nix
+Co-author(s): Jason, ais523
+
+
+Amend 2618 by replacing:
+
+  The Library is an entity and CAN own promises. Any player CAN take
+  a specified promise from the Library by announcement, provided e
+  cashes the promise in the same message. The creator of a promise
+  CAN take or revoke it from the Library by announcement, unless the
+  promise's text unambiguously designates it as irrevocable. Any
+  player CAN revoke a specified promise from the Library without
+  objection.
+
+with:
+
+  The Library is an entity and CAN own promises. Any player CAN take
+  a specified promise from the Library by announcement, provided e
+  cashes the promise in the same message.
+
+  The creator of a promise CAN take or revoke it from the Library by
+  announcement, unless the promise's text unambiguously designates
+  it as irrevocable. Any player CAN revoke a specified promise from
+  the Library without objection. If a promise specifies expiration
+  conditions then any player CAN by announcement destroy it while
+  the expiration conditions are unambiguously met.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8666
+Title: The Secretarybird
+Adoption index: 1.0
+Author: snail
+Co-author(s): nix
+
+
+Amend Rule 2665 (The Birds) by appending the list item:
+{
+
+  - Secretarybird: The playmate gains 1 stamp with the type of a
+    specified active player.
+
+}
+
+//////////////////////////////////////////////////////////////////////
+Title: Don't Vote For Me
+Adoption index: 9.9
+Author: juan
+Co-author(s):
+
+
+Ossify Agora.
+
+//////////////////////////////////////////////////////////////////////
+Title: No finger pointing on behalf
+Adoption index: 1.7
+Author: Jason
+Co-author(s):
+
+
+Amend Rule 2478 by replacing "A player CAN by announcement Point eir
+Finger" with "A player, acting as emself, CAN by announcement Point eir
+Finger".
+
+//////////////////////////////////////////////////////////////////////

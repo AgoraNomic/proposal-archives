@@ -1,0 +1,60 @@
+PROMOTOR'S REPORT AS OF RIGHT NOW
+
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8655&   Jason, nix              1.0   Restricted Petitions
+8656&   Jason                   1.0   Mathematical de-notation
+
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8655
+Title: Restricted Petitions
+Adoption index: 1.0
+Author: Jason
+Co-author(s): nix
+
+
+Amend Rule 2143 by replacing the final paragraph with the following
+paragraph:
+
+{
+
+  A player CAN, by announcement, petition a specified non-vacant office to
+  take a specific action. The holder of that office SHALL publicly respond
+  to that petition in a timely fashion.
+
+}
+
+
+[Amend away all possible ambiguity about whether petitioning vacant
+offices works, and ensure that the duty moves with the office, rather
+than attaching to a specific person.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8656
+Title: Mathematical de-notation
+Adoption index: 1.0
+Author: Jason
+Co-author(s):
+
+
+Amend Rule 2657 by replacing "the floor of the associated amount of
+points" with "the associated amount of points, rounded down".
+
+//////////////////////////////////////////////////////////////////////

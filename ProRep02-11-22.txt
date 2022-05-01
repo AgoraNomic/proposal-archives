@@ -1,0 +1,181 @@
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 5, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8638*   secretsnail             3.0   Cyan Ribbon Patch
+8639*   G.                      3.0   sole quorum
+8640&   R. Lee                  2.0   Minor ruleset edits
+8641&   Jason, G.               2.0   Degrees are for persons
+8642&   Jason, Ørjan            2.0   Hot Potato patch v2
+8643&   G.                      1.7   Firing Judge Dredd
+8644&   Jason, ais523           1.0   Device repeal patch
+
+
+The proposal pool contains the following proposals:
+
+Author(s)               AI    Title
+---------------------------------------------------------------------------
+Murphy                  3.0   No audience, no action
+
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8638
+Title: Cyan Ribbon Patch
+Adoption index: 3.0
+Author: secretsnail
+Co-author(s):
+
+
+Amend Rule 2438 (Ribbons) by replacing "Cyan (C): When a person
+deputises for an office, that person earns a Cyan Ribbon" with
+"Cyan (C): When a person deputises for an office, and that person has not
+held or deputized for that office within the past 7 days, that person earns
+a Cyan Ribbon".
+
+[Fixes an issue which lets a player repeatedly deputize for an office and
+award emself up to 5 cyan glitter.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8639
+Title: sole quorum
+Adoption index: 3.0
+Author: G.
+Co-author(s):
+
+
+Amend Rule 879 (Quorum) by changing its power to 3.
+
+[the basic definition of quorum should be power-3 along with the rest of
+voting, right?]
+
+
+Amend Rule 879 (Quorum) by replacing:
+  As an exception to the previous paragraph, the quorum of an
+  Agoran decision can never be less than 2. If the rules would
+  attempt to set the quorum of an Agoran decision to less than 2,
+  it is set to 2 instead.
+with:
+  As an exception to the previous paragraph, the minimum quorum of
+  an Agoran decision is 2, or 1 if there are fewer than 2 players in
+  the game. If the rules would attempt to set the quorum of an Agoran
+  decision to less than the minimum quorum, it is set to the minimum
+  instead.
+
+[If 1 person is the only player, that should be quorum.  Less than 1 is
+game-breaking trouble, so minimum=1 protects extra against the final
+deregistration]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8640
+Title: Minor ruleset edits
+Adoption index: 2.0
+Author: R. Lee
+Co-author(s):
+
+
+Amend rule 1023, "Agoran Time" by removing the text "Eastman
+weeks begin at midnight UTC on the 1st, 8th, 15th, 22nd,
+and 29th of each Gregorian month; the fifth one of the
+month (if any) lasts till the end of the month."
+
+and by removing the text
+
+"(e.g. Eastman weeks)"
+
+
+Amend rule 2531, "Defendant's Rights" by removing the last semicolon
+and the last "or" after section (9) and by inserting the text " or"
+between the word "Finger" and the semicolon at the end of section (8).
+
+Retitle rule 2531, "Defendant's Rights" to "Defendants' Rights"
+
+//////////////////////////////////////////////////////////////////////
+ID: 8641
+Title: Degrees are for persons
+Adoption index: 2.0
+Author: Jason
+Co-author(s): G.
+
+
+Amend Rule 1367 ("Degrees") by replacing "A specified degree CAN be
+awarded" with "A specified degree CAN be awarded to a person".
+
+[Require that degrees are given to persons for their hard work, rather
+than arbitrary entities.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8642
+Title: Hot Potato patch v2
+Adoption index: 2.0
+Author: Jason
+Co-author(s): Ørjan
+
+
+Amend Rule 2645 (The Stones) by replacing "This stone cannot otherwise
+be transferred" with "If this stone is not owned by Agora, it cannot
+otherwise be transferred".
+
+[Allows transferring the Hot Potato stone from Agora in order to allow
+it to actually be auctioned off.]
+
+//////////////////////////////////////////////////////////////////////
+ID: 8643
+Title: Firing Judge Dredd
+Adoption index: 1.7
+Author: G.
+Co-author(s):
+
+
+Amend Rule 2478 (Vigilante Justice) by replacing:
+  The above notwithstanding, the investigator CANNOT resolve a
+  Finger Pointing for which e is the perp.
+with:
+  The above notwithstanding, the investigator CANNOT resolve a
+  Finger Pointing for which e is the perp or the finger-pointer.
+
+
+[if referee is vacant, someone could point a finger and deputise to
+resolve it in the same message - independence needed].
+
+//////////////////////////////////////////////////////////////////////
+ID: 8644
+Title: Device repeal patch
+Adoption index: 1.0
+Author: Jason
+Co-author(s): ais523
+
+
+Amend Rule 2655 by replacing "repeal both that rule and this one" with
+"repeal that rule, then this one".
+
+//////////////////////////////////////////////////////////////////////
+Title: No audience, no action
+Adoption index: 3.0
+Author: Murphy
+Co-author(s):
+
+
+Amend Rule 478 (Fora) by replacing this text:
+
+  A public message is a message sent via a public forum, or sent to
+  all players
+
+with this text:
+
+  A public message is a message sent via a public forum, or sent to
+  all players (or, if there are no players, a reasonably large
+  subset of all persons who have ever been players)
+
+//////////////////////////////////////////////////////////////////////

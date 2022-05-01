@@ -1,0 +1,36 @@
+I hereby distribute each listed proposal, initiating a referendum on it,
+and removing it from the proposal pool. For this decision, the vote collector
+is the Assessor, the quorum is 8, the voting method is AI-majority, and the
+valid options are FOR and AGAINST (PRESENT is also a valid vote, as are
+conditional votes).
+
+ID      Author(s)               AI    Title
+---------------------------------------------------------------------------
+8633*   Falsifian               3.0   Disbanded distribution
+
+Revision to the last Promotor's report, effective immediately:
+
+The proposal pool is currently empty.
+
+Legend: <ID>* : Democratic proposal.
+        <ID>& : Ordinary proposal.
+        <ID>~ : Unsponsored proposal.
+
+The full text of the aforementioned proposal(s) is included below. Where
+the information shown below differs from the information shown above,
+the information shown above shall control.
+
+//////////////////////////////////////////////////////////////////////
+ID: 8633
+Title: Disbanded distribution
+Adoption index: 3.0
+Author: Falsifian
+Co-author(s):
+
+
+In Rule 1607 "Distribution", delete the sentence:
+
+  E SHALL then distribute those undistributed proposals the next
+  Agoran week.
+
+//////////////////////////////////////////////////////////////////////
